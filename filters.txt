@@ -1,0 +1,397 @@
+! Title: SLO: Slovenian List
+! Expires: 3 days
+! Issue tracker: https://github.com/betterwebleon/slovenian-list/issues
+
+! Tracking filters:
+||193.2.4.98/Ping.aspx
+||24ur.com/^/discount_banner.css
+||24ur.com/^/player/?mod=adlog
+||24ur.com/^/player/?mod=statistics
+||24ur.com/^/popklub_products_promotion.css
+||24ur.com/^/promo-banners.css
+||24ur.com/^/videojs_last_published.php
+||ad.partis.si
+||api.rtvslo.si/stats/log/vodplay
+||contentexchange.me/static
+||nogomania.com/images/backgrounds/^.gif
+||radio1.si/img/Gallery/BannersEPP/^.jpg
+||radio1.si/img/Gallery/BannersEPP/^.png
+||static.dijaski.net/graphics/aff/telemach2.png
+||www.bicikel.com/narocilo-revij.png
+||www.dolenjskilist.si/inc/ads-frame.asp
+||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
+||www.gohome.si/Images/DynamicImage/104.ashx
+||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
+||www.nasmehni.me/banner/^.png
+||www.partis.si/img/urgo.jpg
+||www.partis.si/iprom^.html
+||www.partis.si/tmp/ortostevard.jpg
+||www.partis.si/tmp/ortoxmas.jpg
+||www.pomurec.com/data/oglasi/^.gif
+||www.posita.si$popup,domain=www.reporter.si
+||www.racunovodja.com/CDAS_ShowObject.aspx?id=2
+||www.reporter.si/sites/all/themes/bootstrap_barrio/images/ozadje^1920x1080.jpg
+||www.reporter.si/sites/all/themes/bootstrap_barrio/images/posta-^.jpg
+||www.revijavklop.si/media/images/fbglava.png
+||www.skladi.com/images/overlay.png
+||www.slovenskenovice.si/sites/slovenskenovice.si/files/^.swf
+||www.ss-mb.si/images/banners/^.gif
+||www.ss-mb.si/images/banners/^.jpg
+||www.triglav.si$popup
+
+! Cosmetic filters:
+avto.net##.headerbar
+avto.net##.page > .headerwrapper > .headerbanner
+avto.net##.page > .wrapper > .contentwrapper560 > .Rounded.ContentBox:nth-of-type(3)
+avto.net##.page > .wrapper > .menuwrapper > .RoundedTop.MenuBox
+avtoarena.si##.frame > .page > .right > .fb
+cekin.si###container > .header > .clearfix.headerMiddle
+cekin.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
+cekin.si###small_content > .content > .eurojackpod_banner
+citymagazine.si###content > .wrapper > .cookie-bar
+citymagazine.si###content > .wrapper > .row.follow-us
+citymagazine.si###content > .wrapper > .slot-bar-1.slotbar > .radio-banner-widget > .banner-square-7
+citymagazine.si###content > .wrapper > .slot-bar-1.slotbar > .radio-banner-widget > .radio-frame
+citymagazine.si###content > .wrapper > .slot-bar-2.slotbar > .popular-articles.listBox > .listBox-main > .banner-square-2 > .banner-inner
+deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-content > .view-dom-id-9e54445adda791bb90df8ad5d6d0414b.view-display-id-pr_article_block.view-id-pr_article.view-pr-article.view > .view-content > .pr-article-content-wrapper
+deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-content > .view-dom-id-9e54445adda791bb90df8ad5d6d0414b.view-display-id-pr_article_block.view-id-pr_article.view-pr-article.view > .view-content > .pagination-container
+deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-title
+demokracija.si###gkSidebar > .box:nth-of-type(6) > .content > .bannergroup > .banneritem
+demotivacija.si##.container > .content > .row > .col-lg-4 > .floatdiv
+econintersect.com###contentmain > center:nth-of-type(1)
+ekipa24.si##[id^="banner"]
+ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
+ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
+govori.se###branding
+iskreni.net###sidebar > .moduletable:nth-of-type(2)
+kapodol.com##[id^="divBanner"]
+kariernisejem.com##.container.container_head > .container > .first_con2.row > .container-fluid > .col-md-6:nth-of-type(2) > .row:nth-of-type(1) > .hidden-xs.pull-right.banner-first
+klip.si###add
+klip.si###fblikeklip
+klip.si###oglas
+kozjansko.info###sidebar:nth-of-type(1)
+kozjansko.info###sidebar:nth-of-type(2)
+kozjansko.info##[id^="post-main-"] > .entry > .kozjansko_info_pod_naslovom_novice
+kozjansko.info##[id^="post-main-"] > .entry > .kozjansko_info_pod_novico
+kozjansko.info##[id^="post-main-"] > .entry > .ssba
+lifestyle.enaa.com###html_javascript_adder-3
+lifestyle.enaa.com###text-11
+med.over.net##.page_background.clearfix.content > .main-container > .clearfix.box-holder > .right.span-3_1.span > .intextAdIgnore.box-full.box
+med.over.net###phorum > .main-container > .clearfix.box-holder > .right.span-3_1.span > .ipromAdIgnore.box-full.box
+med.over.net###phorum > .main-container > .clearfix.box-holder > .span-3_2.span > .forum.box-full.box > .post-listing > .main-post.single-post > .clearfix.oglasnik-addbox
+med.over.net###phorum > .main-container > .clearfix.box-holder > .span-3_2.span > .forum.box-full.box > .top-banner
+med.over.net###text-2
+med.over.net###text-3
+med.over.net###text-7
+meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
+mladipodjetnik.si###above-text-banner
+mladipodjetnik.si###below-text-banner
+mladipodjetnik.si###viewlet-below-content-title > .share-line
+mojaleta.si###contentcontainer > .mainTable > .Column2 > .Container2
+mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .prNews
+mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .title
+mojaleta.si###dfpContentElement > .fullContent > .banner
+nasmehni.me###desno > .desno-head > .video
+nasmehni.me###desno > .desno-head > a > .video
+nasmehni.me###desno > .video
+nasmehni.me###desno > a:nth-of-type(2) > .desno-head > .video
+nasmehni.me###desno > div:nth-of-type(1) > div:nth-of-type(1) > .video
+nasmehni.me###desno > div:nth-of-type(1) > div:nth-of-type(1) > div > .video > div:nth-of-type(3)
+nasmehni.me###desno > div:nth-of-type(1) > div:nth-of-type(2)
+nasmehni.me###dufr
+nasmehni.me###most_pop > center
+nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
+nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h > .si_BaC_h_t
+nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
+nogomania.com###contentcontainer > .mainTable > .Column4
+nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
+odmuh.si##[id^="easy_facebook_page_plugin"]
+odmuh.si##[id^="adwidget_htmlwidget"]
+oglasnik.over.net
+okusno.je###box_360005731d128891 > .doubleFacebook
+play.spotify.com###desktop > .show.mft.upsell-background.content
+pokukaj.si##.lightface
+polet.si###main-container > .notice
+pozitivnenovice.com###facebook-likebox-2
+racunovodja.com##.page_background > .jedro > .desni_rob > div:nth-of-type(6)
+racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > .poravnajgor:nth-of-type(1) > tbody > tr > td > .vsebina_mod9
+racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > table:nth-of-type(2) > tbody > tr > td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1) > td:nth-of-type(1)
+racunovodja.com##.polprosojno
+radio1.si###ctl00_Radio1Vsebina_LabelEPP288x240
+radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(1)
+radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(3)
+radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(6)
+radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(8)
+radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(13)
+radio1.si###divBannerjiDesnoZunaj > .reklamaDesnoZunaj
+radio1.si###page > center > .telo > .teloCenter > .mainLevo > div:nth-of-type(12)
+radio1.si###page > center > .telo > .teloCenter > .mainLevo > div:nth-of-type(13)
+radio1.si###slideshowEPPGLii
+revijaavenija.si###rightframe > div
+revijaavenija.si###sharebar
+revijazvezde.si###content > .ng-scope > .ng-scope.home > .facebook
+revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.container > .banners
+revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
+slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
+slo-android.si###content > .sidebar > .moduletable_pasica
+slo-tech.com###panels > aside > div:nth-of-type(4)
+slovnica.slovenscina.eu###biscuitFormDiv
+sobotainfo.com###content > .region-highlighted.region
+svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
+svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
+trgovina.mercator.si###_iCD
+varcevanje-energije.si###banner_container
+vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
+vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
+vizita.si###small_content > .content > .donat2.small_box
+vizita.si###small_content > .content > .slimcut.small_box > .content
+volan.si###banner45
+volan.si###facebook
+volan.si###facebook-like
+volan.si###header-banner
+vreme.zurnal24.si###teaser > .grid-container > .grid-33:nth-of-type(2) > .ad
+www.24ur.com###article > div > .facebookLike
+www.24ur.com###head > .content
+www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
+www.24ur.com###mb-wrapper-II
+www.24ur.com###morevideo > .end
+www.24ur.com###right > .blog-tadeje-lampret
+www.24ur.com###right > .doubleFacebook
+www.24ur.com###right > .frendi_in_flirt_right_promo.front.box-medium
+www.24ur.com###right > .twitter-box-stream > .clearfix.twitterBox
+www.24ur.com###right > .twitter-front-iframe
+www.24ur.com###right > .voyo-new.voyo-box
+www.24ur.com###rightmultiblock > .middle > .full > .eurojackpod_banner
+www.24ur.com###sendnews
+www.adria.si###_iCD
+www.aktivni.si###clanek > .span12:nth-of-type(6) > .hidden-print.row-fluid > .span12
+www.aktivni.si###clanek > .span12:nth-of-type(6) > .margin-top-bottom > .hidden-print.row-fluid.social-networks
+www.aktivni.si###header > .oglas
+www.aktivni.si###plista_widget_belowArticle
+www.avto.net##.headerbar
+www.avto.net##.page > .headerwrapper > .headerbanner
+www.avto-magazin.si##[id^="banner"]
+www.avto-magazin.si###main > .main > .comments > h3
+www.avto-magazin.si###navigation > .adwrapper
+www.avtomobilizem.com###content > .postContent.cf > .left > .contentBottom.cf > .blackened.right
+www.bibaleze.si###box_60000522d125085 > .header > .clearfix.headerMiddle > .banner
+www.bibaleze.si###group_14
+www.bicikel.com###adsFooterPlaceHolder
+www.bicikel.com###banner_right_absolute
+www.bicikel.com###right-relative-content > .plugin_box.hotpages_menu
+www.bolha.com###coloumnAd
+www.bolha.com###content > .span-15.coloumn > .left.span-7
+www.bolha.com###newsOfTheDay
+www.bolha.com###servicesToItems
+www.bringler.com##.sitewrapper > .page_background > .center > .transparent.maincontent > .innercontent > .rightfatbanner_right_float > .featurebar_right
+www.bringler.com###block-block-28 > .blockcontent > .front_topgames_footer
+www.butanplin.si###page > .footer > .column > .q-ico-shadow
+www.butanplin.si###page > .footer > .column > .q-ico-wrap
+www.casnik.si###cas_right
+www.cenim.se###bottom-sidebar
+www.delo.si###d_conmment_holder > .clanek_wrapper > .clanek_oglas_holder
+www.dijaski.net###Logo
+www.dnevnik.si###app-messages
+www.dnevnik.si###piano-root > .input
+www.dolenjskilist.si###id_obst_kom
+www.dolenjskilist.si###page > .content > .mainBar > .items:nth-of-type(2) > .krater-ad-728x90
+www.dolenjskilist.si###page > .content > .mainBar > .krater-ad-300x250
+www.dolenjskilist.si###page > .content > .sideBar > .krater-ad-300x250
+www.dominvrt.si###staticContent
+www.dominvrt.si##[id^="box_" > .header > .clearfix.headerMiddle > .banner
+www.dominvrt.si##[id^="box_360005553d12"]
+www.dostop.si###wallpaper_child > .footer > .spremljanas
+www.dostop.si###wallpaper_child > .head > .head_top > .top > .banners
+www.dostop.si###wallpaper_left
+www.ekupi.si###ctl00_ctl00_footRibb_ribbonContainer
+www.elle.si###banner300x600
+www.elle.si###content > div:nth-of-type(2)
+www.elle.si###dontMisser
+www.etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social
+www.etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social:nth-of-type(8)
+www.etiketamagazin.com##[id^="post-"] > .banner.slide
+www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .fg4.novica.b.social
+www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
+www.europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
+www.genspot.com##[id^="popup-"]
+www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
+www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .tabs
+www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
+www.gohome.si###bannerFooter_wrap > .bannerFooter > object
+www.gorenjski-muzej.si##.pea_cook_more_info_popover
+www.hudo.com###header > .header-wrap > .stripe > .stripe-wrap > .cats
+www.hudo.com###list > .adbox:nth-of-type(6)
+www.hudo.com###poster-modal > .poster-modal-wrapper > .poster-wrapper > .inner-wrapper > .image > .html > .active.tooltip
+www.kapodol.com##[id^="divBanner"]
+www.kosarka.si###footer > .social > .fb.col
+www.kosarka.si###footer > .social > .tw.wide.col
+www.lisa.si###clanek > .social-networks:nth-of-type(2)
+www.lisa.si###sidebar > .e-zin
+www.mediaspeed.net##.page_cont > .page > .content > .banner_cont:nth-of-type(4)
+www.mediaspeed.net##.page_cont > .page > .content > .banner_cont:nth-of-type(7)
+www.mediaspeed.net##.page_cont > .page > .content > .gallery > .descriptionImgTop > .desImgTopTitleData > .desImgTopTitle > .desImgTopData > .shareToolsSkupina
+www.mediaspeed.net##.page_cont > .page > .content > .gallery > .gallery_items > .banner_conts.banner_cont > .banner
+www.mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner2
+www.mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner_sTower
+www.mediaspeed.net##.page_cont > .page > .content > .slider > .banner2 > .cover
+www.mediaspeed.net##.page_cont > .page > .header > .banner4
+www.megasvet.net###doyoulikeus
+www.megasvet.net###header > .header-wrap > .white.container:nth-of-type(2) > .row > .col-md-10 > .center.ads
+www.megasvet.net###slidingmenu > .bannerkoda
+www.mercator.si###_iCD
+www.mladina.si###footer > .fb.c190.column
+www.mobile.si###container > .navigatortop
+www.mobile.si###mleft > .content:nth-of-type(5)
+www.mobile.si###mleft > .titlered:nth-of-type(4)
+www.mobile.si###mmidledbl > .content:nth-of-type(7)
+www.mobile.si###mmidledbl > .headingfb
+www.mobile.si###skytower
+www.mojoglasnik.com###bannerline
+www.mojoglasnik.com###iprom_cp_wrapper
+www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .article > .monitor-g-ad-468
+www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .monitor-g-ad-468
+www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .news.article > .monitor-g-ad-468
+www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .novice > .monitor-g-ad-468
+www.monitor.si###page > .main-content > .bar-side
+www.monitor.si###page > header > .rdecaPasica > .social.nav
+www.monitor.si##.wrap-page > .o160x600
+www.monitor.si##.wrap-page > .o180x90
+www.monitor.si##.wrap-page > .o728x90
+www.moski.si###branding > .social-icons
+www.moski.si###content > .grid1.right.rectangle
+www.moski.si###content > .grid1.left.rectangle
+www.moski.si###content > .grid1.left.rectangle:nth-of-type(2)
+www.moski.si###single-content > .grid2.the-post > footer > .socials
+www.moski.si###single-sidebar > .grid1.rectangle:nth-of-type(1)
+www.moski.si###single-sidebar > .grid1.rectangle:nth-of-type(7)
+www.moskisvet.com##[id^="box"] > .doubleFacebook > .doubleFacebookHeader
+www.moskisvet.com##[id^="box_10002018d121"]
+www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box > .module_inside
+www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
+www.nepremicnine.net###ad-detail
+www.nepremicnine.net###ad-hor
+www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
+www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
+www.partis.si##.all > .dildo > .bigban
+www.partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
+www.partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
+www.partis.si##a[href^="http://si.hit.gemius.pl"]
+www.partis.si##a[href^="http://www.urgo.si"]
+www.partis.si##body > div:nth-of-type(4) > div
+www.partis.si###righttd > .menijidesno:nth-of-type(1)
+www.partis.si###righttd > .menijidesno:nth-of-type(7)
+www.partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
+www.planet.si##.container > .main > .page > .section-spacing.list > .grid-view.grid > .span_1_of_3.col:nth-of-type(6)
+www.planet.si##.container > .main > .page > .section-spacing.list > .grid-view.grid > .span_1_of_3.col:nth-of-type(6) > .banner-background.text-center
+www.planet-lepote.com###leftColumn > .banner728box:nth-of-type(4)
+www.planet-lepote.com###leftColumn > .right.banner728box
+www.planet-lepote.com###top-of-page > .inside > .header-top > .banner728box
+www.planet-lepote.com###user-content-8bf3b392a4 > .banner728box
+www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .relative.span10
+www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .span2 > .red.header-button
+www.podarimo.si###startPageRight
+www.podarimo.si###topBanner
+www.pomurec.com##.lightface > tbody > tr:nth-of-type(2) > .centerCenter > .lightfaceContent
+www.pomurec.com###nestandard
+www.pomurec.com###side:nth-of-type(1)
+www.pomurec.com###side:nth-of-type(2) > .naslovzadnjikom:nth-of-type(12)
+www.portalznanja.com###cc-notification
+www.portalznanja.com###header > .title_holder > .advertisers_cta
+www.primorske.si###ad_728_close
+www.prokon-nepremicnine.com##center > table > tbody > tr:nth-of-type(2) > .tags > center:nth-of-type(9)
+www.prokuhar.si###bottom-wrap
+www.prokuhar.si###container > .bot-ads-area
+www.publishwall.si###pjax-full > .clearfix.external_wall_wrap > .external_wall_right_wrap > .clearfix.external_wall_right_wrapper
+www.racunalniske-novice.com###content-holder > .holder-with-tower-bann > .file-content-holder > .intextAdIgnore.sq829
+www.racunalniske-novice.com###content-holder > .holder-with-tower-bann > .intextAdIgnore.right-content-holder > .article-view-right-container
+www.racunalniske-novice.com###content-holder > .holder-with-tower-bann > .intextAdIgnore.right-content-holder > .fl:nth-of-type(8) > .mb10.sq408 > .sq408 > .fs14.channelsSubscribe.fl
+www.racunalniske-novice.com###content-holder > .intextAdIgnore.mt10.fl
+www.racunalniske-novice.com###drg1 > .FP-column
+www.racunalniske-novice.com###drg3 > .fl:nth-of-type(3) > .fl:nth-of-type(4)
+www.racunalniske-novice.com###drg3 > .mb10.sq408
+www.racunalniske-novice.com###footer > .inner > .container-golden-partners > .text
+www.racunalniske-novice.com###multimedia > .cm.top.blue-belt-408
+www.racunalniske-novice.com###multimedia > .text-container
+www.racunalniske-novice.com###PR
+www.racunalniske-novice.com###sharebar > li:nth-of-type(4)
+www.racunalniske-novice.com###subscribe_newsletter
+www.racunalniske-novice.com###TB_overlay
+www.racunalniske-novice.com###TB_window
+www.revijamaja.si###rightframe > div:nth-of-type(2)
+www.revijamaja.si###rightframe > div:nth-of-type(5)
+www.revijamaja.si###sharebar
+www.revijavklop.si###rightframe > div:nth-of-type(1)
+www.revijavklop.si###sharebar
+www.revijazarja.si###rightframe > div:nth-of-type(3)
+www.revijazarja.si###rightframe > div:nth-of-type(4)
+www.revijazarja.si###sharebar
+www.rtvslo.si###b_838
+www.salomon.si###firstSiteBanner
+www.salomon.si###firstSiteBanner2
+www.sensa.si###banner160
+www.sentjur.net###front > .box-shadow.main-body-banners
+www.sentjur.net###front > .box-shadow:nth-of-type(1) > .banners-top
+www.sentjur.net###Home-extra300-160
+www.sentjur.net###wrapper > .box-shadow.main-body-extra > .ad-zone-left
+www.sentjur.net###wrapper > .box-shadow:nth-of-type(4) > .maincol > .post > .post_fbox
+www.siol.net###add_100p_92
+www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .spc_b18.wnd_w2:nth-of-type(7) > .wnd_w2
+www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(10)
+www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(11)
+www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(12)
+www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(13)
+www.siol.net##footer > .wrap > .ft-w1
+www.siol.net###info_wrap > .wnd_w2:nth-of-type(3) > .shadowLT_add.shadowLT
+www.siol.net###mcrumb > .wrap > .shadow
+www.siol.net###ph_content_0_Div2
+www.siol.net###tabs_F754B8A3_1 > .wnd_w2 > .clrA
+www.siol.net###wdgt_elem_1
+www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
+www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_20.nbox.wnd_w2 > .shadow > .inside
+www.siol.net###wdgt_elem_14 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
+www.slonep.net##[id^="ad"]
+www.slonep.net###footer > .footer_links > tbody > tr > td:nth-of-type(4)
+www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
+www.slovenskenovice.si###block-views-sn-custom-ad-block-1
+www.slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
+www.slovenskenovice.si###header-ads-wrapper
+www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
+www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-main-300-250.pane-block.panel-pane
+www.slovenskenovice.si###sidebar > .pane-plista-plista.pane-block.panel-pane
+www.slovenskenovice.si###sidebar > .pane-sn-fb-sn-fb-social-activity.pane-block.panel-pane
+www.slovenskenovice.si###sidebar > .pane-sn-last-pr-article-latest-pr-article-pane.pane-views-panes.panel-pane
+www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150.pane-views-panes.panel-pane
+www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
+www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
+www.ss-mb.si###content_inner > .content_table > tbody > tr > td:nth-of-type(3)
+www.statistik.si##.et_bloom_animated.et_bloom_visible.et_bloom_scroll.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_3.et_bloom_flyin_right.et_bloom_resize.et_bloom_optin.et_bloom_flyin > .et_bloom_flyin_bottom_inline.et_flyin_3_fields.et_bloom_animation_slideup.et_bloom_form_text_light.et_bloom_rounded.et_bloom_border_position_full.et_bloom_border_solid.et_bloom_with_border.carrot_edge.with_edge.et_bloom_form_bottom.et_bloom_form_container
+www.strojnistvo.com##.middle > .content > .sidebar > .banner
+www.super-obrok.si###avcn_wrapperInner
+www.tocnoto.si###footboxes
+www.tocnoto.si###topbanner
+www.vecer.com##[id^="divOglas"]
+www.viva.si###content > .wrap > .sec_1 > .post_container > .content > .news_post > div:nth-of-type(7)
+www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(1)
+www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
+www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
+www.viva.si###header > .wrap > .banner_container
+www.zadovoljna.si###box_180002682d1207193
+www.zadovoljna.si###box_180002682d1210259 > .backButton
+www.zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .doubleFacebookHeader
+www.zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .clearfix.doubleFacebookContent > .fbActivity
+www.zadovoljna.si###facebook_box
+www.zadovoljna.si###group_30
+www.zadovoljna.si###staticContent
+www.zenska.si###branding > .social-icons
+www.zenska.si###comments
+www.zenska.si###content > .grid1.right.rectangle
+www.zenska.si###content > .grid1.left.rectangle
+www.zenska.si###content > .left.grid1.rectangle:nth-of-type(2)
+www.zenska.si###single-content > .grid2.the-post > footer > .socials
+www.zenska.si###single-sidebar > .grid1.right.rectangle
+www.zenska.si###single-sidebar > .grid1.left.rectangle
+www.zenska.si###single-sidebar > .grid1.facebook-likebox
+www.zurnal24.si###banner_related
+www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(4)
+www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(5) > .col_03
+www.zurnal24.si###service_related > .entry_options
