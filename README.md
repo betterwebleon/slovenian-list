@@ -3,7 +3,7 @@ Slovenian cosmetic and tracking filters for uBlock Origin and uBlock.
 
 **Statični kozmetični filtri in filtri sledenja za uBlock Origin in uBlock. Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh.** :)
 
-Slovenian List consists mostly of static cosmetic filters and few tracking filters. Among others, there are [100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/) included in the list.
+Slovenian List consists mostly of static cosmetic filters and few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
 The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
@@ -78,7 +78,7 @@ Hit enter and confirm scary Firefox warning message. Then select the following p
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
-###4. License
+###4. License:
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
