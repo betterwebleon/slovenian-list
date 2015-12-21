@@ -24,7 +24,7 @@
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
 ||www.nasmehni.me/banner/^.png
 ||www.partis.si/img/urgo.jpg
-||www.partis.si/iprom^.html
+||www.partis.si/iprom300.html
 ||www.partis.si/tmp/ortostevard.jpg
 ||www.partis.si/tmp/ortoxmas.jpg
 ||www.pomurec.com/data/oglasi/^.gif
