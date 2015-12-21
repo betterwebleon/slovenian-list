@@ -2,7 +2,7 @@
 ! Expires: 3 days
 ! Issue tracker: https://github.com/betterwebleon/slovenian-list/issues
 
-! Tracking filters:
+! Filters:
 ||193.2.4.98/Ping.aspx
 ||24ur.com/^/discount_banner.css
 ||24ur.com/^/player/?mod=adlog
@@ -38,8 +38,6 @@
 ||www.ss-mb.si/images/banners/^.gif
 ||www.ss-mb.si/images/banners/^.jpg
 ||www.triglav.si$popup
-
-! Cosmetic filters:
 avto.net##.headerbar
 avto.net##.page > .headerwrapper > .headerbanner
 avto.net##.page > .wrapper > .contentwrapper560 > .Rounded.ContentBox:nth-of-type(3)
