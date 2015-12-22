@@ -78,7 +78,17 @@ Hit enter and confirm scary Firefox warning message. Then select the following p
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
-###4. License:
+###4. Hosts file:
+Another very important and useful tweak is the file named "hosts". According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), it is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
+
+- in Windows, you  place it to the folder <code>C:\Windows\System32\Drivers\etc</code>
+- in Mac OS X, iOS, Linux or Android you place it to the folder <code>/etc/hosts</code>
+
+After you are done, the easiest way is to restart the computer.
+
+That's all. Enjoy browsing :)
+
+###5. License:
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
