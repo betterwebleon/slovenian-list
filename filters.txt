@@ -198,7 +198,7 @@ www.dolenjskilist.si###page > .content > .mainBar > .items:nth-of-type(2) > .kra
 www.dolenjskilist.si###page > .content > .mainBar > .krater-ad-300x250
 www.dolenjskilist.si###page > .content > .sideBar > .krater-ad-300x250
 www.dominvrt.si###staticContent
-www.dominvrt.si##[id*="box_" > .header > .clearfix.headerMiddle > .banner
+www.dominvrt.si##[id*="box_"] > .header > .clearfix.headerMiddle > .banner
 www.dominvrt.si##[id*="box_360005553d12"]
 www.dostop.si###wallpaper_child > .footer > .spremljanas
 www.dostop.si###wallpaper_child > .head > .head_top > .top > .banners
