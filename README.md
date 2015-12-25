@@ -26,7 +26,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 (*Many of them may already be turned on.*)
 
-**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin ["3rd-party filters" tab]**
+**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
 
 1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
 2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt
@@ -36,7 +36,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 6. https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
 7. https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt
 
-(*Slovenian List is under the number 7, however it is recommended to add all of them.*)
+(*Slovenian List is under the number 7, however it is recommended to add all of the above.*)
 
 ###3. Recommended browser
 **Mozilla Firefox**
