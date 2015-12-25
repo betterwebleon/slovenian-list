@@ -5,14 +5,14 @@ Slovenian cosmetic and tracking filters for uBlock Origin and uBlock.
 
 Slovenian List consists mostly of static cosmetic filters and few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
-The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
+The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see chapter 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
-###1. Recommended content-filtering software:
+###1. Recommended content-filtering software
 **uBlock Origin**
 
 Why? Because it's efficient, lightweight, simple and free.
 
-###2. Recommended complementary filter lists:
+###2. Recommended complementary filter lists
 **A) following lists can be turned on by *ticking* them in uBlock Origin [in "3rd-party filters" tab]**
 - uBlock filters
 - uBlock filters – Badware risks
@@ -38,14 +38,14 @@ Why? Because it's efficient, lightweight, simple and free.
 
 (*Slovenian List is under the number 7, however it is recommended to add all of them.*)
 
-###3. Recommended browser:
+###3. Recommended browser
 **Mozilla Firefox**
 
 Why? Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
-How? Type this in your address (URL) bar: *<code>about.config</code>*
+How? \*Type this in your address (URL) bar: *<code>about.config</code>*
 
-Hit enter and confirm scary Firefox warning message. Then select the following preference names (by pasting them to a search bar) and change their values to the following ones:
+Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to a search bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                      | VALUE |
 |---|:-------------------------------------|:-----:|
@@ -78,8 +78,10 @@ Hit enter and confirm scary Firefox warning message. Then select the following p
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
-###4. Hosts file:
-Another very important and useful tweak is the file named "hosts". According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), it is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
+###4. Hosts file
+Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
+
+In other words, it works on a system level and takes care of all the junk before it even "reaches" a browser. It blocks the whole website and therefore protects user from getting into contact with dangerous websites, full of malware. Further, it greatly improves browsing speed and privacy by blocking access to various known ad servers and data collecting systems. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
 
 - in Windows, you  place it to the folder <code>C:\Windows\System32\Drivers\etc</code>
 - in Mac OS X, iOS, Linux or Android you place it to the folder <code>/etc/hosts</code>
@@ -88,7 +90,7 @@ After you are done, the easiest way is to restart the computer.
 
 That's all. Enjoy browsing :)
 
-###5. License:
+###5. License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
