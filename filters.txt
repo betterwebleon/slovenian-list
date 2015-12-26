@@ -1,4 +1,4 @@
-! Title: SLO: Slovenian List
+! Title: SVN: Slovenian List
 ! Expires: 3 days
 ! Issue tracker: https://github.com/betterwebleon/slovenian-list/issues
 
@@ -12,6 +12,7 @@
 ||24ur.com/*/videojs_last_published.php
 ||ad.partis.si
 ||api.rtvslo.si/stats/log/vodplay
+||code.jquery.com/jquery-1*.js$script,domain=www.reporter.si
 ||contentexchange.me/static
 ||nogomania.com/images/backgrounds/*.gif
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
@@ -31,6 +32,7 @@
 ||www.posita.si$popup,domain=www.reporter.si
 ||www.racunovodja.com/CDAS_ShowObject.aspx?id=2
 ||www.reporter.si/misc/gemius.js
+||www.reporter.si/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.js$script,domain=www.reporter.si
 ||www.reporter.si/sites/all/themes/bootstrap_barrio/images/oglasniprevzemkorporepor.jpg
 ||www.reporter.si/sites/all/themes/bootstrap_barrio/images/ozadje*1920x1080.jpg
 ||www.reporter.si/sites/all/themes/bootstrap_barrio/images/posta-*.jpg
