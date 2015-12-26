@@ -1,6 +1,8 @@
 ! Title: SVN: Slovenian List
 ! Expires: 3 days
 ! Issue tracker: https://github.com/betterwebleon/slovenian-list/issues
+! Homepage: https://github.com/betterwebleon
+! License: http://unlicense.org
 
 ! Filters:
 ||193.2.4.98/Ping.aspx
@@ -215,6 +217,7 @@ www.etiketamagazin.com##[id*="post-"] > .banner.slide
 www.etiketamagazin.com##[id*="post-"] > .related-news.slide > .center > .row > .fg4.novica.b.social
 www.etiketamagazin.com##[id*="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
 www.europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
+www.finance.si###main-column-inner > .ure1.altnaslovka > *.adbox.borderbox.newsbox
 www.genspot.com##[id*="popup-"]
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .tabs
@@ -268,7 +271,8 @@ www.moski.si###single-sidebar > .grid1.rectangle:nth-of-type(1)
 www.moski.si###single-sidebar > .grid1.rectangle:nth-of-type(7)
 www.moskisvet.com##[id*="box"] > .doubleFacebook > .doubleFacebookHeader
 www.moskisvet.com##[id*="box_10002018d121"]
-www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box > .module_inside
+www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
+www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
 www.nepremicnine.net###ad-detail
 www.nepremicnine.net###ad-hor
