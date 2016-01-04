@@ -11,7 +11,6 @@
 ||24ur.com/*/player/?mod=statistics
 ||24ur.com/*/popklub_products_promotion.css
 ||24ur.com/*/promo-banners.css
-||24ur.com/*/videojs_last_published.php
 ||ad.partis.si
 ||api.rtvslo.si/stats/log/vodplay
 ||code.jquery.com/jquery-1*.js$script,domain=www.reporter.si
@@ -226,6 +225,7 @@ www.hudo.com###header > .header-wrap > .stripe > .stripe-wrap > .cats
 www.hudo.com###list > .adbox:nth-of-type(6)
 www.hudo.com###poster-modal > .poster-modal-wrapper > .poster-wrapper > .inner-wrapper > .image > .html > .active.tooltip
 www.kapodol.com##[id^="divBanner"]
+www.kolosej.si###banner-horizontal
 www.kosarka.si###footer > .social > .fb.col
 www.kosarka.si###footer > .social > .tw.wide.col
 www.lisa.si###clanek > .social-networks:nth-of-type(2)
