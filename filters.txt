@@ -328,7 +328,6 @@ www.revijavklop.si###sharebar
 www.revijazarja.si###rightframe > div:nth-of-type(3)
 www.revijazarja.si###rightframe > div:nth-of-type(4)
 www.revijazarja.si###sharebar
-www.rtvslo.si###b_838
 www.salomon.si###firstSiteBanner
 www.salomon.si###firstSiteBanner2
 www.sensa.si###banner160
