@@ -160,8 +160,6 @@ www.24ur.com###morevideo > .end
 www.24ur.com###right > .blog-tadeje-lampret
 www.24ur.com###right > .doubleFacebook
 www.24ur.com###right > .frendi_in_flirt_right_promo.front.box-medium
-www.24ur.com###right > .twitter-box-stream > .clearfix.twitterBox
-www.24ur.com###right > .twitter-front-iframe
 www.24ur.com###right > .voyo-new.voyo-box
 www.24ur.com###rightmultiblock > .middle > .full > .eurojackpod_banner
 www.24ur.com###sendnews
@@ -192,6 +190,7 @@ www.casnik.si###cas_right
 www.cenim.se###bottom-sidebar
 www.delo.si###d_conmment_holder > .clanek_wrapper > .clanek_oglas_holder
 www.dijaski.net###Logo
+www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 www.dnevnik.si###app-messages
 www.dnevnik.si###piano-root > .input
 www.dolenjskilist.si###id_obst_kom
@@ -271,6 +270,7 @@ www.moskisvet.com##[id^="box_10002018d121"]
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
+www.napovednik.com###rot_right > .banner
 www.nepremicnine.net###ad-detail
 www.nepremicnine.net###ad-hor
 www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
@@ -300,6 +300,9 @@ www.pomurec.com###side:nth-of-type(1)
 www.pomurec.com###side:nth-of-type(2) > .naslovzadnjikom:nth-of-type(12)
 www.portalznanja.com###cc-notification
 www.portalznanja.com###header > .title_holder > .advertisers_cta
+www.pozareport.si###centralBannerLeft
+www.pozareport.si###centralBannerRight
+www.pozareport.si###mainBox > .centralRight > .naslovnicaRightAd
 www.primorske.si###ad_728_close
 www.prokon-nepremicnine.com##center > table > tbody > tr:nth-of-type(2) > .tags > center:nth-of-type(9)
 www.prokuhar.si###bottom-wrap
@@ -328,6 +331,10 @@ www.revijavklop.si###sharebar
 www.revijazarja.si###rightframe > div:nth-of-type(3)
 www.revijazarja.si###rightframe > div:nth-of-type(4)
 www.revijazarja.si###sharebar
+www.ringaraja.net###header > .h-banner
+www.ringaraja.net###mainContainerCookies
+www.rtvslo.si###b_1166
+www.rtvslo.si###b_838
 www.salomon.si###firstSiteBanner
 www.salomon.si###firstSiteBanner2
 www.sensa.si###banner160
