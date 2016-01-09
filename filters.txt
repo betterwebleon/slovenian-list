@@ -151,14 +151,12 @@ volan.si###banner45
 volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
-vreme.zurnal24.si###teaser > .grid-container > .grid-33:nth-of-type(2) > .ad
-www.24ur.com###article > div > .facebookLike
+vreme.zurnal24.si###teaser > .grid-container > .grid-33 > .ad
 www.24ur.com###head > .content
 www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
 www.24ur.com###mb-wrapper-II
 www.24ur.com###morevideo > .end
 www.24ur.com###right > .blog-tadeje-lampret
-www.24ur.com###right > .doubleFacebook
 www.24ur.com###right > .frendi_in_flirt_right_promo.front.box-medium
 www.24ur.com###right > .voyo-new.voyo-box
 www.24ur.com###rightmultiblock > .middle > .full > .eurojackpod_banner
