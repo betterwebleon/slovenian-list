@@ -374,6 +374,7 @@ www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-a
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
 www.ss-mb.si###content_inner > .content_table > tbody > tr > td:nth-of-type(3)
+www.startaj.si###article_social_top
 www.statistik.si##.et_bloom_animated.et_bloom_visible.et_bloom_scroll.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_3.et_bloom_flyin_right.et_bloom_resize.et_bloom_optin.et_bloom_flyin > .et_bloom_flyin_bottom_inline.et_flyin_3_fields.et_bloom_animation_slideup.et_bloom_form_text_light.et_bloom_rounded.et_bloom_border_position_full.et_bloom_border_solid.et_bloom_with_border.carrot_edge.with_edge.et_bloom_form_bottom.et_bloom_form_container
 www.strojnistvo.com##.middle > .content > .sidebar > .banner
 www.super-obrok.si###avcn_wrapperInner
