@@ -1,5 +1,5 @@
 # slovenian-list
-**Statični kozmetični filtri in filtri sledenja za uBlock Origin in uBlock. Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh.** :) Za čim boljši učinek je pripročljivo uporabljati tudi druge filtre skupaj z ostalimi metodami, ki so opisane spodaj.
+**Statični kozmetični filtri in filtri sledenja za uBlock Origin in uBlock. Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh.** :) Za boljši učinek je pripročljivo uporabljati tudi druge filtre skupaj z ostalimi metodami, ki so opisane spodaj.
 
 Slovenian List for uBlock Origin and uBlock, which consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
@@ -52,28 +52,27 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 |2. | browser.safebrowsing.malware.enabled | false |
 |3. | geo.enabled                          | false |
 |4. | layout.css.visited_links_enabled     | false |
-|5. | network.http.sendRefererHeader       |   0   |
-|6. | network.http.sendSecureXSiteReferrer | false |
-|7. | media.peerconnection.enabled         | false |
-|8. | media.peerconnection.turn.disable    |  true |
-|9. | privacy.trackingprotection.enabled   |  true |
+|5. | network.http.sendSecureXSiteReferrer | false |
+|6. | media.peerconnection.enabled         | false |
+|7. | media.peerconnection.turn.disable    |  true |
+|8. | privacy.trackingprotection.enabled   |  true |
 
 **The upper settings are privacy-related only. If you want more speed as well, keep on tweaking:**
 
 |    | PREFERENCE NAME                           | VALUE |
 |----|:------------------------------------------|:-----:|
-| 10.| full-screen-api.approval-required         | false |
-| 11.| full-screen-api.transition-duration.enter |       |
-| 12.| full-screen-api.transition-duration.leave |       |
-| 13.| memory.free_dirty_pages                   |  true |
-| 14.| network.http.keep-alive.timeout           |   60  |
-| 15.| network.http.pipelining                   |  true |
-| 16.| network.http.pipelining.aggressive        |  true |
-| 17.| network.http.pipelining.maxrequests       |   8   |
-| 18.| network.http.pipelining.ssl               |  true |
-| 19.| network.http.proxy.pipelining             |  true |
-| 20.| network.http.request.max-start-delay      |   3   |
-| 21.| network.websocket.delay-failed-reconnects | false |
+| 9. | full-screen-api.approval-required         | false |
+| 10.| full-screen-api.transition-duration.enter |       |
+| 11.| full-screen-api.transition-duration.leave |       |
+| 12.| memory.free_dirty_pages                   |  true |
+| 13.| network.http.keep-alive.timeout           |   60  |
+| 14.| network.http.pipelining                   |  true |
+| 15.| network.http.pipelining.aggressive        |  true |
+| 16.| network.http.pipelining.maxrequests       |   8   |
+| 17.| network.http.pipelining.ssl               |  true |
+| 18.| network.http.proxy.pipelining             |  true |
+| 19.| network.http.request.max-start-delay      |   3   |
+| 20.| network.websocket.delay-failed-reconnects | false |
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
