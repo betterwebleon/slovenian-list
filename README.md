@@ -61,9 +61,9 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 
 |    | PREFERENCE NAME                           | VALUE |
 |----|:------------------------------------------|:-----:|
-| 9. | full-screen-api.approval-required         | false |
-| 10.| full-screen-api.transition-duration.enter |       |
-| 11.| full-screen-api.transition-duration.leave |       |
+| 9. | full-screen-api.transition-duration.enter |       |
+| 10.| full-screen-api.transition-duration.leave |       |
+| 11.| full-screen-api.warning.timeout           |   0   |
 | 12.| memory.free_dirty_pages                   |  true |
 | 13.| network.http.keep-alive.timeout           |   60  |
 | 14.| network.http.pipelining                   |  true |
