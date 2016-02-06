@@ -1,17 +1,26 @@
 # slovenian-list
-**Statični kozmetični filtri in filtri sledenja za uBlock Origin in uBlock. Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh.** :) Za boljši učinek je pripročljivo uporabljati tudi druge filtre skupaj z ostalimi metodami, ki so opisane spodaj.
+**Statični kozmetični filtri in filtri sledenja za uBlock Origin in uBlock. Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh.**
+
+**Za boljši učinek je pripročljivo uporabljati tudi druge filtre skupaj z ostalimi metodami, ki so opisane spodaj.** :)
+
+V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com).
+
+__________________________________________________________
+**English**
 
 Slovenian List for uBlock Origin and uBlock, which consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
+
 The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (for more info see chapter 2.B below). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
+__________________________________________________________
 
-###1. Recommended content-filtering software
-**uBlock Origin**
+###1. Priporočljiva razširitev za filtriranje vsebin na spletu
+**[uBlock Origin](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/)**
 
-*Why?* Because it's efficient, lightweight, simple and free.
+***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev (add-on). V vseh pogledih je mnogo boljša od vseh ostalih tovrstnih razširitev, med drugim tudi od znanega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared).
 
-###2. Recommended complementary filter lists
-**A) following lists can be turned on by *ticking* them in uBlock Origin [in "3rd-party filters" tab]**
+###2. Priporočljivi dopolnilni seznami filtrov
+**A) Spodnje naročnine na filtre se lahko v razširitvi uBlock Origin preprosto vklopijo tako, da se označijo s kljukico v zavihku ["Filtri tretjih oseb"]:**
 - uBlock filters
 - uBlock filters – Badware risks
 - uBlock filters – Block-then-redirect
@@ -23,58 +32,74 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 - Fanboy's Enhanced Tracking List
 - Malware domains
 - Spam404
+- SVN: Slovenian List
 
-(*Many of them may already be turned on.*)
+*Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb "Uveljavi spremembe". Nato pa klikni še na levi zgornji gumb "Posodobi zdaj". Po nekaj trenutkih se gumb obarva sivo. Nato lahko zapreš celoten zavihek z nastavitvami.*
 
-**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
+**B) Nadalje se lahko vključijo številne dodatne naročnine za učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*NAROČI SE*" (priporočljivo je dodati vseh 7 spodnjih naročnin):**
 
-1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
-2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt
-3. https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
-4. https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt
-5. https://raw.github.com/liamja/Prebake/master/obtrusive.txt
-6. https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
-7. https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt
+1. [**NAROČI SE**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware filters) na *Adware filters* (https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt)
+2. [**NAROČI SE**](https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt&title=Behind-the-scene privacy filters) na *Behind-the-scene privacy filters* (https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt)
+3. [**NAROČI SE**](https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List) na *Block-EU-Cookie-Shit-List* (https://<i></i>raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
+4. [**NAROČI SE**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International List) na *International List* (https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt)
+5. [**NAROČI SE**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake - Filter Obtrusive Cookie Notices) na *Prebake - Filter Obtrusive Cookie Notices* (https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt)
+6. [**NAROČI SE**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters) na *Privacy filters* (https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt)
 
-(*Slovenian List is under the number 7, however it is recommended to add all of the above.*)
+###3. Priporočljiv brskalnik
+**[Mozilla Firefox](https://www.mozilla.org/sl/firefox/new/)**
 
-###3. Recommended browser
-**Mozilla Firefox**
+***Zakaj?*** Ker ga je možno prilagoditi do te mere, da postane izredno hiter, varen, zaseben in uporabniku prijazen brskalnik.
 
-*Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
+***Kako?*** \*V brskalniku odpri nov zavihek in v naslovno (URL) vrstico vrstico vpiši: *<code>about.config</code>*<br>
+Pritisni *enter* in potrdi Firefoxovo opozorilo o garanciji. Nato poišči vsa spodnja imena nastavitev. Vsako posamično ime nastavitve kopiraj in prilepi v iskalno vrstico brskalnika znotraj nastavitev. Ko se nastavitev (samodejno) prikaže na seznamu, jo dvoklikni z miško in nato v pojavnem oknu spremeni njeno vrednost v pripadajočo, ki je navedena spodaj:
 
-*How?* \*Type this in your address (URL) bar: *<code>about.config</code>*<br>
-Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to a search bar. Double-click on each preference name and change its value to:
+|   | IME NASTAVITVE                       |VREDNOST|
+|---|:-------------------------------------|:------:|
+|1. | beacon.enabled                       | false  |
+|2. | browser.safebrowsing.malware.enabled | false  |
+|3. | geo.enabled                          | false  |
+|4. | layout.css.visited_links_enabled     | false  |
+|5. | network.http.sendSecureXSiteReferrer | false  |
+|6. | media.peerconnection.enabled         | false  |
+|7. | media.peerconnection.turn.disable    |  true  |
+|8. | privacy.trackingprotection.enabled   |  true  |
 
-|   | PREFERENCE NAME                      | VALUE |
-|---|:-------------------------------------|:-----:|
-|1. | beacon.enabled                       | false |
-|2. | browser.safebrowsing.malware.enabled | false |
-|3. | geo.enabled                          | false |
-|4. | layout.css.visited_links_enabled     | false |
-|5. | network.http.sendSecureXSiteReferrer | false |
-|6. | media.peerconnection.enabled         | false |
-|7. | media.peerconnection.turn.disable    |  true |
-|8. | privacy.trackingprotection.enabled   |  true |
+**Zgornje nastavitve povečajo zgolj varnost in zasebnost. Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:**
 
-**The upper settings are privacy-related only. If you want more speed as well, keep on tweaking:**
+|    | IME NASTAVITVE                            |VREDNOST|
+|----|:------------------------------------------|:------:|
+| 9. | browser.fullscreen.animate                | false  |
+| 10.| browser.fullscreen.autohide               | false  |
+| 11.| full-screen-api.transition-duration.enter |        |
+| 12.| full-screen-api.transition-duration.leave |        |
+| 13.| full-screen-api.warning.timeout           |   0    |
+| 14.| memory.free_dirty_pages                   |  true  |
+| 15.| network.http.keep-alive.timeout           |   60   |
+| 16.| network.http.pipelining                   |  true  |
+| 17.| network.http.pipelining.aggressive        |  true  |
+| 18.| network.http.pipelining.maxrequests       |   8    |
+| 19.| network.http.pipelining.ssl               |  true  |
+| 20.| network.http.proxy.pipelining             |  true  |
+| 21.| network.http.request.max-start-delay      |   3    |
+| 22.| network.websocket.delay-failed-reconnects | false  |
 
-|    | PREFERENCE NAME                           | VALUE |
-|----|:------------------------------------------|:-----:|
-| 9. | full-screen-api.transition-duration.enter |       |
-| 10.| full-screen-api.transition-duration.leave |       |
-| 11.| full-screen-api.warning.timeout           |   0   |
-| 12.| memory.free_dirty_pages                   |  true |
-| 13.| network.http.keep-alive.timeout           |   60  |
-| 14.| network.http.pipelining                   |  true |
-| 15.| network.http.pipelining.aggressive        |  true |
-| 16.| network.http.pipelining.maxrequests       |   8   |
-| 17.| network.http.pipelining.ssl               |  true |
-| 18.| network.http.proxy.pipelining             |  true |
-| 19.| network.http.request.max-start-delay      |   3   |
-| 20.| network.websocket.delay-failed-reconnects | false |
+**Nastavitvi pod številkama 11. in 12. naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.** :)
 
-\* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
+*Za tem, ko vklopiš Zaščito pred sledenjem oz. "Firefox Tracking Protection" (pri številki 8.), nekateri videi / slike / gradniki ("widgets") / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja) ne bodo delovali.* Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne. *Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.* To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti video / slike / komentarje / widget. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb "*Onemogoči zaščito za to stran*". Stran se bo samodejno osvežila, ikona "ščita" bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru neke domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na tisti strani ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (vklopiti zaščito), samo ponovi postopek (greš na spletno stran, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb "Omogoči zaščito").
+
+Za naslednje strani lahko izklopiš Zaščito pred sledenjem (kot je opisano v prejšnjem odstavku), ker lahko sicer včasih - preverjeno - naletiš na nepopolen prikaz spletnih vsebin:
+- 24ur.com
+- bibaleze.si
+- dominvrt.si
+- gov.si
+- inc.com
+- moskisvet.com
+- planet.si
+- zadovoljna.si
+
+Mimogrede: Zaščita pred sledenjem oziroma "Firefox Tracking Protection" je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v Firefox brskalnik in je privzeto omogočen le v načinu zasebnega brskanja. Za "klasično" brskanje pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost vgraditve takšnega mehanizma v brskalnik je v tem, da deluje zelo hitro (hitreje od kakršnihkoli naknadno nameščenih razširitev).
+
+\* ***Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.*** V nastavitvah brskalnika (*about:config*) se posamične nastavive ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "Ponastavi" (v priročnem meniju) zadeva povrne v prvotno stanje. **Kljub temu naj velja opozorilo, da se vse zgoraj opisane počenjajo na lastno odgovornost.** Pa brez panike zdaj, smrtno nevarno tudi ni. :)
 
 ###4. Hosts file
 Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
