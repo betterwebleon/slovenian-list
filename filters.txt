@@ -17,9 +17,11 @@
 ||contentexchange.me/static
 ||hit.gemius.pl
 ||nogomania.com/images/backgrounds/*.gif
+||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
 ||static.dijaski.net/graphics/aff/telemach2.png
+||static.plista.com/async.js
 ||www.bicikel.com/narocilo-revij.png
 ||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
@@ -110,7 +112,10 @@ nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
+nova24tv.si###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 nova24tv.si##[id^="post-"] > .td-post-sharing-bottom.td-post-sharing
+nova24tv.si/ajax
+nova24tv.si/upload/banners
 odmuh.si##[id^="easy_facebook_page_plugin"]
 odmuh.si##[id^="adwidget_htmlwidget"]
 oglasnik.over.net
