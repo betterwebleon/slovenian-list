@@ -15,7 +15,7 @@
 ||api.rtvslo.si/stats/log/vodplay
 ||code.jquery.com/jquery-1*.js$script,domain=www.reporter.si
 ||contentexchange.me/static
-||hit.gemius.pl^
+||hit.gemius.pl
 ||nogomania.com/images/backgrounds/*.gif
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
@@ -73,6 +73,7 @@ kariernisejem.com##.container.container_head > .container > .first_con2.row > .c
 klip.si###add
 klip.si###fblikeklip
 klip.si###oglas
+koristno.net###upprev_box
 kozjansko.info###sidebar:nth-of-type(1)
 kozjansko.info###sidebar:nth-of-type(2)
 kozjansko.info##[id^="post-main-"] > .entry > .kozjansko_info_pod_naslovom_novice
@@ -109,6 +110,7 @@ nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
+nova24tv.si##[id^="post-"] > .td-post-sharing-bottom.td-post-sharing
 odmuh.si##[id^="easy_facebook_page_plugin"]
 odmuh.si##[id^="adwidget_htmlwidget"]
 oglasnik.over.net
