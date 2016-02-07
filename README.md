@@ -35,14 +35,14 @@ __________________________________________________________
 
 Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb "*Uveljavi spremembe*". Nato klikni še na levi zgornji gumb "*Posodobi zdaj*". Po nekaj trenutkih se gumb obarva sivo. Sedaj lahko zapreš celoten zavihek nastavitev te razširitve.
 
-**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*Naroči se*" (priporočljivo je dodati vseh šest spodnjih naročnin, da bo brskanje po spletu manj moteče in bolj hitro):**
+**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*Subscribe*" (priporočljivo je dodati vseh šest spodnjih naročnin, da bo brskanje po spletu manj moteče in bolj hitro):**
 
-**1.** [**Naroči se**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware filters) na *Adware filters*<br>(https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt)
-<br>**2.** [**Naroči se**](https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt&title=Behind-the-scene privacy filters) na *Behind-the-scene privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt)
-<br>**3.** [**Naroči se**](https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List) na *Block-EU-Cookie-Shit-List*<br>(https://<i></i>raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
-<br>**4.** [**Naroči se**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International List) na *International List*<br>(https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt)
-<br>**5.** [**Naroči se**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake - Filter Obtrusive Cookie Notices) na *Prebake - Filter Obtrusive Cookie Notices*<br>(https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt)
-<br>**6.** [**Naroči se**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters) na *Privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt)
+**1.** [**Subscribe**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware filters): *Adware filters*<br>(https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt)
+<br>**2.** [**Subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt&title=Behind-the-scene privacy filters): *Behind-the-scene privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt)
+<br>**3.** [**Subscribe**](https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List): *Block-EU-Cookie-Shit-List*<br>(https://<i></i>raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
+<br>**4.** [**Subscribe**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International List): *International List*<br>(https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt)
+<br>**5.** [**Subscribe**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake - Filter Obtrusive Cookie Notices): *Prebake - Filter Obtrusive Cookie Notices*<br>(https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt)
+<br>**6.** [**Subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters): *Privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt)
 
 *Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
 
@@ -64,7 +64,7 @@ Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s s
 |7. | media.peerconnection.turn.disable    |  true  |
 |8. | privacy.trackingprotection.enabled   |  true  |
 
-**Zgornje nastavitve povečajo zgolj varnost in zasebnost. Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:**
+*Zgornje nastavitve povečajo zgolj varnost in zasebnost. Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:*
 
 |    | IME NASTAVITVE                            |VREDNOST|
 |----|:------------------------------------------|:------:|
@@ -84,7 +84,7 @@ Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s s
 | 22.| network.websocket.delay-failed-reconnects | false  |
 | 23.| security.dialog_enable_delay              |   0    |
 
-**Vrednost nastavitve številka 11 vtipkaš.<br>Nastavitvi št. 12 in 13 naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.**
+**Vrednost nastavitve številka 10 vtipkaš.<br>Nastavitvi št. 11 in 12 naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.**
 
 Za tem, ko vklopiš "Zaščito pred sledenjem" oz. "Firefox Tracking Protection" (pri nastavitvi št. 8), nekateri videi / slike / gradniki (oz. "widgets") / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja) **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne. **Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti video / slike / komentarje / widget. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb "*Onemogoči zaščito za to stran*". Stran se bo samodejno osvežila, ikona "ščita" bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru neke domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na tisti strani ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (vklopiti zaščito), samo ponovi postopek (greš na spletno stran, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb "*Omogoči zaščito*").
 
