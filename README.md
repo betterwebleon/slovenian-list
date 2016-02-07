@@ -1,7 +1,7 @@
 # slovenian-list
 **Statični kozmetični filtri in filtri sledenja za uBlock Origin ali za uBlock.** Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. Slovenska lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**.
 
-**Za boljši učinek je zelo priporočljivo uporabljati tudi druge filtre skupaj z vsemi ostalimi metodami, ki so opisane nižje.** :)
+**Za boljši učinek je zelo priporočljivo uporabljati tudi druge filtre skupaj z vsemi ostalimi metodami, ki so opisane nižje.**
 
 V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com).
 
@@ -10,13 +10,13 @@ __________________________________________________________
 
 [SVN: Slovenian List](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) is regional list primarily for uBlock Origin or uBlock, which consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
-The list is **intended for simple users** with a set-and-forget approach. In uBlock Origin the list can be turned on in settings within "*3rd-party filters*" tab simply by ticking the "*SVN: Slovenian List" among regional lists. If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
+The list is **intended for simple users** with a set-and-forget approach. In uBlock Origin the list can be turned on in settings within "*3rd-party filters*" tab simply by ticking the "*SVN: Slovenian List*" among regional lists. If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 __________________________________________________________
 
 ###1. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
 **[uBlock Origin](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/)**
 
-***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev (add-on). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz [tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
+***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev (add-on). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
 
 ###2. Priporočljivi dopolnilni seznami filtrov
 **A) Spodnje naročnine na filtre se lahko v razširitvi uBlock Origin preprosto vklopijo tako, da se označijo s kljukico v zavihku [Filtri tretjih oseb]:**
@@ -37,12 +37,12 @@ Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s s
 
 **B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*Naroči se*" (priporočljivo je dodati vseh šest spodnjih naročnin, da bo brskanje po spletu manj moteče in bolj hitro):**
 
-**1.** [**Naroči se**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware filters) na *Adware filters* (https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt)
+**1.** [**Naroči se**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware filters) na *Adware filters*<br>(https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt)
 <br>**2.** [**Naroči se**](https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt&title=Behind-the-scene privacy filters) na *Behind-the-scene privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt)
-<br>**3.** [**Naroči se**](https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List) na *Block-EU-Cookie-Shit-List* (https://<i></i>raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
-<br>**4.** [**Naroči se**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International List) na *International List* (https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt)
-<br>**5.** [**Naroči se**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake - Filter Obtrusive Cookie Notices) na *Prebake - Filter Obtrusive Cookie Notices* (https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt)
-<br>**6.** [**Naroči se**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters) na *Privacy filters* (https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt)
+<br>**3.** [**Naroči se**](https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List) na *Block-EU-Cookie-Shit-List*<br>(https://<i></i>raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
+<br>**4.** [**Naroči se**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International List) na *International List*<br>(https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt)
+<br>**5.** [**Naroči se**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake - Filter Obtrusive Cookie Notices) na *Prebake - Filter Obtrusive Cookie Notices*<br>(https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt)
+<br>**6.** [**Naroči se**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters) na *Privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt)
 
 *Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
 
@@ -84,9 +84,9 @@ Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s s
 | 22.| network.websocket.delay-failed-reconnects | false  |
 | 23.| security.dialog_enable_delay              |   0    |
 
-**Vrednost nastavitve številka 11 vtipkaš.<br>Nastavitvi št. 12 in 13 naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.** :)
+**Vrednost nastavitve številka 11 vtipkaš.<br>Nastavitvi št. 12 in 13 naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.**
 
-**Za tem, ko vklopiš "Zaščito pred sledenjem" oz. "Firefox Tracking Protection" (pri nastavitvi št. 8), nekateri videi / slike / gradniki (oz. "widgets") / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja) ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne. **Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti video / slike / komentarje / widget. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb "*Onemogoči zaščito za to stran*". Stran se bo samodejno osvežila, ikona "ščita" bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru neke domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na tisti strani ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (vklopiti zaščito), samo ponovi postopek (greš na spletno stran, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb "*Omogoči zaščito*").
+Za tem, ko vklopiš "Zaščito pred sledenjem" oz. "Firefox Tracking Protection" (pri nastavitvi št. 8), nekateri videi / slike / gradniki (oz. "widgets") / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja) **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne. **Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti video / slike / komentarje / widget. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb "*Onemogoči zaščito za to stran*". Stran se bo samodejno osvežila, ikona "ščita" bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru neke domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na tisti strani ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (vklopiti zaščito), samo ponovi postopek (greš na spletno stran, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb "*Omogoči zaščito*").
 
 Za naslednje strani lahko že vnaprej izklopiš Zaščito pred sledenjem (kot je opisano v prejšnjem odstavku), ker lahko sicer včasih - preverjeno - naletiš na nepopoln prikaz spletnih vsebin:
 - 24ur.com
