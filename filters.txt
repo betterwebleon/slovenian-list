@@ -5,6 +5,11 @@
 ! License: http://unlicense.org
 
 ! Filters:
+@@||images.contentexchange.me/fit$domain=igrice.hudo.com
+@@||moja.bolha.com
+@@||objava-oglasa.bolha.com
+@@||slokino.com
+||*.disqus.com/count.js
 ||193.2.4.98/Ping.aspx
 ||24ur.com/*/discount_banner.css
 ||24ur.com/*/player/?mod=adlog
@@ -18,14 +23,17 @@
 ||hit.gemius.pl
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
+||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
+||phobs.net/check.php
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
 ||static.dijaski.net/graphics/aff/telemach2.png
-||static.plista.com/async.js
+||static.plista.com
 ||www.bicikel.com/narocilo-revij.png
 ||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
+||www.hudo.com/si/poster
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
 ||www.nasmehni.me/banner/*.png
 ||www.partis.si/img/urgo.jpg
@@ -69,6 +77,9 @@ ekipa24.si##[id^="banner"]
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
 govori.se###branding
+igrice.hudo.com###contentLeft
+igrice.hudo.com###contentRight > .leaderboard
+igrice.hudo.com###playzone > .leaderboard
 iskreni.net###sidebar > .moduletable:nth-of-type(2)
 kapodol.com##[id^="divBanner"]
 kariernisejem.com##.container.container_head > .container > .first_con2.row > .container-fluid > .col-md-6:nth-of-type(2) > .row:nth-of-type(1) > .hidden-xs.pull-right.banner-first
@@ -98,6 +109,17 @@ mojaleta.si###contentcontainer > .mainTable > .Column2 > .Container2
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .prNews
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .title
 mojaleta.si###dfpContentElement > .fullContent > .banner
+mojepotovanje.hudo.com###content > .grid1.rectangle
+mojepotovanje.hudo.com###content > .rectangle > .banner-inner
+mojepotovanje.hudo.com###single-sidebar > .grid1.rectangle
+mojepotovanje.hudo.com###single-sidebar > .rectangle > .banner-inner
+mojepotovanje.hudo.com###single-content > .the-post > .socials
+moski.hudo.com###content > .grid1 > .banner-inner
+moski.hudo.com###content > .grid1.rectangle
+moski.hudo.com###single-content > .the-post > .knews-top
+moski.hudo.com###single-content > .the-post > .socials
+moski.hudo.com###single-sidebar > .grid1 > .banner-inner
+moski.hudo.com###single-sidebar > .grid1.rectangle
 nasmehni.me###desno > .desno-head > .video
 nasmehni.me###desno > .desno-head > a > .video
 nasmehni.me###desno > .video
@@ -228,9 +250,6 @@ www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sid
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
 www.gohome.si###bannerFooter_wrap > .bannerFooter > object
 www.gorenjski-muzej.si##.pea_cook_more_info_popover
-www.hudo.com###header > .header-wrap > .stripe > .stripe-wrap > .cats
-www.hudo.com###list > .adbox:nth-of-type(6)
-www.hudo.com###poster-modal > .poster-modal-wrapper > .poster-wrapper > .inner-wrapper > .image > .html > .active.tooltip
 www.kapodol.com##[id^="divBanner"]
 www.kolosej.si###banner-horizontal
 www.kosarka.si###footer > .social > .fb.col
