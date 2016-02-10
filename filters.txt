@@ -21,6 +21,8 @@
 ||code.jquery.com/jquery-1*.js$script,domain=www.reporter.si
 ||contentexchange.me/static
 ||hit.gemius.pl
+||hudo.com/latest-news
+||hudo.com/poster
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
@@ -33,7 +35,6 @@
 ||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
-||www.hudo.com/si/poster
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
 ||www.nasmehni.me/banner/*.png
 ||www.partis.si/img/urgo.jpg
@@ -250,6 +251,11 @@ www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sid
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
 www.gohome.si###bannerFooter_wrap > .bannerFooter > object
 www.gorenjski-muzej.si##.pea_cook_more_info_popover
+www.hudo.com###header > .header-wrap > .stripe > .stripe-wrap > .cats
+www.hudo.com###list > .adbox
+www.hudo.com###poster-modal > .poster-modal-wrapper > .sidebar-banner
+www.hudo.com###poster-modal > .poster-modal-wrapper > .top-banner
+www.hudo.com###sidebar > .box-group:nth-of-type(1)
 www.kapodol.com##[id^="divBanner"]
 www.kolosej.si###banner-horizontal
 www.kosarka.si###footer > .social > .fb.col
@@ -285,13 +291,6 @@ www.monitor.si###page > header > .rdecaPasica > .social.nav
 www.monitor.si##.wrap-page > .o160x600
 www.monitor.si##.wrap-page > .o180x90
 www.monitor.si##.wrap-page > .o728x90
-www.moski.si###branding > .social-icons
-www.moski.si###content > .grid1.right.rectangle
-www.moski.si###content > .grid1.left.rectangle
-www.moski.si###content > .grid1.left.rectangle:nth-of-type(2)
-www.moski.si###single-content > .grid2.the-post > footer > .socials
-www.moski.si###single-sidebar > .grid1.rectangle:nth-of-type(1)
-www.moski.si###single-sidebar > .grid1.rectangle:nth-of-type(7)
 www.moskisvet.com##[id^="box"] > .doubleFacebook > .doubleFacebookHeader
 www.moskisvet.com##[id^="box_10002018d121"]
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
@@ -419,16 +418,13 @@ www.zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .clearfix.doubleFa
 www.zadovoljna.si###facebook_box
 www.zadovoljna.si###group_30
 www.zadovoljna.si###staticContent
-www.zenska.si###branding > .social-icons
-www.zenska.si###comments
-www.zenska.si###content > .grid1.right.rectangle
-www.zenska.si###content > .grid1.left.rectangle
-www.zenska.si###content > .left.grid1.rectangle:nth-of-type(2)
-www.zenska.si###single-content > .grid2.the-post > footer > .socials
-www.zenska.si###single-sidebar > .grid1.right.rectangle
-www.zenska.si###single-sidebar > .grid1.left.rectangle
-www.zenska.si###single-sidebar > .grid1.facebook-likebox
 www.zurnal24.si###banner_related
 www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(4)
 www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(5) > .col_03
 www.zurnal24.si###service_related > .entry_options
+zenska.hudo.com###content > .grid1 > .banner-inner
+zenska.hudo.com###content > .grid1.rectangle
+zenska.hudo.com###single-content > .the-post > .knews-top
+zenska.hudo.com###single-content > .the-post > .socials
+zenska.hudo.com###single-sidebar > .grid1 > .banner-inner
+zenska.hudo.com###single-sidebar > .grid1.rectangle
