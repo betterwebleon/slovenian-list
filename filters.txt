@@ -10,7 +10,6 @@
 @@||objava-oglasa.bolha.com
 @@||slokino.com
 ||*.disqus.com/count.js
-||193.2.4.98/Ping.aspx
 ||24ur.com/*/discount_banner.css
 ||24ur.com/*/player/?mod=adlog
 ||24ur.com/*/player/?mod=statistics
@@ -22,7 +21,8 @@
 ||contentexchange.me/static
 ||hit.gemius.pl
 ||hudo.com/latest-news
-||hudo.com/poster
+||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
+||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
@@ -55,6 +55,8 @@
 ||www.ss-mb.si/images/banners/*.gif
 ||www.ss-mb.si/images/banners/*.jpg
 ||www.triglav.si$popup
+1nadan.si###background
+1nadan.si##.content > .background_link
 avto.net##.headerbar
 avto.net##.page > .headerwrapper > .headerbanner
 avto.net##.page > .wrapper > .contentwrapper560 > .Rounded.ContentBox:nth-of-type(3)
@@ -147,6 +149,8 @@ play.spotify.com###desktop > .show.mft.upsell-background.content
 pokukaj.si##.lightface
 polet.si###main-container > .notice
 pozitivnenovice.com###facebook-likebox-2
+privoscite.si###BannerPositionBackground
+privoscite.si###BannerPositionCenterWithRight
 racunovodja.com##.page_background > .jedro > .desni_rob > div:nth-of-type(6)
 racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > .poravnajgor:nth-of-type(1) > tbody > tr > td > .vsebina_mod9
 racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > table:nth-of-type(2) > tbody > tr > td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1) > td:nth-of-type(1)
@@ -218,6 +222,7 @@ www.bringler.com###block-block-28 > .blockcontent > .front_topgames_footer
 www.butanplin.si###page > .footer > .column > .q-ico-shadow
 www.butanplin.si###page > .footer > .column > .q-ico-wrap
 www.casnik.si###cas_right
+www.ceneje.si###userbarOceniTrgovino > .userbarBoxRateSeller
 www.cenim.se###bottom-sidebar
 www.delo.si###d_conmment_holder > .clanek_wrapper > .clanek_oglas_holder
 www.dijaski.net###Logo
@@ -384,6 +389,7 @@ www.siol.net###wdgt_elem_1
 www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
 www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_20.nbox.wnd_w2 > .shadow > .inside
 www.siol.net###wdgt_elem_14 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
+www.slo-zeleznice.si##body > .bannerPool
 www.slonep.net##[id^="ad"]
 www.slonep.net###footer > .footer_links > tbody > tr > td:nth-of-type(4)
 www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
@@ -411,6 +417,7 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(1)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
+www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
 www.zadovoljna.si###box_180002682d1207193
 www.zadovoljna.si###box_180002682d1210259 > .backButton
 www.zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .doubleFacebookHeader
