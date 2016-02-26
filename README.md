@@ -1,5 +1,5 @@
 # slovenian-list
-**[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je regionalen seznam za uBlock Origin** (ali za uBlock), ki ga sestavljajo statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj blokira najbolj moteče (oglasne) elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj.**
+[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je **regionalen seznam, primarno namenjen za uBlock Origin**. Sestavljajo ga statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj samodejno blokira najbolj moteče (oglasne) elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj.**
 
 V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com). Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. :)
 
@@ -12,12 +12,12 @@ The list is **intended for simple users** with a set-and-forget approach. It is 
 
 -------------
 ###1. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
-**[uBlock Origin](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/)**
+**uBlock Origin**
 
-***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev (add-on). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
+***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev (add-on). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/). Za brskalnik Firefox se uBlock Origin dobi [na tej strani](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/), s klikom na zelen gumb <code>*Dodaj v Firefox*</code>.
 
 ###2. Priporočljivi dopolnilni seznami filtrov
-**A) Spodnje naročnine na filtre se lahko v razširitvi uBlock Origin preprosto vklopijo tako, da se označijo s kljukico v zavihku [Filtri tretjih oseb]:**
+**A) Spodnje naročnine na filtre se lahko v okviru dodatnih možnosti razširitve uBlock Origin preprosto vklopijo tako, da se označijo s kljukico znotraj zavihka [*Filtri tretjih oseb*]:**
 - uBlock filters
 - uBlock filters – Badware risks
 - uBlock filters – Block-then-redirect
@@ -31,14 +31,15 @@ The list is **intended for simple users** with a set-and-forget approach. It is 
 - Spam404
 - SVN: Slovenian List
 
-Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb "*Uveljavi spremembe*". Nato klikni še na levi zgornji gumb "*Posodobi zdaj*". Po nekaj trenutkih se gumb obarva sivo. Sedaj lahko zapreš celoten zavihek nastavitev te razširitve.
+Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Nato klikni še na levi zgornji gumb <code>*Posodobi zdaj*<code>. Po nekaj trenutkih se gumb obarva sivo.
 
-**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*subscribe*" (priporočljivo je dodati vseh pet spodnjih naročnin, da bo brskanje po spletu manj moteče in bolj hitro):**
+**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage.**
 
-<code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code>
-<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt</code>
-<code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code>
-<code>https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt</code>
+V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave naročnin (povezave seznamov s filtri). Priporočljivo je kopirati vse štiri spodnje naročnine naenkrat, da bo brskanje po spletu manj moteče in bolj hitro. Nato jih prilepimo v polje filtrov po meri, ki se nahaja skrajno spodaj v okviru zavihka [*Filtri tretjih oseb*]. Vse dodane povezave se morajo nahajati v svoji (posamezni) vrstici. Nato kliknemo na gumb <code>*Razčleni*</code>, ki se nahaja neposredno pod poljem filtrov. Za tem kliknemo še na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Na koncu pa kliknemo še na gumb <code>*Posodobi zdaj*</code> levo pri vrhu.
+
+<code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code>
 
 *Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
