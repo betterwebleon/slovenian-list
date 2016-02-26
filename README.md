@@ -31,7 +31,7 @@ The list is **intended for simple users** with a set-and-forget approach. It is 
 - Spam404
 - SVN: Slovenian List
 
-Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Nato klikni še na levi zgornji gumb <code>*Posodobi zdaj*<code>. Po nekaj trenutkih se gumb obarva sivo.
+Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Nato klikni še na levi zgornji gumb <code>*Posodobi zdaj*</code>. Po nekaj trenutkih se gumb obarva sivo.
 
 **B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage.**
 
@@ -51,38 +51,42 @@ V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave n
 
 \****Kako?*** V Firefox brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code><br>Pritisni *enter* in potrdi Firefoxovo opozorilo o garanciji. Nato poišči vsa spodnja imena nastavitev. Vsako posamično ime nastavitve kopiraj in prilepi v iskalno vrstico brskalnika znotraj nastavitev. Ko se nastavitev (samodejno) prikaže na seznamu, jo dvoklikni z miško in nato v pojavnem oknu spremeni njeno vrednost v pripadajočo, kakor je navedeno spodaj:
 
-|   | IME NASTAVITVE                       |VREDNOST|
-|---|:-------------------------------------|:------:|
-|1. | beacon.enabled                       | false  |
-|2. | browser.safebrowsing.malware.enabled | false  |
-|3. | geo.enabled                          | false  |
-|4. | layout.css.visited_links_enabled     | false  |
-|5. | network.http.sendSecureXSiteReferrer | false  |
-|6. | media.peerconnection.enabled         | false  |
-|7. | media.peerconnection.turn.disable    |  true  |
-|8. | privacy.trackingprotection.enabled   |  true  |
+|   | IME NASTAVITVE                                                |VREDNOST|
+|---|:--------------------------------------------------------------|:------:|
+|1. | beacon.enabled                                                | false  |
+|2. | browser.safebrowsing.downloads.enabled                        | false  |
+|3. | browser.safebrowsing.enabled                                  | false  |
+|4. | browser.safebrowsing.malware.enabled                          | false  |
+|5. | services.sync.prefs.sync.browser.safebrowsing.enabled         | false  |
+|6. | services.sync.prefs.sync.browser.safebrowsing.malware.enabled | false  |
+|7. | geo.enabled                                                   | false  |
+|8. | layout.css.visited_links_enabled                              | false  |
+|9. | network.http.sendSecureXSiteReferrer                          | false  |
+|10.| media.peerconnection.enabled                                  | false  |
+|11.| media.peerconnection.turn.disable                             | true   |
+|12.| privacy.trackingprotection.enabled                            | true   |
 
-*Zgornje nastavitve povečajo zgolj varnost in zasebnost. Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:*
+*Zgornje nastavitve* ***povečajo varnost in zasebnost***. *Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:*
 
 |    | IME NASTAVITVE                            |VREDNOST|
 |----|:------------------------------------------|:------:|
-| 9. | browser.fullscreen.animate                | false  |
-| 10.| browser.newtab.url                        | Reset  |
-| 11.| full-screen-api.transition-duration.enter |        |
-| 12.| full-screen-api.transition-duration.leave |        |
-| 13.| full-screen-api.warning.timeout           |   0    |
-| 14.| memory.free_dirty_pages                   |  true  |
-| 15.| network.http.keep-alive.timeout           |   60   |
-| 16.| network.http.pipelining                   |  true  |
-| 17.| network.http.pipelining.aggressive        |  true  |
-| 18.| network.http.pipelining.maxrequests       |   8    |
-| 19.| network.http.pipelining.ssl               |  true  |
-| 20.| network.http.proxy.pipelining             |  true  |
-| 21.| network.http.request.max-start-delay      |   3    |
-| 22.| network.websocket.delay-failed-reconnects | false  |
-| 23.| security.dialog_enable_delay              |   0    |
+| 13.| browser.fullscreen.animate                | false  |
+| 14.| browser.newtab.url                        | Reset  |
+| 15.| full-screen-api.transition-duration.enter |        |
+| 16.| full-screen-api.transition-duration.leave |        |
+| 17.| full-screen-api.warning.timeout           |   0    |
+| 18.| memory.free_dirty_pages                   |  true  |
+| 19.| network.http.keep-alive.timeout           |   60   |
+| 20.| network.http.pipelining                   |  true  |
+| 21.| network.http.pipelining.aggressive        |  true  |
+| 22.| network.http.pipelining.maxrequests       |   8    |
+| 23.| network.http.pipelining.ssl               |  true  |
+| 24.| network.http.proxy.pipelining             |  true  |
+| 25.| network.http.request.max-start-delay      |   3    |
+| 26.| network.websocket.delay-failed-reconnects | false  |
+| 27.| security.dialog_enable_delay              |   0    |
 
-**Vrednost nastavitve številka 10 vtipkaš.<br>Nastavitvi št. 11 in 12 naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.**
+*Vrednost nastavitve številka* ***14*** *vtipkaš.*<br>*Nastavitvi št.* ***15*** *in* ***16*** *naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.*
 
 Za tem, ko vklopiš "Zaščito pred sledenjem" oz. "Firefox Tracking Protection" (pri nastavitvi št. 8), nekateri videi / slike / gradniki (oz. "widgets") / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja) **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne. **Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti video / slike / komentarje / widget. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb "*Onemogoči zaščito za to stran*". Stran se bo samodejno osvežila, ikona "ščita" bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru neke domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na tisti strani ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (vklopiti zaščito), samo ponovi postopek (greš na spletno stran, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb "*Omogoči zaščito*").
 
