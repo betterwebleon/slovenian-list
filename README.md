@@ -1,18 +1,16 @@
 # slovenian-list
-**Statični kozmetični filtri in filtri sledenja za uBlock Origin ali za uBlock.** Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. Slovenska lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**.
+**[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je regionalen seznam za uBlock Origin** (ali za uBlock), ki ga sestavljajo statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj blokira najbolj moteče (oglasne) elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj.**
 
-**Za boljši učinek je zelo priporočljivo uporabljati tudi druge filtre skupaj z vsemi ostalimi metodami, ki so opisane nižje.**
+V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com). Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. :)
 
-V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com).
-
-__________________________________________________________
+-------------
 **English**
 
 [SVN: Slovenian List](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) is regional list primarily for uBlock Origin or uBlock, which consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
-The list is **intended for simple users** with a set-and-forget approach. In uBlock Origin the list can be turned on in settings within "*3rd-party filters*" tab simply by ticking the "*SVN: Slovenian List*" among regional lists. If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
-__________________________________________________________
+The list is **intended for simple users** with a set-and-forget approach. It is a complementary list, so it should be used together with other ad blocking filter lists. Within uBlock Origin, Slovenian list can be turned on in settings within "*3rd-party filters*" tab simply by ticking the "*SVN: Slovenian List*" among regional lists. If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
+-------------
 ###1. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
 **[uBlock Origin](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/)**
 
@@ -35,14 +33,13 @@ __________________________________________________________
 
 Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb "*Uveljavi spremembe*". Nato klikni še na levi zgornji gumb "*Posodobi zdaj*". Po nekaj trenutkih se gumb obarva sivo. Sedaj lahko zapreš celoten zavihek nastavitev te razširitve.
 
-**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*subscribe*" (priporočljivo je dodati vseh šest spodnjih naročnin, da bo brskanje po spletu manj moteče in bolj hitro):**
+**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage. V uBlock Origin se preprosto dodajo s klikom na "*subscribe*" (priporočljivo je dodati vseh pet spodnjih naročnin, da bo brskanje po spletu manj moteče in bolj hitro):**
 
-**1.** [**subscribe**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware filters) - *Adware filters*<br>(https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt)
-<br>**2.** [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt&title=Behind-the-scene privacy filters) - *Behind-the-scene privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt)
-<br>**3.** [**subscribe**](https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List) - *Block-EU-Cookie-Shit-List*<br>(https://<i></i>raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
-<br>**4.** [**subscribe**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International List) - *International List*<br>(https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt)
-<br>**5.** [**subscribe**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake - Filter Obtrusive Cookie Notices) - *Prebake - Filter Obtrusive Cookie Notices*<br>(https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt)
-<br>**6.** [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters) - *Privacy filters*<br>(https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt)
+<code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code>
+<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt</code>
+<code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code>
+<code>https://<i></i>raw.github.com/liamja/Prebake/master/obtrusive.txt</code>
+<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code>
 
 *Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
 
