@@ -35,7 +35,7 @@ Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s s
 
 **B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage.**
 
-V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave naročnin (povezave seznamov s filtri). Priporočljivo je kopirati vse štiri spodnje naročnine naenkrat, da bo brskanje po spletu manj moteče in bolj hitro. Nato jih prilepimo v polje filtrov po meri, ki se nahaja skrajno spodaj v okviru zavihka [*Filtri tretjih oseb*]. Vse dodane povezave se morajo nahajati v svoji (posamezni) vrstici. Nato kliknemo na gumb <code>*Razčleni*</code>, ki se nahaja neposredno pod poljem filtrov. Za tem kliknemo še na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Na koncu pa kliknemo še na gumb <code>*Posodobi zdaj*</code> levo pri vrhu.
+V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave naročnin (povezave seznamov s filtri). Da bo brskanje po spletu manj moteče in bolj hitro, je priporočljivo kopirati vse štiri spodnje povezave naenkrat. Nato jih prilepimo v polje filtrov po meri, ki se nahaja skrajno spodaj v okviru zavihka [*Filtri tretjih oseb*]. Vse dodane (prilepljene) povezave se morajo nahajati v svoji (posamezni) vrstici. Nato kliknemo na gumb <code>*Razčleni*</code>, ki se nahaja neposredno pod poljem filtrov. Za tem kliknemo še na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Na koncu pa kliknemo še na gumb <code>*Posodobi zdaj*</code> levo pri vrhu.
 
 <code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt</code><br>
@@ -49,7 +49,9 @@ V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave n
 
 ***Zakaj?*** Ker ga je možno prilagoditi do te mere, da postane izredno hiter, varen, zaseben in uporabniku prijazen brskalnik.
 
-\****Kako?*** V Firefox brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code><br>Pritisni *enter* in potrdi Firefoxovo opozorilo o garanciji. Nato poišči vsa spodnja imena nastavitev. Vsako posamično ime nastavitve kopiraj in prilepi v iskalno vrstico brskalnika znotraj nastavitev. Ko se nastavitev (samodejno) prikaže na seznamu, jo dvoklikni z miško in nato v pojavnem oknu spremeni njeno vrednost v pripadajočo, kakor je navedeno spodaj:
+\* ***Kako?*** V Firefox brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code>
+
+Pritisni *enter* in potrdi Firefoxovo opozorilo o garanciji. Nato poišči vsa spodnja imena nastavitev. Vsako posamično ime nastavitve kopiraj in prilepi v iskalno vrstico brskalnika znotraj nastavitev. Ko se nastavitev (samodejno) prikaže na seznamu, jo dvoklikni z miško. Na ta način lahko spremenimo vrednosti v takšne, kakršne so navedene spodaj:
 
 |   | IME NASTAVITVE                                                |VREDNOST|
 |---|:--------------------------------------------------------------|:------:|
@@ -66,7 +68,7 @@ V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave n
 |11.| media.peerconnection.turn.disable                             | true   |
 |12.| privacy.trackingprotection.enabled                            | true   |
 
-*Zgornje nastavitve* ***povečajo varnost in zasebnost***. *Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:*
+*Zgornje nastavitve* ***povečajo predvsem zasebnost***. *Za izboljšanje hitrosti in uporabniške izkušnje na enak način spremeni še spodnje nastavitve:*
 
 |    | IME NASTAVITVE                            |VREDNOST|
 |----|:------------------------------------------|:------:|
@@ -86,22 +88,26 @@ V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave n
 | 26.| network.websocket.delay-failed-reconnects | false  |
 | 27.| security.dialog_enable_delay              |   0    |
 
-*Vrednost nastavitve številka* ***14*** *vtipkaš.*<br>*Nastavitvi št.* ***15*** *in* ***16*** *naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.*
+*Vrednost pri nastavitvi številka* ***14*** *ročno vtipkaš.*<br>*Nastavitvi št.* ***15*** *in* ***16*** *naj ne zavzemata nobene vrednosti. Samo izbriši obstoječe vrednosti (številke) v pojavnem oknu in potrdi.*
 
-Za tem, ko vklopiš "Zaščito pred sledenjem" oz. "Firefox Tracking Protection" (pri nastavitvi št. 8), nekateri videi / slike / gradniki (oz. "widgets") / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja) **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne. **Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti video / slike / komentarje / widget. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb "*Onemogoči zaščito za to stran*". Stran se bo samodejno osvežila, ikona "ščita" bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru neke domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na tisti strani ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (vklopiti zaščito), samo ponovi postopek (greš na spletno stran, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb "*Omogoči zaščito*").
+Za tem, ko vklopiš "Zaščito pred sledenjem" pri nastavitvi št. **12**, nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne.
+
+**Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti blokiran video / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb <code>*Onemogoči zaščito za to stran*</code>. Stran se bo samodejno osvežila, ikona "ščita" pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na sspletnih straneh tiste domene ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (ponovno vklopiti zaščito), samo ponovi postopek (greš na spletno stran želene domene, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb <code>*Omogoči zaščito*</code>).
 
 Za naslednje strani lahko že vnaprej izklopiš Zaščito pred sledenjem (kot je opisano v prejšnjem odstavku), ker lahko sicer včasih - preverjeno - naletiš na nepopoln prikaz spletnih vsebin:
 - 24ur.com
 - bibaleze.si
 - dominvrt.si
-- gov.si
+- meteo.arso.gov.si
+- moski.hudo.com
 - moskisvet.com
 - planet.si
 - zadovoljna.si
+- zenska.hudo.com
 
-Mimogrede: *Zaščita pred sledenjem* oziroma "Firefox Tracking Protection" je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v Firefox brskalnik in je privzeto omogočen le v načinu zasebnega brskanja. Za "klasično" brskanje pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost vgraditve takšnega mehanizma v brskalnik je v tem, da deluje zelo hitro (hitreje od kakršnihkoli naknadno nameščenih razširitev).
+Mimogrede: "*Zaščita pred sledenjem*" oziroma "*Firefox Tracking Protection*" je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v Firefox brskalnik in je privzeto omogočen le v načinu zasebnega brskanja. Za "klasično" brskanje pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost vgraditve takšnega mehanizma v brskalnik je v tem, da deluje zelo hitro (hitreje in bolje od naknadno nameščenih razširitev ali filtrov).
 
-\* **Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) se posamične nastavitve ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "Ponastavi" (v priročnem meniju) zadeva povrne v prvotno stanje. **Kljub temu naj velja opozorilo, da se vse zgoraj opisane počenjajo na lastno odgovornost.** Samo brez panike, smrtno nevarno tudi ni. :)
+\* **Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) se posamične nastavitve ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "*Ponastavi*" (v priročnem meniju) zadeva povrne v prvotno stanje. **Kljub temu naj velja opozorilo, da se vse zgoraj opisane počenjajo na lastno odgovornost.** Samo brez panike, smrtno nevarno tudi ni. :)
 
 ###4. Hosts file
 Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
