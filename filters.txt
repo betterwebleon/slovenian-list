@@ -98,6 +98,9 @@ kozjansko.info##[id^="post-main-"] > .entry > .ssba
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
 med.over.net##.page_background.clearfix.content > .main-container > .clearfix.box-holder > .right.span-3_1.span > .intextAdIgnore.box-full.box
+med.over.net###phorum > .main-container > .box-holder > .span > .box > .post-listing > .contentexchange
+med.over.net###phorum > .main-container > .box-holder > .span > .box > .post-listing > .main-post > .box-banner-468
+med.over.net###phorum > .main-container > .box-holder > .span > .forum > .post-listing > .main-post > .plista-ph
 med.over.net###phorum > .main-container > .clearfix.box-holder > .right.span-3_1.span > .ipromAdIgnore.box-full.box
 med.over.net###phorum > .main-container > .clearfix.box-holder > .span-3_2.span > .forum.box-full.box > .post-listing > .main-post.single-post > .clearfix.oglasnik-addbox
 med.over.net###phorum > .main-container > .clearfix.box-holder > .span-3_2.span > .forum.box-full.box > .top-banner
@@ -187,7 +190,6 @@ volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
 vreme.zurnal24.si###teaser > .grid-container > .grid-33 > .ad
-www.24ur.com#@##right > .doubleFacebook
 www.24ur.com###head > .content
 www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
 www.24ur.com###mb-wrapper-II
@@ -302,8 +304,7 @@ www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
 www.napovednik.com###rot_right > .banner
-www.nepremicnine.net###ad-detail
-www.nepremicnine.net###ad-hor
+www.nepremicnine.net###slider-nn
 www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
 www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
 www.partis.si##.all > .dildo > .bigban
@@ -391,7 +392,6 @@ www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_20.nbox.wnd_w2 > .shadow > .inside
 www.siol.net###wdgt_elem_14 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
 www.slo-zeleznice.si##body > .bannerPool
 www.slonep.net##[id^="ad"]
-www.slonep.net###footer > .footer_links > tbody > tr > td:nth-of-type(4)
 www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
 www.slovenskenovice.si###block-views-sn-custom-ad-block-1
 www.slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
