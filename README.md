@@ -1,20 +1,20 @@
 # slovenian-list
-[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je **regionalen seznam, primarno namenjen za uBlock Origin**. Sestavljajo ga statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj samodejno blokira najbolj moteče (oglasne) elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj.**
+[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je **regionalen seznam, prvenstveno namenjen za uBlock Origin**. Sestavljajo ga statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj samodejno blokira najbolj moteče (oglasne) elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj.**
 
 V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com). Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. :)
 
--------------
+--------------
 **English**
 
 [SVN: Slovenian List](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) is regional list primarily for uBlock Origin or uBlock, which consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
 The list is **intended for simple users** with a set-and-forget approach. It is a complementary list, so it should be used together with other ad blocking filter lists. Within uBlock Origin, Slovenian list can be turned on in settings within "*3rd-party filters*" tab simply by ticking the "*SVN: Slovenian List*" among regional lists. If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
--------------
+--------------
 ###1. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
 **uBlock Origin**
 
-***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev (add-on). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/). Za brskalnik Firefox se uBlock Origin dobi [na tej strani](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/), s klikom na zelen gumb <code>*Dodaj v Firefox*</code>.
+***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev ("add-on"). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/). Za brskalnik Firefox se uBlock Origin dobi [na tej strani](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/), s klikom na zelen gumb <code>*Dodaj v Firefox*</code>.
 
 ###2. Priporočljivi dopolnilni seznami filtrov
 **A) Spodnje naročnine na filtre se lahko v okviru dodatnih možnosti razširitve uBlock Origin preprosto vklopijo tako, da se označijo s kljukico znotraj zavihka [*Filtri tretjih oseb*]:**
@@ -92,7 +92,7 @@ Pritisni *enter* in potrdi Firefoxovo opozorilo o garanciji. Nato poišči vsa s
 
 Za tem, ko vklopiš "Zaščito pred sledenjem" pri nastavitvi št. **12**, nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne.
 
-**Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti blokiran video / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb <code>*Onemogoči zaščito za to stran*</code>. Stran se bo samodejno osvežila, ikona "ščita" pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na sspletnih straneh tiste domene ne bo več. Če želiš kljub temu to nastavitev kdaj spet ponastaviti (ponovno vklopiti zaščito), samo ponovi postopek (greš na spletno stran želene domene, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb <code>*Omogoči zaščito*</code>).
+**Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti blokiran video / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb <code>*Onemogoči zaščito za to stran*</code>. Stran se bo samodejno osvežila, ikona "ščita" pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na spletnih straneh tiste domene ne bo več. Če želiš kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani strani), samo ponovi postopek (greš na spletno stran želene domene, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb <code>*Omogoči zaščito*</code>).
 
 Za naslednje strani lahko že vnaprej izklopiš Zaščito pred sledenjem (kot je opisano v prejšnjem odstavku), ker lahko sicer včasih - preverjeno - naletiš na nepopoln prikaz spletnih vsebin:
 - 24ur.com
@@ -109,24 +109,28 @@ Mimogrede: "*Zaščita pred sledenjem*" oziroma "*Firefox Tracking Protection*" 
 
 \* **Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) se posamične nastavitve ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "*Ponastavi*" (v priročnem meniju) zadeva povrne v prvotno stanje. **Kljub temu naj velja opozorilo, da se vse zgoraj opisane počenjajo na lastno odgovornost.** Samo brez panike, smrtno nevarno tudi ni. :)
 
-###4. Hosts file
-Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
 
-In other words, <code>hosts</code> works on a system level and takes care of all the junk before it even "reaches" a browser. It blocks the whole website and therefore protects user from getting into contact with dangerous websites, full of malware. Further, it greatly improves browsing speed and privacy by blocking access to various known ad servers and data collecting systems. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
+###4. Datoteka hosts
+Pomembna in uporabna stvar za izboljšanje varnosti in osnovno (a učinkovito) blokiranje oglasov je datoteka "*hosts*" (ki je brez datotečne pripone). Kot pojasnjuje [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md): gre za besedilno datoteko, v katero se izbranim imenom gostiteljev (angl. [hostnames](https://en.wikipedia.org/wiki/Hostname)) določijo pripadajoči [IP naslovi](https://sl.wikipedia.org/wiki/IP-naslov), ki jih želimo prilagajati (v našem primeru blokirati) na sistemski ravni. To pomeni, da vnešena "pravila" učinkujejo na ravni celotnega [operacijskega sistema](https://sl.wikipedia.org/wiki/Operacijski_sistem), ne le na ravni brskalnikov oziroma posameznih programov.
 
-- in Windows, you  place it to the folder <code>C:\Windows\System32\Drivers\etc</code>
-- in Mac OS X, iOS, Linux or Android you place it to the folder <code>/etc/hosts</code>
+Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko <code>*hosts*</code> dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki - angl. "ad servers") ali nevarni (npr. strežnike z zlonamerno programsko opremo - angl. "malware servers") in torej niso uporabni. To delo je že opravil StevenBlack, zato si je možno datoteko z več kot 25.000 blokiranimi neželenimi gostitelji [**prenesti tukaj**](https://github.com/StevenBlack/hosts/archive/master.zip) (datoteka <code>hosts</code> se nahaja v mapi "*hosts-master*"). 
 
-After you are done, the easiest way is to restart the computer. Or you can also do it faster:
+Datoteko <code>hosts</code> odpakiramo, nato pa jo lahko kar zamenjamo z obstoječo (v kolikor že vanjo nismo predhodno vnašali svoja pravila). To lahko storimo na posebnem mestu v raziskovalcu datotek:
 
-- in **Windows**, open the Command Prompt window (cmd.exe) as an Administrator: Then run <code>ipconfig /flushdns</code>
-- in **Mac OS X**, open the Terminal and run: <code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
-- in **Linux Debian/Ubuntu**, open the Terminal and run with root privileges: <code>sudo /etc/rc.d/init.d/nscd restart</code>
-- in **Linux with systemd**, open the Terminal and run with root privileges: <code>sudo systemctl restart network.service</code>
-- in **Fedora Linux** or **Arch Linux/Manjaro**, open the Terminal and run with root privileges:<br><code>sudo systemctl restart NetworkManager.service</code>
+- v sistemih **Windows** jo kopiramo v: <code>C:\Windows\System32\Drivers\etc</code>
+- v sistemih **Mac OS X**, **iOS**, **Linux** ali **Android** jo kopiramo v: <code>/etc/hosts</code>
 
-Close the window and restart your browser, if it has been opened. That's all. Enjoy browsing :)
+Za tem lahko ponovno zaženemo računalnik in datoteka <hosts> bo samodejno osvežena. Lahko pa namesto ponovnega zagona vse skupaj usposobimo na hitrejši način:
 
+- V **Windows** sistemih odpri Ukazni poziv (cmd.exe) kot administrator. Nato zaženi:<br><code>ipconfig /flushdns</code>
+- V **Mac OS X** sistemih odpri Terminal in zaženi:<br><code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
+- V **Linux Debian / Ubuntu** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo /etc/rc.d/init.d/nscd restart</code>
+- V **Linux with systemd** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart network.service</code>
+- V **Fedora Linux** ali **Arch Linux / Manjaro** sistemih odpri Terminal z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart NetworkManager.service</code>
+
+Zapri okno. Če imaš odprt brskalnik, ga zapri in ponovno zaženi. To je vse.<br>Veselo in varno brskanje :)
+
+--------------
 ###5. License
 This is free and unencumbered software released into the public domain.
 
