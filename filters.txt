@@ -5,8 +5,13 @@
 ! License: http://unlicense.org
 
 ! Filters:
+@@||bar.piano-media.com/auth$script,domain=dnevnik.si
+@@||bar.piano-media.com/dnevnik/bar.js
+@@||mp.piano-media.com/uid$domain=dnevnik.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
 @@||moja.bolha.com
+@@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
+@@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
 @@||objava-oglasa.bolha.com
 @@||slokino.com
 ||*.disqus.com/count.js
@@ -19,6 +24,7 @@
 ||api.rtvslo.si/stats/log/vodplay
 ||code.jquery.com/jquery-1*.js$script,domain=www.reporter.si
 ||contentexchange.me/static
+||files.dnevnik.si/2013/porabi.jpg
 ||hit.gemius.pl
 ||hudo.com/latest-news
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
@@ -294,12 +300,11 @@ www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .monitor-
 www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .news.article > .monitor-g-ad-468
 www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .novice > .monitor-g-ad-468
 www.monitor.si###page > .main-content > .bar-side
-www.monitor.si###page > header > .rdecaPasica > .social.nav
 www.monitor.si##.wrap-page > .o160x600
 www.monitor.si##.wrap-page > .o180x90
 www.monitor.si##.wrap-page > .o728x90
-www.moskisvet.com##[id^="box"] > .doubleFacebook > .doubleFacebookHeader
 www.moskisvet.com##[id^="box_10002018d121"]
+www.moskisvet.com###box_30000156d123894
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
@@ -381,10 +386,12 @@ www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-ty
 www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(11)
 www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(12)
 www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(13)
+www.siol.net###content_wrap > .wnd_w4 > .wnd_w4:nth-of-type(8) > .wnd_w4
 www.siol.net##footer > .wrap > .ft-w1
 www.siol.net###info_wrap > .wnd_w2:nth-of-type(3) > .shadowLT_add.shadowLT
 www.siol.net###mcrumb > .wrap > .shadow
 www.siol.net###ph_content_0_Div2
+www.siol.net###rateBar
 www.siol.net###tabs_F754B8A3_1 > .wnd_w2 > .clrA
 www.siol.net###wdgt_elem_1
 www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
@@ -429,6 +436,7 @@ www.zurnal24.si###banner_related
 www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(4)
 www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(5) > .col_03
 www.zurnal24.si###service_related > .entry_options
+zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zenska.hudo.com###content > .grid1 > .banner-inner
 zenska.hudo.com###content > .grid1.rectangle
 zenska.hudo.com###single-content > .the-post > .knews-top
