@@ -1,50 +1,16 @@
 # slovenian-list
-[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je **regionalen seznam, prvenstveno namenjen za uBlock Origin**. Sestavljajo ga statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj samodejno blokira najbolj moteče (oglasne) elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj.**
+[Slovenska lista](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) je **regionalen seznam, prvenstveno namenjen za uBlock Origin**. Sestavljajo ga statični kozmetični filtri in filtri sledenja. Lista med drugim krije **[100 najbolj obiskanih slovenskih spletnih strani](http://www.moss-soz.si/si/rezultati_moss/obdobje/)**. Lista je namenjena nezahtevnim uporabnikom, saj s pomočjo ustrezne razširitve blokira najbolj moteče oglasne in pojavne elemente. Gre za komplementarno listo. To pomeni, da je **za boljši učinek zelo priporočljivo uporabljati tudi druge sezname filtrov skupaj z vsemi ostalimi metodami, ki so opisane spodaj**.
 
 V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim poročaj [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali pošlji [e-poštno sporočilo](mailto:betterweb.leon@outlook.com). Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. :)
 
 --------------
-**English**
-
+#####English
 [SVN: Slovenian List](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) is regional list primarily for uBlock Origin or uBlock, which consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
 
 The list is **intended for simple users** with a set-and-forget approach. It is a complementary list, so it should be used together with other ad blocking filter lists. Within uBlock Origin, Slovenian list can be turned on in settings within "*3rd-party filters*" tab simply by ticking the "*SVN: Slovenian List*" among regional lists. If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
 --------------
-###1. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
-**uBlock Origin**
-
-***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev ("add-on"). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/). Za brskalnik Firefox se uBlock Origin dobi [na tej strani](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/), s klikom na zelen gumb <code>*Dodaj v Firefox*</code>.
-
-###2. Priporočljivi dopolnilni seznami filtrov
-**A) Spodnje naročnine na filtre se lahko v okviru dodatnih možnosti razširitve uBlock Origin preprosto vklopijo tako, da se označijo s kljukico znotraj zavihka [*Filtri tretjih oseb*]:**
-- uBlock filters
-- uBlock filters – Badware risks
-- uBlock filters – Block-then-redirect
-- uBlock filters – Privacy
-- uBlock filters – Unbreak
-- Adblock Warning Removal List
-- EasyList
-- EasyPrivacy
-- Fanboy's Enhanced Tracking List
-- Malware domains
-- Spam404
-- SVN: Slovenian List
-
-Večina izmed zgornjih naročnin je najverjetneje že vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Nato klikni še na levi zgornji gumb <code>*Posodobi zdaj*</code>. Po nekaj trenutkih se gumb obarva sivo.
-
-**B) Nadalje se lahko vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage.**
-
-V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave naročnin (povezave seznamov s filtri). Da bo brskanje po spletu manj moteče in bolj hitro, je priporočljivo kopirati vse štiri spodnje povezave naenkrat. Nato jih prilepimo v polje filtrov po meri, ki se nahaja skrajno spodaj v okviru zavihka [*Filtri tretjih oseb*]. Vse dodane (prilepljene) povezave se morajo nahajati v svoji (posamezni) vrstici. Nato kliknemo na gumb <code>*Razčleni*</code>, ki se nahaja neposredno pod poljem filtrov. Za tem kliknemo še na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Na koncu pa kliknemo še na gumb <code>*Posodobi zdaj*</code> levo pri vrhu.
-
-<code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code><br>
-<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt</code><br>
-<code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
-<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code>
-
-*Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
-
-###3. Priporočljiv brskalnik
+###1. Priporočljiv brskalnik
 **[Mozilla Firefox](https://www.mozilla.org/sl/firefox/new/)**
 
 ***Zakaj?*** Ker ga je možno prilagoditi do te mere, da postane izredno hiter, varen, zaseben in uporabniku prijazen brskalnik.
@@ -109,29 +75,82 @@ Mimogrede: "*Zaščita pred sledenjem*" oziroma "*Firefox Tracking Protection*" 
 
 \* **Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) se posamične nastavitve ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "*Ponastavi*" (v priročnem meniju) zadeva povrne v prvotno stanje. **Kljub temu naj velja opozorilo, da se vse zgoraj opisane počenjajo na lastno odgovornost.** Samo brez panike, smrtno nevarno tudi ni. :)
 
+###2. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
+**uBlock Origin**
+
+***Zakaj?*** Ker je učinkovita, nezahtevna, enostavna in brezplačna razširitev ("add-on"). V različnih pogledih je mnogo boljša od ostalih tovrstnih razširitev, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz<br>[tega obširnega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/). Za brskalnik Firefox se uBlock Origin dobi [na tej strani](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/) s klikom na zelen gumb <code>*Dodaj v Firefox*</code>.
+
+####2.a) Priporočljivi dopolnilni seznami filtrov
+Spodnje naročnine na filtre se lahko v okviru dodatnih možnosti razširitve uBlock Origin preprosto vklopijo tako, da se označijo s kljukico znotraj zavihka [*Filtri tretjih oseb*]:
+- uBlock filters
+- uBlock filters – Badware risks
+- uBlock filters – Block-then-redirect
+- uBlock filters – Privacy
+- uBlock filters – Unbreak
+- Adblock Warning Removal List
+- EasyList
+- EasyPrivacy
+- Fanboy's Enhanced Tracking List
+- Malware domains
+- Spam404
+- SVN: Slovenian List
+
+Večji del zgornjih naročnin je najverjetneje že samodejno vklopljenih. Preostale s seznama kar pogumno vklopi. Nato se znotraj istega okna pomakni na vrh in klikni na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Nato klikni še na levi zgornji gumb <code>*Posodobi zdaj*</code>. Po nekaj trenutkih se gumb obarva sivo.
+
+####2.b) Priporočljivi dodatni dopolnilni seznami filtrov
+Nadalje se lahko ročno vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage.
+
+V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave naročnin (povezave seznamov s filtri). Da bo brskanje po spletu manj moteče in bolj hitro, je priporočljivo kopirati vse štiri spodnje povezave *naenkrat*. Nato jih prilepimo v polje filtrov po meri, ki se nahaja skrajno spodaj v okviru zavihka [*Filtri tretjih oseb*]. Vse dodane (prilepljene) povezave se morajo nahajati v svoji (posamezni) vrstici. Nato kliknemo na gumb <code>*Razčleni*</code>, ki se nahaja neposredno pod poljem filtrov. Za tem kliknemo še na desni zgornji gumb <code>*Uveljavi spremembe*</code>. Na koncu pa kliknemo še na gumb <code>*Posodobi zdaj*</code> levo pri vrhu.
+
+<code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code>
+
+*Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
+
+###3. Priporočene razširitve za brskalnik Mozilla Firefox
+Spodnje razširitve se lahko namestijo po želji (pripadajoče povezave za namestitev so namenjene uporabnikom brskalnika Firefox). Za nezahtevne uporabnike se toplo priporoča namestitev razširitev s številkami: **1**, **6**, **8**, **9**, **11** in **13**. Gre za zelo koristne razširitve, ki ne zahtevajo veliko časa za njihovo namestitev in nastavitev. Hkrati pa občutno izboljšajo in pohitrijo brskanje po spletu.
+
+1. [**au-revoir-utm**](https://addons.mozilla.org/sl/firefox/addon/au-revoir-utm/)
+2. [**Classic Theme Restorer**](https://addons.mozilla.org/sl/firefox/addon/classicthemerestorer/)
+3. [**Click&Clean**](https://addons.mozilla.org/sl/firefox/addon/clickclean/)
+4. [**Download Panel Tweaks**](https://addons.mozilla.org/sl/firefox/addon/download-panel-tweaks/)
+5. [**FindBar Tweak**](https://addons.mozilla.org/sl/firefox/addon/findbar-tweak/)
+6. [**I don't care about cookies**](https://addons.mozilla.org/sl/firefox/addon/i-dont-care-about-cookies/)
+7. [**Pocket**](https://mega.nz/#!T5RjHZyb!yXz5Wj-x7lWdRKbcCaMQ0_lZfpI828spmIm_sOEX5Ng)
+8. [**uBlock Origin**](https://addons.mozilla.org/sl/firefox/addon/ublock-origin/)
+9. [**Undo Close Tab Replacement**](https://addons.mozilla.org/sl/firefox/addon/undo-close-tab-replacement/)
+10. [**UnMHT**](https://addons.mozilla.org/sl/firefox/addon/unmht/)
+11. [**Webmail Ad Blocker**](https://addons.mozilla.org/sl/firefox/addon/webmail-ad-blocker/)
+12. [**X-notifier**](https://addons.mozilla.org/sl/firefox/addon/xnotifier/)
+13. [**YouTube High Definition**](https://addons.mozilla.org/sl/firefox/addon/youtube-high-definition/)
+14. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/sl/firefox/addon/zenmate-security-privacy-vpn/)
 
 ###4. Datoteka hosts
-Pomembna in uporabna stvar za izboljšanje varnosti in osnovno (a učinkovito) blokiranje oglasov je datoteka "*hosts*" (ki je brez datotečne pripone). Kot pojasnjuje [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md): gre za besedilno datoteko, v katero se izbranim imenom gostiteljev (angl. [hostnames](https://en.wikipedia.org/wiki/Hostname)) določijo pripadajoči [IP naslovi](https://sl.wikipedia.org/wiki/IP-naslov), ki jih želimo prilagajati (v našem primeru blokirati) na sistemski ravni. To pomeni, da vnešena "pravila" učinkujejo na ravni celotnega [operacijskega sistema](https://sl.wikipedia.org/wiki/Operacijski_sistem), ne le na ravni brskalnikov oziroma posameznih programov.
+Pomembna in uporabna stvar za izboljšanje varnosti in osnovno (a učinkovito) blokiranje oglasov je datoteka "***hosts***". Tudi ta datoteka (ki je brez datotečne pripone) je dopolnilo vsem ostalim prilagoditvam na tej strani. Uporablja se torej skupaj z razširitvijo uBlock Origin.
 
-Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko <code>*hosts*</code> dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki - angl. "ad servers") ali nevarni (npr. strežnike z zlonamerno programsko opremo - angl. "malware servers") in torej niso uporabni. To delo je že opravil StevenBlack, zato si je možno datoteko z več kot 25.000 blokiranimi neželenimi gostitelji [**prenesti tukaj**](https://github.com/StevenBlack/hosts/archive/master.zip) (datoteka <code>hosts</code> se nahaja v mapi "*hosts-master*"). 
+Kot pojasnjuje [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), gre pri *hosts* za besedilno datoteko, v katero se izbranim imenom gostiteljev (angl. [hostnames](https://en.wikipedia.org/wiki/Hostname)) določijo pripadajoči [IP naslovi](https://sl.wikipedia.org/wiki/IP-naslov), ki jih želimo prilagajati (v našem primeru blokirati) na sistemski ravni. To pomeni, da vnešena "pravila" za izbrane IP naslove učinkujejo na ravni celotnega [operacijskega sistema](https://sl.wikipedia.org/wiki/Operacijski_sistem), ne le na ravni brskalnikov oziroma posameznih programov.
 
-Datoteko <code>hosts</code> odpakiramo, nato pa jo lahko kar zamenjamo z obstoječo (v kolikor že vanjo nismo predhodno vnašali svoja pravila). To lahko storimo na posebnem mestu v raziskovalcu datotek:
+Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko *hosts* dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki - angl. "ad servers") ali nevarni (npr. strežniki z zlonamerno programsko opremo - angl. "malware servers"). Datoteko *hosts* z najbolj neželenimi gostitelji je že pripravil Steven Black. Omenjeno datoteko z več kot 25.000 blokiranimi neželenimi gostitelji je možno [**prenesti tukaj**](https://github.com/StevenBlack/hosts/archive/master.zip) (datoteka hosts se nahaja v mapi "*hosts-master*").
+
+Datoteko *hosts* odpakiramo, nato pa jo lahko kar zamenjamo z obstoječo verzijo (v kolikor vanjo nismo predhodno že vnašali svoja pravila). To lahko storimo na posebnem mestu v raziskovalcu datotek:
 
 - v sistemih **Windows** jo kopiramo v: <code>C:\Windows\System32\Drivers\etc</code>
 - v sistemih **Mac OS X**, **iOS**, **Linux** ali **Android** jo kopiramo v: <code>/etc/hosts</code>
 
 Za tem lahko ponovno zaženemo računalnik in datoteka <hosts> bo samodejno osvežena. Lahko pa namesto ponovnega zagona vse skupaj usposobimo na hitrejši način:
 
-- V **Windows** sistemih odpri Ukazni poziv (cmd.exe) kot administrator. Nato zaženi:<br><code>ipconfig /flushdns</code>
+- V **Windows** sistemih odpri Ukazni poziv (cmd.exe) kot administrator. Nato zaženi sledeči ukaz:<br><code>ipconfig /flushdns</code>
 - V **Mac OS X** sistemih odpri Terminal in zaženi:<br><code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
 - V **Linux Debian / Ubuntu** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo /etc/rc.d/init.d/nscd restart</code>
 - V **Linux with systemd** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart network.service</code>
-- V **Fedora Linux** ali **Arch Linux / Manjaro** sistemih odpri Terminal z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart NetworkManager.service</code>
+- V **Fedora Linux** ali **Arch Linux / Manjaro** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart NetworkManager.service</code>
 
 Zapri okno. Če imaš odprt brskalnik, ga zapri in ponovno zaženi. To je vse.<br>Veselo in varno brskanje :)
 
 --------------
-###5. License
+###License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
