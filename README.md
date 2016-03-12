@@ -58,7 +58,7 @@ Pritisni *enter* in potrdi Firefoxovo opozorilo o garanciji. Nato poišči vsa s
 
 Za tem, ko vklopiš "Zaščito pred sledenjem" pri nastavitvi št. **12**, nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali.** Sicer bodo delovali na samem Facebooku oz. Twitterju, njihove povezave na drugih straneh pa ne.
 
-**Če jih želiš vseeno videti, jih preprosto vklopiš v brskalniku.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti blokiran video / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb <code>*Onemogoči zaščito za to stran*</code>. Stran se bo samodejno osvežila, ikona "ščita" pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na spletnih straneh tiste domene ne bo več. Če želiš kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani strani), samo ponovi postopek (greš na spletno stran želene domene, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb <code>*Omogoči zaščito*</code>).
+**Če jih želiš vseeno videti, jih preprosto vklopiš.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono "ščita" takrat, ko boš na tisti strani, kjer želiš videti blokiran video / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikni na gumb <code>*Onemogoči zaščito za to stran*</code>. Stran se bo samodejno osvežila, ikona "ščita" pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) tudi v prihodnje shranil nastavitve. Tako da teh problemov na spletnih straneh tiste domene ne bo več. Če želiš kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani strani), samo ponovi postopek (greš na spletno stran želene domene, klikneš na ikono "ščita" in nato v oblačku klikneš na gumb <code>*Omogoči zaščito*</code>).
 
 Za naslednje strani lahko že vnaprej izklopiš Zaščito pred sledenjem (kot je opisano v prejšnjem odstavku), ker lahko sicer včasih - preverjeno - naletiš na nepopoln prikaz spletnih vsebin:
 - 24ur.com
@@ -71,9 +71,9 @@ Za naslednje strani lahko že vnaprej izklopiš Zaščito pred sledenjem (kot je
 - zadovoljna.si
 - zenska.hudo.com
 
-Mimogrede: "*Zaščita pred sledenjem*" oziroma "*Firefox Tracking Protection*" je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v Firefox brskalnik in je privzeto omogočen le v načinu zasebnega brskanja. Za "klasično" brskanje pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost vgraditve takšnega mehanizma v brskalnik je v tem, da deluje zelo hitro (hitreje in bolje od naknadno nameščenih razširitev ali filtrov).
+Mimogrede: "*Zaščita pred sledenjem*" oziroma "*Firefox Tracking Protection*" je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v Firefox brskalnik in je privzeto omogočen le v načinu zasebnega brskanja. Za "klasično" brskanje pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost vgraditve takšnega mehanizma v brskalnik je v tem, da deluje zelo hitro (hitreje in bolje od naknadno nameščenih razširitev). Kljub temu pa za najboljši učinek velja v brskalnik namestiti še druge razširitve, ki so opisane v nadaljevanju. Vgrajena "Zaščita pred sledenjem" namreč ne blokira drugih neželenih vsebin (npr. številnih oglasov in drugih motečih elementov na spletnih straneh).
 
-\* **Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) se posamične nastavitve ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "*Ponastavi*" (v priročnem meniju) zadeva povrne v prvotno stanje. **Kljub temu naj velja opozorilo, da se vse zgoraj opisane počenjajo na lastno odgovornost.** Samo brez panike, smrtno nevarno tudi ni. :)
+\* **Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) se posamične nastavitve ponovno poiščejo, nato se desnim miškinim klikom na vsako nastavitev preko izbora "*Ponastavi*" (v priročnem meniju) zadeva povrne v prvotno stanje. Kljub temu naj velja opozorilo, da se vse zgoraj opisane nastavitve uveljavljajo *na lastno odgovornost.* Samo brez panike, smrtno nevarno tudi ni. :)
 
 ###2. Priporočljiva razširitev za filtriranje (neželenih) vsebin na spletu
 **uBlock Origin**
@@ -110,7 +110,7 @@ V uBlock Origin se preprosto dodajo tako, da najprej izberemo spodnje povezave n
 *Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* ;)
 
 ###3. Priporočene razširitve za brskalnik Mozilla Firefox
-Spodnje razširitve se lahko namestijo po želji (pripadajoče povezave za namestitev so namenjene uporabnikom brskalnika Firefox). Za nezahtevne uporabnike se toplo priporoča namestitev razširitev s številkami: **1**, **6**, **8**, **9**, **11** in **13**. Gre za zelo koristne razširitve, ki ne zahtevajo veliko časa za njihovo namestitev in nastavitev. Hkrati pa občutno izboljšajo in pohitrijo brskanje po spletu.
+Spodnje razširitve se lahko namestijo po želji (pripadajoče povezave za namestitev so namenjene uporabnikom brskalnika Firefox). Za nezahtevne uporabnike se toplo priporoča namestitev razširitev št.: **1**, **6**, **8**, **9**, **11** in **13**. Gre za zelo koristne razširitve, ki ne zahtevajo veliko časa za njihovo namestitev in nastavitev. Hkrati pa občutno izboljšajo in pohitrijo brskanje po spletu.
 
 1. [**au-revoir-utm**](https://addons.mozilla.org/sl/firefox/addon/au-revoir-utm/)
 2. [**Classic Theme Restorer**](https://addons.mozilla.org/sl/firefox/addon/classicthemerestorer/)
@@ -130,16 +130,16 @@ Spodnje razširitve se lahko namestijo po želji (pripadajoče povezave za names
 ###4. Datoteka hosts
 Pomembna in uporabna stvar za izboljšanje varnosti in osnovno (a učinkovito) blokiranje oglasov je datoteka "***hosts***". Tudi ta datoteka (ki je brez datotečne pripone) je dopolnilo vsem ostalim prilagoditvam na tej strani. Uporablja se torej skupaj z razširitvijo uBlock Origin.
 
-Kot pojasnjuje [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), gre pri *hosts* za besedilno datoteko, v katero se izbranim imenom gostiteljev (angl. [hostnames](https://en.wikipedia.org/wiki/Hostname)) določijo pripadajoči [IP naslovi](https://sl.wikipedia.org/wiki/IP-naslov), ki jih želimo prilagajati (v našem primeru blokirati) na sistemski ravni. To pomeni, da vnešena "pravila" za izbrane IP naslove učinkujejo na ravni celotnega [operacijskega sistema](https://sl.wikipedia.org/wiki/Operacijski_sistem), ne le na ravni brskalnikov oziroma posameznih programov.
+Kot pojasnjuje [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), gre pri *hosts* za besedilno datoteko, v katero se izbranim imenom gostiteljev (angl. [hostnames](https://en.wikipedia.org/wiki/Hostname)) določijo pripadajoči [IP naslovi](https://sl.wikipedia.org/wiki/IP-naslov), ki jih želimo prilagajati (v našem primeru blokirati) na sistemski ravni. To pomeni, da vnešena pravila za izbrane IP naslove učinkujejo na ravni celotnega [operacijskega sistema](https://sl.wikipedia.org/wiki/Operacijski_sistem), ne le na ravni brskalnikov oziroma posameznih programov.
 
-Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko *hosts* dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki - angl. "ad servers") ali nevarni (npr. strežniki z zlonamerno programsko opremo - angl. "malware servers"). Datoteko *hosts* z najbolj neželenimi gostitelji je že pripravil Steven Black. Omenjeno datoteko z več kot 25.000 blokiranimi neželenimi gostitelji je možno [**prenesti tukaj**](https://github.com/StevenBlack/hosts/archive/master.zip) (datoteka hosts se nahaja v mapi "*hosts-master*").
+Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko *hosts* dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki - angl. "ad servers") ali nevarni (npr. strežniki z zlonamerno programsko opremo - angl. "malware servers"). Datoteko *hosts* z najbolj neželenimi gostitelji je že pripravil Steven Black. Omenjeno datoteko z več kot 25.000 blokiranimi neželenimi gostitelji je možno [**prenesti tukaj**](https://github.com/StevenBlack/hosts/archive/master.zip) (datoteka hosts se nahaja v mapi "hosts-master").
 
-Datoteko *hosts* odpakiramo, nato pa jo lahko kar zamenjamo z obstoječo verzijo (v kolikor vanjo nismo predhodno že vnašali svoja pravila). To lahko storimo na posebnem mestu v raziskovalcu datotek:
+Datoteko *hosts* odpakiramo. Nato jo lahko kar zamenjamo z obstoječo verzijo (v kolikor vanjo nismo predhodno že vnašali svoja pravila). To storimo na posebnem mestu v raziskovalcu datotek:
 
-- v sistemih **Windows** jo kopiramo v: <code>C:\Windows\System32\Drivers\etc</code>
-- v sistemih **Mac OS X**, **iOS**, **Linux** ali **Android** jo kopiramo v: <code>/etc/hosts</code>
+- v sistemih **Windows** jo kopiramo v:<br><code>C:\Windows\System32\Drivers\etc</code>
+- v sistemih **Mac OS X**, **iOS**, **Linux** ali **Android** jo kopiramo v:<br><code>/etc/hosts</code>
 
-Za tem lahko ponovno zaženemo računalnik in datoteka <hosts> bo samodejno osvežena. Lahko pa namesto ponovnega zagona vse skupaj usposobimo na hitrejši način:
+Za tem lahko ponovno zaženemo računalnik in datoteka *hosts* bo samodejno osvežena. Lahko pa namesto ponovnega zagona vse skupaj usposobimo na hitrejši način:
 
 - V **Windows** sistemih odpri Ukazni poziv (cmd.exe) kot administrator. Nato zaženi sledeči ukaz:<br><code>ipconfig /flushdns</code>
 - V **Mac OS X** sistemih odpri Terminal in zaženi:<br><code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
@@ -147,7 +147,9 @@ Za tem lahko ponovno zaženemo računalnik in datoteka <hosts> bo samodejno osve
 - V **Linux with systemd** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart network.service</code>
 - V **Fedora Linux** ali **Arch Linux / Manjaro** sistemih odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart NetworkManager.service</code>
 
-Zapri okno. Če imaš odprt brskalnik, ga zapri in ponovno zaženi. To je vse.<br>Veselo in varno brskanje :)
+Zapremo okno. V kolikor imamo odprt brskalnik, ga zapremo in ponovno zaženemo. To je vse.
+
+Veselo in varno brskanje :)
 
 --------------
 ###License
