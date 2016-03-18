@@ -68,8 +68,7 @@ avto.net##.page > .headerwrapper > .headerbanner
 avto.net##.page > .wrapper > .contentwrapper560 > .Rounded.ContentBox:nth-of-type(3)
 avto.net##.page > .wrapper > .menuwrapper > .RoundedTop.MenuBox
 avtoarena.si##.frame > .page > .right > .fb
-cekin.si###container > .header > .clearfix.headerMiddle
-cekin.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
+cekin.si###container > .header > .clearfix.headerMiddle > .banner > div
 cekin.si###small_content > .content > .eurojackpod_banner
 citymagazine.si###content > .wrapper > .cookie-bar
 citymagazine.si###content > .wrapper > .row.follow-us
@@ -186,6 +185,8 @@ slovnica.slovenscina.eu###biscuitFormDiv
 sobotainfo.com###content > .region-highlighted.region
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
+topjob.finance.si###article_social_top > .social-line
+topjob.finance.si###main-column-inner > .kos_signup
 varcevanje-energije.si###banner_container
 vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
 vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
@@ -198,6 +199,7 @@ volan.si###header-banner
 vreme.zurnal24.si###teaser > .grid-container > .grid-33 > .ad
 www.24ur.com###head > .content
 www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
+www.24ur.com###left > .full > .pr-article
 www.24ur.com###mb-wrapper-II
 www.24ur.com###morevideo > .end
 www.24ur.com###right > .blog-tadeje-lampret
@@ -286,6 +288,7 @@ www.mediaspeed.net##.page_cont > .page > .header > .banner4
 www.megasvet.net###doyoulikeus
 www.megasvet.net###header > .header-wrap > .white.container:nth-of-type(2) > .row > .col-md-10 > .center.ads
 www.megasvet.net###slidingmenu > .bannerkoda
+www.mladina.si###content > .main-wrap > .main > .main-box > .social
 www.mladina.si###footer > .fb.c190.column
 www.mobile.si###container > .navigatortop
 www.mobile.si###mleft > .content:nth-of-type(5)
