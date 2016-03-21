@@ -56,6 +56,7 @@
 ||www.reporter.si/sites/all/themes/bootstrap_barrio/images/ozadje*1920x1080.jpg
 ||www.reporter.si/sites/all/themes/bootstrap_barrio/images/posta-*.jpg
 ||www.revijavklop.si/media/images/fbglava.png
+||www.ringaraja.net/area/newsletterAdd.asp
 ||www.skladi.com/images/overlay.png
 ||www.slovenskenovice.si/sites/slovenskenovice.si/files/*.swf
 ||www.ss-mb.si/images/banners/*.gif
@@ -70,6 +71,7 @@ avto.net##.page > .wrapper > .menuwrapper > .RoundedTop.MenuBox
 avtoarena.si##.frame > .page > .right > .fb
 cekin.si###container > .header > .clearfix.headerMiddle > .banner > div
 cekin.si###small_content > .content > .eurojackpod_banner
+cekin.si###special_banner > .fb-join-us.simple
 citymagazine.si###content > .wrapper > .cookie-bar
 citymagazine.si###content > .wrapper > .row.follow-us
 citymagazine.si###content > .wrapper > .slot-bar-1.slotbar > .radio-banner-widget > .banner-square-7
@@ -202,6 +204,7 @@ www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .c
 www.24ur.com###left > .full > .pr-article
 www.24ur.com###mb-wrapper-II
 www.24ur.com###morevideo > .end
+www.24ur.com###right > .avtomobilizem
 www.24ur.com###right > .blog-tadeje-lampret
 www.24ur.com###right > .frendi_in_flirt_right_promo.front.box-medium
 www.24ur.com###right > .links-to-recrutation
@@ -217,7 +220,10 @@ www.avto.net##.page > .headerwrapper > .headerbanner
 www.avto-magazin.si##[id^="banner"]
 www.avto-magazin.si###main > .main > .comments > h3
 www.avto-magazin.si###navigation > .adwrapper
-www.avtomobilizem.com###content > .postContent.cf > .left > .contentBottom.cf > .blackened.right
+www.avtomobilizem.com##.cf > .main > .widget-ad-bottom-banner
+www.avtomobilizem.com##.cf > .main > .widget-ad-middle-banner
+www.avtomobilizem.com##.cf.wrap.body > .main > .type-post > .socials-forum
+www.avtomobilizem.com##.ssk-center.ssk-left.ssk-sticky.ssk-custom-parent
 www.bibaleze.si###box_60000522d125085 > .header > .clearfix.headerMiddle > .banner
 www.bibaleze.si###group_14
 www.bicikel.com###adsFooterPlaceHolder
@@ -311,6 +317,7 @@ www.moskisvet.com###box_30000156d123894
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
+www.napovednik.com###header > .header-r > .grey[href="/oglasevanje/"]
 www.napovednik.com###rot_right > .banner
 www.nepremicnine.net###slider-nn
 www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
@@ -371,8 +378,14 @@ www.revijavklop.si###sharebar
 www.revijazarja.si###rightframe > div:nth-of-type(3)
 www.revijazarja.si###rightframe > div:nth-of-type(4)
 www.revijazarja.si###sharebar
+www.ringaraja.net###dr_article > .heading-wrapper > .newsletterIcons
+www.ringaraja.net###dr_article > .heading-wrapper > .socialIcons
 www.ringaraja.net###header > .h-banner
-www.ringaraja.net###mainContainerCookies
+www.ringaraja.net###main > .twocolumns > .col-2 > .bannerInText
+www.ringaraja.net###main > .twocolumns > .col-2 > div:nth-of-type(1)
+www.ringaraja.net###main > .twocolumns > .col-2 > div:nth-of-type(2)
+www.ringaraja.net###main > .twocolumns > .col-2 > div:nth-of-type(3)
+www.ringaraja.net###PreRollVideoArticle > .bannerInText
 www.rtvslo.si###b_1166
 www.rtvslo.si###b_838
 www.salomon.si###firstSiteBanner
@@ -419,6 +432,7 @@ www.startaj.si###article_social_top
 www.statistik.si##.et_bloom_animated.et_bloom_visible.et_bloom_scroll.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_3.et_bloom_flyin_right.et_bloom_resize.et_bloom_optin.et_bloom_flyin > .et_bloom_flyin_bottom_inline.et_flyin_3_fields.et_bloom_animation_slideup.et_bloom_form_text_light.et_bloom_rounded.et_bloom_border_position_full.et_bloom_border_solid.et_bloom_with_border.carrot_edge.with_edge.et_bloom_form_bottom.et_bloom_form_container
 www.strojnistvo.com##.middle > .content > .sidebar > .banner
 www.super-obrok.si###avcn_wrapperInner
+www.tocnoto.si###banner01r
 www.tocnoto.si###footboxes
 www.tocnoto.si###topbanner
 www.vecer.com##[id^="divOglas"]
