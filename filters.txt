@@ -7,11 +7,12 @@
 ! Filters:
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
-@@||mp.piano-media.com/uid$domain=dnevnik.si
+@@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
 @@||moja.bolha.com
 @@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
+@@||mp.piano-media.com/uid$domain=dnevnik.si
 @@||objava-oglasa.bolha.com
 @@||slokino.com
 ||*.disqus.com/count.js
@@ -64,8 +65,6 @@
 ||www.triglav.si$popup
 1nadan.si###background
 1nadan.si##.content > .background_link
-avto.net##.headerbar
-avto.net##.page > .headerwrapper > .headerbanner
 avto.net##.page > .wrapper > .contentwrapper560 > .Rounded.ContentBox:nth-of-type(3)
 avto.net##.page > .wrapper > .menuwrapper > .RoundedTop.MenuBox
 avtoarena.si##.frame > .page > .right > .fb
@@ -96,6 +95,7 @@ kariernisejem.com##.container.container_head > .container > .first_con2.row > .c
 klip.si###add
 klip.si###fblikeklip
 klip.si###oglas
+klip.si###videoMain1 > .arib > .like
 koristno.net###upprev_box
 kozjansko.info###sidebar:nth-of-type(1)
 kozjansko.info###sidebar:nth-of-type(2)
@@ -215,8 +215,6 @@ www.aktivni.si###clanek > .span12:nth-of-type(6) > .hidden-print.row-fluid > .sp
 www.aktivni.si###clanek > .span12:nth-of-type(6) > .margin-top-bottom > .hidden-print.row-fluid.social-networks
 www.aktivni.si###header > .oglas
 www.aktivni.si###plista_widget_belowArticle
-www.avto.net##.headerbar
-www.avto.net##.page > .headerwrapper > .headerbanner
 www.avto-magazin.si##[id^="banner"]
 www.avto-magazin.si###main > .main > .comments > h3
 www.avto-magazin.si###navigation > .adwrapper
@@ -224,7 +222,11 @@ www.avtomobilizem.com##.cf > .main > .widget-ad-bottom-banner
 www.avtomobilizem.com##.cf > .main > .widget-ad-middle-banner
 www.avtomobilizem.com##.cf.wrap.body > .main > .type-post > .socials-forum
 www.avtomobilizem.com##.ssk-center.ssk-left.ssk-sticky.ssk-custom-parent
+www.bibaleze.si##[id^="box"] > .header > .clearfix > .banner
+www.bibaleze.si##[id^="box"] > .pampers-article
+www.bibaleze.si##[id^="box"] > .voyo-box
 www.bibaleze.si###box_60000522d125085 > .header > .clearfix.headerMiddle > .banner
+www.bibaleze.si###facebook-article-like
 www.bibaleze.si###group_14
 www.bicikel.com###adsFooterPlaceHolder
 www.bicikel.com###banner_right_absolute
@@ -431,6 +433,7 @@ www.ss-mb.si###content_inner > .content_table > tbody > tr > td:nth-of-type(3)
 www.startaj.si###article_social_top
 www.statistik.si##.et_bloom_animated.et_bloom_visible.et_bloom_scroll.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_3.et_bloom_flyin_right.et_bloom_resize.et_bloom_optin.et_bloom_flyin > .et_bloom_flyin_bottom_inline.et_flyin_3_fields.et_bloom_animation_slideup.et_bloom_form_text_light.et_bloom_rounded.et_bloom_border_position_full.et_bloom_border_solid.et_bloom_with_border.carrot_edge.with_edge.et_bloom_form_bottom.et_bloom_form_container
 www.strojnistvo.com##.middle > .content > .sidebar > .banner
+www.studentski-servis.com##[id^="brandedBackground"]
 www.super-obrok.si###avcn_wrapperInner
 www.tocnoto.si###banner01r
 www.tocnoto.si###footboxes
