@@ -181,6 +181,10 @@ revijaavenija.si###sharebar
 revijazvezde.si###content > .ng-scope > .ng-scope.home > .facebook
 revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.container > .banners
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
+siol.net##.body_wrap > .body_wrap__inner > .banner
+siol.net##.body_wrap > .body_wrap__inner > .container > .banner
+siol.net##.body_wrap > .body_wrap__inner > .container > .marketing
+siol.net##.body_wrap > .body_wrap__inner > .container:nth-of-type(7) > .cf > .parent.grid-12
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
 slo-tech.com###panels > aside > div:nth-of-type(4)
@@ -356,7 +360,8 @@ www.portalznanja.com###header > .title_holder > .advertisers_cta
 www.pozareport.si###centralBannerLeft
 www.pozareport.si###centralBannerRight
 www.pozareport.si###mainBox > .centralRight > .naslovnicaRightAd
-www.prokon-nepremicnine.com##center > table > tbody > tr:nth-of-type(2) > .tags > center:nth-of-type(9)
+www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(9)
+www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(10)
 www.prokuhar.si###bottom-wrap
 www.prokuhar.si###container > .bot-ads-area
 www.publishwall.si###pjax-full > .clearfix.external_wall_wrap > .external_wall_right_wrap > .clearfix.external_wall_right_wrapper
@@ -409,10 +414,6 @@ www.sentjur.net###front > .box-shadow:nth-of-type(1) > .banners-top
 www.sentjur.net###Home-extra300-160
 www.sentjur.net###wrapper > .box-shadow.main-body-extra > .ad-zone-left
 www.sentjur.net###wrapper > .box-shadow:nth-of-type(4) > .maincol > .post > .post_fbox
-www.siol.net##.body_wrap > .body_wrap__inner > .banner
-www.siol.net##.body_wrap > .body_wrap__inner > .container > .cf.marketing
-www.siol.net##.body_wrap > .body_wrap__inner > .container > .container > .cf.marketing
-www.siol.net##.body_wrap > .body_wrap__inner > .container:nth-of-type(7) > .cf > .parent.grid-12
 www.slo-zeleznice.si##body > .bannerPool
 www.slonep.net##[id^="ad"]
 www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
