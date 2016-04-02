@@ -50,7 +50,6 @@
 ||www.partis.si/tmp/ortoxmas.jpg
 ||www.pomurec.com/data/oglasi/*.gif
 ||www.posita.si$popup,domain=www.reporter.si
-||www.racunovodja.com/CDAS_ShowObject.aspx?id=2
 ||www.reporter.si/misc/gemius.js
 ||www.reporter.si/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.js$script,domain=www.reporter.si
 ||www.reporter.si/sites/all/themes/bootstrap_barrio/images/oglasniprevzemkorporepor.jpg
@@ -67,7 +66,9 @@
 1nadan.si##.content > .background_link
 avto.net##.page > .wrapper > .contentwrapper560 > .Rounded.ContentBox:nth-of-type(3)
 avto.net##.page > .wrapper > .menuwrapper > .RoundedTop.MenuBox
-avtoarena.si##.frame > .page > .right > .fb
+avtoarena.si###pop_up > .left > .social
+avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
+btc-city.com###main > section > .B > div > .visit > .B > div
 cekin.si###container > .header > .clearfix.headerMiddle > .banner > div
 cekin.si###small_content > .content > .eurojackpod_banner
 cekin.si###special_banner > .fb-join-us.simple
@@ -162,9 +163,9 @@ pozitivnenovice.com###facebook-likebox-2
 privoscite.si###BannerPositionBackground
 privoscite.si###BannerPositionCenterWithRight
 racunovodja.com##.page_background > .jedro > .desni_rob > div:nth-of-type(6)
-racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > .poravnajgor:nth-of-type(1) > tbody > tr > td > .vsebina_mod9
-racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > table:nth-of-type(2) > tbody > tr > td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1) > td:nth-of-type(1)
-racunovodja.com##.polprosojno
+racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > .poravnajgor:nth-of-type(1)
+racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > table > tbody > tr > td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1) > td:nth-of-type(1)
+racunovodja.com##body > div:nth-of-type(4) > div > div
 radio1.si###ctl00_Radio1Vsebina_LabelEPP288x240
 radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(1)
 radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(3)
@@ -248,7 +249,8 @@ www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 www.dnevnik.si###app-messages
 www.dnevnik.si###piano-root > .input
 www.dolenjskilist.si###id_obst_kom
-www.dolenjskilist.si###page > .content > .mainBar > .items:nth-of-type(2) > .krater-ad-728x90
+www.dolenjskilist.si###page > .content > .mainBar > .items > .ad200x200
+www.dolenjskilist.si###page > .content > .mainBar > .items > .krater-ad-728x90
 www.dolenjskilist.si###page > .content > .mainBar > .krater-ad-300x250
 www.dolenjskilist.si###page > .content > .sideBar > .krater-ad-300x250
 www.dominvrt.si###staticContent
@@ -267,6 +269,7 @@ www.etiketamagazin.com##[id^="post-"] > .banner.slide
 www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .fg4.novica.b.social
 www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
 www.europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
+www.eventim.si###banner-banners1
 www.finance.si###main-column-inner > .ure1.altnaslovka > *.adbox.borderbox.newsbox
 www.genspot.com##[id^="popup-"]
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
@@ -281,6 +284,7 @@ www.hudo.com###poster-modal > .poster-modal-wrapper > .top-banner
 www.hudo.com###sidebar > .box-group:nth-of-type(1)
 www.kapodol.com##[id^="divBanner"]
 www.kolosej.si###banner-horizontal
+www.kompas.si###master > table > tbody > tr > .stran > .osrednjiDel > tbody > tr > .banner-pokoncni
 www.kosarka.si###footer > .social > .fb.col
 www.kosarka.si###footer > .social > .tw.wide.col
 www.lisa.si###clanek > .social-networks:nth-of-type(2)
@@ -352,7 +356,6 @@ www.portalznanja.com###header > .title_holder > .advertisers_cta
 www.pozareport.si###centralBannerLeft
 www.pozareport.si###centralBannerRight
 www.pozareport.si###mainBox > .centralRight > .naslovnicaRightAd
-www.primorske.si###ad_728_close
 www.prokon-nepremicnine.com##center > table > tbody > tr:nth-of-type(2) > .tags > center:nth-of-type(9)
 www.prokuhar.si###bottom-wrap
 www.prokuhar.si###container > .bot-ads-area
@@ -372,6 +375,11 @@ www.racunalniske-novice.com###sharebar > li:nth-of-type(4)
 www.racunalniske-novice.com###subscribe_newsletter
 www.racunalniske-novice.com###TB_overlay
 www.racunalniske-novice.com###TB_window
+www.regionalobala.si##[id^="plista_widget"]
+www.regionalobala.si##body > .container_12 > .wrapper > .grid_8 > .no-min-height > div > .newsDescription:nth-of-type(7)
+www.regionalobala.si##body > .container_12 > .wrapper > .grid_8 > .p1 > .banner_700_125
+www.regionalobala.si##body > .container_12 > .wrapper > .grid_8 > .t1 > .banner_700_125
+www.regionalobala.si##body > .container_12 > .wrapper > .prefix_1 > .right2.t1
 www.revijamaja.si###rightframe > div:nth-of-type(2)
 www.revijamaja.si###rightframe > div:nth-of-type(5)
 www.revijamaja.si###sharebar
@@ -393,28 +401,18 @@ www.rtvslo.si###b_838
 www.salomon.si###firstSiteBanner
 www.salomon.si###firstSiteBanner2
 www.sensa.si###banner160
+www.sensa.si###fanbackshade
+www.sensa.si###fbpopup
+www.sensa.si###main > div > aside
 www.sentjur.net###front > .box-shadow.main-body-banners
 www.sentjur.net###front > .box-shadow:nth-of-type(1) > .banners-top
 www.sentjur.net###Home-extra300-160
 www.sentjur.net###wrapper > .box-shadow.main-body-extra > .ad-zone-left
 www.sentjur.net###wrapper > .box-shadow:nth-of-type(4) > .maincol > .post > .post_fbox
-www.siol.net###add_100p_92
-www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .spc_b18.wnd_w2:nth-of-type(7) > .wnd_w2
-www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(10)
-www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(11)
-www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(12)
-www.siol.net###content_wrap > .info_sec.spc_l18.wnd_w2 > .wdgt_ip.wdgt:nth-of-type(13)
-www.siol.net###content_wrap > .wnd_w4 > .wnd_w4:nth-of-type(8) > .wnd_w4
-www.siol.net##footer > .wrap > .ft-w1
-www.siol.net###info_wrap > .wnd_w2:nth-of-type(3) > .shadowLT_add.shadowLT
-www.siol.net###mcrumb > .wrap > .shadow
-www.siol.net###ph_content_0_Div2
-www.siol.net###rateBar
-www.siol.net###tabs_F754B8A3_1 > .wnd_w2 > .clrA
-www.siol.net###wdgt_elem_1
-www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
-www.siol.net###wdgt_elem_9 > .wnd_w2 > .nbox_20.nbox.wnd_w2 > .shadow > .inside
-www.siol.net###wdgt_elem_14 > .wnd_w2 > .nbox_19.nbox.wnd_w2 > .shadow > .inside
+www.siol.net##.body_wrap > .body_wrap__inner > .banner
+www.siol.net##.body_wrap > .body_wrap__inner > .container > .cf.marketing
+www.siol.net##.body_wrap > .body_wrap__inner > .container > .container > .cf.marketing
+www.siol.net##.body_wrap > .body_wrap__inner > .container:nth-of-type(7) > .cf > .parent.grid-12
 www.slo-zeleznice.si##body > .bannerPool
 www.slonep.net##[id^="ad"]
 www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
@@ -430,9 +428,10 @@ www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-a
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
 www.ss-mb.si###content_inner > .content_table > tbody > tr > td:nth-of-type(3)
+www.sta.si###center > .leadlist > .banners
 www.startaj.si###article_social_top
-www.statistik.si##.et_bloom_animated.et_bloom_visible.et_bloom_scroll.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_3.et_bloom_flyin_right.et_bloom_resize.et_bloom_optin.et_bloom_flyin > .et_bloom_flyin_bottom_inline.et_flyin_3_fields.et_bloom_animation_slideup.et_bloom_form_text_light.et_bloom_rounded.et_bloom_border_position_full.et_bloom_border_solid.et_bloom_with_border.carrot_edge.with_edge.et_bloom_form_bottom.et_bloom_form_container
 www.strojnistvo.com##.middle > .content > .sidebar > .banner
+www.studentski-servis.com###content > .contentWrap > .bgContent > .oneCol > .content > .bannerBlocks1 > .colsWrap > .pool.second.col
 www.studentski-servis.com##[id^="brandedBackground"]
 www.super-obrok.si###avcn_wrapperInner
 www.tocnoto.si###banner01r
