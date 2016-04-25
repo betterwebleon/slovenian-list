@@ -46,6 +46,7 @@
 ||www.nasmehni.me/banner/*.png
 ||www.partis.si/img/urgo.jpg
 ||www.partis.si/iprom*.html
+||www.partis.si/tmp/fruc.jpg
 ||www.partis.si/tmp/ortostevard.jpg
 ||www.partis.si/tmp/ortoxmas.jpg
 ||www.pomurec.com/data/oglasi/*.gif
@@ -91,6 +92,7 @@ igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
 iskreni.net###sidebar > .moduletable:nth-of-type(2)
+izvozniki.finance.si###article_social_top
 kapodol.com##[id^="divBanner"]
 kariernisejem.com##.container.container_head > .container > .first_con2.row > .container-fluid > .col-md-6:nth-of-type(2) > .row:nth-of-type(1) > .hidden-xs.pull-right.banner-first
 klip.si###add
@@ -183,6 +185,10 @@ revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.cont
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
 siol.net##.body_wrap > .body_wrap__inner > .banner
 siol.net##.body_wrap > .body_wrap__inner > .container > .banner
+siol.net##.body_wrap > .body_wrap__inner > .container > .container > .marketing > .grid-12
+siol.net##.body_wrap > .body_wrap__inner > .container > .grid-12 > .column_content > .column_content__inner > .no-gutter > .article__related_articles
+siol.net##.body_wrap > .body_wrap__inner > .container > .grid-12 > .column_content > .column_content__inner > .no-gutter > .banner
+siol.net##.body_wrap > .body_wrap__inner > .container > .grid-12 > .column_sidebar > .banner
 siol.net##.body_wrap > .body_wrap__inner > .container > .marketing
 siol.net##.body_wrap > .body_wrap__inner > .container:nth-of-type(7) > .cf > .parent.grid-12
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
