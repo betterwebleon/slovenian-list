@@ -92,7 +92,9 @@ igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
 iskreni.net###sidebar > .moduletable:nth-of-type(2)
+izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
+izvozniki.finance.si###top > .nbs-flexisel-container
 kapodol.com##[id^="divBanner"]
 kariernisejem.com##.container.container_head > .container > .first_con2.row > .container-fluid > .col-md-6:nth-of-type(2) > .row:nth-of-type(1) > .hidden-xs.pull-right.banner-first
 klip.si###add
@@ -107,6 +109,7 @@ kozjansko.info##[id^="post-main-"] > .entry > .kozjansko_info_pod_novico
 kozjansko.info##[id^="post-main-"] > .entry > .ssba
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
+manager.finance.si###article_social_bottom
 med.over.net##.page_background.clearfix.content > .main-container > .clearfix.box-holder > .right.span-3_1.span > .intextAdIgnore.box-full.box
 med.over.net###phorum > .main-container > .box-holder > .span > .box > .post-listing > .contentexchange
 med.over.net###phorum > .main-container > .box-holder > .span > .box > .post-listing > .main-post > .box-banner-468
@@ -158,8 +161,13 @@ odmuh.si##[id^="easy_facebook_page_plugin"]
 odmuh.si##[id^="adwidget_htmlwidget"]
 oglasnik.over.net
 okusno.je###box_360005731d128891 > .doubleFacebook
+penzionist.info###gkBannerTop
+penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
+penzionist.info###gkTop1 > div > .banner-center
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pokukaj.si##.lightface
+pokukaj.si###show > .ban_item
+pokukaj.si###show > div > div > .ban_item
 polet.si###main-container > .notice
 pozitivnenovice.com###facebook-likebox-2
 privoscite.si###BannerPositionBackground
@@ -183,6 +191,9 @@ revijaavenija.si###sharebar
 revijazvezde.si###content > .ng-scope > .ng-scope.home > .facebook
 revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.container > .banners
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
+rtvslo.si###b_1166
+rtvslo.si###b_838
+rtvslo.si###banner
 siol.net##.body_wrap > .body_wrap__inner > .banner
 siol.net##.body_wrap > .body_wrap__inner > .container > .banner
 siol.net##.body_wrap > .body_wrap__inner > .container > .container > .marketing > .grid-12
@@ -209,7 +220,9 @@ volan.si###banner45
 volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
+volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.zurnal24.si###teaser > .grid-container > .grid-33 > .ad
+www.24ur.com###cocacola-quiz
 www.24ur.com###head > .content
 www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
 www.24ur.com###left > .full > .pr-article
@@ -407,8 +420,6 @@ www.ringaraja.net###main > .twocolumns > .col-2 > div:nth-of-type(1)
 www.ringaraja.net###main > .twocolumns > .col-2 > div:nth-of-type(2)
 www.ringaraja.net###main > .twocolumns > .col-2 > div:nth-of-type(3)
 www.ringaraja.net###PreRollVideoArticle > .bannerInText
-www.rtvslo.si###b_1166
-www.rtvslo.si###b_838
 www.salomon.si###firstSiteBanner
 www.salomon.si###firstSiteBanner2
 www.sensa.si###banner160
@@ -451,6 +462,7 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
+www.zadovoljna.si##[id^="div_banner"]
 www.zadovoljna.si###box_180002682d1207193
 www.zadovoljna.si###box_180002682d1210259 > .backButton
 www.zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .doubleFacebookHeader
