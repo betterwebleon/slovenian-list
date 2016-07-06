@@ -14,7 +14,6 @@
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
 @@||mp.piano-media.com/uid$domain=dnevnik.si
 @@||objava-oglasa.bolha.com
-@@||podcrto.si
 @@||slokino.com
 ||24ur.com/*/discount_banner.css
 ||24ur.com/*/player/?mod=adlog
@@ -32,6 +31,7 @@
 ||hudo.com/latest-news
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
+||mercator.si/cookiesdirective/js/iCD.min.js
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
@@ -41,11 +41,11 @@
 ||static.dijaski.net/graphics/aff/telemach2.png
 ||static.plista.com
 ||www.bicikel.com/narocilo-revij.png
+||www.deloindom.si/sites/deloindom.si/files/styles/custom_ad_image$image
 ||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
-||www.nasmehni.me/banner/*.png
 ||www.partis.si/img/urgo.jpg
 ||www.partis.si/iprom*.html
 ||www.partis.si/tmp/fruc.jpg
@@ -71,6 +71,7 @@
 1nadan.si##.content > .background_link
 ap-ljubljana.si##.wrapper > .overlay
 avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
+avtoarena.si##.frame > .page > .right > .google
 avtoarena.si###pop_up > .left > .social
 avto.net##.PageWall > .Wrapper > .BannerBox972
 btc-city.com###main > section > .B > div > .visit > .B > div
@@ -90,11 +91,12 @@ demokracija.si###gkSidebar > .box:nth-of-type(2)
 demokracija.si###gkSidebar > .box:nth-of-type(6)
 demokracija.si###gkSidebar > .nomargin.box
 demotivacija.si##.container > .content > .row > .col-lg-4 > .floatdiv
+druzina.si###center > .module > .content > article > .article-content > p:nth-of-type(3)
+druzina.si###center > .module.banner
 econintersect.com###contentmain > center:nth-of-type(1)
 ekipa24.si##[id^="banner"]
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
-fotoarhiv.si###hi-eu-opt-in
 fotoarhiv.si###product_images > .sidebarBanner
 govori.se###branding
 igrice.hudo.com###contentLeft
@@ -120,6 +122,8 @@ kozjansko.info###sidebar:nth-of-type(2)
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
 manager.finance.si###article_social_bottom
+mediaspeed.net##.page_cont > .page > .content > .banner_cont
+mediaspeed.net##.page_cont > .page > .content > .gallery > .gallery_items > .banner_conts > .banner
 mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner2
 mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner_sTower
 mediaspeed.net##.page_cont > .page > .content > .slider > .banner2
@@ -133,7 +137,6 @@ med.over.net###phorum > .main-container > .clearfix.box-holder > .span-3_2.span 
 med.over.net###text-2
 med.over.net###text-3
 med.over.net###text-7
-||mercator.si/cookiesdirective/js/iCD.min.js
 meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
 mladipodjetnik.si###above-text-banner
 mladipodjetnik.si###below-text-banner
@@ -153,38 +156,24 @@ moski.hudo.com###single-content > .the-post > .knews-top
 moski.hudo.com###single-content > .the-post > .socials
 moski.hudo.com###single-sidebar > .grid1 > .banner-inner
 moski.hudo.com###single-sidebar > .grid1.rectangle
-najsplet.com^$third-party
-nasmehni.me###desno > a:nth-of-type(2) > .desno-head > .video
-nasmehni.me###desno > .desno-head > a > .video
-nasmehni.me###desno > .desno-head > .video
-nasmehni.me###desno > div:nth-of-type(1) > div:nth-of-type(1) > div > .video > div:nth-of-type(3)
-nasmehni.me###desno > div:nth-of-type(1) > div:nth-of-type(1) > .video
-nasmehni.me###desno > div:nth-of-type(1) > div:nth-of-type(2)
-nasmehni.me###desno > .video
-nasmehni.me###dufr
-nasmehni.me###most_pop > center
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(3)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
-##notice.annoying.$domain=delo.si|slovenskenovice.si|deloindom.si|polet.si|ddom.si|pogledi.si
+##notice.annoying.$domain=delo.si|deloindom.si|pogledi.si|polet.si|slovenskenovice.si
 nova24tv.si/ajax
 nova24tv.si##[id^="post-"] > .td-post-sharing-bottom.td-post-sharing
 nova24tv.si###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 nova24tv.si/upload/banners
-obisk.net^$third-party
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasnik.over.net
-okusno.je###div_banner_M
 okusno.je##[id^="box"] > .banner
-||over.net###askcook
-pagerank.si^$third-party
+okusno.je##[id^="div_banner"]
 penzionist.info###gkBannerTop
 penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
 penzionist.info###gkTop1 > div > .banner-center
-play.spotify.com###desktop > .show.mft.upsell-background.content
 pokukaj.si##.lightface
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
@@ -230,7 +219,7 @@ sobotainfo.com###content > .region-highlighted.region
 startaj.finance.si###article_social_top
 sta.si###center > .leadlist > .banners
 sta.si##.cookiepanel
-stevec.si^$third-party
+startaj.finance.si###main-column-inner > .kos_semitrans
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
 topjob.finance.si###article_social_top > .social-line
@@ -238,6 +227,7 @@ topjob.finance.si###main-column-inner > .kos_signup
 varcevanje-energije.si###banner_container
 varna-voznja.si/upload/banners/
 vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
+vizita.si###container > .header > .headerMiddle > .banner
 vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
 vizita.si###small_content > .content > .donat2.small_box
 vizita.si###small_content > .content > .slimcut.small_box > .content
@@ -280,12 +270,18 @@ www.bibaleze.si##[id^="box"] > .pampers-article
 www.bibaleze.si##[id^="box"] > .voyo-box
 www.bicikel.com###adsFooterPlaceHolder
 www.bicikel.com###banner_right_absolute
+www.bicikel.com###main-content-center > .plugin_box > .by_aid > .fb_like_container:nth-of-type(2)
 www.bicikel.com###right-relative-content > .plugin_box.hotpages_menu
+www.bodieko.si##[id^="post"] > .td-post-sharing-top
 www.bolha.com###coloumnAd
 www.bolha.com###content > .span-15.coloumn > .left.span-7
 www.bolha.com###newsOfTheDay
 www.bolha.com###servicesToItems
 www.bringler.com###block-block-28 > .blockcontent > .front_topgames_footer
+www.bringler.com###block-block-35
+www.bringler.com###left_click_div
+www.bringler.com###right_click_div
+www.bringler.com###right_detail > .featurebar_right
 www.bringler.com##.sitewrapper > .page_background > .center > .transparent.maincontent > .innercontent > .rightfatbanner_right_float > .featurebar_right
 www.butanplin.si###page > .footer > .column > .q-ico-shadow
 www.butanplin.si###page > .footer > .column > .q-ico-wrap
@@ -293,6 +289,7 @@ www.casnik.si###cas_right
 www.ceneje.si###userbarOceniTrgovino > .userbarBoxRateSeller
 www.cenim.se###bottom-sidebar
 www.delo.si###d_conmment_holder > .clanek_wrapper > .clanek_oglas_holder
+www.deloindom.si###header-banner
 www.dijaski.net###Logo
 www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 www.dnevnik.si###app-messages
@@ -319,6 +316,7 @@ www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .
 www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
 www.europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
 www.eventim.si###banner-banners1
+www.eventim.si###Page-Home > .section > .Advertisement
 www.finance.si###main-column-inner > .ure1.altnaslovka > *.adbox.borderbox.newsbox
 www.genspot.com##[id^="popup-"]
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
@@ -371,6 +369,8 @@ www.nepremicnine.net###slider-nn
 www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
 www.noviradio.si##[id^="post"] > .td-container > .td-pb-row > .td-main-content > .td-ss-main-content > .td-post-sharing-top
 www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
+www.obisk.net###sky > .box
+www.obisk.net###sky:nth-of-type(6)
 www.partis.si##a[href^="http://si.hit.gemius.pl"]
 www.partis.si##a[href^="http://www.urgo.si"]
 www.partis.si##.all > .dildo > .bigban
@@ -386,6 +386,7 @@ www.planet-lepote.com###top-of-page > .inside > .header-top > .banner728box
 www.planet-lepote.com###user-content-8bf3b392a4 > .banner728box
 www.planet.si##.container > .main > .page > .section-spacing.list > .grid-view.grid > .span_1_of_3.col:nth-of-type(6)
 www.planet.si##.container > .main > .page > .section-spacing.list > .grid-view.grid > .span_1_of_3.col:nth-of-type(6) > .banner-background.text-center
+www.playboy.si###article > .article-content > .article-share
 www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .relative.span10
 www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .span2 > .red.header-button
 www.podarimo.si###startPageRight
@@ -416,6 +417,7 @@ www.racunalniske-novice.com###multimedia > .cm.top.blue-belt-408
 www.racunalniske-novice.com###multimedia > .text-container
 www.racunalniske-novice.com###PR
 www.racunalniske-novice.com###sharebar > li:nth-of-type(4)
+www.racunalniske-novice.com###single-art-text > .fl
 www.racunalniske-novice.com###subscribe_newsletter
 www.racunalniske-novice.com###TB_overlay
 www.racunalniske-novice.com###TB_window
@@ -447,6 +449,7 @@ www.ringaraja.net###PreRollVideoArticle > .bannerInText
 www.salomon.si###firstSiteBanner
 www.salomon.si###firstSiteBanner2
 www.sensa.si###banner160
+www.sensa.si###bigHotArticle > .content > .social-networks:nth-of-type(1)
 www.sensa.si###fanbackshade
 www.sensa.si###fbpopup
 www.sensa.si###main > div > aside
@@ -465,7 +468,8 @@ www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-main-300-250.pane
 www.slovenskenovice.si###sidebar > .pane-plista-plista.pane-block.panel-pane
 www.slovenskenovice.si###sidebar > .pane-sn-fb-sn-fb-social-activity.pane-block.panel-pane
 www.slovenskenovice.si###sidebar > .pane-sn-last-pr-article-latest-pr-article-pane.pane-views-panes.panel-pane
-www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150.pane-views-panes.panel-pane
+www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-ad-300-125
+www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
 www.slo-zeleznice.si##body > .bannerPool
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
@@ -475,9 +479,12 @@ www.strojnistvo.com##.middle > .content > .sidebar > .banner
 www.studentski-servis.com###content > .contentWrap > .bgContent > .oneCol > .content > .bannerBlocks1 > .colsWrap > .pool.second.col
 www.studentski-servis.com##[id^="brandedBackground"]
 www.super-obrok.si###avcn_wrapperInner
+www.tekaskiforum.net###sidebar-footer > .mosaicflow__column:nth-of-type(4)
+www.tekaskiforum.net###wppas_custom_widgets-3
 www.tocnoto.si###banner01r
 www.tocnoto.si###footboxes
 www.tocnoto.si###topbanner
+www.vandraj.si##[id^="pukka-ad-widget-"]
 www.vecer.com##[id^="divOglas"]
 www.viva.si###content > .wrap > .sec_1 > .post_container > .content > .news_post > div:nth-of-type(7)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(1)
