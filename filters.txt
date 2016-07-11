@@ -30,7 +30,6 @@
 ||files.dnevnik.si/2013/porabi.jpg
 ||golfportal.info/*/banner*.png
 ||hit.gemius.pl
-||hudo.com/latest-news
 ||intextad.net
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
@@ -78,7 +77,7 @@ avtoarena.si##.frame > .page > .right > .google
 avtoarena.si###pop_up > .left > .social
 avto.net##.PageWall > .Wrapper > .BannerBox972
 btc-city.com###main > section > .B > div > .visit > .B > div
-cekin.si###container > .header > .clearfix.headerMiddle > .banner > div
+cekin.si###container > .header > .clearfix > .banner
 cekin.si###small_content > .content > .eurojackpod_banner
 cekin.si###special_banner > .fb-join-us.simple
 citymagazine.si##[id^="post"] > .entry-meta > .span6 > .entry-social-box
@@ -105,6 +104,7 @@ golfportal.info###content > div:nth-of-type(3)
 golfportal.info###content > div:nth-of-type(4)
 golfportal.info###divMain_pnlNewsVSN
 govori.se###branding
+hudo.com##[id^="hudolistbox"] > .default > .ad
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
@@ -169,7 +169,6 @@ moski.hudo.com###single-content > .the-post > .knews-top
 moski.hudo.com###single-content > .the-post > .socials
 moski.hudo.com###single-sidebar > .grid1 > .banner-inner
 moski.hudo.com###single-sidebar > .grid1.rectangle
-najsplet.com^$third-party
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(3)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
@@ -186,7 +185,6 @@ odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasnik.over.net
 okusno.je##[id^="box"] > .banner
 okusno.je##[id^="div_banner"]
-pagerank.si^$third-party
 penzionist.info###gkBannerTop
 penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
 penzionist.info###gkTop1 > div > .banner-center
@@ -236,7 +234,6 @@ sobotainfo.com###content > .region-highlighted.region
 startaj.finance.si###article_social_top
 sta.si###center > .leadlist > .banners
 startaj.finance.si###main-column-inner > .kos_semitrans
-stevec.si^$third-party
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
 topjob.finance.si###article_social_top > .social-line
@@ -293,7 +290,6 @@ www.bigpicture.si###text-2
 www.bigpicture.si###text-3
 www.bodieko.si##[id^="post"] > .td-post-sharing-top
 www.bolha.com###coloumnAd
-www.bolha.com###content > .span-15.coloumn > .left.span-7
 www.bolha.com###newsOfTheDay
 www.bolha.com###servicesToItems
 www.bringler.com###block-block-28 > .blockcontent > .front_topgames_footer
@@ -344,11 +340,6 @@ www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sid
 www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
 www.gohome.si###bannerFooter_wrap > .bannerFooter > object
 www.golfportal.si###column-right
-www.hudo.com###header > .header-wrap > .stripe > .stripe-wrap > .cats
-www.hudo.com###list > .adbox
-www.hudo.com###poster-modal > .poster-modal-wrapper > .sidebar-banner
-www.hudo.com###poster-modal > .poster-modal-wrapper > .top-banner
-www.hudo.com###sidebar > .box-group:nth-of-type(1)
 www.kolosej.si###banner-horizontal
 www.kompas.si###master > table > tbody > tr > .stran > .osrednjiDel > tbody > tr > .banner-pokoncni
 www.kosarka.si###footer > .social > .fb.col
@@ -484,6 +475,7 @@ www.sentjur.net###wrapper > .box-shadow:nth-of-type(4) > .maincol > .post > .pos
 www.slonep.net##[id^="ad"]
 www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
 www.slovenskenovice.si###block-views-sn-custom-ad-block-1
+www.slovenskenovice.si###content-wrapper > .clearfix > .panel-pane > .clearfix > p
 www.slovenskenovice.si###content-wrapper > .node-content > .node-background-wrapper > .panel-pane > .pane-content
 www.slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
 www.slovenskenovice.si###header-ads-wrapper
