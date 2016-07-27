@@ -3,7 +3,7 @@
 ! Issue tracker: https://github.com/betterwebleon/slovenian-list/issues
 ! Homepage: https://github.com/betterwebleon
 ! License: http://unlicense.org
-
+!
 ! Filters:
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
@@ -30,12 +30,13 @@
 ||files.dnevnik.si/2013/porabi.jpg
 ||golfportal.info/*/banner*.png
 ||hit.gemius.pl
+||internetmedia.si/ad-files
 ||intextad.net
+||livenetlife.com^$third-party
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
-||ok.internetmedia.si/ad-files$subdocument
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
@@ -68,7 +69,11 @@
 ||www.ss-mb.si/images/banners/*.gif
 ||www.ss-mb.si/images/banners/*.jpg
 ||www.triglav.si$popup
-
+!
+##.advert.box
+##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-125
+##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
+!
 1nadan.si###background
 1nadan.si##.content > .background_link
 ap-ljubljana.si##.wrapper > .overlay
@@ -163,6 +168,9 @@ mojepotovanje.hudo.com###content > .rectangle > .banner-inner
 mojepotovanje.hudo.com###single-content > .the-post > .socials
 mojepotovanje.hudo.com###single-sidebar > .grid1.rectangle
 mojepotovanje.hudo.com###single-sidebar > .rectangle > .banner-inner
+monitor.si##.o160x600
+monitor.si##.o180x90
+monitor.si##.o728x90
 moski.hudo.com###content > .grid1 > .banner-inner
 moski.hudo.com###content > .grid1.rectangle
 moski.hudo.com###single-content > .the-post > .knews-top
@@ -252,6 +260,7 @@ volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.zurnal24.si###teaser > .grid-container > .grid-33 > .ad
 www.24ur.com###cocacola-quiz
+www.24ur.com###div_banner_BEFORE_ARTICLE
 www.24ur.com###head > .content
 www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
 www.24ur.com###left > .full > .pr-article
@@ -359,18 +368,9 @@ www.mobile.si###mmidledbl > .headingfb
 www.mobile.si###skytower
 www.mojoglasnik.com###bannerline
 www.mojoglasnik.com###iprom_cp_wrapper
-www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .article > .monitor-g-ad-468
-www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .monitor-g-ad-468
-www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .news.article > .monitor-g-ad-468
-www.monitor.si###page > .main-content > .bar-main > .wrap > .content > .novice > .monitor-g-ad-468
-www.monitor.si###page > .main-content > .bar-side
-www.monitor.si##.wrap-page > .o160x600
-www.monitor.si##.wrap-page > .o180x90
-www.monitor.si##.wrap-page > .o728x90
 www.moskisvet.com###box_30000156d123894
 www.moskisvet.com###div_banner_M
 www.moskisvet.com##[id^="box_10002018d121"]
-www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .advert.box
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.napovednik.com###header > .header-r > .grey[href="/oglasevanje/"]
@@ -414,6 +414,7 @@ www.portalznanja.com###header > .title_holder > .advertisers_cta
 www.pozareport.si###centralBannerLeft
 www.pozareport.si###centralBannerRight
 www.pozareport.si###mainBox > .centralRight > .naslovnicaRightAd
+www.preberi.si###maincontent > .nospace > tbody > tr > td > .moduletable
 www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(10)
 www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(9)
 www.prokuhar.si###bottom-wrap
@@ -478,15 +479,12 @@ www.slovenskenovice.si###block-views-sn-custom-ad-block-1
 www.slovenskenovice.si###content-wrapper > .clearfix > .panel-pane > .clearfix > p
 www.slovenskenovice.si###content-wrapper > .node-content > .node-background-wrapper > .panel-pane > .pane-content
 www.slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
-www.slovenskenovice.si###header-ads-wrapper
 www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-125-1
 www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
 www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-main-300-250.pane-block.panel-pane
 www.slovenskenovice.si###sidebar > .pane-plista-plista.pane-block.panel-pane
 www.slovenskenovice.si###sidebar > .pane-sn-fb-sn-fb-social-activity.pane-block.panel-pane
 www.slovenskenovice.si###sidebar > .pane-sn-last-pr-article-latest-pr-article-pane.pane-views-panes.panel-pane
-www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-ad-300-125
-www.slovenskenovice.si###sidebar > .pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
 www.slo-zeleznice.si##body > .bannerPool
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
