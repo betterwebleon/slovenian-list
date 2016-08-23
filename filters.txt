@@ -4,9 +4,10 @@
 ! Homepage: https://github.com/betterwebleon
 ! License: http://unlicense.org
 !
-! Filters:
+! Network filters:
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
+@@||cdn.inspectlet.com/inspectlet.js$script,domain=1nadan.si
 @@||celje.info/wp-content/plugins/simple-share-buttons-adder/buttons/pagepeel/*.png
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
@@ -24,25 +25,29 @@
 ||ad.partis.si
 ||api.rtvslo.si/stats/log/vodplay
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
-||code.jquery.com/jquery-1*.js$script,domain=www.reporter.si
-||contentexchange.me^$third-party
+||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||*.disqus.com/count.js
 ||files.dnevnik.si/2013/porabi.jpg
 ||golfportal.info/*/banner*.png
-||hit.gemius.pl
-||internetmedia.si/ad-files
-||intextad.net
-||livenetlife.com^$third-party
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
+||pipe.aria.microsoft.com/collector/
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
+||reporter.si/misc/gemius.js
+||reporter.si/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.js$script,domain=reporter.si
+||reporter.si/sites/all/themes/bootstrap_barrio/images/oglasniprevzemkorporepor.jpg
+||reporter.si/sites/all/themes/bootstrap_barrio/images/ozadje*1920x1080.jpg
+||reporter.si/sites/all/themes/bootstrap_barrio/images/posta-*.jpg
+||reporter.si/sites/all/themes/custom/bootstrap_barrio/images/ozadjetriglav*.jpg
 ||static.dijaski.net/graphics/aff/telemach2.png
 ||static.plista.com
+||triglav.si/*$popup
+||triglavtek.si/*$popup
 ||www.bicikel.com/narocilo-revij.png
 ||www.deloindom.si/sites/deloindom.si/files/styles/custom_ad_image$image
 ||www.dolenjskilist.si/inc/ads-frame.asp
@@ -55,27 +60,37 @@
 ||www.partis.si/tmp/ortostevard.jpg
 ||www.partis.si/tmp/ortoxmas.jpg
 ||www.pomurec.com/data/oglasi/*.gif
-||www.posita.si$popup,domain=www.reporter.si
+||www.posita.si$popup,domain=reporter.si
 ||www.radiokrka.com/portals/oglasevanje
-||www.reporter.si/misc/gemius.js
-||www.reporter.si/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.js$script,domain=www.reporter.si
-||www.reporter.si/sites/all/themes/bootstrap_barrio/images/oglasniprevzemkorporepor.jpg
-||www.reporter.si/sites/all/themes/bootstrap_barrio/images/ozadje*1920x1080.jpg
-||www.reporter.si/sites/all/themes/bootstrap_barrio/images/posta-*.jpg
 ||www.revijavklop.si/media/images/fbglava.png
 ||www.ringaraja.net/area/newsletterAdd.asp
 ||www.skladi.com/images/overlay.png
 ||www.slovenskenovice.si/sites/slovenskenovice.si/files/*.swf
 ||www.ss-mb.si/images/banners/*.gif
 ||www.ss-mb.si/images/banners/*.jpg
-||www.triglav.si$popup
 !
+! General element filters
 ##.advert.box
 ##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-125
 ##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
+##notice.annoying.$domain=delo.si|deloindom.si|pogledi.si|polet.si|slovenskenovice.si
 !
-1nadan.si###background
-1nadan.si##.content > .background_link
+! Third-party filters
+contentexchange.me^$third-party
+gemius.pl^$third-party
+internetmedia.si^$third-party
+intextad.net^$third-party
+livenetlife.com^$third-party
+obisk.net^$third-party
+!
+! Site-specific element filters
+1nadan.si##.background_link
+24ur.com##.avtomobilizem
+24ur.com##.eurojackpod_banner
+24ur.com##.links-to-recrutation
+24ur.com##.voyo-box
+24ur.com###div_banner_T
+24ur.com###head > .content
 ap-ljubljana.si##.wrapper > .overlay
 avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
 avtoarena.si##.frame > .page > .right > .google
@@ -102,6 +117,7 @@ econintersect.com###contentmain > center:nth-of-type(1)
 ekipa24.si##[id^="banner"]
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
+enajdi.si###lightbox
 fotoarhiv.si###product_images > .sidebarBanner
 golfportal.info##[id^="right-banner"]
 golfportal.info###content > div:nth-of-type(2)
@@ -109,6 +125,8 @@ golfportal.info###content > div:nth-of-type(3)
 golfportal.info###content > div:nth-of-type(4)
 golfportal.info###divMain_pnlNewsVSN
 govori.se###branding
+hribi.net###desnistolpec
+hribi.net###oglas
 hudo.com##[id^="hudolistbox"] > .default > .ad
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
@@ -182,12 +200,10 @@ nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
-##notice.annoying.$domain=delo.si|deloindom.si|pogledi.si|polet.si|slovenskenovice.si
 nova24tv.si/ajax
 nova24tv.si##[id^="post-"] > .td-post-sharing-bottom.td-post-sharing
 nova24tv.si###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 nova24tv.si/upload/banners
-obisk.net^$third-party
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasnik.over.net
@@ -196,6 +212,8 @@ okusno.je##[id^="div_banner"]
 penzionist.info###gkBannerTop
 penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
 penzionist.info###gkTop1 > div > .banner-center
+planet.si##.container > .main > .page > .list:nth-of-type(2) > .grid:nth-of-type(1) > .col:nth-of-type(3)
+planet.si##.container > .main > .page > .main-column > .wrapper > .group:nth-of-type(1)
 pokukaj.si##.lightface
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
@@ -242,6 +260,7 @@ sobotainfo.com###content > .region-highlighted.region
 startaj.finance.si###article_social_top
 sta.si###center > .leadlist > .banners
 startaj.finance.si###main-column-inner > .kos_semitrans
+svet24.si##.banner-box
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
 topjob.finance.si###article_social_top > .social-line
@@ -259,20 +278,6 @@ volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.zurnal24.si###teaser > .grid-container > .grid-33 > .ad
-www.24ur.com###cocacola-quiz
-www.24ur.com###div_banner_BEFORE_ARTICLE
-www.24ur.com###head > .content
-www.24ur.com###left > .full > .clearfix:nth-of-type(7) > div:nth-of-type(3) > .clearfix.micro24Voyo > .micro24Title
-www.24ur.com###left > .full > .pr-article
-www.24ur.com###mb-wrapper-II
-www.24ur.com###morevideo > .end
-www.24ur.com###right > .avtomobilizem
-www.24ur.com###right > .blog-tadeje-lampret
-www.24ur.com###right > .frendi_in_flirt_right_promo.front.box-medium
-www.24ur.com###right > .links-to-recrutation
-www.24ur.com###rightmultiblock > .middle > .full > .eurojackpod_banner
-www.24ur.com###right > .voyo-new.voyo-box
-www.24ur.com###sendnews
 www.aktivni.si###clanek > .span12:nth-of-type(6) > .hidden-print.row-fluid > .span12
 www.aktivni.si###clanek > .span12:nth-of-type(6) > .margin-top-bottom > .hidden-print.row-fluid.social-networks
 www.aktivni.si###header > .oglas
@@ -397,8 +402,6 @@ www.planet-lepote.com###leftColumn > .banner728box:nth-of-type(4)
 www.planet-lepote.com###leftColumn > .right.banner728box
 www.planet-lepote.com###top-of-page > .inside > .header-top > .banner728box
 www.planet-lepote.com###user-content-8bf3b392a4 > .banner728box
-www.planet.si##.container > .main > .page > .section-spacing.list > .grid-view.grid > .span_1_of_3.col:nth-of-type(6)
-www.planet.si##.container > .main > .page > .section-spacing.list > .grid-view.grid > .span_1_of_3.col:nth-of-type(6) > .banner-background.text-center
 www.playboy.si###article > .article-content > .article-share
 www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .relative.span10
 www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .span2 > .red.header-button
