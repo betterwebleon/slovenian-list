@@ -28,11 +28,19 @@
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||*.disqus.com/count.js
 ||files.dnevnik.si/2013/porabi.jpg
+||files.dnevnik.si/2014/Emona_banner.jpg$image
 ||golfportal.info/*/banner*.png
+||img.rtvslo.si/*banner*.png$image
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
+||partis.si/img/urgo.jpg
+||partis.si/iprom*.html
+||partis.si/tmp/fruc.jpg
+||partis.si/tmp/ortostevard.jpg
+||partis.si/tmp/ortoxmas.jpg
+||partis.si/tmp/vzajemna4.jpg$image
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||pipe.aria.microsoft.com/collector/
@@ -54,11 +62,6 @@
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
-||www.partis.si/img/urgo.jpg
-||www.partis.si/iprom*.html
-||www.partis.si/tmp/fruc.jpg
-||www.partis.si/tmp/ortostevard.jpg
-||www.partis.si/tmp/ortoxmas.jpg
 ||www.pomurec.com/data/oglasi/*.gif
 ||www.posita.si$popup,domain=reporter.si
 ||www.radiokrka.com/portals/oglasevanje
@@ -86,6 +89,7 @@ obisk.net^$third-party
 ! Site-specific element filters
 1nadan.si##.background_link
 24ur.com##.avtomobilizem
+24ur.com##.blog-tadeje-lampret
 24ur.com##.eurojackpod_banner
 24ur.com##.links-to-recrutation
 24ur.com##.voyo-box
@@ -95,6 +99,7 @@ ap-ljubljana.si##.wrapper > .overlay
 avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
 avtoarena.si##.frame > .page > .right > .google
 avtoarena.si###pop_up > .left > .social
+avto.finance.si###article_social_top
 avto.net##.PageWall > .Wrapper > .BannerBox972
 btc-city.com###main > section > .B > div > .visit > .B > div
 cekin.si###container > .header > .clearfix > .banner
@@ -209,6 +214,17 @@ odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasnik.over.net
 okusno.je##[id^="box"] > .banner
 okusno.je##[id^="div_banner"]
+partis.si##a[href^="http://si.hit.gemius.pl"]
+partis.si##a[href^="http://www.urgo.si"]
+partis.si##a[href^="https://www.nistatusa-nipanike.si/"]
+partis.si##.all > .dildo > .bigban
+partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
+partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
+partis.si##body > div:nth-of-type(4) > div
+partis.si###righttd > .menijidesno:nth-of-type(1)
+partis.si###righttd > .menijidesno:nth-of-type(7)
+partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
+pctrgovina.com###wnb-bar
 penzionist.info###gkBannerTop
 penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
 penzionist.info###gkTop1 > div > .banner-center
@@ -254,6 +270,7 @@ siol.net##.body_wrap > .body_wrap__inner > .container > .marketing
 siol.net##.body_wrap > .body_wrap__inner > .container:nth-of-type(7) > .cf > .parent.grid-12
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
+slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
 slovnica.slovenscina.eu###biscuitFormDiv
 sobotainfo.com###content > .region-highlighted.region
@@ -389,15 +406,6 @@ www.noviradio.si##[id^="post"] > .td-container > .td-pb-row > .td-main-content >
 www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
 www.obisk.net###sky > .box
 www.obisk.net###sky:nth-of-type(6)
-www.partis.si##a[href^="http://si.hit.gemius.pl"]
-www.partis.si##a[href^="http://www.urgo.si"]
-www.partis.si##.all > .dildo > .bigban
-www.partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
-www.partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
-www.partis.si##body > div:nth-of-type(4) > div
-www.partis.si###righttd > .menijidesno:nth-of-type(1)
-www.partis.si###righttd > .menijidesno:nth-of-type(7)
-www.partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
 www.planet-lepote.com###leftColumn > .banner728box:nth-of-type(4)
 www.planet-lepote.com###leftColumn > .right.banner728box
 www.planet-lepote.com###top-of-page > .inside > .header-top > .banner728box
