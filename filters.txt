@@ -223,7 +223,6 @@ partis.si##a[href^="https://www.nistatusa-nipanike.si/"]
 partis.si##.all > .dildo > .bigban
 partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
 partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
-partis.si##.conhold > div:nth-of-type(4)
 partis.si##body > div:nth-of-type(4) > div
 partis.si###righttd > .menijidesno:nth-of-type(1)
 partis.si###righttd > .menijidesno:nth-of-type(7)
