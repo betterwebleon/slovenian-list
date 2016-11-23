@@ -44,6 +44,7 @@
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||pipe.aria.microsoft.com/collector/
+||pomurec.com/data/oglasi/
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
 ||reporter.si/misc/gemius.js
@@ -62,7 +63,6 @@
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
-||www.pomurec.com/data/oglasi/*.gif
 ||www.posita.si$popup,domain=reporter.si
 ||www.radiokrka.com/portals/oglasevanje
 ||www.revijavklop.si/media/images/fbglava.png
@@ -101,6 +101,7 @@ avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
 avtoarena.si##.frame > .page > .right > .google
 avtoarena.si###pop_up > .left > .social
 avto.finance.si###article_social_top
+avto.finance.si##.adbox
 avto.net##.PageWall > .Wrapper > .BannerBox972
 btc-city.com###main > section > .B > div > .visit > .B > div
 cekin.si###container > .header > .clearfix > .banner
@@ -194,7 +195,6 @@ mojepotovanje.hudo.com###content > .rectangle > .banner-inner
 mojepotovanje.hudo.com###single-content > .the-post > .socials
 mojepotovanje.hudo.com###single-sidebar > .grid1.rectangle
 mojepotovanje.hudo.com###single-sidebar > .rectangle > .banner-inner
-monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
 moski.hudo.com###content > .grid1 > .banner-inner
@@ -237,6 +237,9 @@ pokukaj.si##.lightface
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
 polet.si###main-container > .notice
+pomurec.com###nestandard
+pomurec.com##.fotoutr > .fotoutr4
+pomurec.com##.lightface
 pozitivnenovice.com###facebook-likebox-2
 privoscite.si###BannerPositionBackground
 privoscite.si###BannerPositionCenterWithRight
@@ -422,10 +425,6 @@ www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .span2 >
 www.podarimo.si###startPageRight
 www.podarimo.si###topBanner
 www.polet.si###block-delo-sf-delo-sf-links-2 > .content > .service-links-block
-www.pomurec.com##.lightface > tbody > tr:nth-of-type(2) > .centerCenter > .lightfaceContent
-www.pomurec.com###nestandard
-www.pomurec.com###side:nth-of-type(1)
-www.pomurec.com###side:nth-of-type(2) > .naslovzadnjikom:nth-of-type(12)
 www.portalznanja.com###cc-notification
 www.portalznanja.com###header > .title_holder > .advertisers_cta
 www.pozareport.si###centralBannerLeft
@@ -532,10 +531,6 @@ www.zadovoljna.si###facebook_box
 www.zadovoljna.si###group_30
 www.zadovoljna.si##[id^="div_banner"]
 www.zadovoljna.si###staticContent
-www.zurnal24.si###banner_related
-www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(4)
-www.zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(5) > .col_03
-www.zurnal24.si###service_related > .entry_options
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravje.si##.td-post-sharing-top
 zenska.hudo.com###content > .grid1 > .banner-inner
@@ -544,3 +539,9 @@ zenska.hudo.com###single-content > .the-post > .knews-top
 zenska.hudo.com###single-content > .the-post > .socials
 zenska.hudo.com###single-sidebar > .grid1 > .banner-inner
 zenska.hudo.com###single-sidebar > .grid1.rectangle
+zurnal24.si###banner_related
+zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(4)
+zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(5) > .col_03
+zurnal24.si###service_related > .entry_options
+zurnal24.si##.banner300x250
+zurnal24.si##.sh_block.block:nth-of-type(5) > .col_02
