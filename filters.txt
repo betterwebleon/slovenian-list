@@ -79,16 +79,18 @@
 ##notice.annoying.$domain=delo.si|deloindom.si|pogledi.si|polet.si|slovenskenovice.si
 !
 ! Third-party filters
-contentexchange.me^$third-party
-gemius.pl^$third-party
-internetmedia.si^$third-party
-intextad.net^$third-party
-livenetlife.com^$third-party
-obisk.net^$third-party
+||contentexchange.me^$third-party
+||gemius.pl^$third-party
+||internetmedia.si^$third-party
+||intextad.net^$third-party
+||livenetlife.com^$third-party
+||mailerlite.com^$third-party
+||obisk.net^$third-party
 !
 ! Site-specific element filters
 1nadan.si##.background_link
 24ur.com##.avtomobilizem
+24ur.com##.banner_criteo_article
 24ur.com##.blog-tadeje-lampret
 24ur.com##.eurojackpod_banner
 24ur.com##.links-to-recrutation
@@ -281,6 +283,18 @@ slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
+slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
+slovenskenovice.si###block-views-sn-custom-ad-block-1
+slovenskenovice.si###content-wrapper > .clearfix > .panel-pane > .clearfix > p
+slovenskenovice.si###content-wrapper > .node-content > .node-background-wrapper > .panel-pane > .pane-content
+slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
+slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-125-1
+slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
+slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-main-300-250.pane-block.panel-pane
+slovenskenovice.si###sidebar > .pane-plista-plista.pane-block.panel-pane
+slovenskenovice.si###sidebar > .pane-sn-fb-sn-fb-social-activity.pane-block.panel-pane
+slovenskenovice.si###sidebar > .pane-sn-last-pr-article-latest-pr-article-pane.pane-views-panes.panel-pane
+slovenskenovice.si##.blur-overlay
 slovnica.slovenscina.eu###biscuitFormDiv
 sobotainfo.com###content > .region-highlighted.region
 startaj.finance.si###article_social_top
@@ -490,17 +504,6 @@ www.sentjur.net###Home-extra300-160
 www.sentjur.net###wrapper > .box-shadow.main-body-extra > .ad-zone-left
 www.sentjur.net###wrapper > .box-shadow:nth-of-type(4) > .maincol > .post > .post_fbox
 www.slonep.net##[id^="ad"]
-www.slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
-www.slovenskenovice.si###block-views-sn-custom-ad-block-1
-www.slovenskenovice.si###content-wrapper > .clearfix > .panel-pane > .clearfix > p
-www.slovenskenovice.si###content-wrapper > .node-content > .node-background-wrapper > .panel-pane > .pane-content
-www.slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
-www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-125-1
-www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
-www.slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-main-300-250.pane-block.panel-pane
-www.slovenskenovice.si###sidebar > .pane-plista-plista.pane-block.panel-pane
-www.slovenskenovice.si###sidebar > .pane-sn-fb-sn-fb-social-activity.pane-block.panel-pane
-www.slovenskenovice.si###sidebar > .pane-sn-last-pr-article-latest-pr-article-pane.pane-views-panes.panel-pane
 www.slo-zeleznice.si##body > .bannerPool
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
@@ -540,8 +543,10 @@ zenska.hudo.com###single-content > .the-post > .socials
 zenska.hudo.com###single-sidebar > .grid1 > .banner-inner
 zenska.hudo.com###single-sidebar > .grid1.rectangle
 zurnal24.si###banner_related
+zurnal24.si###endlessScroller
 zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(4)
 zurnal24.si###outer_container > .three_col.sh_block.block:nth-of-type(5) > .col_03
 zurnal24.si###service_related > .entry_options
 zurnal24.si##.banner300x250
+zurnal24.si##.banner_img_test
 zurnal24.si##.sh_block.block:nth-of-type(5) > .col_02
