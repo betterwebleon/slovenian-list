@@ -34,6 +34,8 @@
 ||img.rtvslo.si/*banner*.png$image
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
+||mladina.si/*jquery.fancybox.js
+||mladina.si/media/img/oglasi/*
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
@@ -54,6 +56,7 @@
 ||static.plista.com
 ||triglav.si/*$popup
 ||triglavtek.si/*$popup
+||varna-voznja.si/upload/banners/
 ||www.bicikel.com/narocilo-revij.png
 ||www.deloindom.si/sites/deloindom.si/files/styles/custom_ad_image$image
 ||www.dolenjskilist.si/inc/ads-frame.asp
@@ -96,6 +99,7 @@
 24ur.com##.avtomobilizem
 24ur.com##.banner_criteo_article
 24ur.com##.blog-tadeje-lampret
+24ur.com##.box-medium:nth-of-type(5)
 24ur.com##.eurojackpod_banner
 24ur.com##.links-to-recrutation
 24ur.com##.renault
@@ -114,15 +118,19 @@ bodieko.si##.fancybox-overlay
 bodieko.si##.fancybox-type-inline
 bodieko.si##[id^="post"] > .td-post-sharing-top
 btc-city.com###main > section > .B > div > .visit > .B > div
-cekin.si###container > .header > .clearfix > .banner
-cekin.si###small_content > .content > .eurojackpod_banner
-cekin.si###special_banner > .fb-join-us.simple
+cekin.si##.banner
+cekin.si##onl-eurojackpot-teaser
+cekin.si##onl-magick-box:nth-of-type(1)
 citymagazine.si##[id^="post"] > .entry-meta > .span6 > .entry-social-box
 citymagazine.si###content > .wrapper > .slotbar > .listBox > .listBox-main > .banner-square-2
 citymagazine.si###content > .wrapper > .slotbar > .radio-banner-widget > .banner-square-7
+delo.si##.clanek_oglas_holder
+delo.si###BANNER_614x60
+delo.si###BANNER_650x80
 deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-content > .view-dom-id-9e54445adda791bb90df8ad5d6d0414b.view-display-id-pr_article_block.view-id-pr_article.view-pr-article.view > .view-content > .pagination-container
 deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-content > .view-dom-id-9e54445adda791bb90df8ad5d6d0414b.view-display-id-pr_article_block.view-id-pr_article.view-pr-article.view > .view-content > .pr-article-content-wrapper
 deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-title
+deloindom.si###header-banner
 demokracija.si###gkSidebar > .box > .content > .custom > p
 demokracija.si###gkSidebar > .box:nth-of-type(2)
 demokracija.si###gkSidebar > .box:nth-of-type(6)
@@ -169,11 +177,7 @@ klip.si###oglas
 klip.si###videoMain1 > .arib > .like
 koristno.net###upprev_box
 kos.interseek.si
-kozjansko.info##[id^="post-main-"] > .entry > .kozjansko_info_pod_naslovom_novice
-kozjansko.info##[id^="post-main-"] > .entry > .kozjansko_info_pod_novico
-kozjansko.info##[id^="post-main-"] > .entry > .ssba
-kozjansko.info###sidebar:nth-of-type(1)
-kozjansko.info###sidebar:nth-of-type(2)
+kozjansko.info##.g-single
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
 manager.finance.si###article_social_bottom
@@ -196,6 +200,10 @@ med.over.net###text-2
 med.over.net###text-3
 med.over.net###text-7
 meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
+mladina.si##.fancybox-overlay
+mladina.si##.info-box > .social
+mladina.si###content > .main-wrap > .main > .main-box > .social
+mladina.si###footer > .fb.c190.column
 mladipodjetnik.si###above-text-banner
 mladipodjetnik.si###below-text-banner
 mladipodjetnik.si###viewlet-below-content-title > .share-line
@@ -227,9 +235,9 @@ nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
-nova24tv.si/ajax
 nova24tv.si##[id^="post-"] > .td-post-sharing-bottom.td-post-sharing
 nova24tv.si###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
+nova24tv.si/ajax
 nova24tv.si/upload/banners
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
@@ -271,6 +279,7 @@ pomurje24.si##img[src="http://shrani.si/f/T/ei/31PqjJnD/oglasujte-tukaj-380-x-24
 pomurje24.si###blocks-left > a
 pomurje24.si###text-6
 pomurje24.si###text-14 > .textwidget > a:nth-of-type(1)
+poraba.com###banner
 pozitivnenovice.com###facebook-likebox-2
 pravljicna.si##.td-post-sharing-top
 privoscite.si###BannerPositionBackground
@@ -339,7 +348,8 @@ topjob.finance.si###main-column-inner > .kos_signup
 tv-spored.siol.net##.widget-footer > .row.wrapper
 utrinek.si##.td-post-sharing-top
 varcevanje-energije.si###banner_container
-varna-voznja.si/upload/banners/
+vecer.com##[id^="divOglas"]
+vecer.com##.stevci
 vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
 vizita.si###container > .header > .headerMiddle > .banner
 vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
@@ -390,8 +400,6 @@ www.casnik.si###cas_right
 www.celje.info###link_oglas
 www.ceneje.si###userbarOceniTrgovino > .userbarBoxRateSeller
 www.cenim.se###bottom-sidebar
-www.delo.si###d_conmment_holder > .clanek_wrapper > .clanek_oglas_holder
-www.deloindom.si###header-banner
 www.dijaski.net###Logo
 www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 www.dnevnik.si###app-messages
@@ -435,8 +443,6 @@ www.lisa.si###sidebar > .e-zin
 www.megasvet.net###doyoulikeus
 www.megasvet.net###header > .header-wrap > .white.container:nth-of-type(2) > .row > .col-md-10 > .center.ads
 www.megasvet.net###slidingmenu > .bannerkoda
-www.mladina.si###content > .main-wrap > .main > .main-box > .social
-www.mladina.si###footer > .fb.c190.column
 www.mobile.si###container > .navigatortop
 www.mobile.si###mleft > .content:nth-of-type(5)
 www.mobile.si###mleft > .titlered:nth-of-type(4)
@@ -548,7 +554,6 @@ www.tocnoto.si###banner01r
 www.tocnoto.si###footboxes
 www.tocnoto.si###topbanner
 www.vandraj.si##[id^="pukka-ad-widget-"]
-www.vecer.com##[id^="divOglas"]
 www.viva.si###content > .wrap > .sec_1 > .post_container > .content > .news_post > div:nth-of-type(7)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(1)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
