@@ -22,7 +22,7 @@
 ||24ur.com/*/player/?mod=statistics
 ||24ur.com/*/popklub_products_promotion.css
 ||24ur.com/*/promo-banners.css
-||ad.partis.si
+||ad.partis.si^
 ||api.rtvslo.si/stats/log/vodplay
 ||avtonasveti.com/*/uploads/*oglas*.jpg$image
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
@@ -35,7 +35,8 @@
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||mladina.si/*jquery.fancybox.js
-||mladina.si/media/img/oglasi/*
+||mladina.si/media/img/oglasi/^
+||mojblink.si/pic/banners/^$image
 ||nogomania.com/images/backgrounds/*.gif
 ||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
@@ -67,6 +68,7 @@
 ||www.partis.si/iprom*.html
 ||www.partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
 ||www.partis.si/tmp/fruc.jpg
+||www.partis.si/tmp/fruc2.jpg
 ||www.partis.si/tmp/ortostevard.jpg
 ||www.partis.si/tmp/ortoxmas.jpg
 ||www.partis.si/tmp/vzajemna4.jpg
@@ -121,6 +123,8 @@ btc-city.com###main > section > .B > div > .visit > .B > div
 cekin.si##.banner
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box:nth-of-type(1)
+ciklon.si###text-10
+ciklon.si###text-4
 citymagazine.si##[id^="post"] > .entry-meta > .span6 > .entry-social-box
 citymagazine.si###content > .wrapper > .slotbar > .listBox > .listBox-main > .banner-square-2
 citymagazine.si###content > .wrapper > .slotbar > .radio-banner-widget > .banner-square-7
@@ -144,6 +148,7 @@ ekipa24.si##[id^="banner"]
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
 enajdi.si###lightbox
+explicit.si##.special-message-wrapper
 fotoarhiv.si###product_images > .sidebarBanner
 golfportal.info##[id^="right-banner"]
 golfportal.info###content > div:nth-of-type(2)
@@ -355,6 +360,7 @@ vizita.si###container > .header > .headerMiddle > .banner
 vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
 vizita.si###small_content > .content > .donat2.small_box
 vizita.si###small_content > .content > .slimcut.small_box > .content
+volan.si##a[href^="https://www.volan.si/admin/upload/ads/generator.php"]
 volan.si###banner45
 volan.si###facebook
 volan.si###facebook-like
@@ -533,11 +539,6 @@ www.sensa.si###bigHotArticle > .content > .social-networks:nth-of-type(1)
 www.sensa.si###fanbackshade
 www.sensa.si###fbpopup
 www.sensa.si###main > div > aside
-www.sentjur.net###front > .box-shadow.main-body-banners
-www.sentjur.net###front > .box-shadow:nth-of-type(1) > .banners-top
-www.sentjur.net###Home-extra300-160
-www.sentjur.net###wrapper > .box-shadow.main-body-extra > .ad-zone-left
-www.sentjur.net###wrapper > .box-shadow:nth-of-type(4) > .maincol > .post > .post_fbox
 www.slonep.net##[id^="ad"]
 www.slo-zeleznice.si##body > .bannerPool
 www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(3)
