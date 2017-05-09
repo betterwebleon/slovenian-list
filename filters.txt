@@ -1,8 +1,11 @@
-! Title: SVN: Slovenian List
+[Adblock Plus 2.0]
+! Version: 67
+! Title: Slovenian List
 ! Expires: 3 days
-! Issue tracker: https://github.com/betterwebleon/slovenian-list/issues
-! Homepage: https://github.com/betterwebleon
-! License: http://unlicense.org
+! Homepage: https://github.com/betterwebleon/
+! Licence: http://unlicense.org/
+!
+! GitHub issues: https://github.com/betterwebleon/slovenian-list/issues
 !
 ! Network filters:
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
@@ -67,8 +70,7 @@
 ||www.partis.si/img/urgo.jpg
 ||www.partis.si/iprom*.html
 ||www.partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
-||www.partis.si/tmp/fruc.jpg
-||www.partis.si/tmp/fruc2.jpg
+||www.partis.si/tmp/fruc*.jpg
 ||www.partis.si/tmp/ortostevard.jpg
 ||www.partis.si/tmp/ortoxmas.jpg
 ||www.partis.si/tmp/vzajemna4.jpg
@@ -149,6 +151,7 @@ ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.cle
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
 enajdi.si###lightbox
 explicit.si##.special-message-wrapper
+finance.si###article_social_top
 fotoarhiv.si###product_images > .sidebarBanner
 golfportal.info##[id^="right-banner"]
 golfportal.info###content > div:nth-of-type(2)
