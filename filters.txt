@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 70
+! Version: 71
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -36,6 +36,7 @@
 ||golfportal.info/*/banner*.png
 ||img.rtvslo.si/*banner*.png$image
 ||itis.si/Embed_AdvertisersPromo.aspx
+||mailerlite.com*/banners^
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||megabon.eu/sl/widgets/slovenske_novice
@@ -93,8 +94,6 @@
 ||gemius.pl^$third-party
 ||internetmedia.si^$third-party
 ||intextad.net^$third-party
-||livenetlife.com^$third-party
-||mailerlite.com^$third-party
 ||obisk.net^$third-party
 !
 ! General element filters
@@ -104,10 +103,12 @@
 ##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
 ##notice.annoying.$domain=delo.si|deloindom.si|pogledi.si|polet.si|slovenskenovice.si
 !
-! Cookie notifications - temporary
-delo.si##.friendly.notice
-hudo.com##.cookie-screen
-kuponko.si##.cookieLocation
+! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
+##.cookie-screen
+##.cookieLocation
+##.friendly.notice
+###cookieLaw_notification
+###eu-cookies-consent
 !
 ! Site-specific element filters
 1nadan.si##.background_link
@@ -115,6 +116,7 @@ kuponko.si##.cookieLocation
 24ur.com##.banner_criteo_article
 24ur.com##.blog-tadeje-lampret
 24ur.com##.eurojackpod_banner
+24ur.com##.full > .clearfix:nth-of-type(6)
 24ur.com##.full > .clearfix:nth-of-type(7)
 24ur.com##.links-to-recrutation
 24ur.com##.renault
@@ -180,6 +182,7 @@ golfportal.info###divMain_pnlNewsVSN
 google.si##.gb_ha
 govori.se##.container > .row:nth-of-type(5)
 govori.se###branding
+holistic.si###popmake-overlay
 hribi.net###desnistolpec
 hribi.net###oglas
 hudo.com##.social-shares
@@ -191,6 +194,7 @@ iskreni.net###sidebar > .moduletable:nth-of-type(2)
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
+kamzvecer.si##.oglasni_banner
 kapodol.com##[id^="divBanner0"]
 kapodol.com##body > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td:nth-of-type(2) > table > tbody
 kapodol.com##body > table > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(1)
@@ -242,12 +246,16 @@ mojepotovanje.hudo.com###content > .rectangle > .banner-inner
 mojepotovanje.hudo.com###single-content > .the-post > .socials
 mojepotovanje.hudo.com###single-sidebar > .grid1.rectangle
 mojepotovanje.hudo.com###single-sidebar > .rectangle > .banner-inner
+mojprihranek.si##.article-view-right-container
+mojprihranek.si##.banner-subnews
+monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
 moskisvet.com##[id^="box_10002018d121"]
 moskisvet.com###box_30000156d123894
 moskisvet.com###box_4611d1222585
 moskisvet.com###div_banner_M
+moskisvet.com###div_banner_MCLANEK
 moski.hudo.com###content > .grid1 > .banner-inner
 moski.hudo.com###content > .grid1.rectangle
 moski.hudo.com###single-content > .the-post > .knews-top
