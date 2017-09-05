@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 72
+! Version: 73
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -41,18 +41,19 @@
 ||files.dnevnik.si/2013/porabi.jpg
 ||files.dnevnik.si/2014/Emona_banner.jpg$image
 ||golfportal.info/*/banner*.png
+||hudo.com/*/im_banner*.jpg
 ||img.rtvslo.si/*banner*.png$image
 ||itis.si/Embed_AdvertisersPromo.aspx
 ||mailerlite.com*/banners^
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||megabon.eu/sl/widgets/slovenske_novice
+||mlacom.si/modules/footermod/otherbg/mlacom-ozadje*.jpg
 ||mladina.si/*jquery.fancybox.js
 ||mladina.si/media/img/oglasi/^
 ||mojblink.si/pic/banners/*.gif
 ||mojblink.si/pic/banners/*.jpg
 ||nogomania.com/images/backgrounds/*.gif
-||nova24tv.si/media/2016/02/hit-background-winter.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||pipe.aria.microsoft.com/collector/
@@ -136,6 +137,7 @@ ap-ljubljana.si##.wrapper > .overlay
 avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
 avtoarena.si##.frame > .page > .right > .google
 avtoarena.si###pop_up > .left > .social
+avtomanija.com###Banner300R
 avtonasveti.com##.td-post-sharing-top
 avto.finance.si###article_social_top
 avto.finance.si##.adbox
@@ -217,6 +219,8 @@ klip.si###videoMain1 > .arib > .like
 kolosej.si###banner-horizontal
 kolosej.si###promo
 koristno.net###upprev_box
+kosmika.si###fan-exit
+kosmika.si###fanback
 kos.interseek.si
 kozjansko.info##.g-single
 lifestyle.enaa.com###html_javascript_adder-3
@@ -239,8 +243,6 @@ med.over.net###kvadrat2_widget-3
 meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
 mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
-mladina.si###content > .main-wrap > .main > .main-box > .social
-mladina.si###footer > .fb.c190.column
 mladipodjetnik.si###above-text-banner
 mladipodjetnik.si###below-text-banner
 mladipodjetnik.si###viewlet-below-content-title > .share-line
@@ -248,6 +250,7 @@ mojaleta.si###contentcontainer > .mainTable > .Column2 > .Container2
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .prNews
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .title
 mojaleta.si###dfpContentElement > .fullContent > .banner
+mojaobcina.si##.rightModBox:nth-of-type(3)
 mojblink.si##.widget-wrapper:nth-of-type(5)
 mojblink.si##.widget-wrapper:nth-of-type(6)
 mojepotovanje.hudo.com###content > .grid1.rectangle
@@ -268,22 +271,18 @@ moskisvet.com###box_30000156d123894
 moskisvet.com###box_4611d1222585
 moskisvet.com###div_banner_M
 moskisvet.com###div_banner_MCLANEK
-moski.hudo.com###content > .grid1 > .banner-inner
-moski.hudo.com###content > .grid1.rectangle
-moski.hudo.com###single-content > .the-post > .knews-top
-moski.hudo.com###single-content > .the-post > .socials
-moski.hudo.com###single-sidebar > .grid1 > .banner-inner
-moski.hudo.com###single-sidebar > .grid1.rectangle
+moski.hudo.com##.desktopAd
+moski.hudo.com##.grid1.rectangle
+moski.hudo.com##.the-post > .socials
+moski.hudo.com##a[href^="http://hudo.com/si/"]
+motiviran.si##[id^="adDesktop"]
+motiviran.si###secondary > div
 napovednik.com##.banner
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(3)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
-nova24tv.si##[id^="post-"] > .td-post-sharing-bottom.td-post-sharing
-nova24tv.si###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
-nova24tv.si/ajax
-nova24tv.si/upload/banners
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasi.delo.si##.page-header-adv
@@ -337,10 +336,10 @@ pravljicna.si##.td-post-sharing-top
 privoscite.si###BannerPositionBackground
 privoscite.si###BannerPositionCenterWithRight
 promplac.si###featuredNagrade
-racunovodja.com##body > div:nth-of-type(4) > div > div
-racunovodja.com##.page_background > .jedro > .desni_rob > div:nth-of-type(6)
-racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > .poravnajgor:nth-of-type(1)
-racunovodja.com##.page_background > .jedro > .levo_jedro > .osrednji_del > table > tbody > tr > td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1) > td:nth-of-type(1)
+racunovodja.com##.desni_rob > div:nth-of-type(6)
+racunovodja.com##.osrednji_del > .poravnajgor:nth-of-type(1)
+racunovodja.com##div:nth-of-type(4) > div > div
+racunovodja.com##td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1)
 radio1.si###ctl00_Radio1Vsebina_LabelEPP288x240
 radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(1)
 radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(13)
@@ -463,7 +462,6 @@ www.butanplin.si###page > .footer > .column > .q-ico-wrap
 www.casnik.si###cas_right
 www.celje.info###link_oglas
 www.cenim.se###bottom-sidebar
-www.dijaski.net###Logo
 www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 www.dnevnik.si###app-messages
 www.dnevnik.si###piano-root > .input
@@ -611,10 +609,7 @@ zadovoljna.si###staticContent
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
 zdravje.si##.td-post-sharing-top
-zenska.hudo.com###content > .grid1 > .banner-inner
-zenska.hudo.com###content > .grid1.rectangle
-zenska.hudo.com###single-content > .the-post > .knews-top
-zenska.hudo.com###single-content > .the-post > .socials
-zenska.hudo.com###single-sidebar > .grid1 > .banner-inner
-zenska.hudo.com###single-sidebar > .grid1.rectangle
+zenska.hudo.com##.desktopAd
+zenska.hudo.com##.the-post > .socials
+zenska.hudo.com##a[href^="http://hudo.com/si/"]
 zenskisvet.si##.widget_ads_big.widget
