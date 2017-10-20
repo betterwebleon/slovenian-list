@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 73
+! Version: 75
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
