@@ -14,6 +14,7 @@
 @@||cdn.inspectlet.com/inspectlet.js$script,domain=1nadan.si
 @@||celje.info/wp-content/plugins/simple-share-buttons-adder/buttons/pagepeel/*.png
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
+@@||google-analytics.com/ga.js$domain=prehrana.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
 @@||moja.bolha.com
 @@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
@@ -97,18 +98,20 @@
 !
 ! Third-party filters
 ||browser-update.org^$third-party
+||connect.facebook.net^*/fbevents.js$third-party
 ||contentexchange.me^$third-party
 ||gemius.pl^$third-party
 ||internetmedia.si^$third-party
 ||intextad.net^$third-party
 ||obisk.net^$third-party
+||onthe.io^$third-party
 !
 ! General element filters
 ##.advert.box
 ##.pane-uredni-ki-oglasi-na-kategoriji-custom-ad-300-125
 ##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-125
 ##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
-##notice.annoying.$domain=delo.si|deloindom.si|pogledi.si|polet.si|slovenskenovice.si
+##notice.annoying.$domain=deloindom.si|pogledi.si|polet.delo.si
 !
 ! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
 ##.cookie-screen
@@ -236,7 +239,6 @@ med.over.net##.box-full:nth-of-type(4)
 med.over.net##.box-full:nth-of-type(5)
 med.over.net##.single-post:nth-of-type(3)
 med.over.net##.single-post:nth-of-type(7)
-med.over.net##[id^="p"] > div:nth-of-type(4)
 med.over.net###contentexchange_widget-2
 med.over.net###kvadrat1_widget-4
 med.over.net###kvadrat2_widget-3
@@ -278,6 +280,7 @@ moski.hudo.com##a[href^="http://hudo.com/si/"]
 motiviran.si##[id^="adDesktop"]
 motiviran.si###secondary > div
 napovednik.com##.banner
+njena.svet24.si##.hidden-xs.banner
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(3)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > .si_BaC_h
@@ -290,6 +293,8 @@ oglasi.svet24.si##[id^="firstSiteBanner"]
 oglasnik.over.net
 okusno.je##[id^="box"] > .banner
 okusno.je##[id^="div_banner"]
+onaplus.si##.g-popup-wrapper
+onaplus.si###exitPopup
 partis.si##a[href^="http://img.bet-at-home.com/"]
 partis.si##a[href^="http://si.hit.gemius.pl"]
 partis.si##a[href^="http://www.urgo.si"]
