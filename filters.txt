@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 75
+! Version: 76
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -16,6 +16,7 @@
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||google-analytics.com/ga.js$domain=prehrana.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
+@@||infogr.am$domain=rtvslo.si
 @@||moja.bolha.com
 @@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
@@ -35,10 +36,12 @@
 ||avtonasveti.com/*/uploads/*oglas*.jpg$image
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
+||delo.si/*/pr_vertikalni.html$subdocument
 ||dostop.si/bannerji/*.png
 ||dostop.si/banners_click.aspx$document
 ||dostop.si/banners_click.aspx$inline-script
 ||dostop.si/banners_click.aspx$popup
+||engine2.livenetlife.com/Ping.aspx
 ||files.dnevnik.si/2013/porabi.jpg
 ||files.dnevnik.si/2014/Emona_banner.jpg$image
 ||golfportal.info/*/banner*.png
@@ -114,9 +117,10 @@
 ##notice.annoying.$domain=deloindom.si|pogledi.si|polet.delo.si
 !
 ! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
+! hudo.com
 ##.cookie-screen
-##.cookieLocation
 ##.friendly.notice
+! mojprihranek.si
 ###cookieLaw_notification
 ###eu-cookies-consent
 !
@@ -160,6 +164,7 @@ citymagazine.si##[id^="post"] > .entry-meta > .span6 > .entry-social-box
 citymagazine.si###content > .wrapper > .slotbar > .listBox > .listBox-main > .banner-square-2
 citymagazine.si###content > .wrapper > .slotbar > .radio-banner-widget > .banner-square-7
 delo.si##.clanek_oglas_holder
+delo.si##.clanek_wrapper
 delo.si###BANNER_614x60
 delo.si###BANNER_650x80
 delo.si###infografika_banner_320
@@ -191,7 +196,6 @@ golfportal.info###content > div:nth-of-type(2)
 golfportal.info###content > div:nth-of-type(3)
 golfportal.info###content > div:nth-of-type(4)
 golfportal.info###divMain_pnlNewsVSN
-google.si##.gb_ha
 govori.se##.container > .row:nth-of-type(5)
 govori.se###branding
 holistic.si###popmake-overlay
@@ -379,6 +383,8 @@ siol.net##.marketing
 siol.net##.menu__link--special
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
+slo-foto.net##.sf-ads_container
+slo-foto.net##.sf-panel:nth-of-type(2)
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
 slovenskenovice.si##.blur-overlay
@@ -415,6 +421,7 @@ topjob.finance.si###main-column-inner > .kos_signup
 trgovina.delo.si###banner
 tv-spored.siol.net##.wrapper > .col-4
 utrinek.si##.td-post-sharing-top
+varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
 vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
