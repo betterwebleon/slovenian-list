@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 76
+! Version: 77
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -8,7 +8,6 @@
 ! GitHub issues: https://github.com/betterwebleon/slovenian-list/issues
 !
 ! Network filters:
-@@||ads.24ur.com/adserver/api_banner.php
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
 @@||cdn.inspectlet.com/inspectlet.js$script,domain=1nadan.si
@@ -25,11 +24,6 @@
 @@||slokino.com
 @@||static.igre123.com/ads/*.gif$image,domain=igre123.com
 ||*.disqus.com/count.js
-||24ur.com/*/discount_banner.css
-||24ur.com/*/nepremicnine_box.html
-||24ur.com/*/player/?mod=adlog
-||24ur.com/*/player/?mod=statistics
-||24ur.com/*/popklub_products_promotion.css
 ||ad.partis.si^
 ||ads.24ur.com^
 ||api.rtvslo.si/stats/log/vodplay
@@ -70,7 +64,8 @@
 ||reporter.si/sites/all/themes/bootstrap_barrio/images/ozadje*1920x1080.jpg
 ||reporter.si/sites/all/themes/bootstrap_barrio/images/posta-*.jpg
 ||reporter.si/sites/all/themes/custom/bootstrap_barrio/images/ozadjetriglav*.jpg
-||s-graf.si$inline-script,domain=~s-graf.si
+||s-graf.si^$inline-script,domain=~s-graf.si
+||s-graf.si^$popup,domain=mojblink.si
 ||shrani.si/*/oglas*.gif$image,domain=pomurje24.si
 ||shrani.si/*/output*.gif$image,domain=pomurje24.si
 ||static.dijaski.net/graphics/aff/telemach2.png
@@ -78,8 +73,8 @@
 ||triglav.si/*$popup
 ||triglavtek.si/*$popup
 ||varna-voznja.si/upload/banners/
+||vecer.com/*/oglasi/$subdocument
 ||www.bicikel.com/narocilo-revij.png
-||www.deloindom.si/sites/deloindom.si/files/styles/custom_ad_image$image
 ||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
@@ -95,7 +90,6 @@
 ||www.radiokrka.com/portals/oglasevanje
 ||www.revijavklop.si/media/images/fbglava.png
 ||www.skladi.com/images/overlay.png
-||www.slovenskenovice.si/sites/slovenskenovice.si/files/*.swf
 ||www.ss-mb.si/images/banners/*.gif
 ||www.ss-mb.si/images/banners/*.jpg
 !
@@ -111,10 +105,7 @@
 !
 ! General element filters
 ##.advert.box
-##.pane-uredni-ki-oglasi-na-kategoriji-custom-ad-300-125
-##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-125
-##.pane-uredniski-oglasi-na-naslovnici-custom-ad-300-150
-##notice.annoying.$domain=deloindom.si|pogledi.si|polet.delo.si
+##.notice$domain=pogledi.delo.si|polet.delo.si
 !
 ! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
 ! hudo.com
@@ -126,20 +117,11 @@
 !
 ! Site-specific element filters
 1nadan.si##.background_link
-24ur.com##.avtomobilizem
-24ur.com##.banner_criteo_article
-24ur.com##.blog-tadeje-lampret
-24ur.com##.eurojackpod_banner
-24ur.com##.full > .clearfix:nth-of-type(6)
-24ur.com##.full > .clearfix:nth-of-type(7)
-24ur.com##.links-to-recrutation
-24ur.com##.renault
-24ur.com##.vojna
-24ur.com##.voyo-box
-24ur.com###div_banner_BEFORE_ARTICLE
-24ur.com###div_banner_T
-24ur.com###head
-24ur.com###morevideo > .end
+24ur.com##onl-eurojackpot-teaser
+24ur.com##.banner--before
+24ur.com##.banner.sidebar__box
+24ur.com##.grid--ads
+24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 ap-ljubljana.si##.wrapper > .overlay
 avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
 avtoarena.si##.frame > .page > .right > .google
@@ -151,6 +133,9 @@ avto.finance.si##.adbox
 avto.net##.Page > .Wrapper > .ShadowBtm > .contentwrapper > .OglasDataTabs > .OglasDataEmptyTab
 avto.net##.PageWall > .Wrapper > .BannerBox972
 avto.net##.ShadowBtm.MarginL
+avto-fokus.si###baner
+avto-fokus.si###banners
+bigbang.si##.wallpaperWrapper
 bodieko.si##.fancybox-overlay
 bodieko.si##.fancybox-type-inline
 bodieko.si##[id^="post"] > .td-post-sharing-top
@@ -158,21 +143,19 @@ btc-city.com###main > section > .B > div > .visit > .B > div
 cekin.si##.banner
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box:nth-of-type(1)
+ceneje.si##.topBannerSellerP
 ciklon.si###text-10
 ciklon.si###text-4
 citymagazine.si##[id^="post"] > .entry-meta > .span6 > .entry-social-box
 citymagazine.si###content > .wrapper > .slotbar > .listBox > .listBox-main > .banner-square-2
 citymagazine.si###content > .wrapper > .slotbar > .radio-banner-widget > .banner-square-7
+deloindom.si###exitPopup
 delo.si##.clanek_oglas_holder
 delo.si##.clanek_wrapper
 delo.si###BANNER_614x60
 delo.si###BANNER_650x80
 delo.si###infografika_banner_320
 delo.si###PR
-deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-content > .view-dom-id-9e54445adda791bb90df8ad5d6d0414b.view-display-id-pr_article_block.view-id-pr_article.view-pr-article.view > .view-content > .pagination-container
-deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-content > .view-dom-id-9e54445adda791bb90df8ad5d6d0414b.view-display-id-pr_article_block.view-id-pr_article.view-pr-article.view > .view-content > .pr-article-content-wrapper
-deloindom.si###col-2 > .pane-pr-article.pane-views.panel-pane > .pane-title
-deloindom.si###header-banner
 demokracija.si###gkSidebar > .box > .content > .custom > p
 demokracija.si###gkSidebar > .box:nth-of-type(2)
 demokracija.si###gkSidebar > .box:nth-of-type(6)
@@ -189,6 +172,7 @@ ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.cle
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
 enajdi.si###lightbox
 explicit.si##.special-message-wrapper
+finance.si##.adbox
 finance.si###article_social_top
 fotoarhiv.si###product_images > .sidebarBanner
 golfportal.info##[id^="right-banner"]
@@ -210,6 +194,7 @@ iskreni.net###sidebar > .moduletable:nth-of-type(2)
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
+kajkupiti.si##.banner1
 kamzvecer.si##.oglasni_banner
 kapodol.com##[id^="divBanner0"]
 kapodol.com##body > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td:nth-of-type(2) > table > tbody
@@ -233,6 +218,7 @@ kozjansko.info##.g-single
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
 manager.finance.si###article_social_bottom
+marketingmagazin.si##.banner_box
 mediaspeed.net##.page_cont > .page > .content > .banner_cont
 mediaspeed.net##.page_cont > .page > .content > .gallery > .gallery_items > .banner_conts > .banner
 mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner2
@@ -319,7 +305,6 @@ planet.si##.container > .main > .page > .main-column > .wrapper > .group:nth-of-
 pokukaj.si##.lightface
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
-polet.si###main-container > .notice
 pomurec.com###nestandard
 pomurec.com##.fotoutr > .fotoutr4
 pomurec.com##.lightface
@@ -336,6 +321,7 @@ pomurje24.si###text-6
 pomurje24.si###text-14 > .textwidget > a:nth-of-type(1)
 pomurje24.si###text-17
 poraba.com###banner
+portalplus.si###bgl
 pozareport.si##.naslovnicaRightAd:nth-of-type(1)
 pozareport.si##.naslovnicaRightBottom_1
 pozareport.si###centralBannerLeft
@@ -366,43 +352,25 @@ revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.cont
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
+rtvslo.si##.oglas
 rtvslo.si###b_1166
 rtvslo.si###b_838
 rtvslo.si###banner
 salomon.si##[id^="firstSiteBanner"]
 shop.kapodol.com###fixed > .site-banner
-siol.net##.banner--bizi
-siol.net##.body_wrap > .body_wrap__inner > .banner
-siol.net##.body_wrap > .body_wrap__inner > .container > .banner
-siol.net##.body_wrap > .body_wrap__inner > .container > .grid-12 > .column_content > .column_content__inner > .no-gutter > .article__related_articles
-siol.net##.body_wrap > .body_wrap__inner > .container > .grid-12 > .column_content > .column_content__inner > .no-gutter > .banner
-siol.net##.body_wrap > .body_wrap__inner > .container > .grid-12 > .column_sidebar > .banner
-siol.net##.body_wrap > .body_wrap__inner > .container:nth-of-type(7) > .cf > .parent.grid-12
-siol.net##.lightbluebox
+siol.net##div.grid-12.grid-md-3
+siol.net##.card--ts_storitva
+siol.net##.card__link[href^="http://www.telekom.si/zasebni-uporabniki/ugodnosti/modri-fon"]
 siol.net##.marketing
-siol.net##.menu__link--special
+siol.net##.ts_storitve
+siol.net###itisAdPromo
+siol.net###yodaarticle
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
 slo-foto.net##.sf-ads_container
 slo-foto.net##.sf-panel:nth-of-type(2)
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
-slovenskenovice.si##.blur-overlay
-slovenskenovice.si##.pane-block-1
-slovenskenovice.si##.pane-feed-items-panel-pane-1
-slovenskenovice.si##.pane-sn-last-pr-article-latest-pr-article-pane-cat
-slovenskenovice.si##.views-field-field-custom-ad-media
-slovenskenovice.si###block-delo-iprom-delo-iprom-728-90
-slovenskenovice.si###block-views-sn-custom-ad-block-1
-slovenskenovice.si###content-wrapper > .clearfix > .panel-pane > .clearfix > p
-slovenskenovice.si###content-wrapper > .node-content > .node-background-wrapper > .panel-pane > .pane-content
-slovenskenovice.si###front-news-grid > .front-news-box > .clearfix.front-news-inner > .front-news-aside > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
-slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-125-1
-slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-300-250.pane-block.panel-pane
-slovenskenovice.si###sidebar > .pane-delo-iprom-delo-iprom-main-300-250.pane-block.panel-pane
-slovenskenovice.si###sidebar > .pane-plista-plista.pane-block.panel-pane
-slovenskenovice.si###sidebar > .pane-sn-fb-sn-fb-social-activity.pane-block.panel-pane
-slovenskenovice.si###sidebar > .pane-sn-last-pr-article-latest-pr-article-pane.pane-views-panes.panel-pane
 slovnica.slovenscina.eu###biscuitFormDiv
 sobotainfo.com###content > .region-highlighted.region
 spored.tv###RightBanner
@@ -541,8 +509,6 @@ www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .relativ
 www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .span2 > .red.header-button
 www.podarimo.si###startPageRight
 www.podarimo.si###topBanner
-www.polet.si###block-delo-sf-delo-sf-links-2 > .content > .service-links-block
-www.portalznanja.com###cc-notification
 www.portalznanja.com###header > .title_holder > .advertisers_cta
 www.preberi.si###maincontent > .nospace > tbody > tr > td > .moduletable
 www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(10)
