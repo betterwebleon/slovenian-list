@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 77
+! Version: 78
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -114,14 +114,18 @@
 ! mojprihranek.si
 ###cookieLaw_notification
 ###eu-cookies-consent
+! najlektoriranje.si
+###eu-okno
 !
 ! Site-specific element filters
 1nadan.si##.background_link
 24ur.com##onl-eurojackpot-teaser
+24ur.com##onl-voyo.sidebar__box
 24ur.com##.banner--before
 24ur.com##.banner.sidebar__box
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
+24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
 ap-ljubljana.si##.wrapper > .overlay
 avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
 avtoarena.si##.frame > .page > .right > .google
@@ -358,10 +362,11 @@ rtvslo.si###b_838
 rtvslo.si###banner
 salomon.si##[id^="firstSiteBanner"]
 shop.kapodol.com###fixed > .site-banner
-siol.net##div.grid-12.grid-md-3
 siol.net##.card--ts_storitva
-siol.net##.card__link[href^="http://www.telekom.si/zasebni-uporabniki/ugodnosti/modri-fon"]
+siol.net##.grid-12.grid-md-3
+siol.net##.grid-12.grid-md-8.grid-lg-3
 siol.net##.marketing
+siol.net##.spored_widget--special > .no-gutter
 siol.net##.ts_storitve
 siol.net###itisAdPromo
 siol.net###yodaarticle
@@ -392,6 +397,7 @@ utrinek.si##.td-post-sharing-top
 varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
+vemkajjem.si##[id^="oglasi"]
 vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
 vizita.si###container > .header > .headerMiddle > .banner
 vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
