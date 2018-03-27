@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 78
+! Version: 79
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -10,7 +10,6 @@
 ! Network filters:
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
-@@||cdn.inspectlet.com/inspectlet.js$script,domain=1nadan.si
 @@||celje.info/wp-content/plugins/simple-share-buttons-adder/buttons/pagepeel/*.png
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||google-analytics.com/ga.js$domain=prehrana.si
