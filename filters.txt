@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 79
+! Version: 80
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -40,6 +40,8 @@
 ||golfportal.info/*/banner*.png
 ||hudo.com/*/im_banner*.jpg
 ||img.rtvslo.si/*banner*.png$image
+||ipromcloud.com/ipromNS.js$script
+||iprom.net/adasync.js$script
 ||itis.si/Embed_AdvertisersPromo.aspx
 ||mailerlite.com*/banners^
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
@@ -50,6 +52,8 @@
 ||mladina.si/media/img/oglasi/^
 ||mojblink.si/pic/banners/*.gif
 ||mojblink.si/pic/banners/*.jpg
+||monitor.si/inc/*/php/twitter/jquery.tweet.js
+||monitor.si/media/img/$subdocument
 ||nogomania.com/images/backgrounds/*.gif
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
@@ -133,6 +137,9 @@ avtomanija.com###Banner300R
 avtonasveti.com##.td-post-sharing-top
 avto.finance.si###article_social_top
 avto.finance.si##.adbox
+avto.info##.bannerR2
+avto.info###bannerC1_728
+avto.info###bannerC2
 avto.net##.Page > .Wrapper > .ShadowBtm > .contentwrapper > .OglasDataTabs > .OglasDataEmptyTab
 avto.net##.PageWall > .Wrapper > .BannerBox972
 avto.net##.ShadowBtm.MarginL
@@ -261,6 +268,7 @@ mojprihranek.si##.banner-subnews
 monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
+monitor.si##.video-ad
 moskisvet.com##[id^="box_10002018d121"]
 moskisvet.com###box_30000156d123894
 moskisvet.com###box_4611d1222585
@@ -421,12 +429,12 @@ www.avtomobilizem.com##.cf > .main > .widget-ad-bottom-banner
 www.avtomobilizem.com##.cf > .main > .widget-ad-middle-banner
 www.avtomobilizem.com##.cf.wrap.body > .main > .type-post > .socials-forum
 www.avtomobilizem.com##.ssk-center.ssk-left.ssk-sticky.ssk-custom-parent
-www.bibaleze.si###box_60000522d125085 > .header > .clearfix.headerMiddle > .banner
-www.bibaleze.si###facebook-article-like
-www.bibaleze.si###group_14
 www.bibaleze.si##[id^="box"] > .header > .clearfix > .banner
 www.bibaleze.si##[id^="box"] > .pampers-article
 www.bibaleze.si##[id^="box"] > .voyo-box
+www.bibaleze.si###box_60000522d125085 > .header > .clearfix.headerMiddle > .banner
+www.bibaleze.si###facebook-article-like
+www.bibaleze.si###group_14
 www.bicikel.com###adsFooterPlaceHolder
 www.bicikel.com###banner_right_absolute
 www.bicikel.com###main-content-center > .plugin_box > .by_aid > .fb_like_container:nth-of-type(2)
@@ -541,11 +549,11 @@ www.radiokrka.com##.content-fixed-top > .container > .row > .bgleft > .sidebar >
 www.radiokrka.com##.linearBg > .container > .row > .bgleft > .sidebar > .row > .text-center
 www.radiokrka.com##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 www.radiokrka.com##.mfp-ready.mfp-bg
+www.regionalobala.si##[id^="plista_widget"]
 www.regionalobala.si##body > .container_12 > .wrapper > .grid_8 > .no-min-height > div > .newsDescription:nth-of-type(7)
 www.regionalobala.si##body > .container_12 > .wrapper > .grid_8 > .p1 > .banner_700_125
 www.regionalobala.si##body > .container_12 > .wrapper > .grid_8 > .t1 > .banner_700_125
 www.regionalobala.si##body > .container_12 > .wrapper > .prefix_1 > .right2.t1
-www.regionalobala.si##[id^="plista_widget"]
 www.revijamaja.si###rightframe > div:nth-of-type(2)
 www.revijamaja.si###rightframe > div:nth-of-type(5)
 www.revijamaja.si###sharebar
@@ -566,8 +574,8 @@ www.solazazivljenje.si##table > tbody > tr > td:nth-of-type(4)
 www.ss-mb.si###content_inner > .content_table > tbody > tr > td:nth-of-type(3)
 www.startaj.si###article_social_top
 www.strojnistvo.com##.middle > .content > .sidebar > .banner
-www.studentski-servis.com###content > .contentWrap > .bgContent > .oneCol > .content > .bannerBlocks1 > .colsWrap > .pool.second.col
 www.studentski-servis.com##[id^="brandedBackground"]
+www.studentski-servis.com###content > .contentWrap > .bgContent > .oneCol > .content > .bannerBlocks1 > .colsWrap > .pool.second.col
 www.super-obrok.si###avcn_wrapperInner
 www.tekaskiforum.net###sidebar-footer > .mosaicflow__column:nth-of-type(4)
 www.tekaskiforum.net###wppas_custom_widgets-3
@@ -581,6 +589,7 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
+zadovoljna.si##.magic_template
 zadovoljna.si##[id^="div_banner"]
 zadovoljna.si###box_180002682d1207193
 zadovoljna.si###box_180002682d1210259 > .backButton
