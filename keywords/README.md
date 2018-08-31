@@ -1,6 +1,6 @@
 <h2>Ključne besede za brskalnik</h2>
 
-V spodnji tabeli so podani opisi ključnih besed (angl. keywords) iz datoteke <code>Ključne besede.html</code>. Ta datoteka se uvozi med zaznamke v brskalniku Mozilla Firefox. Z uporabo ključnih besed občutno pohitrimo iskanje po številnih spletnih mestih.<br>
+V spodnji tabeli so podani opisi ključnih besed (angl. keywords) iz datoteke <code>Ključne besede.html</code>. Ta datoteka se uvozi med zaznamke v brskalniku Mozilla Firefox. Z uporabo ključnih besed občutno pohitrimo iskanje po številnih spletnih mestih.<br><br>
 Primer uporabe ključne besede (veljavno za tem, ko smo datoteko "Ključne besede.html" že uvozili v Firefox):
 
 1. V iskalno vrstico (URL) brskalnika Firefox vpišemo <b><code>b telefon</code></b>
@@ -27,7 +27,7 @@ Naknadno je seveda možno vse vnose urejati / dodajati / brisati v seznamu zazna
 | 12. | Ideo                                         | ideo           |
 | 13. | Linguee prevodi ANG <-> SLO                  | ang            |
 | 14. | Linguee prevodi NEM <-> SLO                  | nem            |
-| 15. | Mimovrste                                    | mimo           |
+| 15. | Mimovrste                                    | m              |
 | 16. | NEM - sklanjatve (samostalniki, pridevniki)  | sklanjaj       |
 | 17. | NEM - spregatve (glagoli)                    | spregaj        |
 | 18. | Odpiralni časi                               | č              |
