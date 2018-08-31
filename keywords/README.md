@@ -1,12 +1,16 @@
-<h2>Opisi kjučnih besed za brskalnik</h2>
-V spodnji tabeli so podani opisi ključnih besed (angl. keywords) iz datoteke <code>Ključne besede.html</code>. Ta datoteka se uvozi med zaznamke brskalnika Mozilla Firefox. Z uporabo ključnih besed občutno pohitrimo iskanje po spletnih mestih.<br>
-Primer uporabe:
+<h2>Ključne besede za brskalnik</h2>
+
+V spodnji tabeli so podani opisi ključnih besed (angl. keywords) iz datoteke <code>Ključne besede.html</code>. Ta datoteka se uvozi med zaznamke v brskalniku Mozilla Firefox. Z uporabo ključnih besed občutno pohitrimo iskanje po številnih spletnih mestih.<br><br>
+
+Primer uporabe ključne besede (veljavno za tem, ko smo omenjeno html datoteko že uvozili v Firefox):
 
 1. V iskalno vrstico (URL) brskalnika Firefox vpišemo <b><code>b telefon</code></b>
 2. Nato pritisnemo <i>enter</i> in brskalnik bo s spletnega mesta bolha.com prikazal vse zadetke z iskalnim nizom "telefon".
 
 Pri tem je potrebno poudariti, da spletnega mesta bolha.com predhodno ni potrebno posebej odpirati. S tem prihranimo pri času in pri prenosu podatkov.<br><br>
-Podporo za uporabo kjučnih besed imajo tudi drugi brskalniki (npr. Opera in Google Chrome), vendar pa nastavitev ključnih besed v večino drugih brskalnikov ne moremo uvoziti s pomočjo zgoraj omenjene datoteke html.<br><br>
+Podporo za uporabo ključnih besed imajo tudi drugi brskalniki (npr. Opera in Google Chrome), vendar pa predpripravljenih nastavitev ključnih besed v večino drugih brskalnikov ne moremo uvoziti s pomočjo zgoraj omenjene datoteke html.<br><br>
+Naknadno je seveda možno vse vnose urejati / dodajati / brisati v seznamu zaznamkov, kot to velja za vse "običajne" zaznamke. Poljubno lahko torej spreminjamo naslove posameznih zaznamkov (spletnih mest), pripadajoče URL-je spletnih mest in morebitne ključne besede.<br><br>
+<b><i>Opomba:</i></b> Kadar shranjujemo "običajne" zaznamke, se pri tem nikoli samodejno ne shrani nobena pripadajoča ključna beseda. Le-to je potrebno v Knjižnici zaznamkov vedno dodati ročno in za vsako spletno mesto posebej. Knjižnico zaznamkov v brskalniku Mozilla Firefox odpremo s kombinacijo tipk <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>. Alternativni način pa je uvoz zgoraj omenjene datoteke html z že pripravljenimi nastavitvami: po uvozu datoteke v brskalnik Firefox se v seznamu zaznamkov ustvari mapa "<i>Ključne besede</i>". Seznam vnosov v tej mapi je razviden v sledeči tabeli.<br><br>
 
 |     | ISKANJE PO SPLETNEM MESTU                    | KLJUČNA BESEDA |
 | :-: | :------------------------------------------- | :------------- |
