@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 80
+! Version: 81
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -8,6 +8,7 @@
 ! GitHub issues: https://github.com/betterwebleon/slovenian-list/issues
 !
 ! Network filters:
+/piwik.js
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
 @@||celje.info/wp-content/plugins/simple-share-buttons-adder/buttons/pagepeel/*.png
@@ -24,9 +25,9 @@
 @@||static.igre123.com/ads/*.gif$image,domain=igre123.com
 ||*.disqus.com/count.js
 ||ad.partis.si^
+||adform.net^
 ||ads.24ur.com^
 ||api.rtvslo.si/stats/log/vodplay
-||avtonasveti.com/*/uploads/*oglas*.jpg$image
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||delo.si/*/pr_vertikalni.html$subdocument
@@ -36,14 +37,16 @@
 ||dostop.si/banners_click.aspx$popup
 ||engine2.livenetlife.com/Ping.aspx
 ||files.dnevnik.si/2013/porabi.jpg
-||files.dnevnik.si/2014/Emona_banner.jpg$image
+||files.dnevnik.si/2014/Emona_banner.jpg
 ||golfportal.info/*/banner*.png
 ||hudo.com/*/im_banner*.jpg
-||img.rtvslo.si/*banner*.png$image
-||ipromcloud.com/ipromNS.js$script
-||iprom.net/adasync.js$script
+||img.rtvslo.si/*banner*.png
+||ipromcloud.com/ipromNS.js
+||iprom.net/adasync.js
 ||itis.si/Embed_AdvertisersPromo.aspx
 ||mailerlite.com*/banners^
+||maps.googleapis.com/maps/api/js/quotaservice.recordevent
+||maps.googleapis.com/*/stats.js
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||megabon.eu/sl/widgets/slovenske_novice
@@ -77,6 +80,7 @@
 ||triglavtek.si/*$popup
 ||varna-voznja.si/upload/banners/
 ||vecer.com/*/oglasi/$subdocument
+||widgets.outbrain.com/outbrain.js
 ||www.bicikel.com/narocilo-revij.png
 ||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
@@ -97,8 +101,8 @@
 ||www.ss-mb.si/images/banners/*.jpg
 !
 ! Third-party filters
+||apis.google.com/js/platform.js$third-party
 ||browser-update.org^$third-party
-||connect.facebook.net^*/fbevents.js$third-party
 ||contentexchange.me^$third-party
 ||gemius.pl^$third-party
 ||internetmedia.si^$third-party
@@ -114,8 +118,6 @@
 ! hudo.com
 ##.cookie-screen
 ##.friendly.notice
-! mojprihranek.si
-###cookieLaw_notification
 ###eu-cookies-consent
 ! najlektoriranje.si
 ###eu-okno
@@ -129,20 +131,17 @@
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
-ap-ljubljana.si##.wrapper > .overlay
-avtoarena.si##.frame > .page > .left > .article > .social:nth-of-type(8)
-avtoarena.si##.frame > .page > .right > .google
-avtoarena.si###pop_up > .left > .social
+aktivni.si##.livenetlife_linkswidget_logo
+ap-ljubljana.si###reklame
 avtomanija.com###Banner300R
-avtonasveti.com##.td-post-sharing-top
-avto.finance.si###article_social_top
-avto.finance.si##.adbox
+avtomanija.si###Banner300R
+avtomobilizem.com##.widget-ad-bottom-banner
+avtonasveti.com##.td-a-rec
 avto.info##.bannerR2
 avto.info###bannerC1_728
 avto.info###bannerC2
-avto.net##.Page > .Wrapper > .ShadowBtm > .contentwrapper > .OglasDataTabs > .OglasDataEmptyTab
-avto.net##.PageWall > .Wrapper > .BannerBox972
-avto.net##.ShadowBtm.MarginL
+avto.net##.BannerBox972
+avto.net##.ShadowBtm.Rounded.MarginL
 avto-fokus.si###baner
 avto-fokus.si###banners
 bigbang.si##.wallpaperWrapper
@@ -150,9 +149,10 @@ bodieko.si##.fancybox-overlay
 bodieko.si##.fancybox-type-inline
 bodieko.si##[id^="post"] > .td-post-sharing-top
 btc-city.com###main > section > .B > div > .visit > .B > div
-cekin.si##.banner
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box:nth-of-type(1)
+cekin.si##.banner
+cekin.si##.thumb-list--article
 ceneje.si##.topBannerSellerP
 ciklon.si###text-10
 ciklon.si###text-4
@@ -171,6 +171,9 @@ demokracija.si###gkSidebar > .box:nth-of-type(2)
 demokracija.si###gkSidebar > .box:nth-of-type(6)
 demokracija.si###gkSidebar > .nomargin.box
 demotivacija.si##.container > .content > .row > .col-lg-4 > .floatdiv
+dnevne-novice.com##.banneritem 
+dnevne-novice.com##.oglasi 
+dnevne-novice.com###djslider98
 dne.enaa.com###html_javascript_adder-2
 dostop.si##a[href^="http://www.dostop.si/banners_click.aspx"]
 druzina.si###center > .module > .content > article > .article-content > p:nth-of-type(3)
@@ -183,6 +186,7 @@ ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.c
 enajdi.si###lightbox
 explicit.si##.special-message-wrapper
 finance.si##.adbox
+finance.si##.kos_semitrans
 finance.si###article_social_top
 fotoarhiv.si###product_images > .sidebarBanner
 golfportal.info##[id^="right-banner"]
@@ -195,6 +199,7 @@ govori.se###branding
 holistic.si###popmake-overlay
 hribi.net###desnistolpec
 hribi.net###oglas
+hudo.com##.ad
 hudo.com##.social-shares
 hudo.com##[id^="hudolistbox"] > .default > .ad
 igrice.hudo.com###contentLeft
@@ -243,6 +248,8 @@ med.over.net###contentexchange_widget-2
 med.over.net###kvadrat1_widget-4
 med.over.net###kvadrat2_widget-3
 meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
+mlacom.si##.banner-scroller
+mlacom.si##.headbanner
 mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
 mladipodjetnik.si###above-text-banner
@@ -296,14 +303,15 @@ okusno.je##[id^="box"] > .banner
 okusno.je##[id^="div_banner"]
 onaplus.si##.g-popup-wrapper
 onaplus.si###exitPopup
+partis.si##a[href^="https://www.nistatusa-nipanike.si/"]
 partis.si##a[href^="http://img.bet-at-home.com/"]
 partis.si##a[href^="http://si.hit.gemius.pl"]
 partis.si##a[href^="http://www.urgo.si"]
-partis.si##a[href^="https://www.nistatusa-nipanike.si/"]
 partis.si##body > div:nth-of-type(4) > div
 partis.si##.all > .dildo > .bigban
 partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
 partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
+partis.si##.promotool-id
 partis.si###righttd > .menijidesno:nth-of-type(1)
 partis.si###righttd > .menijidesno:nth-of-type(7)
 partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
@@ -368,6 +376,7 @@ rtvslo.si###b_1166
 rtvslo.si###b_838
 rtvslo.si###banner
 salomon.si##[id^="firstSiteBanner"]
+scoreboard.com##.box_over_content_9547
 shop.kapodol.com###fixed > .site-banner
 siol.net##.card--ts_storitva
 siol.net##.grid-12.grid-md-3
@@ -377,13 +386,15 @@ siol.net##.spored_widget--special > .no-gutter
 siol.net##.ts_storitve
 siol.net###itisAdPromo
 siol.net###yodaarticle
+skandal24.si##.advertise
+slovenskenovice.si##.livenetlife_linkswidget_logo
+slovnica.slovenscina.eu###biscuitFormDiv
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
 slo-foto.net##.sf-ads_container
 slo-foto.net##.sf-panel:nth-of-type(2)
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
-slovnica.slovenscina.eu###biscuitFormDiv
 sobotainfo.com###content > .region-highlighted.region
 spored.tv###RightBanner
 startaj.finance.si###article_social_top
@@ -418,17 +429,6 @@ volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.24ur.com##.banner
 vreme.zurnal24.si##.ad
-www.aktivni.si###clanek > .span12:nth-of-type(6) > .hidden-print.row-fluid > .span12
-www.aktivni.si###clanek > .span12:nth-of-type(6) > .margin-top-bottom > .hidden-print.row-fluid.social-networks
-www.aktivni.si###header > .oglas
-www.aktivni.si###plista_widget_belowArticle
-www.avto-magazin.si##[id^="banner"]
-www.avto-magazin.si###main > .main > .comments > h3
-www.avto-magazin.si###navigation > .adwrapper
-www.avtomobilizem.com##.cf > .main > .widget-ad-bottom-banner
-www.avtomobilizem.com##.cf > .main > .widget-ad-middle-banner
-www.avtomobilizem.com##.cf.wrap.body > .main > .type-post > .socials-forum
-www.avtomobilizem.com##.ssk-center.ssk-left.ssk-sticky.ssk-custom-parent
 www.bibaleze.si##[id^="box"] > .header > .clearfix > .banner
 www.bibaleze.si##[id^="box"] > .pampers-article
 www.bibaleze.si##[id^="box"] > .voyo-box
