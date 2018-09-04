@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 81
+! Version: 82
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -36,11 +36,12 @@
 ||dostop.si/banners_click.aspx$inline-script
 ||dostop.si/banners_click.aspx$popup
 ||engine2.livenetlife.com/Ping.aspx
+||facebook.com/tr/?
+||facebook.com/tr?
 ||files.dnevnik.si/2013/porabi.jpg
 ||files.dnevnik.si/2014/Emona_banner.jpg
 ||golfportal.info/*/banner*.png
 ||hudo.com/*/im_banner*.jpg
-||img.rtvslo.si/*banner*.png
 ||ipromcloud.com/ipromNS.js
 ||iprom.net/adasync.js
 ||itis.si/Embed_AdvertisersPromo.aspx
@@ -104,15 +105,17 @@
 ||apis.google.com/js/platform.js$third-party
 ||browser-update.org^$third-party
 ||contentexchange.me^$third-party
-||gemius.pl^$third-party
 ||internetmedia.si^$third-party
 ||intextad.net^$third-party
 ||obisk.net^$third-party
 ||onthe.io^$third-party
+||p.typekit.net^$third-party
+||shield.sitelock.com^$third-party
 !
 ! General element filters
 ##.advert.box
 ##.notice$domain=pogledi.delo.si|polet.delo.si
+##.td-a-rec
 !
 ! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
 ! hudo.com
@@ -144,11 +147,25 @@ avto.net##.BannerBox972
 avto.net##.ShadowBtm.Rounded.MarginL
 avto-fokus.si###baner
 avto-fokus.si###banners
+bibaleze.si##a > strong
+bibaleze.si##.banner
+bibaleze.si##.voyo-box
+bibaleze.si###facebook-article-like
+bicikel.com##.shop__card.noPaddingAlways.col-md-12
+bicikel.com##.topBanner
+bicikel.com##.topBannerLanding
 bigbang.si##.wallpaperWrapper
-bodieko.si##.fancybox-overlay
-bodieko.si##.fancybox-type-inline
-bodieko.si##[id^="post"] > .td-post-sharing-top
-btc-city.com###main > section > .B > div > .visit > .B > div
+bigpicture.si###text-2
+bigpicture.si###text-3
+bolha.com###coloumnAd
+bolha.com###newsOfTheDay
+bolha.com###servicesToItems
+bringler.com##.featurebar_right
+bringler.com##.front_topgames_footer
+bringler.com###block-block-35
+bringler.com###left_click_div
+bringler.com###right_click_div
+btc-city.com##.B:nth-of-type(1)
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box:nth-of-type(1)
 cekin.si##.banner
@@ -288,6 +305,9 @@ moski.hudo.com##a[href^="http://hudo.com/si/"]
 motiviran.si##[id^="adDesktop"]
 motiviran.si###secondary > div
 napovednik.com##.banner
+naprostem.si##.shop__card.noPaddingAlways.col-md-12
+naprostem.si##.topBanner
+naprostem.si##.topBannerLanding
 njena.svet24.si##.hidden-xs.banner
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(3)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
@@ -371,10 +391,11 @@ revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.cont
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
+rtvslo.si##.block_iprom
 rtvslo.si##.oglas
+rtvslo.si###banner
 rtvslo.si###b_1166
 rtvslo.si###b_838
-rtvslo.si###banner
 salomon.si##[id^="firstSiteBanner"]
 scoreboard.com##.box_over_content_9547
 shop.kapodol.com###fixed > .site-banner
@@ -407,6 +428,9 @@ svetkapitala.delo.si##.article__social--top
 t3tech.si##.add-title
 tehnik.telekom.si##.banner
 tehnozvezdje.si##.clearfix.ai_widget
+tekac.si##.shop__card.noPaddingAlways.col-md-12
+tekac.si##.topBanner
+tekac.si##.topBannerLanding
 topjob.finance.si###article_social_top > .social-line
 topjob.finance.si###main-column-inner > .kos_signup
 trgovina.delo.si###banner
@@ -429,29 +453,6 @@ volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.24ur.com##.banner
 vreme.zurnal24.si##.ad
-www.bibaleze.si##[id^="box"] > .header > .clearfix > .banner
-www.bibaleze.si##[id^="box"] > .pampers-article
-www.bibaleze.si##[id^="box"] > .voyo-box
-www.bibaleze.si###box_60000522d125085 > .header > .clearfix.headerMiddle > .banner
-www.bibaleze.si###facebook-article-like
-www.bibaleze.si###group_14
-www.bicikel.com###adsFooterPlaceHolder
-www.bicikel.com###banner_right_absolute
-www.bicikel.com###main-content-center > .plugin_box > .by_aid > .fb_like_container:nth-of-type(2)
-www.bicikel.com###right-relative-content > .plugin_box.hotpages_menu
-www.bigpicture.si###text-2
-www.bigpicture.si###text-3
-www.bolha.com###coloumnAd
-www.bolha.com###newsOfTheDay
-www.bolha.com###servicesToItems
-www.bringler.com###block-block-28 > .blockcontent > .front_topgames_footer
-www.bringler.com###block-block-35
-www.bringler.com###left_click_div
-www.bringler.com###right_click_div
-www.bringler.com###right_detail > .featurebar_right
-www.bringler.com##.sitewrapper > .page_background > .center > .transparent.maincontent > .innercontent > .rightfatbanner_right_float > .featurebar_right
-www.butanplin.si###page > .footer > .column > .q-ico-shadow
-www.butanplin.si###page > .footer > .column > .q-ico-wrap
 www.casnik.si###cas_right
 www.celje.info###link_oglas
 www.cenim.se###bottom-sidebar
