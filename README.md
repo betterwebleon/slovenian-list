@@ -16,25 +16,29 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
 
 **KAZALO**
 
-* [Priporočeni brskalnik](#1-priporočen-brskalnik)
-* [Priporočena razširitev za blokiranje oglasov](#2-priporočena-razširitev-za-filtriranje-neželenih-vsebin-na-spletu)
-  * [Priporočeni seznami filtrov](#2a-priporočeni-seznami-filtrov)
-  * [Priporočeni dodatni seznami filtrov](#2b-priporočeni-dodatni-seznami-filtrov)
-* [Priporočene razširitve za brskalnik Firefox](#3-priporočene-razširitve-za-brskalnik-mozilla-firefox)
-   * [Zasebnost](#3a-zasebnost)
-   * [Uporabnost](#3b-uporabnost)
+* [Priporočeni brskalnik](#1-priporočeni-brskalnik)
+  * [Navodila za nastavljanje brskalnika](#1a-navodila-za-nastavljanje-brskalnika)
+  * [Ponastavljanje spremenjenih nastavitev](#1b-ponastavljanje-spremenjenih-nastavitev)
+* [Seznam priporočenih razširitev za brskalnik Firefox](#2-seznam-priporočenih-razširitev-za-brskalnik-firefox)
+  * [Zasebnost](#2a-zasebnost)
+  * [Uporabnost](#2b-uporabnost)
+* [Priporočena razširitev za blokiranje oglasov](#3-priporočena-razširitev-za-filtriranje-neželenih-vsebin-na-spletu)
+  * [Priporočeni seznami filtrov](#3a-priporočeni-seznami-filtrov)
+  * [Priporočeni dodatni seznami filtrov](#3b-priporočeni-dodatni-seznami-filtrov)
 * [Datoteka hosts](#4-datoteka-hosts)
 * [Licenca](#licenca)
-<br>
+
 <h3>1. Priporočeni brskalnik</h3>
 
 **[Mozilla Firefox](https://www.mozilla.org/firefox/new/)**
 
 ***Zakaj?*** Ker ga je možno prilagoditi na način, da postane izredno hiter, varen in uporabniku prijazen brskalnik.
 
-***Kako ga prilagoditi?*** Beri naprej. :)
+***Kako ga optimalno prilagoditi?*** Beri naprej. :)
 
-**Nastavitve v sledečih tabelah so prilagojene brskalniku Firefox 57 in novejšim (t. i. serija Firefox Quantum).**
+<h4>1.a) Navodila za nastavljanje brskalnika</h4>
+
+**Nastavitve v sledečih tabelah veljajo za brskalnik Firefox 57 in novejše (torej za serijo Firefox Quantum).**
 
 V brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code>
 
@@ -43,45 +47,46 @@ Pritisni *enter* in izberi gumb <code>Sprejmem tveganje!</code> Nato poišči sp
 Spodnje nastavitve **povečajo zasebnost:**
 
 |     | IME VNOSA                                                      | VREDNOST | OPOMBE |
-| --- | :------------------------------------------------------------- | :------: | :----: |
+| --- | :------------------------------------------------------------- | :------: | :----- |
 | 1.  | beacon.enabled                                                 | false    |        |
 | 2.  | browser.safebrowsing.downloads.enabled                         | false    |        |
 | 3.  | browser.safebrowsing.malware.enabled                           | false    |        |
 | 4.  | browser.safebrowsing.phishing.enabled                          | false    |        |
-| 5.  | experiments.activeExperiment                                   | false    | Ustvari novo pravilo: klik z desnim miškinim gumbom v polju s seznamom vnosov --> *Novo* --> *Logična vrednost* |
+| 5.  | experiments.activeExperiment                                   | false    | Ustvari nov vnos: glej dodatna pojasnila spodaj. |
 | 6.  | experiments.enabled                                            | false    |        |
-| 7.  | experiments.manifest.uri                                       |          |        |
+| 7.  | experiments.manifest.uri                                       |          | Glej dodatna pojasnila spodaj. |
 | 8.  | experiments.supported                                          | false    |        |
 | 9.  | layout.css.visited_links_enabled                               | false    |        |
 | 10. | media.peerconnection.enabled                                   | false    |        |
 | 11. | media.peerconnection.turn.disable                              | true     |        |
 | 12. | network.allow-experiments                                      | false    |        |
-| 13. | privacy.trackingprotection.enabled                             | true     |        |
+| 13. | privacy.trackingprotection.enabled                             | true     | Glej dodatna pojasnila spodaj. |
 | 14. | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |        |
 | 15. | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |        |
 
 <br>Za **povečanje hitrosti** delovanja brskalnika spremeni še spodnje nastavitve:<br>
 
 |     | IME VNOSA                                  |   VREDNOST   | OPOMBE |
-| --- | :----------------------------------------- | :----------: | :----: |
+| --- | :----------------------------------------- | :----------: | :----- |
 | 16. | browser.download.animateNotifications      | false        |        |
 | 17. | dom.animations-api.element-animate.enabled | false        |        |
-| 18. | full-screen-api.transition-duration.enter  | 0 0          |        |
-| 19. | full-screen-api.transition-duration.leave  | 0 0          |        |
-| 20. | full-screen-api.warning.timeout            | 0            |        |
-| 21. | image.mem.animated.discardable             | false        |        |
-| 22. | memory.free_dirty_pages                    | true         | Ustvari novo pravilo: klik z desnim miškinim gumbom v polju s seznamom nastavitev --> *Novo* --> *Logična vrednost* |
-| 23. | network.http.keep-alive.timeout            | 60           |        |
-| 24. | network.http.request.max-start-delay       | 4            |        |
-| 25. | network.websocket.delay-failed-reconnects  | false        |        |
-| 26. | security.dialog_enable_delay               | 0            |        |
+| 18. | dom.ipc.processCount                       | 1            | ***Pogojno:*** glej dodatna pojasnila spodaj. |
+| 19. | full-screen-api.transition-duration.enter  | 0 0          | Glej dodatna pojasnila spodaj. |
+| 20. | full-screen-api.transition-duration.leave  | 0 0          | Glej dodatna pojasnila spodaj. |
+| 21. | full-screen-api.warning.timeout            | 0            |        |
+| 22. | image.mem.animated.discardable             | false        |        |
+| 23. | memory.free_dirty_pages                    | true         | Ustvari nov vnos: glej dodatna pojasnila spodaj. |
+| 24. | network.http.keep-alive.timeout            | 60           |        |
+| 25. | network.http.request.max-start-delay       | 5            |        |
+| 26. | network.websocket.delay-failed-reconnects  | false        |        |
+| 27. | security.dialog_enable_delay               | 0            |        |
 
-***OPOMBE:***
-
-- Vrednost (v obliki spletnega naslova) pri vnosu št. **7** preprosto izbriši.
-- Vnosa št. **18** in **19** naj imata dve pripadajoči vrednosti (dve ničli, ločeni s presledkom).
-- *Pogojno:* za bolj intenzivno varčevanje brskalnika z delovnim pomnilnikom (RAM) preostane še nastavitev dodatnega vnosa z imenom <code>dom.ipc.processCount</code> na vrednost 1. Brskalnik bo s tem morda postal nekoliko manj odziven v situaciji, ko bo hkrati odprtih veliko zavihkov. Zato ta nastavitev pride v poštev predvsem za tiste računalnike, ki imajo vgrajenega manj kot 4 GB RAM-a.
-- Za tem, ko vklopiš "Zaščito pred sledenjem" pri vnosu št. **13**, nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali**. Neposredno na samem portalu (npr. facebook.com, twitter.com) bodo sicer delovali, povezave nanje na drugih spletnih straneh pa ne. **Če jih želiš vseeno videti, na izbranih spletnih mestih preprosto vklopiš zaščito pred sledenjem.** To narediš tako, da levo zgoraj v naslovni (URL) vrstici brskalnika klikneš na sivo ikono ščita takrat, ko boš na tistem spletnem mestu, na katerem želiš videti blokirane videe / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku klikneš na gumb <code>Onemogoči zaščito za to stran</code>. Stran se bo samodejno osvežila, ikona ščita pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) shranil nastavitve. Tako da teh problemov na vseh straneh v okviru izbrane spletne domene v prihodnosti ne bo več. Če želiš kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani domeni), samo ponovi postopek (greš na spletno stran želene domene, klikneš na ikono prekrižanega ščita in nato v oblačku klikneš na gumb <code>Omogoči zaščito</code>).
+***DODATNA POJASNILA:***
+- Vnosa št. **5** in **23**: ta dva vnosa je potrebno najprej ustvariti. Z desnim miškinim gumbom kliknemo kamorkoli v polju s seznamom nastavitev in v priročnem meniju izberemo: *Novo* --> *Logična vrednost*.
+- Vnos št. **7**: v seznamu nastavitev dvokliknemo na ta vnos, iz pojavnega okenca izbrišemo povezavo in spremembo potrdimo z izborom gumba "*V redu*".
+- Vnos št. **18** je namenjen intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe pripadajoče vrednosti (na 1) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem za tiste računalnike, ki imajo vgrajenega manj kot 4 GB RAM-a.
+- Vnosa št. **19** in **20**: pri obeh vnosih naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
+- Vnos št. **13**: za tem, ko spremenimo pripadajočo vrednost (torej ko vklopimo t. i. Zaščito pred sledenjem), nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali**. Neposredno na samem portalu (npr. facebook.com, twitter.com) bodo sicer delovali, povezave nanje na drugih spletnih straneh pa ne. **Če jih želimo vseeno videti, na izbranih spletnih mestih preprosto vklopimo zaščito pred sledenjem.** To naredimo tako, da levo zgoraj v naslovni (URL) vrstici brskalnika kliknemo na sivo ikono ščita takrat, ko bomo na tistem spletnem mestu, na katerem želimo videti blokirane videe / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže oblaček. V tem oblačku kliknemo na gumb <code>Onemogoči zaščito za to stran</code>. Stran se bo samodejno osvežila, ikona ščita pa bo prekrižana z rdečo črto. Brskalnik bo za to domensko ime (tj. za vse strani v okviru izbrane domene) shranil nastavitve. Tako da teh problemov na vseh straneh v okviru izbrane spletne domene v prihodnosti ne bo več. Če želimo kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani domeni), samo ponovimo postopek (odpremo spletno stran želene domene, kliknemo na ikono prekrižanega ščita in nato v oblačku kliknemo na gumb <code>Omogoči zaščito</code>).
 
 Primeri spletnih portalov, na katerih je priporočljivo izklopiti Zaščito pred sledenjem (na zgoraj opisan način), so:
 - 24ur.com
@@ -94,15 +99,50 @@ Primeri spletnih portalov, na katerih je priporočljivo izklopiti Zaščito pred
 - zadovoljna.si
 - zenska.hudo.com
 
-To je le nekaj primerov slovenskih spletišč, na katerih lahko – preverjeno – v okviru nekaterih člankov naletiš na nepopoln prikaz spletnih vsebin. Zaščito pred sledenjem lahko po potrebi izklopiš na katerikoli spletni strani, kjer omenjen zaščitni mehanizem blokira elemente, ki so del (koristne) vsebine.
+To je le nekaj primerov slovenskih spletišč, na katerih lahko – preverjeno – v okviru nekaterih člankov naletimo na nepopoln prikaz spletnih vsebin. Zaščito pred sledenjem lahko po potrebi izklopimo na katerikoli spletni strani, kjer omenjen zaščitni mehanizem blokira elemente, ki so del (koristne) vsebine.
 
-Mimogrede: *Zaščita pred sledenjem* (angl. Firefox Tracking Protection) je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v brskalnik Firefox in je privzeto omogočen le v načinu zasebnega brskanja. Za delovanje v načinu "klasičnega" brskanja pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost takšnega mehanizma, ki je vgrajen v brskalnik, je v tem, da deluje zelo hitro (tj. hitreje od naknadno nameščenih razširitev). Vseeno pa za najboljši učinek velja v brskalnik namestiti še druge razširitve, ki so opisane v nadaljevanju. Vgrajena *Zaščita pred sledenjem* namreč ne blokira drugih neželenih vsebin (npr. številnih oglasov in drugih motečih elementov na spletnih straneh).
+Mimogrede: *Zaščita pred sledenjem* (angl. Firefox Tracking Protection) je zaščitni mehanizem, ki uporabnika varuje pred sledenjem in mnogimi vsiljivimi oglasi. Vgrajen je v brskalnik Firefox in je privzeto omogočen le v načinu zasebnega brskanja. Za delovanje v načinu "klasičnega" brskanja pa ga je potrebno ročno vklopiti. Drugi brskalniki takšne vgrajene zaščite nimajo, zato je to edinstvena značilnost brskalnika Firefox. Prednost takšnega mehanizma, ki je vgrajen v brskalnik, je v tem, da deluje zelo hitro (tj. hitreje od naknadno nameščenih razširitev). Vseeno pa za najboljši učinek velja v brskalnik namestiti še druge razširitve (naštete v [2. poglavju](#2-seznam-priporočenih-razširitev-za-brskalnik-firefox)) in v sistem namestiti datoteko hosts (več o njej v [4. poglavju](#4-datoteka-hosts)). Vgrajena *Zaščita pred sledenjem* namreč ne blokira drugih neželenih vsebin (npr. številnih oglasov in drugih motečih elementov na spletnih straneh).
 
-**Vse narejene spremembe v brskalniku je možno kadarkoli ponastaviti.** V nastavitvah brskalnika (*about:config*) posamezno nastavitev ponovno poiščemo, nanjo kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Nastavitev se nato povrne v prvotno (privzeto) stanje. Vseeno naj velja opozorilo, da se vse zgoraj opisane nastavitve uveljavljajo na lastno odgovornost.
+<h4>1.b) Ponastavljanje spremenjenih nastavitev</h4>
 
-**Obvestilo:** brskalniki Firefox Quantum (od različice 57 naprej) ne podpirajo več ukazov za cevljenje (angl. pipelining). Zato naj se vsi morebitni vnosi s ključno besedo "pipelining" v naprednih nastavitvah (about:config) ponastavijo.
+**Narejene spremembe v podrobnih nastavitvah brskalnika Firefox je možno kadarkoli ponastaviti** (vrniti v prvotno stanje): v podrobnih nastavitvah (*about:config*) posamezen vnos ponovno poiščemo, nanj kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Vrednost vnosa se bo nato povrnila v prvotno (privzeto) stanje. Kljub temu naj velja opozorilo, da se vse spremembe nastavitev, opisane na tej strani, uveljavljajo na lastno odgovornost.
 
-<h3>2. Priporočena razširitev za filtriranje (neželenih) vsebin na spletu</h3>
+**Obvestilo v zvezi z ukazi "pipelining":** brskalniki Firefox Quantum (od različice 57 naprej) ne podpirajo več ukazov za cevljenje (angl. pipelining). Če smo v predhodnih različicah brskalnika Firefox te nastavitve spreminjali, lahko morebitne obstoječe vnose ponastavimo (poiščemo jih z iskalnim nizom "pipelining" v naprednih nastavitvah about:config). Ti vnosi bodo nato po ponovnem zagonu brskalnika izbrisani.
+
+<h3>2. Seznam priporočenih razširitev za brskalnik Firefox</h3>
+
+V nadaljevanju so naštete in opisane priporočene razširitve, ki so vsebinsko razdeljene na dve podpoglavji:
+- za povečanje zasebnosti brskanja
+- za povečanje uporabnosti brskalnika
+
+Posamezne razširitve se namestijo po želji. Pripadajoče povezave za namestitev so namenjene uporabnikom brskalnika **Firefox od različice 60 naprej**.
+
+<h4>2.a) Zasebnost</h4>
+
+|     | IME RAZŠIRITVE | FUNKCIJA |
+| :-- | :------------: | -------- |
+| 1.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/521/521554-64.png" width="50" />](https://addons.mozilla.org/firefox/addon/decentraleyes/)<br><b>[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)</b> | Posnema omrežja za dostavo vsebin (angl. content delivery network – CDN). Namen je preprečiti številne zahteve omenjenih omrežij. Razširitev se skuša izogniti velikim omrežjem, ki na spletu ponujajo brezplačne storitve (npr. Google Hosted Libraries, Microsoft Ajax CDN, CDNJS ...). Razširitev deluje tako, da prestreza spletni promet, na osnovi česar najde vire, ki so podprti na lokalni ravni. Če so potrebni viri na voljo na lokalni ravni, jih vrine v okolje. V kolikor nek zahtevan vir ni na voljo na lokalni ravni, pa Decentraleyes pomaga odstraniti občutljive podatke iz odhodne spletne zahteve.<br><b>OPOMBA:</b> uporabniki starejših različic Firefoxa (do različice 56) lahko namestijo <b>[starejšo različico](https://addons.mozilla.org/firefox/addon/decentraleyes/versions/)</b> razširitve. |
+| 2.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/351/351740-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)<br><b>[Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)</b> | Preprečuje spreminjanje povezav z rezultati iskanja na spletnih mestih Google in Yandex. Razširitev spletnemu iskalniku preprečuje, da bi pri uporabnikovem kliku na rezultat iskanja spremenil pripadajočo povezavo. Na ta način se lahko povezava brez težav kopira neposredno na straneh spletnega iskalnika. Poleg tega pa spletni iskalnik ne more več učinkovito spremljati nadaljnjih klikov uporabnika. |
+| 3.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/843/843685-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/neat-url/)<br><b>[Neat URL](https://addons.mozilla.org/firefox/addon/neat-url/)</b> | Iz URL naslovov odstranjuje parametre (npr. UTM parametre za storitev Google Analytics). Različna analitična orodja uporabljajo URL parametre za namene spletne analitike, s čimer sledijo obiskovalcem spletnih strani (npr. za analize časa zadrževanja na posamezni strani, načine navigiranja po straneh ...). |
+| 4.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/327/327417-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/smart-referer/)<br><b>[Smart Referer](https://addons.mozilla.org/firefox/addon/smart-referer/)</b> | Vključi t. i. pametne napotitelje. Razširitev samodejno spremeni informacijo o napotitelju (angl. HTTP referer) vsakič, ko uporabnik obišče spletno mesto z drugo domeno. Pri tem je napotitelj spletni naslov, ki ga je uporabnik predhodno obiskal in iz katerega je prišel na trenutno spletno mesto. Smart referer pa informacijo o dejanskem (predhodnem) spletnem naslovu zamenja kar s ciljnim (aktualnim) spletnim naslovom. Na ta način se ustvarja vtis, da je uporabnik na trenutno spletno mesto prišel direktno (recimo z neposrednim vnosom spletnega naslova v brskalnik ali z odprtjem zaznamka) – ne pa iz nekega predhodnega spletnega mesta. S takšnim spreminjanjem informacije o napotitelju uporabnik pridobi več zasebnosti, saj denimo ni mogoče razpoznati, na podlagi katerega iskalnega niza v spletnem iskalniku (oz. iz katerega predhodnega spletnega naslova) je uporabnik v resnici prišel na trenutno spletno mesto. |
+| 5.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/607/607454-64.png" width="43" />](https://addons.mozilla.org/firefox/addon/ublock-origin/)<br><b>[uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> | **Več o tej razširitvi v [3. poglavju](#3-priporočena-razširitev-za-filtriranje-neželenih-vsebin-na-spletu).** Filtrira (blokira) poljubne vsebine na spletu. Večinoma se uporablja za zavračanje neželenih vsebin, kot so spletni oglasi in sledilci za sledenje uporabnikov. uBlock Origin se zato mnogokrat označuje kot preprečevalnik oglasov (angl. ad blocker). uBlock Origin je eno najbolj učinkovitih tovrstnih orodij z vidika hitrosti delovanja in porabe sistemskih sredstev. Z uporabo te razširitve se občutno zviša hitrost nalaganja spletnih strani, poveča se njihova preglednost, hkrati pa se lahko (z nekaj dodatnimi nastavitvami) precej omeji tudi sledenje, ki se ga poslužujejo številna spletna mesta. |
+| 6.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/7/7560-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/webmail-ad-blocker/)<br><b>[Webmail Ad Blocker](https://addons.mozilla.org/firefox/addon/webmail-ad-blocker/)</b> | Blokira oglase in oglasne pasice za znane storitve spletne pošte: Google Mail, Outlook.com (prej Hotmail) in Yahoo Mail. Razširitev je priporočljivo uporabljati hkrati s preprečevalnikom oglasov (npr. uBlock Origin), saj je slednji v tem primeru zmožen blokirati samo spletne oglase, ne pa tudi oglasnih pasic. Webmail Ad Blocker pa je zmožen odpraviti tudi oglasne pasice in s tem povečati preglednost spletišč, ki ponujajo e-poštne storitve. |
+
+<h4>2.b) Uporabnost</h4>
+
+|     | IME RAZŠIRITVE | FUNKCIJA |
+| :-- | :------------: | -------- |
+| 7.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/909/909373-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/auto-tab-discard/)<br><b>[Auto Tab Discard](https://addons.mozilla.org/firefox/addon/auto-tab-discard/)</b> | Razširitev je namenjena varčevanju z delovnim pomnilnikom: neaktivni zavihki (torej tisti v ozadju) se po določenem času – privzeto po 10 minutah – samodejno izbrišejo iz pomnilnika (ne pa tudi iz brskalnika), na podlagi česar brskalnik tudi po daljšem času neprenehne uporabe in pri večjem številu odprtih zavihkov ostaja varčen z delovnim pomnilnikom. Namestitev razširitve je zelo priporočljiva za računalnike, ki imajo vgrajenega manj kot 4 GB RAM-a. |
+| 8.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/660/660064-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)<br><b>[Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)</b> | Izklopi funkcijo samodejnega predvajanja (tj. samodejnega skoka na naslednji videoposnetek) na spletnih mestih YouTube, TED in Vimeo. |
+| 9.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/743/743689-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)<br><b>[Bookmarks Manager and Viewer](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)</b> | Upravitelj in pregledovalnik zaznamkov. Izbor pripadajočega gumba prikaže ploščo, v kateri je možno iskanje med vsemi shranjenimi zaznamki. Razširitev omogoča urejanje in premikanje zaznamkov, ustvarjanje novih zaznamkov in map ipd. |
+| 10. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/481/481438-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)<br><b>[I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)</b> | Odpravi nadležna obvestila o piškotkih na številnih "okuženih" spletnih mestih. Razširitev odpravi moteče pasice z obvestili, s čimer poveča preglednost in nekoliko skrajša čas nalaganja spletne strani. Zakonodaja EU za spletna mesta, ki so v lasti družb s sedežem v EU, med drugim zahteva, da obiskovalcem ponudijo možnost sprejetja ali zavrnitve oz. preklica soglasja za uporabo piškotkov. Obvestila so zelo nadležna, ker se vse uporabnikove odločitve izničijo ("pozabijo") vsakič, ko piškotke izbrišemo iz naprave. Enako velja za uporabo zasebnega brskanja, v okviru katerega se zgodovina spletnega brskanja ne shranjuje. To pomeni, da se uporabnik z obvestili o piškotkih navadno srečuje vedno znova. Razširitev tovrstna obvestila skrije, kar naredi tako, da samodejno privoli v uporabo piškotkov. Samodejno strinjanje z uporabo piškotkov (ki je sicer včasih pogoj za popolno delovanje pripadajočega spletnega mesta) krni zasebnost, vendar pa se to lahko vseeno kompenzira s hkratno uporabo drugih razširitev (npr. uBlock Origin) in zaščitnih mehanizmov (npr. Zaščita pred sledenjem v brskalniku Firefox). |
+| 11. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/739/739386-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/in-my-pocket/)<br><b>[In My Pocket](https://addons.mozilla.org/firefox/addon/in-my-pocket/)</b> | In My Pocket je odličen za uporabnike storitve *[Pocket](https://getpocket.com/)*. Razširitev v naslovno (URL) vrstico brskalnika doda ikono, ki omogoča shranjevanje ali odstranjevanje spletnih mest s storitve *Pocket*. Poleg tega razširitev omogoča uporabo priročnega seznama z vsemi shranjenimi povezavami do spletnih mest v okviru storitve Pocket. Povezave s seznama je možno odpreti ali odstraniti (sinhronizirano s storitvijo Pocket). Omenjen seznam prikličemo z izborom pripadajočega gumba. Razširitev torej deluje po vzoru uradne (a ukinjene različice) razširitve Pocket, na podlagi katere za uporabo storitve Pocket ni potrebe po neposrednem obiskovanju spletnega mesta getpocket.com. |
+| 12. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/718/718289-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/mouse-gestures/)<br><b>[Mouse Gesture Events](https://addons.mozilla.org/firefox/addon/mouse-gestures/)</b> | Omogoča brskanje z uporabo priročnih miškinih potez. V nastavitvah razširitve se lahko prilagodijo različne možnosti za navigiranje po spletu z uporabo desnega miškinega gumba v povezavi z gibanjem miške in/ali z uporabo desnega miškinega gumba v povezavi z vrtenjem miškinega koleščka. |
+| 13. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/724/724283-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/save-page-we/)<br><b>[Save Page WE](https://addons.mozilla.org/firefox/addon/save-page-we/)</b> | Omogoča (lokalno) shranjevanje spletnih strani v eni sami datoteki HTML. Shraniti (arhivirati) je možno celotno spletno stran ali pa samo njene izbrane elemente. Shranjevanje strani s pomočjo Save Page WE je precej bolj praktično od "običajnega" shranjevanja, saj Save page WE celotno razpoložljivo vsebino spletne strani združi v le eno datoteko HTML. Nadalje je uporaba Save Page WE primernejša od shranjevanja spletnih strani v drugih oblikah (npr. v obliki MHT). Shranjevanje spletnih strani v obliki HTML je primernejše od MHT, ker podporo za datoteke HTML brez težav nudijo vsi brskalniki (v nasprotju z datotekami MHT, za katere v splošnem obstaja precej slabša podpora). |
+| 14. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/937/937151-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/view-image/)<br><b>[View Image](https://addons.mozilla.org/firefox/addon/view-image/)</b> | Ponovno prikaže gumba <code>Ogled slike</code> in <code>Iskanje s sliko</code> v spletnem iskalniku slik *[Google Slike](https://www.google.si/imghp?hl=sl)*. Google je namreč leta 2018 ta dva gumba umaknil s svoje storitve zaradi obtožb, da z "bližnjičnimi" gumbi ponuja neposreden dostop do vsebin, ki so avtorsko zaščitene, s tem pa olajšuje tudi možnost njihove kraje. |
+| 15. | [<img src="https://addons.cdn.mozilla.net/static/img/addon-icons/posts-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)<br><b>[Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)</b> | Izklopi pripise (angl. annotations) na spletnem mestu YouTube. S tem se poveča preglednost pri ogledovanju videoposnetkov.<br><b>OPOMBA:</b> če bi kljub temu želeli v videoposnetkih videti (oz. klikniti na) pripise, je potrebno to razširitev v seznamu razširitev (začasno) onemogočiti ali pa odstraniti. |
+
+<h3>3. Priporočena razširitev za filtriranje (neželenih) vsebin na spletu</h3>
 
 **uBlock Origin**
 
@@ -113,7 +153,7 @@ Mimogrede: *Zaščita pred sledenjem* (angl. Firefox Tracking Protection) je za�
 - <b>[Spletna trgovina Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)</b> za brskalnike Google Chrome, Vivaldi in ostale, ki temeljijo na Chromiumu
 - <b>[Opera add-ons](https://addons.opera.com/extensions/details/ublock/)</b> za brskalnik Opera
 
-<h4>2.a) Priporočeni seznami filtrov</h4>
+<h4>3.a) Priporočeni seznami filtrov</h4>
 
 Spodnje naročnine na filtre se lahko v okviru dodatnih možnosti razširitve uBlock Origin preprosto vklopijo tako, da se označijo s kljukico na zavihku <kbd>Filtri tretjih oseb</kbd>. Seznam vklopljenih naročnin je razviden na sledeči sliki:
 
@@ -121,7 +161,7 @@ Spodnje naročnine na filtre se lahko v okviru dodatnih možnosti razširitve uB
 
 Velik del zgornjih naročnin je najverjetneje že privzeto vklopljen. Preostale naročnine s seznama ročno vklopi (obkljukaj). Nato v desnem zgornjem kotu okna izberi oranžen gumb <code>Uveljavi spremembe</code>. Nato se pomakni na vrh strani in v levem zgornjem delu okna klikni še na gumb <code>Posodobi zdaj</code>. Po nekaj trenutkih se bo ta gumb obarval sivo.
 
-<h4>2.b) Priporočeni dodatni seznami filtrov</h4>
+<h4>3.b) Priporočeni dodatni seznami filtrov</h4>
 
 Nadalje se lahko ročno vključijo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage.
 
@@ -144,39 +184,6 @@ Po nekaj trenutkih se v razdelku *Po meri* pojavi takšen seznam:
 Nastavitve razširitve uBlock Origin lahko na tem mestu zapremo.
 
 *Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* :)
-
-<h3>3. Priporočene razširitve za brskalnik Mozilla Firefox</h3>
-
-V nadaljevanju so naštete in opisane priporočene razširitve, ki so vsebinsko razdeljene na dve podpoglavji:
-- za povečanje zasebnosti brskanja
-- za povečanje uporabnosti brskalnika
-
-Posamezne razširitve se namestijo po želji. Pripadajoče povezave za namestitev so namenjene zgolj uporabnikom brskalnika **Firefox od različice 57 naprej**.
-
-<h4>3.a) Zasebnost</h4>
-
-|     | IME RAZŠIRITVE | FUNKCIJA |
-| :-- | :------------: | -------- |
-| 1.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/521/521554-64.png" width="50" />](https://addons.mozilla.org/firefox/addon/decentraleyes/)<br><b>[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)</b> | Posnema omrežja za dostavo vsebin (angl. content delivery network – CDN). Namen je preprečiti številne zahteve omenjenih omrežij. Razširitev se skuša izogniti velikim omrežjem, ki na spletu ponujajo brezplačne storitve (npr. Google Hosted Libraries, Microsoft Ajax CDN, CDNJS ...). Razširitev deluje tako, da prestreza spletni promet, na osnovi česar najde vire, ki so podprti na lokalni ravni. Če so potrebni viri na voljo na lokalni ravni, jih vrine v okolje. V kolikor nek zahtevan vir ni na voljo na lokalni ravni, pa Decentraleyes pomaga odstraniti občutljive podatke iz odhodne spletne zahteve.<br><b>OPOMBA:</b> uporabniki starejših različic Firefoxa (do različice 56) lahko namestijo <b>[starejšo različico](https://addons.mozilla.org/firefox/addon/decentraleyes/versions/)</b> razširitve. |
-| 2.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/351/351740-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)<br><b>[Google search link fix](https://addons.mozilla.org/firefox/addon/google-search-link-fix/)</b> | Preprečuje spreminjanje povezav z rezultati iskanja na spletnih mestih Google in Yandex. Razširitev spletnemu iskalniku preprečuje, da bi pri uporabnikovem kliku na rezultat iskanja spremenil pripadajočo povezavo. Na ta način se lahko povezava brez težav kopira neposredno na straneh spletnega iskalnika. Poleg tega pa spletni iskalnik ne more več učinkovito spremljati nadaljnjih klikov uporabnika. |
-| 3.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/843/843685-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/neat-url/)<br><b>[Neat URL](https://addons.mozilla.org/firefox/addon/neat-url/)</b> | Iz URL naslovov odstranjuje parametre (npr. UTM parametre za storitev Google Analytics). Različna analitična orodja uporabljajo URL parametre za namene spletne analitike, s čimer sledijo obiskovalcem spletnih strani (npr. za analize časa zadrževanja na posamezni strani, načine navigiranja po straneh ...). |
-| 4.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/327/327417-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/smart-referer/)<br><b>[Smart Referer](https://addons.mozilla.org/firefox/addon/smart-referer/)</b> | Vključi t. i. pametne napotitelje. Razširitev samodejno spremeni informacijo o napotitelju (angl. HTTP referer) vsakič, ko uporabnik obišče spletno mesto z drugo domeno. Pri tem je napotitelj spletni naslov, ki ga je uporabnik predhodno obiskal in iz katerega je prišel na trenutno spletno mesto. Smart referer pa informacijo o dejanskem (predhodnem) spletnem naslovu zamenja kar s ciljnim (aktualnim) spletnim naslovom. Na ta način se ustvarja vtis, da je uporabnik na trenutno spletno mesto prišel direktno (recimo z neposrednim vnosom spletnega naslova v brskalnik ali z odprtjem zaznamka) – ne pa iz nekega predhodnega spletnega mesta. S takšnim spreminjanjem informacije o napotitelju uporabnik pridobi več zasebnosti, saj denimo ni mogoče razpoznati, na podlagi katerega iskalnega niza v spletnem iskalniku (oz. iz katerega predhodnega spletnega naslova) je uporabnik v resnici prišel na trenutno spletno mesto. |
-| 5.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/607/607454-64.png" width="43" />](https://addons.mozilla.org/firefox/addon/ublock-origin/)<br><b>[uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> | Filtrira (blokira) poljubne vsebine na spletu. Večinoma se uporablja za zavračanje neželenih vsebin, kot so spletni oglasi in sledilci za sledenje uporabnikov. uBlock Origin se zato mnogokrat označuje kot preprečevalnik oglasov (angl. ad blocker). uBlock Origin je eno najbolj učinkovitih tovrstnih orodij z vidika hitrosti delovanja in porabe sistemskih sredstev. Z uporabo te razširitve se občutno zviša hitrost nalaganja spletnih strani, poveča se njihova preglednost, hkrati pa se lahko (z nekaj dodatnimi nastavitvami) precej omeji tudi sledenje, ki se ga poslužujejo številna spletna mesta. |
-| 6.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/7/7560-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/webmail-ad-blocker/)<br><b>[Webmail Ad Blocker](https://addons.mozilla.org/firefox/addon/webmail-ad-blocker/)</b> | Blokira oglase in oglasne pasice za znane storitve spletne pošte: Google Mail, Outlook.com (prej Hotmail) in Yahoo Mail. Razširitev je priporočljivo uporabljati hkrati s preprečevalnikom oglasov (npr. uBlock Origin), saj je slednji v tem primeru zmožen blokirati samo spletne oglase, ne pa tudi oglasnih pasic. Webmail Ad Blocker pa je zmožen odpraviti tudi oglasne pasice in s tem povečati preglednost spletišč, ki ponujajo e-poštne storitve. |
-
-<h4>3.b) Uporabnost</h4>
-
-|     | IME RAZŠIRITVE | FUNKCIJA |
-| :-- | :------------: | -------- |
-| 7.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/909/909373-64.png" />](https://addons.mozilla.org/firefox/addon/auto-tab-discard/)<br><b>[Auto Tab Discard](https://addons.mozilla.org/firefox/addon/auto-tab-discard/)</b> | Razširitev je namenjena varčevanju z delovnim pomnilnikom: neaktivni zavihki (torej tisti v ozadju) se po določenem času – privzeto po 10 minutah – samodejno izbrišejo iz pomnilnika (ne pa tudi iz brskalnika), na podlagi česar brskalnik tudi po daljšem času neprenehne uporabe in pri večjem številu odprtih zavihkov ostaja varčen z delovnim pomnilnikom. Namestitev razširitve je zelo priporočljiva za računalnike, ki imajo vgrajenega manj kot 4 GB RAM-a. |
-| 8.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/660/660064-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)<br><b>[Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)</b> | Izklopi funkcijo samodejnega predvajanja (tj. samodejnega skoka na naslednji videoposnetek) na spletnih mestih YouTube, TED in Vimeo. |
-| 9.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/743/743689-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)<br><b>[Bookmarks Manager and Viewer](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)</b> | Upravitelj in pregledovalnik zaznamkov. Izbor pripadajočega gumba prikaže ploščo, v kateri je možno iskanje med vsemi shranjenimi zaznamki. Razširitev omogoča urejanje in premikanje zaznamkov, ustvarjanje novih zaznamkov in map ipd. |
-| 10. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/481/481438-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)<br><b>[I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)</b> | Odpravi nadležna obvestila o piškotkih na številnih "okuženih" spletnih mestih. Razširitev odpravi moteče pasice z obvestili, s čimer poveča preglednost in nekoliko skrajša čas nalaganja spletne strani. Zakonodaja EU za spletna mesta, ki so v lasti družb s sedežem v EU, med drugim zahteva, da obiskovalcem ponudijo možnost sprejetja ali zavrnitve oz. preklica soglasja za uporabo piškotkov. Obvestila so zelo nadležna, ker se vse uporabnikove odločitve izničijo ("pozabijo") vsakič, ko piškotke izbrišemo iz naprave. Enako velja za uporabo zasebnega brskanja, v okviru katerega se zgodovina spletnega brskanja ne shranjuje. To pomeni, da se uporabnik z obvestili o piškotkih navadno srečuje vedno znova. Razširitev tovrstna obvestila skrije, kar naredi tako, da samodejno privoli v uporabo piškotkov. Samodejno strinjanje z uporabo piškotkov (ki je sicer včasih pogoj za popolno delovanje pripadajočega spletnega mesta) krni zasebnost, vendar pa se to lahko vseeno kompenzira s hkratno uporabo drugih razširitev (npr. uBlock Origin) in zaščitnih mehanizmov (npr. Zaščita pred sledenjem v brskalniku Firefox). |
-| 11. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/739/739386-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/in-my-pocket/)<br><b>[In My Pocket](https://addons.mozilla.org/firefox/addon/in-my-pocket/)</b> | In My Pocket je odličen za uporabnike storitve *[Pocket](https://getpocket.com/)*. Razširitev v naslovno (URL) vrstico brskalnika doda ikono, ki omogoča shranjevanje ali odstranjevanje spletnih mest s storitve *Pocket*. Poleg tega razširitev omogoča uporabo priročnega seznama z vsemi shranjenimi povezavami do spletnih mest v okviru storitve Pocket. Povezave s seznama je možno odpreti ali odstraniti (sinhronizirano s storitvijo Pocket). Omenjen seznam prikličemo z izborom pripadajočega gumba. Razširitev torej deluje po vzoru uradne (a ukinjene različice) razširitve Pocket, na podlagi katere za uporabo storitve Pocket ni potrebe po neposrednem obiskovanju spletnega mesta getpocket.com. |
-| 12. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/718/718289-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/mouse-gestures/)<br><b>[Mouse Gesture Events](https://addons.mozilla.org/firefox/addon/mouse-gestures/)</b> | Omogoča brskanje z uporabo priročnih miškinih potez. V nastavitvah razširitve se lahko prilagodijo različne možnosti za navigiranje po spletu z uporabo desnega miškinega gumba v povezavi z gibanjem miške in/ali z uporabo desnega miškinega gumba v povezavi z vrtenjem miškinega koleščka. |
-| 13. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/724/724283-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/save-page-we/)<br><b>[Save Page WE](https://addons.mozilla.org/firefox/addon/save-page-we/)</b> | Omogoča (lokalno) shranjevanje spletnih strani v eni sami datoteki HTML. Shraniti (arhivirati) je možno celotno spletno stran ali pa samo njene izbrane elemente. Shranjevanje strani s pomočjo Save Page WE je precej bolj praktično od "običajnega" shranjevanja, saj Save page WE celotno razpoložljivo vsebino spletne strani združi v le eno datoteko HTML. Nadalje je uporaba Save Page WE primernejša od shranjevanja spletnih strani v drugih oblikah (npr. v obliki MHT). Shranjevanje spletnih strani v obliki HTML je primernejše od MHT, ker podporo za datoteke HTML brez težav nudijo vsi brskalniki (v nasprotju z datotekami MHT, za katere v splošnem obstaja precej slabša podpora). |
-| 14. | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/937/937151-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/view-image/)<br><b>[View Image](https://addons.mozilla.org/firefox/addon/view-image/)</b> | Ponovno prikaže gumba <code>Ogled slike</code> in <code>Iskanje s sliko</code> v spletnem iskalniku slik *[Google Slike](https://www.google.si/imghp?hl=sl)*. Google je namreč leta 2018 ta dva gumba umaknil s svoje storitve zaradi obtožb, da z "bližnjičnimi" gumbi ponuja neposreden dostop do vsebin, ki so avtorsko zaščitene, s tem pa olajšuje tudi možnost njihove kraje. |
-| 15. | [<img src="https://addons.cdn.mozilla.net/static/img/addon-icons/posts-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)<br><b>[Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)</b> | Izklopi pripise (angl. annotations) na spletnem mestu YouTube. S tem se poveča preglednost pri ogledovanju videoposnetkov.<br><b>OPOMBA:</b> če bi kljub temu želeli v videoposnetkih videti (oz. klikniti na) pripise, je potrebno to razširitev v seznamu razširitev (začasno) onemogočiti ali pa odstraniti. |
 
 <h3>4. Datoteka hosts</h3>
 
