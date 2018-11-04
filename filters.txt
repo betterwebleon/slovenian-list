@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 82
+! Version: 83
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -28,7 +28,10 @@
 ||adform.net^
 ||ads.24ur.com^
 ||api.rtvslo.si/stats/log/vodplay
+||avto.net/_banner/Mornar
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
+||celje.info/wp-content/uploads/*avtohisa_drev.jpg
+||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||delo.si/*/pr_vertikalni.html$subdocument
 ||dostop.si/bannerji/*.png
@@ -59,6 +62,14 @@
 ||monitor.si/inc/*/php/twitter/jquery.tweet.js
 ||monitor.si/media/img/$subdocument
 ||nogomania.com/images/backgrounds/*.gif
+||partis.si/betlink_news.html
+||partis.si/img/urgo.jpg
+||partis.si/iprom*.html
+||partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
+||partis.si/tmp/fruc*.jpg
+||partis.si/tmp/ortostevard.jpg
+||partis.si/tmp/ortoxmas.jpg
+||partis.si/tmp/vzajemna4.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||pipe.aria.microsoft.com/collector/
@@ -87,13 +98,6 @@
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
-||www.partis.si/img/urgo.jpg
-||www.partis.si/iprom*.html
-||www.partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
-||www.partis.si/tmp/fruc*.jpg
-||www.partis.si/tmp/ortostevard.jpg
-||www.partis.si/tmp/ortoxmas.jpg
-||www.partis.si/tmp/vzajemna4.jpg
 ||www.posita.si$popup,domain=reporter.si
 ||www.radiokrka.com/portals/oglasevanje
 ||www.revijavklop.si/media/images/fbglava.png
@@ -111,6 +115,7 @@
 ||onthe.io^$third-party
 ||p.typekit.net^$third-party
 ||shield.sitelock.com^$third-party
+||upscore.com^$third-party
 !
 ! General element filters
 ##.advert.box
@@ -167,15 +172,17 @@ bringler.com###left_click_div
 bringler.com###right_click_div
 btc-city.com##.B:nth-of-type(1)
 cekin.si##onl-eurojackpot-teaser
+cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
 cekin.si##onl-magick-box:nth-of-type(1)
-cekin.si##.banner
 cekin.si##.thumb-list--article
+celje.info###header-right-section
+celje.info###heateor_ss_browser_popup_bg
 ceneje.si##.topBannerSellerP
 ciklon.si###text-10
 ciklon.si###text-4
-citymagazine.si##[id^="post"] > .entry-meta > .span6 > .entry-social-box
-citymagazine.si###content > .wrapper > .slotbar > .listBox > .listBox-main > .banner-square-2
-citymagazine.si###content > .wrapper > .slotbar > .radio-banner-widget > .banner-square-7
+citymagazine.si##.banner-square-2
+citymagazine.si##.banner-square-5
+citymagazine.si##.banner-square-7
 deloindom.si###exitPopup
 delo.si##.clanek_oglas_holder
 delo.si##.clanek_wrapper
@@ -293,17 +300,16 @@ monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
 monitor.si##.video-ad
-moskisvet.com##[id^="box_10002018d121"]
-moskisvet.com###box_30000156d123894
-moskisvet.com###box_4611d1222585
-moskisvet.com###div_banner_M
-moskisvet.com###div_banner_MCLANEK
+moskisvet.com##onl-article-connected
+moskisvet.com##onl-microsite
+moskisvet.com##.microsite-article
 moski.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 moski.hudo.com##.the-post > .socials
 moski.hudo.com##a[href^="http://hudo.com/si/"]
 motiviran.si##[id^="adDesktop"]
 motiviran.si###secondary > div
+najcena.si###banner_top
 napovednik.com##.banner
 naprostem.si##.shop__card.noPaddingAlways.col-md-12
 naprostem.si##.topBanner
@@ -393,6 +399,7 @@ ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
 rtvslo.si##.block_iprom
 rtvslo.si##.oglas
+rtvslo.si###ads-cbox
 rtvslo.si###banner
 rtvslo.si###b_1166
 rtvslo.si###b_838
@@ -453,9 +460,6 @@ volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.24ur.com##.banner
 vreme.zurnal24.si##.ad
-www.casnik.si###cas_right
-www.celje.info###link_oglas
-www.cenim.se###bottom-sidebar
 www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 www.dnevnik.si###app-messages
 www.dnevnik.si###piano-root > .input
@@ -590,15 +594,10 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
-zadovoljna.si##.magic_template
-zadovoljna.si##[id^="div_banner"]
-zadovoljna.si###box_180002682d1207193
-zadovoljna.si###box_180002682d1210259 > .backButton
-zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .clearfix.doubleFacebookContent > .fbActivity
-zadovoljna.si###box_360005551d1217532 > .doubleFacebook > .doubleFacebookHeader
-zadovoljna.si###facebook_box
-zadovoljna.si###group_30
-zadovoljna.si###staticContent
+zadovoljna.si##onl-article-connected
+zadovoljna.si##onl-microsite
+zadovoljna.si##.microsite-article
+zadovoljna.si##.quizoom-embed
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
 zdravje.si##.td-post-sharing-top
