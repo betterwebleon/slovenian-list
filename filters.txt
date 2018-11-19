@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 83
+! Version: 84
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -44,7 +44,9 @@
 ||files.dnevnik.si/2013/porabi.jpg
 ||files.dnevnik.si/2014/Emona_banner.jpg
 ||golfportal.info/*/banner*.png
+||hit.gemius.pl^$popup
 ||hudo.com/*/im_banner*.jpg
+||instore.si/newsarticle/newsarticle/public_content/*/s_wallpaper.jpg$image
 ||ipromcloud.com/ipromNS.js
 ||iprom.net/adasync.js
 ||itis.si/Embed_AdvertisersPromo.aspx
@@ -88,6 +90,7 @@
 ||shrani.si/*/output*.gif$image,domain=pomurje24.si
 ||static.dijaski.net/graphics/aff/telemach2.png
 ||static.plista.com
+||studentarija.net/wp-content/uploads/*/A1_NoviPaketi_Ozadje_A1Play*.jpg$image
 ||triglav.si/*$popup
 ||triglavtek.si/*$popup
 ||varna-voznja.si/upload/banners/
@@ -139,6 +142,7 @@
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
+24ur.com##.ng-star-inserted.banner--article
 aktivni.si##.livenetlife_linkswidget_logo
 ap-ljubljana.si###reklame
 avtomanija.com###Banner300R
@@ -162,6 +166,7 @@ bicikel.com##.topBannerLanding
 bigbang.si##.wallpaperWrapper
 bigpicture.si###text-2
 bigpicture.si###text-3
+bizi.si###divZSDBanners
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
 bolha.com###servicesToItems
@@ -209,6 +214,7 @@ ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.cle
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
 enajdi.si###lightbox
 explicit.si##.special-message-wrapper
+e-mesto.si##div.span2:nth-of-type(3) > div:nth-of-type(2)
 finance.si##.adbox
 finance.si##.kos_semitrans
 finance.si###article_social_top
@@ -300,8 +306,11 @@ monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
 monitor.si##.video-ad
-moskisvet.com##onl-article-connected
-moskisvet.com##onl-microsite
+moskisvet.com##onl-magick-box
+moskisvet.com##.banner-wr
+moskisvet.com##.banner--before
+moskisvet.com##.banner--below
+moskisvet.com##.box-shadow
 moskisvet.com##.microsite-article
 moski.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
@@ -428,6 +437,9 @@ spored.tv###RightBanner
 startaj.finance.si###article_social_top
 sta.si###center > .leadlist > .banners
 startaj.finance.si###main-column-inner > .kos_semitrans
+studentarija.net##div.banner_footer
+studentarija.net##.banner
+studentarija.net###banner_side_layer
 svet24.si##.banner-box
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
