@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 84
+! Version: 85
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -30,6 +30,7 @@
 ||api.rtvslo.si/stats/log/vodplay
 ||avto.net/_banner/Mornar
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
+||cekin.si/assets/box/magick-box/kriptovalute/index.html
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
@@ -166,7 +167,7 @@ bicikel.com##.topBannerLanding
 bigbang.si##.wallpaperWrapper
 bigpicture.si###text-2
 bigpicture.si###text-3
-bizi.si###divZSDBanners
+bizi.si##.td-zsd
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
 bolha.com###servicesToItems
@@ -179,7 +180,8 @@ btc-city.com##.B:nth-of-type(1)
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
 cekin.si##onl-magick-box:nth-of-type(1)
-cekin.si##.thumb-list--article
+cekin.si##.banner
+cekin.si##.ticker
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##.topBannerSellerP
@@ -260,6 +262,9 @@ kosmika.si###fan-exit
 kosmika.si###fanback
 kos.interseek.si
 kozjansko.info##.g-single
+letakonosa.si##.hidden-sm
+letakonosa.si##.signad
+letakonosa.si##.sticky-position
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
 manager.finance.si###article_social_bottom
@@ -416,6 +421,7 @@ salomon.si##[id^="firstSiteBanner"]
 scoreboard.com##.box_over_content_9547
 shop.kapodol.com###fixed > .site-banner
 siol.net##.card--ts_storitva
+siol.net##.fold__homepage_banner
 siol.net##.grid-12.grid-md-3
 siol.net##.grid-12.grid-md-8.grid-lg-3
 siol.net##.marketing
