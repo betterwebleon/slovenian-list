@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 85
+! Version: 86
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -15,7 +15,6 @@
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||google-analytics.com/ga.js$domain=prehrana.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
-@@||infogr.am$domain=rtvslo.si
 @@||moja.bolha.com
 @@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
@@ -27,7 +26,6 @@
 ||ad.partis.si^
 ||adform.net^
 ||ads.24ur.com^
-||api.rtvslo.si/stats/log/vodplay
 ||avto.net/_banner/Mornar
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||cekin.si/assets/box/magick-box/kriptovalute/index.html
@@ -137,6 +135,8 @@
 ! Site-specific element filters
 1nadan.si##.background_link
 24ur.com##onl-eurojackpot-teaser
+24ur.com##onl-magick-box
+24ur.com##onl-microsite
 24ur.com##onl-voyo.sidebar__box
 24ur.com##.banner--before
 24ur.com##.banner.sidebar__box
@@ -177,9 +177,11 @@ bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
 btc-city.com##.B:nth-of-type(1)
+cekin.si##onl-article-connected
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
 cekin.si##onl-magick-box:nth-of-type(1)
+cekin.si##onl-microsite
 cekin.si##.banner
 cekin.si##.ticker
 celje.info###header-right-section
@@ -411,12 +413,6 @@ revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.cont
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
-rtvslo.si##.block_iprom
-rtvslo.si##.oglas
-rtvslo.si###ads-cbox
-rtvslo.si###banner
-rtvslo.si###b_1166
-rtvslo.si###b_838
 salomon.si##[id^="firstSiteBanner"]
 scoreboard.com##.box_over_content_9547
 shop.kapodol.com###fixed > .site-banner
@@ -436,6 +432,7 @@ slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
 slo-foto.net##.sf-ads_container
 slo-foto.net##.sf-panel:nth-of-type(2)
+slo-tech.com###banner
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
 sobotainfo.com###content > .region-highlighted.region
