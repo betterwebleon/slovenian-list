@@ -31,6 +31,7 @@
 ||cekin.si/assets/box/magick-box/kriptovalute/index.html
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
+||celje.info/wp-content/uploads/*/Polovicka*.jpg
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||delo.si/*/pr_vertikalni.html$subdocument
 ||dostop.si/bannerji/*.png
@@ -228,6 +229,7 @@ golfportal.info###content > div:nth-of-type(2)
 golfportal.info###content > div:nth-of-type(3)
 golfportal.info###content > div:nth-of-type(4)
 golfportal.info###divMain_pnlNewsVSN
+google.si##.widget-consent-dialog
 govori.se##.container > .row:nth-of-type(5)
 govori.se###branding
 holistic.si###popmake-overlay
@@ -264,6 +266,7 @@ kosmika.si###fan-exit
 kosmika.si###fanback
 kos.interseek.si
 kozjansko.info##.g-single
+kozjansko.info###heateor_ss_browser_popup_bg
 letakonosa.si##.hidden-sm
 letakonosa.si##.signad
 letakonosa.si##.sticky-position
@@ -287,6 +290,7 @@ med.over.net###kvadrat2_widget-3
 meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
 mlacom.si##.banner-scroller
 mlacom.si##.headbanner
+mladina.si##.ad
 mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
 mladipodjetnik.si###above-text-banner
@@ -330,6 +334,12 @@ napovednik.com##.banner
 naprostem.si##.shop__card.noPaddingAlways.col-md-12
 naprostem.si##.topBanner
 naprostem.si##.topBannerLanding
+nepremicnine.net###ad-detail
+nepremicnine.net###ad-hor > .psn.ad-box
+nepremicnine.net###podrobnosti > .ad-container
+nepremicnine.net###slide-naslovna
+nepremicnine.net###top-novica > .list-1:nth-of-type(1)
+nepremicnine.si21.com###bannerji_top
 njena.svet24.si##.hidden-xs.banner
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(3)
 nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth-of-type(4) > .si_BaC_w > div:nth-of-type(2)
@@ -354,6 +364,7 @@ partis.si##.all > .dildo > .bigban
 partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
 partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
 partis.si##.promotool-id
+partis.si##.sgpm-popup-maker-wrapper
 partis.si###righttd > .menijidesno:nth-of-type(1)
 partis.si###righttd > .menijidesno:nth-of-type(7)
 partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
@@ -411,8 +422,12 @@ revijaavenija.si###sharebar
 revijazvezde.si###content > .ng-scope > .ng-scope.home > .facebook
 revijazvezde.si###content > .ng-scope > .ng-scope.home > header > .clearfix.container > .banners
 revijazvezde.si###content > .ng-scope > .ng-scope.static > .facebook
+rfantasy.si###bglink
+rfantasy.si###DivShowBanners
+rfantasy.si###DivShowBannersForFrontPage
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
+rtvslo.si##.inverted-colors.teal.emphasis
 salomon.si##[id^="firstSiteBanner"]
 scoreboard.com##.box_over_content_9547
 shop.kapodol.com###fixed > .site-banner
@@ -440,6 +455,7 @@ spored.tv###RightBanner
 startaj.finance.si###article_social_top
 sta.si###center > .leadlist > .banners
 startaj.finance.si###main-column-inner > .kos_semitrans
+stop-neplacniki.si###ctl00_bannersCont
 studentarija.net##div.banner_footer
 studentarija.net##.banner
 studentarija.net###banner_side_layer
@@ -447,6 +463,7 @@ svet24.si##.banner-box
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
 svetkapitala.delo.si##.article__social--top
+svetkapitala.delo.si##.dfp_banner
 t3tech.si##.add-title
 tehnik.telekom.si##.banner
 tehnozvezdje.si##.clearfix.ai_widget
@@ -524,10 +541,6 @@ www.mobile.si###mmidledbl > .headingfb
 www.mobile.si###skytower
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
 www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
-www.nepremicnine.net###ad-hor > .psn.ad-box
-www.nepremicnine.net###podrobnosti > .ad-container
-www.nepremicnine.net###slide-naslovna
-www.nepremicnine.net###top-novica > .list-1:nth-of-type(1)
 www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
 www.noviradio.si##[id^="post"] > .td-container > .td-pb-row > .td-main-content > .td-ss-main-content > .td-post-sharing-top
 www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
