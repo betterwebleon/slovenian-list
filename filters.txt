@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 87
+! Version: 88
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -137,10 +137,8 @@
 1nadan.si##.background_link
 24ur.com##onl-eurojackpot-teaser
 24ur.com##onl-magick-box
-24ur.com##onl-microsite
 24ur.com##onl-voyo.sidebar__box
-24ur.com##.banner--before
-24ur.com##.banner.sidebar__box
+24ur.com##.banner
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
@@ -169,6 +167,7 @@ bigbang.si##.wallpaperWrapper
 bigpicture.si###text-2
 bigpicture.si###text-3
 bizi.si##.td-zsd
+bolha.com##.trakica_container
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
 bolha.com###servicesToItems
@@ -184,7 +183,6 @@ cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
 cekin.si##onl-magick-box:nth-of-type(1)
 cekin.si##onl-microsite
 cekin.si##.banner
-cekin.si##.ticker
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##.topBannerSellerP
@@ -380,7 +378,6 @@ pokukaj.si###show > div > div > .ban_item
 pomurec.com###nestandard
 pomurec.com##.fotoutr > .fotoutr4
 pomurec.com##.lightface
-pomurje24.si##.blog-lists-blog > a
 pomurje24.si##a:nth-of-type(6) > img
 pomurje24.si##a:nth-of-type(8) > img
 pomurje24.si##img[src="http://shrani.si/f/2c/6s/1bmuACP9/kuponi.gif"]
@@ -388,6 +385,7 @@ pomurje24.si##img[src="http://shrani.si/f/2n/mQ/3HuQoohm/kupon-zgoraj.gif"]
 pomurje24.si##img[src="http://shrani.si/f/2t/2N/1oYNKoNu/yes-pohistvo-kocka.gif"]
 pomurje24.si##img[src="http://shrani.si/f/3L/Oq/MNPq41L/outputyj81mk.gif"]
 pomurje24.si##img[src="http://shrani.si/f/T/ei/31PqjJnD/oglasujte-tukaj-380-x-24.png"]
+pomurje24.si##.blog-lists-blog > a
 pomurje24.si###blocks-left > a
 pomurje24.si###text-6
 pomurje24.si###text-14 > .textwidget > a:nth-of-type(1)
@@ -464,6 +462,7 @@ svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-
 svet24.si##.container > .page-bg.container > .row > .col-xs-4 > .banner-box
 svetkapitala.delo.si##.article__social--top
 svetkapitala.delo.si##.dfp_banner
+svetopismo.si###heateor_ss_browser_popup_bg
 t3tech.si##.add-title
 tehnik.telekom.si##.banner
 tehnozvezdje.si##.clearfix.ai_widget
@@ -623,7 +622,7 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
 zadovoljna.si##onl-article-connected
-zadovoljna.si##onl-microsite
+zadovoljna.si##.banner
 zadovoljna.si##.microsite-article
 zadovoljna.si##.quizoom-embed
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
