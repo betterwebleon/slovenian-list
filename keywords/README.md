@@ -41,14 +41,16 @@ V spodnji tabeli so podane ključne besede (angl. keywords) za iskalnike na sple
 | 30. | Wikipedia SLO                                | wiki           | `https://sl.wikipedia.org/wiki/%s` |
 | 31. | YouTube                                      | y              | `https://www.youtube.com/results?search_query=%s` |
 
-<h3> 1. Navodila za brskalnik Mozilla Firefox<h3>
+<h3> 1. Navodila za brskalnik Mozilla Firefox</h3>
 
-Datoteka **`Ključne besede.html`** z vsemi vnosi, ki so prikazani v zgornji tabeli, se uvozi na sledeči način:<br><br>
-Odpremo brskalnik Firefox > pritisnemo kombinacijo tipk <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> > v menijski vrstici okna Knjižnica kliknemo na "*Uvozi in arhiviraj*" > v priročnem meniju izberemo "*Uvozi zaznamke iz HTML ...*" > nato v pojavnem oknu poiščemo omenjeno HTML datoteko, ki smo jo predhodno prenesli na računalnik, jo izberemo in pritisnemo gumb <kbd>Odpri</kbd>.
+Datoteka **`Ključne besede.html`** (ki vsebuje vnose za vse iskalnike, ki so prikazani v zgornji tabeli) se uvozi na sledeči način:<br><br>
+Odpremo brskalnik Firefox > pritisnemo kombinacijo tipk <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> > v menijski vrstici okna Knjižnica kliknemo na "*Uvozi in arhiviraj*" in v priročnem meniju izberemo "*Uvozi zaznamke iz HTML ...*" > nato v pojavnem oknu poiščemo omenjeno HTML datoteko, ki smo jo predhodno prenesli na računalnik, jo izberemo in pritisnemo gumb <kbd>Odpri</kbd>.
 <br><br>
-<b>*Opomba:*</b> kadar shranjujemo "običajne" zaznamke, se pri tem nikoli samodejno ne shrani nobena ključna beseda. Le-to je potrebno v Knjižnici (ki jo v Firefoxu odpremo s kombinacijo tipk <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>) vedno dodati ročno in za vsako spletno mesto posebej. Izjema so spletna mesta v omenjeni datoteki "*Ključne besede.html*" z že pripravljenimi nastavitvami – seveda pod pogojem, da jo uvozimo v brskalnik Firefox. Po uvozu se v seznamu zaznamkov ustvari mapa "*Ključne besede*", v kateri je seznam vseh iskalnikov. V tej uvoženi mapi lahko nato posamezne vnose poljubno spreminjamo ali odstranjujemo, kot to velja za vse ostale zaznamke. Vedno pa lahko seveda v poljubne mape dodajamo tudi druge (nove) vnose.
+<b>*Opomba 1:*</b> kadar shranjujemo "običajne" zaznamke, se pri tem nikoli samodejno ne shrani ključna beseda. Le-to je potrebno v Knjižnici (ki jo v Firefoxu odpremo s kombinacijo tipk <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>) vedno dodati ročno – za vsak iskalnik posebej. Izjema so iskalniki za spletna mesta v omenjeni datoteki "*Ključne besede.html*" z že pripravljenimi ključnimi besedami – seveda pod pogojem, da to datoteko uvozimo v brskalnik Firefox. Po uvozu se v seznamu zaznamkov ustvari mapa "*Ključne besede*", v kateri je seznam vseh vnosov. Ti vnosi služijo samo kot iskalniki in se torej ne obnašajo kot "običajni" zaznamki, na katere kliknemo in bi nam nato prikazali neko spletno stran. Posamezen iskalnik pa se pri tem aktivira samo takrat, kadar v iskalno (URL) vrstico vnesemo pripadajočo ključno besedo.
+<br>
+<b>*Opomba 2:*</b> v uvoženi mapi "*Ključne besede*" lahko naknadno posamezne vnose (iskalnike) poljubno spreminjamo ali odstranjujemo, kot to velja za vse ostale "običajne" zaznamke. Vedno pa lahko seveda v poljubne mape dodajamo tudi druge (nove) vnose.
 
-<h3> 2. Navodila za brskalnika Opera in Google Chrome<h3>
+<h3> 2. Navodila za brskalnika Opera in Google Chrome</h3>
   
 Podporo za uporabo ključnih besed imajo tudi drugi brskalniki (npr. Opera, Google Chrome), vendar pa predpripravljenih nastavitev v večino brskalnikov ne moremo uvoziti s pomočjo prej omenjene datoteke `Ključne besede.html`. V takšnem primeru je potrebno želene ključne besede v brskalniku nastaviti ročno, še vedno pa se lahko zgledujemo po vnosih v zgornji tabeli.
 <br><br>
