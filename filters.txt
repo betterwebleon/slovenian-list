@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 88
+! Version: 89
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -9,6 +9,8 @@
 !
 ! Network filters:
 /piwik.js
+@@||ads.api.24ur.si^$xhr,domain=24ur.com
+@@||akumulator.si/img/upload/banners/*.jpg$domain=akumulator.si
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
 @@||celje.info/wp-content/plugins/simple-share-buttons-adder/buttons/pagepeel/*.png
@@ -64,7 +66,9 @@
 ||monitor.si/inc/*/php/twitter/jquery.tweet.js
 ||monitor.si/media/img/$subdocument
 ||nogomania.com/images/backgrounds/*.gif
+||partis.si/betlink.html
 ||partis.si/betlink_news.html
+||partis.si/betlink_torrent.html
 ||partis.si/img/urgo.jpg
 ||partis.si/iprom*.html
 ||partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
@@ -143,8 +147,8 @@
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
 24ur.com##.ng-star-inserted.banner--article
+aktivni.si##.banner-app-article
 aktivni.si##.livenetlife_linkswidget_logo
-ap-ljubljana.si###reklame
 avtomanija.com###Banner300R
 avtomanija.si###Banner300R
 avtomobilizem.com##.widget-ad-bottom-banner
@@ -153,7 +157,7 @@ avto.info##.bannerR2
 avto.info###bannerC1_728
 avto.info###bannerC2
 avto.net##.BannerBox972
-avto.net##.ShadowBtm.Rounded.MarginL
+avto-fokus.si##.uvodna_bottomBaners
 avto-fokus.si###baner
 avto-fokus.si###banners
 bibaleze.si##a > strong
@@ -183,6 +187,7 @@ cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
 cekin.si##onl-magick-box:nth-of-type(1)
 cekin.si##onl-microsite
 cekin.si##.banner
+cekin.si##.embed--component
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##.topBannerSellerP
@@ -239,6 +244,7 @@ hudo.com##[id^="hudolistbox"] > .default > .ad
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
+informiran.si##.outFrameRight2_htm
 iskreni.net###sidebar > .moduletable:nth-of-type(2)
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
