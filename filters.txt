@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 89
+! Version: 90
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -9,7 +9,7 @@
 !
 ! Network filters:
 /piwik.js
-@@||ads.api.24ur.si^$xhr,domain=24ur.com
+@@||ads.api.24ur.si^$xhr,domain=24ur.com|bibaleze.si
 @@||akumulator.si/img/upload/banners/*.jpg$domain=akumulator.si
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
@@ -160,16 +160,13 @@ avto.net##.BannerBox972
 avto-fokus.si##.uvodna_bottomBaners
 avto-fokus.si###baner
 avto-fokus.si###banners
-bibaleze.si##a > strong
-bibaleze.si##.banner
-bibaleze.si##.voyo-box
-bibaleze.si###facebook-article-like
+bibaleze.si##onl-article-connected
+bibaleze.si##onl-banner
+bibaleze.si##.xl\:h-250.h-470
 bicikel.com##.shop__card.noPaddingAlways.col-md-12
 bicikel.com##.topBanner
 bicikel.com##.topBannerLanding
-bigbang.si##.wallpaperWrapper
-bigpicture.si###text-2
-bigpicture.si###text-3
+bizi.si##.banner-970
 bizi.si##.td-zsd
 bolha.com##.trakica_container
 bolha.com###coloumnAd
@@ -180,7 +177,6 @@ bringler.com##.front_topgames_footer
 bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
-btc-city.com##.B:nth-of-type(1)
 cekin.si##onl-article-connected
 cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
@@ -307,6 +303,7 @@ mojaleta.si###dfpContentElement > .fullContent > .banner
 mojaobcina.si##.rightModBox:nth-of-type(3)
 mojblink.si##.widget-wrapper:nth-of-type(5)
 mojblink.si##.widget-wrapper:nth-of-type(6)
+mojblink.si##[href="https://samopostrezna.com/"]
 mojepotovanje.hudo.com###content > .grid1.rectangle
 mojepotovanje.hudo.com###content > .rectangle > .banner-inner
 mojepotovanje.hudo.com###single-content > .the-post > .socials
