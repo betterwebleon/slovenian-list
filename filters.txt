@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 90
+! Version: 91
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -9,7 +9,7 @@
 !
 ! Network filters:
 /piwik.js
-@@||ads.api.24ur.si^$xhr,domain=24ur.com|bibaleze.si
+@@||ads.api.24ur.si^$xhr,domain=24ur.com|bibaleze.si|cekin.si|dominvrt.si|moskisvet.com|okusno.je|vizita.si|zadovoljna.si
 @@||akumulator.si/img/upload/banners/*.jpg$domain=akumulator.si
 @@||bar.piano-media.com/auth$script,domain=dnevnik.si
 @@||bar.piano-media.com/dnevnik/bar.js
@@ -28,6 +28,7 @@
 ||ad.partis.si^
 ||adform.net^
 ||ads.24ur.com^
+||amazonaws.com/banners.wave.si/partis_banners^$subdocument
 ||avto.net/_banner/Mornar
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||cekin.si/assets/box/magick-box/kriptovalute/index.html
@@ -162,6 +163,8 @@ avto-fokus.si###baner
 avto-fokus.si###banners
 bibaleze.si##onl-article-connected
 bibaleze.si##onl-banner
+bibaleze.si##.microsite-article
+bibaleze.si##.microsite-section
 bibaleze.si##.xl\:h-250.h-470
 bicikel.com##.shop__card.noPaddingAlways.col-md-12
 bicikel.com##.topBanner
@@ -186,12 +189,9 @@ cekin.si##.banner
 cekin.si##.embed--component
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
-ceneje.si##.topBannerSellerP
-ciklon.si###text-10
-ciklon.si###text-4
-citymagazine.si##.banner-square-2
-citymagazine.si##.banner-square-5
-citymagazine.si##.banner-square-7
+ceneje.si##.floatingProductContainer
+ciklon.si##.sfsi_outr_div
+citymagazine.si##div[class^="banner-square-"]
 deloindom.si###exitPopup
 delo.si##.clanek_oglas_holder
 delo.si##.clanek_wrapper
@@ -204,11 +204,27 @@ demokracija.si###gkSidebar > .box:nth-of-type(2)
 demokracija.si###gkSidebar > .box:nth-of-type(6)
 demokracija.si###gkSidebar > .nomargin.box
 demotivacija.si##.container > .content > .row > .col-lg-4 > .floatdiv
+diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
 dnevne-novice.com##.banneritem 
 dnevne-novice.com##.oglasi 
 dnevne-novice.com###djslider98
+dnevnik.si###app-messages
+dnevnik.si###piano-root > .input
 dne.enaa.com###html_javascript_adder-2
+dolenjskilist.si###id_obst_kom
+dolenjskilist.si###page > .content > .mainBar > .items > .ad200x200
+dolenjskilist.si###page > .content > .mainBar > .items > .krater-ad-728x90
+dolenjskilist.si###page > .content > .mainBar > .krater-ad-300x250
+dolenjskilist.si###page > .content > .sideBar > .krater-ad-300x250
+dominvrt.si##onl-article-connected
+dominvrt.si##onl-banner
+dominvrt.si##.microsite-article
+dominvrt.si##.microsite-section
+dominvrt.si##.xl\:h-250.h-470
 dostop.si##a[href^="http://www.dostop.si/banners_click.aspx"]
+dostop.si###wallpaper_child > .footer > .spremljanas
+dostop.si###wallpaper_child > .head > .head_top > .top > .banners
+dostop.si###wallpaper_left
 druzina.si###center > .module > .content > article > .article-content > p:nth-of-type(3)
 druzina.si###center > .module.banner
 econintersect.com###contentmain > center:nth-of-type(1)
@@ -318,12 +334,15 @@ monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
 monitor.si##.video-ad
+moskisvet.com##onl-article-connected
+moskisvet.com##onl-banner
 moskisvet.com##onl-magick-box
 moskisvet.com##.banner-wr
 moskisvet.com##.banner--before
 moskisvet.com##.banner--below
 moskisvet.com##.box-shadow
 moskisvet.com##.microsite-article
+moskisvet.com##.microsite-section
 moski.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 moski.hudo.com##.the-post > .socials
@@ -352,8 +371,10 @@ odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasi.delo.si##.page-header-adv
 oglasi.svet24.si##[id^="firstSiteBanner"]
 oglasnik.over.net
-okusno.je##[id^="box"] > .banner
-okusno.je##[id^="div_banner"]
+okusno.je##onl-article-connected
+okusno.je##onl-banner
+okusno.je##.microsite-article
+okusno.je##.microsite-section
 onaplus.si##.g-popup-wrapper
 onaplus.si###exitPopup
 partis.si##a[href^="https://www.nistatusa-nipanike.si/"]
@@ -481,11 +502,10 @@ varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
 vemkajjem.si##[id^="oglasi"]
-vizita.si###container > .header > .clearfix.headerMiddle > .banner > div
-vizita.si###container > .header > .headerMiddle > .banner
-vizita.si###main_content > .content > .textual_content > .textual_content_content > .full > .doubleFacebook > .doubleFacebookHeader
-vizita.si###small_content > .content > .donat2.small_box
-vizita.si###small_content > .content > .slimcut.small_box > .content
+vizita.si##onl-banner
+vizita.si##.border-grey-light.sidebar > .border-grey-light
+vizita.si##.microsite-article
+vizita.si##.microsite-section
 volan.si##a[href^="https://www.volan.si/admin/upload/ads/generator.php"]
 volan.si###banner45
 volan.si###facebook
@@ -494,20 +514,6 @@ volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.24ur.com##.banner
 vreme.zurnal24.si##.ad
-www.diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
-www.dnevnik.si###app-messages
-www.dnevnik.si###piano-root > .input
-www.dolenjskilist.si###id_obst_kom
-www.dolenjskilist.si###page > .content > .mainBar > .items > .ad200x200
-www.dolenjskilist.si###page > .content > .mainBar > .items > .krater-ad-728x90
-www.dolenjskilist.si###page > .content > .mainBar > .krater-ad-300x250
-www.dolenjskilist.si###page > .content > .sideBar > .krater-ad-300x250
-www.dominvrt.si##[id^="box_360005553d12"]
-www.dominvrt.si##[id^="box_"] > .header > .clearfix.headerMiddle > .banner
-www.dominvrt.si###staticContent
-www.dostop.si###wallpaper_child > .footer > .spremljanas
-www.dostop.si###wallpaper_child > .head > .head_top > .top > .banners
-www.dostop.si###wallpaper_left
 www.ekupi.si###ctl00_ctl00_footRibb_ribbonContainer
 www.elle.si###banner300x600
 www.elle.si###content > div:nth-of-type(2)
@@ -625,9 +631,10 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
 zadovoljna.si##onl-article-connected
+zadovoljna.si##onl-magick-box
 zadovoljna.si##.banner
 zadovoljna.si##.microsite-article
-zadovoljna.si##.quizoom-embed
+zadovoljna.si##.microsite-section
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
 zdravje.si##.td-post-sharing-top
