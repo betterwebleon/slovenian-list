@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 91
+! Version: 92
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -30,6 +30,7 @@
 ||ads.24ur.com^
 ||amazonaws.com/banners.wave.si/partis_banners^$subdocument
 ||avto.net/_banner/Mornar
+||bmw.si/sl/all-models/*$popup,domain=golfportal.si
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||cekin.si/assets/box/magick-box/kriptovalute/index.html
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
@@ -232,18 +233,32 @@ ekipa24.si##.banner-box
 ekipa24.si##[id^="banner"]
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
 ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
+ekupi.si###ctl00_ctl00_footRibb_ribbonContainer
+elle.si###banner300x600
+elle.si###content > div:nth-of-type(2)
+elle.si###dontMisser
 enajdi.si###lightbox
+etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social
+etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social:nth-of-type(8)
+etiketamagazin.com##[id^="post-"] > .banner.slide
+etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .fg4.novica.b.social
+etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
+europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
+eventim.si###banner-banners1
+eventim.si###Page-Home > .section > .Advertisement
 explicit.si##.special-message-wrapper
 e-mesto.si##div.span2:nth-of-type(3) > div:nth-of-type(2)
 finance.si##.adbox
 finance.si##.kos_semitrans
 finance.si###article_social_top
+finance.si###main-column-inner > .ure1.altnaslovka > *.adbox.borderbox.newsbox
 fotoarhiv.si###product_images > .sidebarBanner
-golfportal.info##[id^="right-banner"]
-golfportal.info###content > div:nth-of-type(2)
-golfportal.info###content > div:nth-of-type(3)
-golfportal.info###content > div:nth-of-type(4)
-golfportal.info###divMain_pnlNewsVSN
+genspot.com##[id^="popup-"]
+goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
+goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .tabs
+goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
+gohome.si###bannerFooter_wrap > .bannerFooter > object
+golfportal.si##.advertisement
 google.si##.widget-consent-dialog
 govori.se##.container > .row:nth-of-type(5)
 govori.se###branding
@@ -277,7 +292,10 @@ klip.si###oglas
 klip.si###videoMain1 > .arib > .like
 kolosej.si###banner-horizontal
 kolosej.si###promo
+kompas.si###master > table > tbody > tr > .stran > .osrednjiDel > tbody > tr > .banner-pokoncni
 koristno.net###upprev_box
+kosarka.si###footer > .social > .fb.col
+kosarka.si###footer > .social > .tw.wide.col
 kosmika.si###fan-exit
 kosmika.si###fanback
 kos.interseek.si
@@ -288,6 +306,8 @@ letakonosa.si##.signad
 letakonosa.si##.sticky-position
 lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
+lisa.si###clanek > .social-networks:nth-of-type(2)
+lisa.si###sidebar > .e-zin
 manager.finance.si###article_social_bottom
 marketingmagazin.si##.banner_box
 mediaspeed.net##.page_cont > .page > .content > .banner_cont
@@ -502,6 +522,7 @@ varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
 vemkajjem.si##[id^="oglasi"]
+vizita.si##onl-article-connected
 vizita.si##onl-banner
 vizita.si##.border-grey-light.sidebar > .border-grey-light
 vizita.si##.microsite-article
@@ -514,30 +535,6 @@ volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.24ur.com##.banner
 vreme.zurnal24.si##.ad
-www.ekupi.si###ctl00_ctl00_footRibb_ribbonContainer
-www.elle.si###banner300x600
-www.elle.si###content > div:nth-of-type(2)
-www.elle.si###dontMisser
-www.etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social
-www.etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social:nth-of-type(8)
-www.etiketamagazin.com##[id^="post-"] > .banner.slide
-www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .fg4.novica.b.social
-www.etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
-www.europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
-www.eventim.si###banner-banners1
-www.eventim.si###Page-Home > .section > .Advertisement
-www.finance.si###main-column-inner > .ure1.altnaslovka > *.adbox.borderbox.newsbox
-www.genspot.com##[id^="popup-"]
-www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
-www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .tabs
-www.goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
-www.gohome.si###bannerFooter_wrap > .bannerFooter > object
-www.golfportal.si###column-right
-www.kompas.si###master > table > tbody > tr > .stran > .osrednjiDel > tbody > tr > .banner-pokoncni
-www.kosarka.si###footer > .social > .fb.col
-www.kosarka.si###footer > .social > .tw.wide.col
-www.lisa.si###clanek > .social-networks:nth-of-type(2)
-www.lisa.si###sidebar > .e-zin
 www.megasvet.net###doyoulikeus
 www.megasvet.net###header > .header-wrap > .white.container:nth-of-type(2) > .row > .col-md-10 > .center.ads
 www.megasvet.net###slidingmenu > .bannerkoda
