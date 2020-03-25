@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 92
+! Version: 93
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -28,7 +28,7 @@
 ||ad.partis.si^
 ||adform.net^
 ||ads.24ur.com^
-||amazonaws.com/banners.wave.si/partis_banners^$subdocument
+||amazonaws.com/banners.wave.si^$subdocument
 ||avto.net/_banner/Mornar
 ||bmw.si/sl/all-models/*$popup,domain=golfportal.si
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
@@ -75,6 +75,7 @@
 ||partis.si/iprom*.html
 ||partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
 ||partis.si/tmp/fruc*.jpg
+||partis.si/tmp/maska.jpg
 ||partis.si/tmp/ortostevard.jpg
 ||partis.si/tmp/ortoxmas.jpg
 ||partis.si/tmp/vzajemna4.jpg
@@ -159,6 +160,7 @@ avto.info##.bannerR2
 avto.info###bannerC1_728
 avto.info###bannerC2
 avto.net##.BannerBox972
+avto.net##.Oblika3Container
 avto-fokus.si##.uvodna_bottomBaners
 avto-fokus.si###baner
 avto-fokus.si###banners
@@ -172,6 +174,8 @@ bicikel.com##.topBanner
 bicikel.com##.topBannerLanding
 bizi.si##.banner-970
 bizi.si##.td-zsd
+bolha.com##.BannerBillboard
+bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.trakica_container
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
@@ -190,6 +194,7 @@ cekin.si##.banner
 cekin.si##.embed--component
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
+ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
 ceneje.si##.floatingProductContainer
 ciklon.si##.sfsi_outr_div
 citymagazine.si##div[class^="banner-square-"]
@@ -402,6 +407,9 @@ partis.si##a[href^="http://img.bet-at-home.com/"]
 partis.si##a[href^="http://si.hit.gemius.pl"]
 partis.si##a[href^="http://www.urgo.si"]
 partis.si##body > div:nth-of-type(4) > div
+partis.si##^script:has-text(/stil.css?2)
+partis.si##.all > div:nth-of-type(1)
+partis.si##.all > div:nth-of-type(2)
 partis.si##.all > .dildo > .bigban
 partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
 partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
