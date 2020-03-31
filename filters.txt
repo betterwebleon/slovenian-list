@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 94
+! Version: 95
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -23,7 +23,7 @@
 @@||mp.piano-media.com/uid$domain=dnevnik.si
 @@||objava-oglasa.bolha.com
 @@||slokino.com
-@@||sparky.internetmedia.si^$image,script,stylesheet,domain=nepremicnine.net
+@@||sparky.internetmedia.si^$domain=nepremicnine.net
 @@||static.igre123.com/ads/*.gif$image,domain=igre123.com
 ||*.disqus.com/count.js
 ||ad.partis.si^
@@ -76,7 +76,7 @@
 ||partis.si/iprom*.html
 ||partis.si/tmp/1366x768_sportbonus_shaolin_0085_01_0_sl.gif
 ||partis.si/tmp/fruc*.jpg
-||partis.si/tmp/maska.jpg
+||partis.si/tmp/maska*.jpg
 ||partis.si/tmp/ortostevard.jpg
 ||partis.si/tmp/ortoxmas.jpg
 ||partis.si/tmp/vzajemna4.jpg
@@ -175,6 +175,7 @@ bicikel.com##.topBanner
 bicikel.com##.topBannerLanding
 bizi.si##.banner-970
 bizi.si##.td-zsd
+bolha.com##.Attention
 bolha.com##.BannerBillboard
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
