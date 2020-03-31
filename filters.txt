@@ -80,6 +80,7 @@
 ||partis.si/tmp/ortostevard.jpg
 ||partis.si/tmp/ortoxmas.jpg
 ||partis.si/tmp/vzajemna4.jpg
+||partis.si/tmp/maska3.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||pipe.aria.microsoft.com/collector/
