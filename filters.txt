@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 95
+! Version: 96
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -22,7 +22,7 @@
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
 @@||mp.piano-media.com/uid$domain=dnevnik.si
 @@||objava-oglasa.bolha.com
-@@||slokino.com
+@@||sibautomation.com/cm.html^$subdocument
 @@||sparky.internetmedia.si^$domain=nepremicnine.net
 @@||static.igre123.com/ads/*.gif$image,domain=igre123.com
 ||*.disqus.com/count.js
@@ -38,11 +38,6 @@
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||celje.info/wp-content/uploads/*/Polovicka*.jpg
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
-||delo.si/*/pr_vertikalni.html$subdocument
-||dostop.si/bannerji/*.png
-||dostop.si/banners_click.aspx$document
-||dostop.si/banners_click.aspx$inline-script
-||dostop.si/banners_click.aspx$popup
 ||engine2.livenetlife.com/Ping.aspx
 ||facebook.com/tr/?
 ||facebook.com/tr?
@@ -105,7 +100,6 @@
 ||vecer.com/*/oglasi/$subdocument
 ||widgets.outbrain.com/outbrain.js
 ||www.bicikel.com/narocilo-revij.png
-||www.dolenjskilist.si/inc/ads-frame.asp
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
@@ -130,7 +124,6 @@
 !
 ! General element filters
 ##.advert.box
-##.notice$domain=pogledi.delo.si|polet.delo.si
 ##.td-a-rec
 !
 ! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
@@ -201,41 +194,23 @@ ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
 ceneje.si##.floatingProductContainer
 ciklon.si##.sfsi_outr_div
 citymagazine.si##div[class^="banner-square-"]
-deloindom.si###exitPopup
-delo.si##.clanek_oglas_holder
-delo.si##.clanek_wrapper
-delo.si###BANNER_614x60
-delo.si###BANNER_650x80
-delo.si###infografika_banner_320
-delo.si###PR
-demokracija.si###gkSidebar > .box > .content > .custom > p
-demokracija.si###gkSidebar > .box:nth-of-type(2)
-demokracija.si###gkSidebar > .box:nth-of-type(6)
 demokracija.si###gkSidebar > .nomargin.box
-demotivacija.si##.container > .content > .row > .col-lg-4 > .floatdiv
-diva.si##.wrapper > .t1 > .t1Column2 > div:nth-of-type(2)
-dnevne-novice.com##.banneritem 
-dnevne-novice.com##.oglasi 
-dnevne-novice.com###djslider98
+dnevne-novice.com##.bannergroup
+dnevne-novice.com##.editoriali
+dnevne-novice.com##.matej-carousell-left
+dnevne-novice.com##.matej-carousell-right
+dnevne-novice.com###sp-pasice
+dnevne-novice.com###sp-pasice3
+dnevne-novice.com###sp-user2
+dnevnik.si##.article-related:nth-of-type(2)
 dnevnik.si###app-messages
-dnevnik.si###piano-root > .input
 dne.enaa.com###html_javascript_adder-2
-dolenjskilist.si###id_obst_kom
-dolenjskilist.si###page > .content > .mainBar > .items > .ad200x200
-dolenjskilist.si###page > .content > .mainBar > .items > .krater-ad-728x90
-dolenjskilist.si###page > .content > .mainBar > .krater-ad-300x250
-dolenjskilist.si###page > .content > .sideBar > .krater-ad-300x250
-dominvrt.si##onl-article-connected
+dolenjskilist.si##.lokalnoBox
 dominvrt.si##onl-banner
 dominvrt.si##.microsite-article
-dominvrt.si##.microsite-section
+dominvrt.si##.reveal-overlay
 dominvrt.si##.xl\:h-250.h-470
-dostop.si##a[href^="http://www.dostop.si/banners_click.aspx"]
-dostop.si###wallpaper_child > .footer > .spremljanas
-dostop.si###wallpaper_child > .head > .head_top > .top > .banners
-dostop.si###wallpaper_left
-druzina.si###center > .module > .content > article > .article-content > p:nth-of-type(3)
-druzina.si###center > .module.banner
+druzina.si##.module.banner
 econintersect.com###contentmain > center:nth-of-type(1)
 ekipa24.si##.banner-box
 ekipa24.si##[id^="banner"]
@@ -340,10 +315,10 @@ mladina.si##.info-box > .social
 mladipodjetnik.si###above-text-banner
 mladipodjetnik.si###below-text-banner
 mladipodjetnik.si###viewlet-below-content-title > .share-line
+mojaleta.si##.banner
 mojaleta.si###contentcontainer > .mainTable > .Column2 > .Container2
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .prNews
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .title
-mojaleta.si###dfpContentElement > .fullContent > .banner
 mojaobcina.si##.rightModBox:nth-of-type(3)
 mojblink.si##.widget-wrapper:nth-of-type(5)
 mojblink.si##.widget-wrapper:nth-of-type(6)
@@ -396,7 +371,6 @@ nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
-oglasi.delo.si##.page-header-adv
 oglasi.svet24.si##[id^="firstSiteBanner"]
 oglasnik.over.net
 okusno.je##onl-article-connected
@@ -411,13 +385,12 @@ partis.si##a[href^="http://si.hit.gemius.pl"]
 partis.si##a[href^="http://www.urgo.si"]
 partis.si##body > div:nth-of-type(4) > div
 partis.si##^script:has-text(/stil.css?2)
-partis.si##.all > div:nth-of-type(1)
-partis.si##.all > div:nth-of-type(2)
 partis.si##.all > .dildo > .bigban
 partis.si##.all > .masterfoot > .masterfootzgoraj > .master > .bannerspodnji
 partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
 partis.si##.promotool-id
 partis.si##.sgpm-popup-maker-wrapper
+partis.si##[href^="https://www.shieldmaske.si/"] > [src="https://www.partis.si/img/pixl.gif"]
 partis.si###righttd > .menijidesno:nth-of-type(1)
 partis.si###righttd > .menijidesno:nth-of-type(7)
 partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
