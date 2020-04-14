@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 96
+! Version: 97
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -205,37 +205,21 @@ dnevne-novice.com###sp-user2
 dnevnik.si##.article-related:nth-of-type(2)
 dnevnik.si###app-messages
 dne.enaa.com###html_javascript_adder-2
+dobrakarma.si##.opened
+dobrakarma.si###topBanner
 dolenjskilist.si##.lokalnoBox
 dominvrt.si##onl-banner
 dominvrt.si##.microsite-article
 dominvrt.si##.reveal-overlay
 dominvrt.si##.xl\:h-250.h-470
 druzina.si##.module.banner
-econintersect.com###contentmain > center:nth-of-type(1)
-ekipa24.si##.banner-box
-ekipa24.si##[id^="banner"]
-ekipa24.si###mainWrapper > .ng-scope > .ng-scope.article > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner > .ng-isolate-scope.col-xs.banner-box.leaderboard
-ekipa24.si###mainWrapper > .ng-scope > .ng-scope.frontpage > .ng-isolate-scope.clearfix.header-box > .container > .pull-right.banner
-ekupi.si###ctl00_ctl00_footRibb_ribbonContainer
-elle.si###banner300x600
-elle.si###content > div:nth-of-type(2)
-elle.si###dontMisser
-enajdi.si###lightbox
-etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social
-etiketamagazin.com##.first-content.slide > .follow-container.center > .fatured-posts.row > .iprom-300-250.iprom.fg4.novica.b.social:nth-of-type(8)
-etiketamagazin.com##[id^="post-"] > .banner.slide
-etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .fg4.novica.b.social
-etiketamagazin.com##[id^="post-"] > .related-news.slide > .center > .row > .iprom-300-250.iprom.fg4.novica.b.social
-europark.si###aspnetForm > .FooterContainer > .Footer > .FooterFB
-eventim.si###banner-banners1
-eventim.si###Page-Home > .section > .Advertisement
-explicit.si##.special-message-wrapper
-e-mesto.si##div.span2:nth-of-type(3) > div:nth-of-type(2)
+enajdi.si###top_banner
+explicit.si##.bs-irp-thumbnail-3-full
+e-mesto.si##.pattern > .span2
+e-mesto.si##.span2:nth-of-type(3) > div
 finance.si##.adbox
 finance.si##.kos_semitrans
-finance.si###article_social_top
-finance.si###main-column-inner > .ure1.altnaslovka > *.adbox.borderbox.newsbox
-fotoarhiv.si###product_images > .sidebarBanner
+finance.si###bart_banner
 genspot.com##[id^="popup-"]
 goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
 goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .tabs
@@ -291,6 +275,7 @@ lifestyle.enaa.com###html_javascript_adder-3
 lifestyle.enaa.com###text-11
 lisa.si###clanek > .social-networks:nth-of-type(2)
 lisa.si###sidebar > .e-zin
+lokalno.si##.other
 manager.finance.si###article_social_bottom
 marketingmagazin.si##.banner_box
 mediaspeed.net##.page_cont > .page > .content > .banner_cont
