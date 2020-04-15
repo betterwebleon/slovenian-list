@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 97
+! Version: 98
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -144,6 +144,7 @@
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
 24ur.com##.ng-star-inserted.banner--article
+adomnia.net##.banners-box
 aktivni.si##.banner-app-article
 aktivni.si##.livenetlife_linkswidget_logo
 avtomanija.com###Banner300R
@@ -220,21 +221,16 @@ e-mesto.si##.span2:nth-of-type(3) > div
 finance.si##.adbox
 finance.si##.kos_semitrans
 finance.si###bart_banner
-genspot.com##[id^="popup-"]
-goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .active.offers.tab-content
-goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .tabs
-goal.com##.page-wrapper > .main-section > .clearfix.main-content > .home-sidebar > .holder:nth-of-type(1) > .module-bet-combo.module > .widget-header
-gohome.si###bannerFooter_wrap > .bannerFooter > object
+gohome.si##.verde_wrap
+gohome.si###bannerFooter_wrap
 golfportal.si##.advertisement
-google.si##.widget-consent-dialog
-govori.se##.container > .row:nth-of-type(5)
-govori.se###branding
+google.com###taw
+google.si###taw
 holistic.si###popmake-overlay
 hribi.net###desnistolpec
 hribi.net###oglas
 hudo.com##.ad
 hudo.com##.social-shares
-hudo.com##[id^="hudolistbox"] > .default > .ad
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
@@ -463,9 +459,11 @@ slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
 sobotainfo.com###content > .region-highlighted.region
 spored.tv###RightBanner
+stajerskival.si##div > .side-banner
+stajerskival.si##.news-banner
 startaj.finance.si###article_social_top
-sta.si###center > .leadlist > .banners
 startaj.finance.si###main-column-inner > .kos_semitrans
+sta.si###center > .leadlist > .banners
 stop-neplacniki.si###ctl00_bannersCont
 studentarija.net##div.banner_footer
 studentarija.net##.banner
