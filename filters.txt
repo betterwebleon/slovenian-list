@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 98
+! Version: 99
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -78,6 +78,7 @@
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||pipe.aria.microsoft.com/collector/
+||podocnjaki.si^$popup,domain=studentarija.net
 ||pomurec.com/data/oglasi/
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
@@ -93,7 +94,7 @@
 ||shrani.si/*/output*.gif$image,domain=pomurje24.si
 ||static.dijaski.net/graphics/aff/telemach2.png
 ||static.plista.com
-||studentarija.net/wp-content/uploads/*/A1_NoviPaketi_Ozadje_A1Play*.jpg$image
+||studentarija.net/wp-content/uploads/*/*.jpg
 ||triglav.si/*$popup
 ||triglavtek.si/*$popup
 ||varna-voznja.si/upload/banners/
@@ -188,13 +189,13 @@ cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
 cekin.si##onl-magick-box:nth-of-type(1)
 cekin.si##onl-microsite
 cekin.si##.banner
-cekin.si##.embed--component
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
 ceneje.si##.floatingProductContainer
 ciklon.si##.sfsi_outr_div
 citymagazine.si##div[class^="banner-square-"]
+delo.si##.read-also-block
 demokracija.si###gkSidebar > .nomargin.box
 dnevne-novice.com##.bannergroup
 dnevne-novice.com##.editoriali
@@ -435,6 +436,8 @@ rfantasy.si###DivShowBannersForFrontPage
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
 rtvslo.si##.inverted-colors.teal.emphasis
+rumenestrani.si###headerLightHolder
+rumenestrani.si###topa
 salomon.si##[id^="firstSiteBanner"]
 scoreboard.com##.box_over_content_9547
 shop.kapodol.com###fixed > .site-banner
@@ -442,6 +445,7 @@ siol.net##.card--ts_storitva
 siol.net##.fold__homepage_banner
 siol.net##.grid-12.grid-md-3
 siol.net##.grid-12.grid-md-8.grid-lg-3
+siol.net##.js_article:if-not(:has(.strong)) > .widgetWrap
 siol.net##.marketing
 siol.net##.spored_widget--special > .no-gutter
 siol.net##.ts_storitve
@@ -606,3 +610,4 @@ zenska.hudo.com##.desktopAd
 zenska.hudo.com##.the-post > .socials
 zenska.hudo.com##a[href^="http://hudo.com/si/"]
 zenskisvet.si##.widget_ads_big.widget
+zurnal24.si##.related_article
