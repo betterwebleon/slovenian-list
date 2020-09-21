@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 99
+! Version: 100
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -50,6 +50,7 @@
 ||ipromcloud.com/ipromNS.js
 ||iprom.net/adasync.js
 ||itis.si/Embed_AdvertisersPromo.aspx
+||kuula.co/share$domain=avto.net
 ||mailerlite.com*/banners^
 ||maps.googleapis.com/maps/api/js/quotaservice.recordevent
 ||maps.googleapis.com/*/stats.js
@@ -156,6 +157,7 @@ avto.info##.bannerR2
 avto.info###bannerC1_728
 avto.info###bannerC2
 avto.net##.BannerBox972
+avto.net##.GO-banner-Billboard
 avto.net##.Oblika3Container
 avto-fokus.si##.uvodna_bottomBaners
 avto-fokus.si###baner
@@ -373,6 +375,7 @@ partis.si##.all > .telo:nth-of-type(3) > table > tbody > tr > td:nth-of-type(2) 
 partis.si##.promotool-id
 partis.si##.sgpm-popup-maker-wrapper
 partis.si##[href^="https://www.shieldmaske.si/"] > [src="https://www.partis.si/img/pixl.gif"]
+partis.si###ld-widget-bottom
 partis.si###righttd > .menijidesno:nth-of-type(1)
 partis.si###righttd > .menijidesno:nth-of-type(7)
 partis.si###telo > table > tbody > tr > td:nth-of-type(2) > .menijidesno > .ogl
