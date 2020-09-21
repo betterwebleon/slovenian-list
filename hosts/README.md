@@ -6,8 +6,7 @@ Zaradi tovrstnega rigoroznega blokiranja se v datoteko hosts dodajajo le tisti g
 
 <h3>1. Namestitev datoteke</h3>
 
-Številne "različice" datoteke hosts je pripravil Steven Black. Vendar pa že osnovna različica datoteke hosts z neželenimi gostitelji (adware + malware) vsebuje več kot 40.000 vnosov. Pred pričetkom uporabe je zato priporočljivo to datoteko najprej stisniti – kompresirati.
-Kompresirano datoteko **[je možno prenesti tukaj](https://github.com/betterwebleon/slovenian-list/archive/master.zip)**: v preneseni datoteki "*hosts-master.zip*" se kompresirana datoteka hosts nahaja v istoimenski mapi "*hosts*".
+Številne [variante](https://github.com/StevenBlack/hosts/blob/master/readme.md#list-of-all-hosts-file-variants) datoteke hosts je med drugimi pripravil Steven Black. "Osnovna" varianta z neželenimi gostitelji ("adware + malware") vsebuje več kot 50.000 vnosov. Pred pričetkom uporabe je v sistemih Windows to datoteko treba **najprej stisniti** (kompresirati), da zmanjšamo število vrstic z domenami pod približno 34.000 (ali pa zmanjšamo velikost datoteke pod 1 MB) in se s tem izognemo težavam z omrežjem. **[Kompresirano datoteko je možno prenesti tukaj](https://github.com/betterwebleon/slovenian-list/archive/master.zip)**: v preneseni datoteki "*hosts-master.zip*" se kompresirana datoteka hosts nahaja v istoimenski mapi "*hosts*".
 
 Kompresirano datoteko hosts odpakiramo. Nato jo lahko kar zamenjamo z obstoječo datoteko v sistemu (v kolikor vanjo nismo že predhodno vnašali svojih pravil). Kompresirano datoteko hosts v upravitelju datotek vstavimo na sledečo lokacijo:
 
@@ -23,9 +22,9 @@ Za tem ponovno zaženemo računalnik in datoteka *hosts* bo samodejno osvežena.
 
 Zapremo okno. V kolikor imamo odprt brskalnik, ga zapremo in ponovno zaženemo.
 
-<h3>2. Navodila za morebitno ročno kompresiranje datoteke v sistemu Microsoft Windows</h3>
+<h3>2. Navodila za kompresiranje datoteke v lastni režiji v sistemu Microsoft Windows</h3>
 
-1. Prenesi najnovejšo različico programa Python (različica biti mora najmanj 3.5). Originalna stran s prenosi za OS Windows **[je tukaj](https://www.python.org/downloads/windows/release)**.
+1. Prenesi najnovejšo različico programa Python (oz. mora le-ta biti različice najmanj 3.5). Originalna stran s prenosi za OS Windows **[je tukaj](https://www.python.org/downloads/windows/release)**.
 2. Po končanem prenosu zaženi namestitveno datoteko: **najprej** izberi (obkljukaj) možnost "*Add Python to PATH*" in šele nato klikni na "*Install Now*".
 3. Prenesi **[najnovejši repozitorij hosts datoteke](https://github.com/StevenBlack/hosts/archive/master.zip)** in odpakiraj celotno vsebino datoteke "hosts-master.zip". V našem primeru smo pripadajočo mapo "*hosts-master*" odpakirali kar neposredno na disk C:\ (torej v nobeno od podmap C diska).
 4. Zaženi cmd.exe (Ukazni poziv), vanj vnesi sledeči ukaz in nato pritisni enter:<br>
@@ -36,4 +35,4 @@ Zapremo okno. V kolikor imamo odprt brskalnik, ga zapremo in ponovno zaženemo.
 <code>python updateHostsFile.py -a -c</code>
 7. Po končanem postopku zapri okno Ukaznega poziva. Kompresirano datoteko hosts sedaj najdeš na lokaciji <code>C:\hosts-master</code>. Kopiraj oz. premakni jo na želeno mesto – za zamenjavo obstoječe (predhodne) hosts datoteke torej na <code>C:\Windows\System32\Drivers\etc</code>. Nato lahko mapo "hosts-master" na C disku izbrišeš.
 
-Pri vsakem nadaljnjem kompresiranju datoteke hosts pa nato sledimo navodilom samo v točkah 3., 6. in 7.
+Pri vsakem nadaljnjem kompresiranju datoteke hosts nato sledimo navodilom samo v točkah 3., 6. in 7.
