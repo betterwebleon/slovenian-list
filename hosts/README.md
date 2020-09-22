@@ -10,7 +10,7 @@ Zaradi tovrstnega rigoroznega blokiranja se v datoteko hosts dodajajo le tisti g
 
 Kompresirano datoteko hosts odpakiramo. Nato jo lahko kar zamenjamo z obstoječo datoteko v sistemu (v kolikor vanjo nismo že predhodno vnašali svojih pravil). Kompresirano datoteko hosts v upravitelju datotek vstavimo na sledečo lokacijo:
 
-- v sistemih **Windows**:<br><code>C:\Windows\System32\Drivers\etc</code>
+- v sistemih **Windows**:<br><code>C:\Windows\System32\drivers\etc</code>
 - v sistemih **Mac OS X**, **iOS**, **Linux** ali **Android**:<br><code>/etc/hosts</code>
 
 Za tem ponovno zaženemo računalnik in datoteka *hosts* bo samodejno osvežena. Namesto ponovnega zagona pa lahko zadevo usposobimo na hitrejši način:
@@ -22,17 +22,17 @@ Za tem ponovno zaženemo računalnik in datoteka *hosts* bo samodejno osvežena.
 
 Zapremo okno. V kolikor imamo odprt brskalnik, ga zapremo in ponovno zaženemo.
 
-<h3>2. Navodila za kompresiranje datoteke v lastni režiji v sistemu Microsoft Windows</h3>
+<h3>2. Navodila za kompresiranje datoteke v lastni režiji v sistemih Microsoft Windows</h3>
 
-1. Prenesi najnovejšo različico programa Python (oz. mora le-ta biti različice najmanj 3.5). Originalna stran s prenosi za OS Windows **[je tukaj](https://www.python.org/downloads/windows/release)**.
-2. Po končanem prenosu zaženi namestitveno datoteko: **najprej** izberi (obkljukaj) možnost "*Add Python to PATH*" in šele nato klikni na "*Install Now*".
-3. Prenesi **[najnovejši repozitorij hosts datoteke](https://github.com/StevenBlack/hosts/archive/master.zip)** in odpakiraj celotno vsebino datoteke "hosts-master.zip". V našem primeru smo pripadajočo mapo "*hosts-master*" odpakirali kar neposredno na disk C:\ (torej v nobeno od podmap C diska).
-4. Zaženi cmd.exe (Ukazni poziv), vanj vnesi sledeči ukaz in nato pritisni enter:<br>
+1. Prenesemo najnovejšo različico programa Python (oz. mora ta biti različice najmanj 3.5). Originalna stran s prenosi za OS Windows **[je tukaj](https://www.python.org/downloads/windows/release)**.
+2. Po končanem prenosu zaženemo namestitveno datoteko: **najprej** označimo (obkljukamo) možnost "*Add Python to PATH*" in šele nato izberemo "*Install Now*".
+3. Prenesemo **[najnovejši repozitorij hosts datoteke](https://github.com/StevenBlack/hosts/archive/master.zip)** in odpakiramo celotno vsebino datoteke "hosts-master.zip". V našem primeru smo pripadajočo mapo "*hosts-master*" odpakirali kar neposredno na C disk (torej v nobeno od podmap C diska).
+4. Zaženemo cmd.exe (Ukazni poziv), vanj vnesemo sledeči ukaz in nato pritisnemo enter:<br>
 <code>python -m pip install --user -r C:\hosts-master\requirements.txt</code>
-5. Zapri cmd.exe and ponovno zaženi računalnik.
-6. Odpri cmd.exe and v njem vnašaj sledeče ukaze. Po vnosu vsakega od sledečih dveh ukazov pritisni tipko enter:<br>
+5. Zapremo cmd.exe in ponovno zaženemo računalnik.
+6. Odpremo cmd.exe in v njem vnašamo spodnja dva ukaza. Po vnosu vsakega posameznega ukaza pritisnemo tipko enter:<br>
 <code>cd C:\hosts-master</code><br>
 <code>python updateHostsFile.py -a -c</code>
-7. Po končanem postopku zapri okno Ukaznega poziva. Kompresirano datoteko hosts sedaj najdeš na lokaciji <code>C:\hosts-master</code>. Kopiraj oz. premakni jo na želeno mesto – za zamenjavo obstoječe (predhodne) hosts datoteke torej na <code>C:\Windows\System32\Drivers\etc</code>. Nato lahko mapo "hosts-master" na C disku izbrišeš.
+7. Po končanem postopku zapremo okno Ukaznega poziva. Kompresirano datoteko hosts sedaj v našem primeru najdemo na lokaciji <code>C:\hosts-master</code>. Kopiramo ali premaknemo jo na želeno mesto – za zamenjavo (predhodne) hosts datoteke torej na lokacijo <code>C:\Windows\System32\drivers\etc</code>. Nato lahko mapo "hosts-master" na C disku izbrišemo.
 
 Pri vsakem nadaljnjem kompresiranju datoteke hosts nato sledimo navodilom samo v točkah 3., 6. in 7.
