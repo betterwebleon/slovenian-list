@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 101
+! Version: 102
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -229,11 +229,10 @@ gohome.si###bannerFooter_wrap
 golfportal.si##.advertisement
 google.com###taw
 google.si###taw
-holistic.si###popmake-overlay
 hribi.net###desnistolpec
 hribi.net###oglas
+hudo.com##aside.ad
 hudo.com##.ad
-hudo.com##.social-shares
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
@@ -415,9 +414,7 @@ pravljicna.si##.td-post-sharing-top
 privoscite.si###BannerPositionBackground
 privoscite.si###BannerPositionCenterWithRight
 promplac.si###featuredNagrade
-racunovodja.com##.desni_rob > div:nth-of-type(6)
 racunovodja.com##.osrednji_del > .poravnajgor:nth-of-type(1)
-racunovodja.com##div:nth-of-type(4) > div > div
 racunovodja.com##td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1)
 radio1.si###ctl00_Radio1Vsebina_LabelEPP288x240
 radio1.si###divBannerjiDesnoZunaj > .presledek:nth-of-type(1)
