@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 102
+! Version: 103
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -214,7 +214,6 @@ dobrakarma.si###topBanner
 dolenjskilist.si##.lokalnoBox
 dominvrt.si##onl-banner
 dominvrt.si##.microsite-article
-dominvrt.si##.reveal-overlay
 dominvrt.si##.xl\:h-250.h-470
 druzina.si##.module.banner
 enajdi.si###top_banner
@@ -236,8 +235,8 @@ hudo.com##.ad
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
-informiran.si##.outFrameRight2_htm
-iskreni.net###sidebar > .moduletable:nth-of-type(2)
+igrice.hudo.com###userGenGames
+informiran.si##.outFrameRight
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
