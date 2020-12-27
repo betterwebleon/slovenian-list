@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 104
+! Version: 105
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -116,10 +116,14 @@
 !
 ! Third-party filters
 ||apis.google.com/js/platform.js$third-party
+||booster3000.si^$third-party
 ||browser-update.org^$third-party
 ||contentexchange.me^$third-party
+||dnetwork.si^$third-party
+||eppmedia.si^$third-party
 ||internetmedia.si^$third-party
 ||intextad.net^$third-party
+||mediabooster.si^$third-party
 ||obisk.net^$third-party
 ||onthe.io^$third-party
 ||p.typekit.net^$third-party
