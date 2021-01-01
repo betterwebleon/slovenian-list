@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 105
+! Version: 106
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -66,6 +66,7 @@
 ||monitor.si/inc/*/php/twitter/jquery.tweet.js
 ||monitor.si/media/img/$subdocument
 ||nogomania.com/images/backgrounds/*.gif
+||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
 ||partis.si/betlink.html
 ||partis.si/betlink_news.html
 ||partis.si/betlink_torrent.html
@@ -247,30 +248,14 @@ izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
 kajkupiti.si##.banner1
-kamzvecer.si##.oglasni_banner
-kapodol.com##[id^="divBanner0"]
-kapodol.com##body > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td:nth-of-type(2) > table > tbody
-kapodol.com##body > table > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(1)
-kapodol.com##body > table > tbody > tr > td:nth-of-type(3) > table > tbody > tr:nth-of-type(2)
-kapodol.com##table > tbody > tr > td:nth-of-type(3) > table:nth-of-type(1) > tbody > tr > td > b > .MENUTITLE
-kapodol.com##table > tbody > tr:nth-of-type(4) > td:nth-of-type(3) > table:nth-of-type(2)
-kapodol.com###divTopStava
-kariernisejem.com##.container.container_head > .container > .first_con2.row > .container-fluid > .col-md-6:nth-of-type(2) > .row:nth-of-type(1) > .hidden-xs.pull-right.banner-first
-klip.si###add
-klip.si###fblikeklip
-klip.si###oglas
-klip.si###videoMain1 > .arib > .like
-kolosej.si###banner-horizontal
+kajkupiti.si##.banner-top-wrap
 kolosej.si###promo
-kompas.si###master > table > tbody > tr > .stran > .osrednjiDel > tbody > tr > .banner-pokoncni
-koristno.net###upprev_box
-kosarka.si###footer > .social > .fb.col
-kosarka.si###footer > .social > .tw.wide.col
 kosmika.si###fan-exit
 kosmika.si###fanback
 kos.interseek.si
+kozjansko.info##.custom-html-widget
 kozjansko.info##.g-single
-kozjansko.info###heateor_ss_browser_popup_bg
+kozjansko.info##.widget-10.widget-last.widget-even
 letakonosa.si##.hidden-sm
 letakonosa.si##.signad
 letakonosa.si##.sticky-position
@@ -341,6 +326,8 @@ moski.hudo.com##a[href^="http://hudo.com/si/"]
 motiviran.si##[id^="adDesktop"]
 motiviran.si###secondary > div
 najcena.si###banner_top
+najdi.si##.advert
+najdi.si##.sp.box
 napovednik.com##.banner
 naprostem.si##.shop__card.noPaddingAlways.col-md-12
 naprostem.si##.topBanner
@@ -523,8 +510,6 @@ www.mobile.si###mleft > .titlered:nth-of-type(4)
 www.mobile.si###mmidledbl > .content:nth-of-type(7)
 www.mobile.si###mmidledbl > .headingfb
 www.mobile.si###skytower
-www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer:nth-of-type(2) > .sp.box > .module_inside
-www.najdi.si###indexInsideWrapp > .index_inside > .boxContainer > .sp.box
 www.novice.si###container > .main-no-sidebar:nth-of-type(7) > .inside-section:nth-of-type(1) > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.vc_span12 > .wpb_wrapper > .inside-section > .container_width.vc_row-fluid.wpb_row > .column_container.wpb_column.banner-margin
 www.noviradio.si##[id^="post"] > .td-container > .td-pb-row > .td-main-content > .td-ss-main-content > .td-post-sharing-top
 www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
