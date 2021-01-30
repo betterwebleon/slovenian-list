@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 106
+! Version: 107
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -38,6 +38,7 @@
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||celje.info/wp-content/uploads/*/Polovicka*.jpg
+||ceneje.si/*/ConfirmTrack
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||engine2.livenetlife.com/Ping.aspx
 ||facebook.com/tr/?
@@ -67,6 +68,7 @@
 ||monitor.si/media/img/$subdocument
 ||nogomania.com/images/backgrounds/*.gif
 ||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
+||over.net/feedo.min.js
 ||partis.si/betlink.html
 ||partis.si/betlink_news.html
 ||partis.si/betlink_torrent.html
@@ -124,11 +126,14 @@
 ||eppmedia.si^$third-party
 ||internetmedia.si^$third-party
 ||intextad.net^$third-party
+||livenetlife.com^$third-party
 ||mediabooster.si^$third-party
 ||obisk.net^$third-party
 ||onthe.io^$third-party
+||pristopmedia.network^$third-party
 ||p.typekit.net^$third-party
 ||shield.sitelock.com^$third-party
+||smind.si^$third-party
 ||upscore.com^$third-party
 !
 ! General element filters
@@ -179,6 +184,7 @@ bicikel.com##.topBanner
 bicikel.com##.topBannerLanding
 bizi.si##.banner-970
 bizi.si##.td-zsd
+bodieko.si##.td-is-sticky.tdc-column
 bolha.com##.Attention
 bolha.com##.BannerBillboard
 bolha.com##.EntityList--ListItemFeaturedStore
@@ -204,6 +210,7 @@ ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
 ceneje.si##.floatingProductContainer
 ciklon.si##.sfsi_outr_div
 citymagazine.si##div[class^="banner-square-"]
+delo.si##.ekosistem
 delo.si##.read-also-block
 demokracija.si###gkSidebar > .nomargin.box
 dnevne-novice.com##.bannergroup
@@ -274,9 +281,13 @@ mediaspeed.net##.page_cont > .page > .content > .slider > .banner2
 med.over.net##.banner320
 med.over.net##.box-full:nth-of-type(4)
 med.over.net##.box-full:nth-of-type(5)
+med.over.net##.feedo_widget
+med.over.net##.livenetlife_links
+med.over.net##.lwdgt
 med.over.net##.single-post:nth-of-type(3)
 med.over.net##.single-post:nth-of-type(7)
 med.over.net###contentexchange_widget-2
+med.over.net###forum-footer-8
 med.over.net###kvadrat1_widget-4
 med.over.net###kvadrat2_widget-3
 meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
@@ -345,6 +356,7 @@ nogomania.com###contentcontainer > .mainTable > .Column3 > .Container3 > div:nth
 nogomania.com###contentcontainer > .mainTable > .Column4
 nogomania.com###header > div:nth-of-type(1) > div:nth-of-type(2)
 novice.svet24.si##.bg-najnakupi-blue-light
+novice.svet24.si##.right-sticky
 novice.svet24.si##.shadow-md.w-tk
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
