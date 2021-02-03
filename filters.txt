@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 107
+! Version: 108
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -53,6 +53,7 @@
 ||iprom.net/adasync.js
 ||itis.si/Embed_AdvertisersPromo.aspx
 ||kuula.co/share$domain=avto.net
+||lokalno.si/inc/ads-frame.asp
 ||mailerlite.com*/banners^
 ||maps.googleapis.com/maps/api/js/quotaservice.recordevent
 ||maps.googleapis.com/*/stats.js
@@ -124,7 +125,9 @@
 ||contentexchange.me^$third-party
 ||dnetwork.si^$third-party
 ||eppmedia.si^$third-party
+||get-native.eu^$third-party
 ||internetmedia.si^$third-party
+||interseek.si^$third-party
 ||intextad.net^$third-party
 ||livenetlife.com^$third-party
 ||mediabooster.si^$third-party
@@ -259,17 +262,14 @@ kajkupiti.si##.banner-top-wrap
 kolosej.si###promo
 kosmika.si###fan-exit
 kosmika.si###fanback
-kos.interseek.si
 kozjansko.info##.custom-html-widget
 kozjansko.info##.g-single
 kozjansko.info##.widget-10.widget-last.widget-even
 letakonosa.si##.hidden-sm
 letakonosa.si##.signad
 letakonosa.si##.sticky-position
-lifestyle.enaa.com###html_javascript_adder-3
-lifestyle.enaa.com###text-11
-lisa.si###clanek > .social-networks:nth-of-type(2)
-lisa.si###sidebar > .e-zin
+lifestyle.enaa.com##.addthis_toolbox
+lifestyle.enaa.com##.widget_subscribe_widget
 lokalno.si##.other
 manager.finance.si###article_social_bottom
 marketingmagazin.si##.banner_box
@@ -459,6 +459,9 @@ siol.net##.ts_storitve
 siol.net###itisAdPromo
 siol.net###yodaarticle
 skandal24.si##.advertise
+slovenskenovice.si##.embed_article
+slovenskenovice.si##.group_a_category__box7
+slovenskenovice.si##.group_a__box7
 slovenskenovice.si##.livenetlife_linkswidget_logo
 slovnica.slovenscina.eu###biscuitFormDiv
 slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
