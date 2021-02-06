@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 109
+! Version: 110
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -37,7 +37,6 @@ rtvslo.si#@#.iAdserver
 /piwik.js
 !
 ||*.disqus.com/count.js
-||ad.partis.si^
 ||adform.net^
 ||ads.24ur.com^
 ||amazonaws.com/banners.wave.si^$subdocument
@@ -129,7 +128,8 @@ rtvslo.si#@#.iAdserver
 ||www.ss-mb.si/images/banners/*.jpg
 !
 ! Third-party filters
-||ad.propellente.net$third-party
+||ad.partis.si^$third-party
+||ad.propellente.net^$third-party
 ||apis.google.com/js/platform.js$third-party
 ||booster3000.si^$third-party
 ||browser-update.org^$third-party
@@ -140,7 +140,7 @@ rtvslo.si#@#.iAdserver
 ||internetmedia.si^$third-party
 ||interseek.si^$third-party
 ||intextad.net^$third-party
-||leadsdome.com$third-party
+||leadsdome.com^$third-party
 ||livenetlife.com^$third-party
 ||mediabooster.si^$third-party
 ||obisk.net^$third-party
@@ -454,6 +454,8 @@ rfantasy.si###DivShowBanners
 rfantasy.si###DivShowBannersForFrontPage
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
+rtvslo.si##.billboard-advert-item
+rtvslo.si##.holder
 rtvslo.si##.inverted-colors.teal.emphasis
 rumenestrani.si###headerLightHolder
 rumenestrani.si###topa
