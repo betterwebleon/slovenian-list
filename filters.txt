@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 110
+! Version: 111
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -130,7 +130,6 @@ rtvslo.si#@#.iAdserver
 ! Third-party filters
 ||ad.partis.si^$third-party
 ||ad.propellente.net^$third-party
-||apis.google.com/js/platform.js$third-party
 ||booster3000.si^$third-party
 ||browser-update.org^$third-party
 ||contentexchange.me^$third-party
@@ -200,7 +199,6 @@ bicikel.com##.topBannerLanding
 bizi.si##.banner-970
 bizi.si##.td-zsd
 bodieko.si##.td-is-sticky.tdc-column
-bolha.com##.Attention
 bolha.com##.BannerBillboard
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
