@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 112
+! Version: 113
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -26,11 +26,11 @@
 @@||static.igre123.com/ads/*.gif$image,domain=igre123.com
 !
 ! RTVSLO Joker sign-up element (rtvslo.si/joker):
+rtvslo.si#@#.adloaded
+rtvslo.si#@#.iAdserver
 @@||cdn.ipromcloud.com/ipromNS.js$domain=rtvslo.si
 @@||core.iprom.net/impression*$domain=rtvslo.si
 @@||core.iprom.net/site*$domain=rtvslo.si
-rtvslo.si#@#.adloaded
-rtvslo.si#@#.iAdserver
 !
 ! Network filters
 ! arnes.si etc.:
@@ -453,6 +453,8 @@ rfantasy.si###DivShowBannersForFrontPage
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
 rtvslo.si##.billboard-advert-item
+rtvslo.si##.dynamic-advert-article-inside
+rtvslo.si##.inArticle
 rtvslo.si##.inverted-colors.teal.emphasis
 rumenestrani.si###headerLightHolder
 rumenestrani.si###topa
