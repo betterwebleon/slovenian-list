@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 113
+! Version: 114
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -47,7 +47,11 @@ rtvslo.si#@#.iAdserver
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||celje.info/wp-content/uploads/*/Polovicka*.jpg
-||ceneje.si/*/ConfirmTrack
+||ceneje.si/*/GetProductAds
+||ceneje.si/*/LogTopProductImpressions
+||ceneje.si/*?idpartner=
+||ceneje.si/*?token=
+||ceneje.si/*?track=
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||engine2.livenetlife.com/Ping.aspx
 ||facebook.com/tr/?
@@ -69,6 +73,7 @@ rtvslo.si#@#.iAdserver
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
 ||media.privoscite.si/dsg/5/d/58f4ed3192fefe752c56782a4e35ea.jpg
 ||megabon.eu/sl/widgets/slovenske_novice
+||mimovrste.com/*/marxy.js
 ||mlacom.si/modules/footermod/otherbg/mlacom-ozadje*.jpg
 ||mladina.si/*jquery.fancybox.js
 ||mladina.si/media/img/oglasi/^
@@ -128,11 +133,14 @@ rtvslo.si#@#.iAdserver
 ||www.ss-mb.si/images/banners/*.jpg
 !
 ! Third-party filters
+||ad.exilio.net^$third-party
 ||ad.partis.si^$third-party
 ||ad.propellente.net^$third-party
 ||booster3000.si^$third-party
 ||browser-update.org^$third-party
+||chimpstatic.com^$third-party
 ||contentexchange.me^$third-party
+||databreakers.com^$third-party
 ||dnetwork.si^$third-party
 ||eppmedia.si^$third-party
 ||get-native.eu^$third-party
@@ -141,7 +149,9 @@ rtvslo.si#@#.iAdserver
 ||intextad.net^$third-party
 ||leadsdome.com^$third-party
 ||livenetlife.com^$third-party
+||mallgroup.com^$third-party,domain=mimovrste.com
 ||mediabooster.si^$third-party
+||mg-marxy.mall.cz^$third-party,domain=mimovrste.com
 ||obisk.net^$third-party
 ||onthe.io^$third-party
 ||pristopmedia.network^$third-party
@@ -327,6 +337,7 @@ mojoglasnik.com##.classic728x90
 mojoglasnik.com##.iAdserver
 mojprihranek.si##.article-view-right-container
 mojprihranek.si##.banner-subnews
+monitor.si##li.article:has(img[alt="Oglasno sporočilo"])
 monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
