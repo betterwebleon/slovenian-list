@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 114
+! Version: 115
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -42,6 +42,7 @@ rtvslo.si#@#.iAdserver
 ||amazonaws.com/banners.wave.si^$subdocument
 ||avto.net/_banner/Mornar
 ||bmw.si/sl/all-models/*$popup,domain=golfportal.si
+||bolha.com/*/banneri
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||cekin.si/assets/box/magick-box/kriptovalute/index.html
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
@@ -114,6 +115,7 @@ rtvslo.si#@#.iAdserver
 ||shrani.si/*/output*.gif$image,domain=pomurje24.si
 ||static.dijaski.net/graphics/aff/telemach2.png
 ||static.plista.com
+||stop-neplacniki.si/*/Bannerji
 ||studentarija.net/wp-content/uploads/*/*.jpg
 ||telekom.si/*/track.js
 ||triglav.si/*$popup
@@ -133,6 +135,7 @@ rtvslo.si#@#.iAdserver
 ||www.ss-mb.si/images/banners/*.jpg
 !
 ! Third-party filters
+||ad1.si^$third-party
 ||ad.exilio.net^$third-party
 ||ad.partis.si^$third-party
 ||ad.propellente.net^$third-party
@@ -213,6 +216,7 @@ bolha.com##.BannerBillboard
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.trakica_container
+bolha.com##.wrap-notification > .wrap-notification:has(img[src*="/banneri/"])
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
 bolha.com###servicesToItems
@@ -291,13 +295,12 @@ letakonosa.si##.sticky-position
 lifestyle.enaa.com##.addthis_toolbox
 lifestyle.enaa.com##.widget_subscribe_widget
 lokalno.si##.other
-manager.finance.si###article_social_bottom
-marketingmagazin.si##.banner_box
-mediaspeed.net##.page_cont > .page > .content > .banner_cont
-mediaspeed.net##.page_cont > .page > .content > .gallery > .gallery_items > .banner_conts > .banner
-mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner2
-mediaspeed.net##.page_cont > .page > .content > .rightDiv > .banner_sTower
-mediaspeed.net##.page_cont > .page > .content > .slider > .banner2
+marketingmagazin.si##.banner--wrapper
+marketingmagazin.si##.content--cta
+marketingmagazin.si##.exposed__banner
+marketingmagazin.si##.region--cta
+mediaspeed.net##.banner2
+mediaspeed.net##.banner_cont
 med.over.net##.banner320
 med.over.net##.box-full:nth-of-type(4)
 med.over.net##.box-full:nth-of-type(5)
