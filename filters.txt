@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 116
+! Version: 117
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -16,14 +16,12 @@
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||google-analytics.com/ga.js$domain=prehrana.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
-@@||moja.bolha.com
 @@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
 @@||mp.piano-media.com/uid$domain=dnevnik.si
-@@||objava-oglasa.bolha.com
-@@||sibautomation.com/cm.html^$subdocument
+@@||sibautomation.com/cm.html$subdocument
 @@||sparky.internetmedia.si^$domain=nepremicnine.net
-@@||static.igre123.com/ads/*.gif$image,domain=igre123.com
+@@||static.igre123.com/ads/*.gif$domain=igre123.com
 !
 ! RTVSLO Joker sign-up element (rtvslo.si/joker):
 rtvslo.si#@#.adloaded
@@ -39,10 +37,10 @@ rtvslo.si#@#.iAdserver
 ||*.disqus.com/count.js
 ||adform.net^
 ||ads.24ur.com^
-||ad.zurnal24.si
-||amazonaws.com/banners.wave.si^$subdocument
+||ad.zurnal24.si^
+||amazonaws.com/banners.wave.si$subdocument
 ||avto.net/_banner/Mornar
-||bmw.si/sl/all-models/*$popup,domain=golfportal.si
+||bmw.si/sl/all-models/$popup,domain=golfportal.si
 ||bolha.com/*/banneri
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
 ||cekin.si/assets/box/magick-box/kriptovalute/index.html
@@ -63,13 +61,13 @@ rtvslo.si#@#.iAdserver
 ||golfportal.info/*/banner*.png
 ||hit.gemius.pl^$popup
 ||hudo.com/*/im_banner*.jpg
-||instore.si/newsarticle/newsarticle/public_content/*/s_wallpaper.jpg$image
+||instore.si/newsarticle/newsarticle/public_content/*/s_wallpaper.jpg
 ||ipromcloud.com/ipromNS.js
 ||iprom.net/adasync.js
 ||itis.si/Embed_AdvertisersPromo.aspx
 ||kuula.co/share$domain=avto.net
 ||lokalno.si/inc/ads-frame.asp
-||mailerlite.com*/banners^
+||mailerlite.com/*/banners
 ||maps.googleapis.com/maps/api/js/quotaservice.recordevent
 ||maps.googleapis.com/*/stats.js
 ||media.privoscite.si/dsg/4/1/214f2ce6ae3fccbff35c0fae3c3688.jpg
@@ -78,7 +76,7 @@ rtvslo.si#@#.iAdserver
 ||mimovrste.com/*/marxy.js
 ||mlacom.si/modules/footermod/otherbg/mlacom-ozadje*.jpg
 ||mladina.si/*jquery.fancybox.js
-||mladina.si/media/img/oglasi/^
+||mladina.si/media/img/oglasi/
 ||mojblink.si/pic/banners/*.gif
 ||mojblink.si/pic/banners/*.jpg
 ||monitor.si/inc/*/php/twitter/jquery.tweet.js
@@ -111,23 +109,23 @@ rtvslo.si#@#.iAdserver
 ||reporter.si/sites/all/themes/custom/bootstrap_barrio/images/ozadjetriglav*.jpg
 ||s-graf.si^$inline-script,domain=~s-graf.si
 ||s-graf.si^$popup,domain=mojblink.si
-||shrani.si/*/oglas*.gif$image,domain=pomurje24.si
-||shrani.si/*/output*.gif$image,domain=pomurje24.si
+||shrani.si/*/oglas*.gif$domain=pomurje24.si
+||shrani.si/*/output*.gif$domain=pomurje24.si
 ||static.dijaski.net/graphics/aff/telemach2.png
-||static.plista.com
+||static.plista.com^
 ||stop-neplacniki.si/*/Bannerji
 ||studentarija.net/wp-content/uploads/*/*.jpg
 ||telekom.si/*/track.js
-||triglav.si/*$popup
-||triglavtek.si/*$popup
+||triglav.si^$popup
+||triglavtek.si^$popup
 ||varna-voznja.si/upload/banners/
-||vecer.com/*/oglasi/$subdocument
+||vecer.com/*/oglasi/
 ||widgets.outbrain.com/outbrain.js
 ||www.bicikel.com/narocilo-revij.png
 ||www.gohome.si/Content/images/main/beep_box_sl.png.hash.BFBCDDE8132F1E4840EBDFF994778B8D72C8C6D1.sha1
 ||www.gohome.si/Images/DynamicImage/104.ashx
 ||www.monolitmap.si/system/application/addons/images/page/poi_banner.png
-||www.posita.si$popup,domain=reporter.si
+||www.posita.si^$popup,domain=reporter.si
 ||www.radiokrka.com/portals/oglasevanje
 ||www.revijavklop.si/media/images/fbglava.png
 ||www.skladi.com/images/overlay.png
