@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 115
+! Version: 116
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -39,6 +39,7 @@ rtvslo.si#@#.iAdserver
 ||*.disqus.com/count.js
 ||adform.net^
 ||ads.24ur.com^
+||ad.zurnal24.si
 ||amazonaws.com/banners.wave.si^$subdocument
 ||avto.net/_banner/Mornar
 ||bmw.si/sl/all-models/*$popup,domain=golfportal.si
@@ -98,7 +99,6 @@ rtvslo.si#@#.iAdserver
 ||partis.si/tmp/vzajemna4.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
-||pipe.aria.microsoft.com/collector/
 ||podocnjaki.si^$popup,domain=studentarija.net
 ||pomurec.com/data/oglasi/
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
@@ -133,6 +133,7 @@ rtvslo.si#@#.iAdserver
 ||www.skladi.com/images/overlay.png
 ||www.ss-mb.si/images/banners/*.gif
 ||www.ss-mb.si/images/banners/*.jpg
+||zurnal24.si/banners/*/inartc
 !
 ! Third-party filters
 ||ad1.si^$third-party
@@ -301,27 +302,19 @@ marketingmagazin.si##.exposed__banner
 marketingmagazin.si##.region--cta
 mediaspeed.net##.banner2
 mediaspeed.net##.banner_cont
-med.over.net##.banner320
-med.over.net##.box-full:nth-of-type(4)
-med.over.net##.box-full:nth-of-type(5)
-med.over.net##.feedo_widget
+med.over.net##blockquote
+med.over.net##.feedo
 med.over.net##.livenetlife_links
 med.over.net##.lwdgt
-med.over.net##.single-post:nth-of-type(3)
-med.over.net##.single-post:nth-of-type(7)
-med.over.net###contentexchange_widget-2
-med.over.net###forum-footer-8
-med.over.net###kvadrat1_widget-4
-med.over.net###kvadrat2_widget-3
-meteo.arso.gov.si##.sirina_strani > tbody > tr:nth-of-type(3) > .meni2 > div:nth-of-type(3)
+med.over.net##.widget_oglas_widget
+med.over.net###lnl-footer
+mlacom.si##a[target="_blank"][href^="http://www.mlacom.si/iskalnik"]
 mlacom.si##.banner-scroller
 mlacom.si##.headbanner
 mladina.si##.ad
 mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
-mladipodjetnik.si###above-text-banner
-mladipodjetnik.si###below-text-banner
-mladipodjetnik.si###viewlet-below-content-title > .share-line
+mladipodjetnik.si##.style-buttons.before_content
 mojaleta.si##.banner
 mojaleta.si###contentcontainer > .mainTable > .Column2 > .Container2
 mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .prNews
