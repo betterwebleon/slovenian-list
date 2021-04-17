@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 117
+! Version: 118
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -22,11 +22,13 @@
 @@||sibautomation.com/cm.html$subdocument
 @@||sparky.internetmedia.si^$domain=nepremicnine.net
 @@||static.igre123.com/ads/*.gif$domain=igre123.com
-!
+! https://github.com/AdguardTeam/AdguardFilters/issues/80563
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=24ur.com
 ! RTVSLO Joker sign-up element (rtvslo.si/joker):
 rtvslo.si#@#.adloaded
 rtvslo.si#@#.iAdserver
 @@||cdn.ipromcloud.com/ipromNS.js$domain=rtvslo.si
+@@||cdn.ipromcloud.com/script/Prebid.js$domain=rtvslo.si
 @@||core.iprom.net/impression*$domain=rtvslo.si
 @@||core.iprom.net/site*$domain=rtvslo.si
 !
@@ -212,10 +214,10 @@ bizi.si##.banner-970
 bizi.si##.td-zsd
 bodieko.si##.td-is-sticky.tdc-column
 bolha.com##.BannerBillboard
+bolha.com##.bannerblh:has(img[src*="banneri"]):has(a[href^="https://bit.ly"])
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.trakica_container
-bolha.com##.wrap-notification > .wrap-notification:has(img[src*="/banneri/"])
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
 bolha.com###servicesToItems
@@ -314,10 +316,9 @@ mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
 mladipodjetnik.si##.style-buttons.before_content
 mojaleta.si##.banner
-mojaleta.si###contentcontainer > .mainTable > .Column2 > .Container2
-mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .prNews
-mojaleta.si###contentcontainer > .mainTable > .Column4 > .Container4 > .box:nth-of-type(5) > .title
-mojaobcina.si##.rightModBox:nth-of-type(3)
+mojaleta.si##.nativendo-container
+mojaleta.si##.prNews
+mojaobcina.si##.nat-content
 mojblink.si##.widget-wrapper:nth-of-type(5)
 mojblink.si##.widget-wrapper:nth-of-type(6)
 mojblink.si##[href="https://samopostrezna.com/"]
