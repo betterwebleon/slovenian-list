@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 118
+! Version: 119
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -22,8 +22,6 @@
 @@||sibautomation.com/cm.html$subdocument
 @@||sparky.internetmedia.si^$domain=nepremicnine.net
 @@||static.igre123.com/ads/*.gif$domain=igre123.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/80563
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=24ur.com
 ! RTVSLO Joker sign-up element (rtvslo.si/joker):
 rtvslo.si#@#.adloaded
 rtvslo.si#@#.iAdserver
@@ -45,7 +43,6 @@ rtvslo.si#@#.iAdserver
 ||bmw.si/sl/all-models/$popup,domain=golfportal.si
 ||bolha.com/*/banneri
 ||cdn-next.megabon.eu/sl/widgets/delo$subdocument
-||cekin.si/assets/box/magick-box/kriptovalute/index.html
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||celje.info/wp-content/uploads/*/Polovicka*.jpg
@@ -117,7 +114,6 @@ rtvslo.si#@#.iAdserver
 ||static.plista.com^
 ||stop-neplacniki.si/*/Bannerji
 ||studentarija.net/wp-content/uploads/*/*.jpg
-||telekom.si/*/track.js
 ||triglav.si^$popup
 ||triglavtek.si^$popup
 ||varna-voznja.si/upload/banners/
@@ -134,6 +130,18 @@ rtvslo.si#@#.iAdserver
 ||www.ss-mb.si/images/banners/*.gif
 ||www.ss-mb.si/images/banners/*.jpg
 ||zurnal24.si/banners/*/inartc
+!
+! Badware filters
+||bonbonijezero.xyz^
+||clublwd.nl^
+||hranavrt.xyz^
+||kruhzgodovina.xyz^
+||kuminaluna.xyz^
+||mandljigeografija.xyz^
+||maslootok.xyz^
+||piscanecmatematika.xyz^
+||sladicagora.xyz^
+||zajtrkhisa.xyz^
 !
 ! Third-party filters
 ||ad1.si^$third-party
@@ -164,11 +172,7 @@ rtvslo.si#@#.iAdserver
 ||smind.si^$third-party
 ||upscore.com^$third-party
 !
-! General element filters
-##.advert.box
-##.td-a-rec
-!
-! Cookie notifications - temporary ("I don't care about cookies" add-on complement)
+! Cookie notifications - temporary filters ("I don't care about cookies" add-on complement)
 ! hudo.com:
 ##.cookie-screen
 ##.friendly.notice
@@ -176,12 +180,18 @@ rtvslo.si#@#.iAdserver
 ! najlektoriranje.si
 ###eu-okno
 !
-! Site-specific element filters
+! General element hiding filters
+##.advert.box
+##.td-a-rec
+!
+! Specific element hiding filters
 1nadan.si##.background_link
-24ur.com##onl-eurojackpot-teaser
-24ur.com##onl-magick-box
+24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-article-connected
+24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-banner
+24ur.com,cekin.si,mojaleta.si,napovednik.com,studentarija.net,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
+24ur.com,cekin.si,moskisvet.com,zadovoljna.si##onl-magick-box
+24ur.com,cekin.si##onl-eurojackpot-teaser
 24ur.com##onl-voyo.sidebar__box
-24ur.com##.banner
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
@@ -189,8 +199,7 @@ rtvslo.si#@#.iAdserver
 adomnia.net##.banners-box
 aktivni.si##.banner-app-article
 aktivni.si##.livenetlife_linkswidget_logo
-avtomanija.com###Banner300R
-avtomanija.si###Banner300R
+avtomanija.com,avtomanija.si###Banner300R
 avtomobilizem.com##.widget-ad-bottom-banner
 avtonasveti.com##.td-a-rec
 avto.info##.bannerR2
@@ -202,14 +211,12 @@ avto.net##.Oblika3Container
 avto-fokus.si##.uvodna_bottomBaners
 avto-fokus.si###baner
 avto-fokus.si###banners
-bibaleze.si##onl-article-connected
-bibaleze.si##onl-banner
-bibaleze.si##.microsite-article
-bibaleze.si##.microsite-section
-bibaleze.si##.xl\:h-250.h-470
-bicikel.com##.shop__card.noPaddingAlways.col-md-12
-bicikel.com##.topBanner
-bicikel.com##.topBannerLanding
+bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##.microsite-article
+bibaleze.si,dominvrt.si##.xl\:h-250.h-470
+bibaleze.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##.microsite-section
+bicikel.com,naprostem.si,tekac.si##.shop__card.noPaddingAlways.col-md-12
+bicikel.com,naprostem.si,tekac.si##.topBanner
+bicikel.com,naprostem.si,tekac.si##.topBannerLanding
 bizi.si##.banner-970
 bizi.si##.td-zsd
 bodieko.si##.td-is-sticky.tdc-column
@@ -226,12 +233,8 @@ bringler.com##.front_topgames_footer
 bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
-cekin.si##onl-article-connected
-cekin.si##onl-eurojackpot-teaser
-cekin.si##onl-magick-box.ng-star-inserted:nth-of-type(5)
-cekin.si##onl-magick-box:nth-of-type(1)
 cekin.si##onl-microsite
-cekin.si##.banner
+cekin.si##.outbrain
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
@@ -254,9 +257,7 @@ dne.enaa.com###html_javascript_adder-2
 dobrakarma.si##.opened
 dobrakarma.si###topBanner
 dolenjskilist.si##.lokalnoBox
-dominvrt.si##onl-banner
-dominvrt.si##.microsite-article
-dominvrt.si##.xl\:h-250.h-470
+dominvrt.si##.lg\:mb-0
 druzina.si##.module.banner
 enajdi.si###top_banner
 explicit.si##.bs-irp-thumbnail-3-full
@@ -279,6 +280,8 @@ igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
 igrice.hudo.com###userGenGames
 informiran.si##.outFrameRight
+instore.si##div[onclick*="_blank"]
+instore.si##table[background="images/promocije_background.png"]
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
@@ -315,18 +318,14 @@ mladina.si##.ad
 mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
 mladipodjetnik.si##.style-buttons.before_content
-mojaleta.si##.banner
 mojaleta.si##.nativendo-container
 mojaleta.si##.prNews
 mojaobcina.si##.nat-content
 mojblink.si##.widget-wrapper:nth-of-type(5)
 mojblink.si##.widget-wrapper:nth-of-type(6)
 mojblink.si##[href="https://samopostrezna.com/"]
-mojepotovanje.hudo.com###content > .grid1.rectangle
-mojepotovanje.hudo.com###content > .rectangle > .banner-inner
-mojepotovanje.hudo.com###single-content > .the-post > .socials
-mojepotovanje.hudo.com###single-sidebar > .grid1.rectangle
-mojepotovanje.hudo.com###single-sidebar > .rectangle > .banner-inner
+mojepotovanje.hudo.com##.banner-inner
+mojepotovanje.hudo.com##.grid1.rectangle
 mojoglasnik.com##.bannerRow
 mojoglasnik.com##.classic728x90
 mojoglasnik.com##.iAdserver
@@ -337,15 +336,10 @@ monitor.si##.o160x600
 monitor.si##.o180x90
 monitor.si##.o728x90
 monitor.si##.video-ad
-moskisvet.com##onl-article-connected
-moskisvet.com##onl-banner
-moskisvet.com##onl-magick-box
 moskisvet.com##.banner-wr
 moskisvet.com##.banner--before
 moskisvet.com##.banner--below
 moskisvet.com##.box-shadow
-moskisvet.com##.microsite-article
-moskisvet.com##.microsite-section
 moski.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 moski.hudo.com##.the-post > .socials
@@ -355,10 +349,7 @@ motiviran.si###secondary > div
 najcena.si###banner_top
 najdi.si##.advert
 najdi.si##.sp.box
-napovednik.com##.banner
-naprostem.si##.shop__card.noPaddingAlways.col-md-12
-naprostem.si##.topBanner
-naprostem.si##.topBannerLanding
+namen.si##.sticky-wrapper
 nepremicnine.net###ad-detail
 nepremicnine.net###ad-hor > .psn.ad-box
 nepremicnine.net###podrobnosti > .ad-container
@@ -378,10 +369,6 @@ odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
 oglasi.svet24.si##[id^="firstSiteBanner"]
 oglasnik.over.net
-okusno.je##onl-article-connected
-okusno.je##onl-banner
-okusno.je##.microsite-article
-okusno.je##.microsite-section
 onaplus.si##.g-popup-wrapper
 onaplus.si###exitPopup
 partis.si##a[href^="https://www.nistatusa-nipanike.si/"]
@@ -425,7 +412,8 @@ pomurje24.si###blocks-left > a
 pomurje24.si###text-6
 pomurje24.si###text-14 > .textwidget > a:nth-of-type(1)
 pomurje24.si###text-17
-poraba.com###banner
+pons.com##[id^="pons-ad"]
+poraba.com,slo-tech.com,trgovina.delo.si###banner
 portalplus.si###bgl
 pozareport.si##.naslovnicaRightAd:nth-of-type(1)
 pozareport.si##.naslovnicaRightBottom_1
@@ -466,6 +454,7 @@ rumenestrani.si###headerLightHolder
 rumenestrani.si###topa
 salomon.si##[id^="firstSiteBanner"]
 scoreboard.com##.box_over_content_9547
+sentjur.net##.bsaProItems
 shop.kapodol.com###fixed > .site-banner
 siol.net##.card--ts_storitva
 siol.net##.fold__homepage_banner
@@ -487,7 +476,6 @@ slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
 slo-android.si###content > .sidebar > .moduletable_pasica
 slo-foto.net##.sf-ads_container
 slo-foto.net##.sf-panel:nth-of-type(2)
-slo-tech.com###banner
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
 sobotainfo.com###content > .region-highlighted.region
@@ -499,7 +487,6 @@ startaj.finance.si###main-column-inner > .kos_semitrans
 sta.si###center > .leadlist > .banners
 stop-neplacniki.si###ctl00_bannersCont
 studentarija.net##div.banner_footer
-studentarija.net##.banner
 studentarija.net###banner_side_layer
 svet24.si##.banner-box
 svet24.si##.container > .mainArticle.page-bg.container > .row > .rail.ui.col-xs-4 > .banner-box
@@ -508,32 +495,23 @@ svetkapitala.delo.si##.article__social--top
 svetkapitala.delo.si##.dfp_banner
 svetopismo.si###heateor_ss_browser_popup_bg
 t3tech.si##.add-title
-tehnik.telekom.si##.banner
 tehnozvezdje.si##.clearfix.ai_widget
-tekac.si##.shop__card.noPaddingAlways.col-md-12
-tekac.si##.topBanner
-tekac.si##.topBannerLanding
 topjob.finance.si###article_social_top > .social-line
 topjob.finance.si###main-column-inner > .kos_signup
-trgovina.delo.si###banner
+tvambienti.si##.wallpaper--active
 tv-spored.siol.net##.wrapper > .col-4
 utrinek.si##.td-post-sharing-top
 varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
 vemkajjem.si##[id^="oglasi"]
-vizita.si##onl-article-connected
-vizita.si##onl-banner
 vizita.si##.border-grey-light.sidebar > .border-grey-light
-vizita.si##.microsite-article
-vizita.si##.microsite-section
 volan.si##a[href^="https://www.volan.si/admin/upload/ads/generator.php"]
 volan.si###banner45
 volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
-vreme.24ur.com##.banner
 vreme.zurnal24.si##.ad
 www.megasvet.net###doyoulikeus
 www.megasvet.net###header > .header-wrap > .white.container:nth-of-type(2) > .row > .col-md-10 > .center.ads
@@ -625,11 +603,6 @@ www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
 www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
-zadovoljna.si##onl-article-connected
-zadovoljna.si##onl-magick-box
-zadovoljna.si##.banner
-zadovoljna.si##.microsite-article
-zadovoljna.si##.microsite-section
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
 zdravje.si##.td-post-sharing-top
