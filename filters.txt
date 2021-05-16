@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 119
+! Version: 120
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -180,10 +180,6 @@ rtvslo.si#@#.iAdserver
 ! najlektoriranje.si
 ###eu-okno
 !
-! General element hiding filters
-##.advert.box
-##.td-a-rec
-!
 ! Specific element hiding filters
 1nadan.si##.background_link
 24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-article-connected
@@ -234,13 +230,14 @@ bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
 cekin.si##onl-microsite
-cekin.si##.outbrain
+cekin.si,moskisvet.com##.outbrain
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
 ceneje.si##.floatingProductContainer
 ciklon.si##.sfsi_outr_div
 citymagazine.si##div[class^="banner-square-"]
+data.si###banner-seminarji
 delo.si##.ekosistem
 delo.si##.read-also-block
 demokracija.si###gkSidebar > .nomargin.box
@@ -326,26 +323,15 @@ mojblink.si##.widget-wrapper:nth-of-type(6)
 mojblink.si##[href="https://samopostrezna.com/"]
 mojepotovanje.hudo.com##.banner-inner
 mojepotovanje.hudo.com##.grid1.rectangle
-mojoglasnik.com##.bannerRow
-mojoglasnik.com##.classic728x90
-mojoglasnik.com##.iAdserver
-mojprihranek.si##.article-view-right-container
-mojprihranek.si##.banner-subnews
-monitor.si##li.article:has(img[alt="Oglasno sporočilo"])
-monitor.si##.o160x600
-monitor.si##.o180x90
-monitor.si##.o728x90
-monitor.si##.video-ad
+mojprihranek.si##.obcni-contentexchange
+mojprihranek.si##.obcni-widget
+mojprihranek.si##.td-a-rec
+monitor.si##li.article:has-text(Oglasno sporočilo)
 moskisvet.com##.banner-wr
-moskisvet.com##.banner--before
-moskisvet.com##.banner--below
 moskisvet.com##.box-shadow
-moski.hudo.com##.desktopAd
+moski.hudo.com,zenska.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
-moski.hudo.com##.the-post > .socials
-moski.hudo.com##a[href^="http://hudo.com/si/"]
-motiviran.si##[id^="adDesktop"]
-motiviran.si###secondary > div
+motiviran.si##.td-main-sidebar
 najcena.si###banner_top
 najdi.si##.advert
 najdi.si##.sp.box
@@ -394,6 +380,7 @@ penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
 penzionist.info###gkTop1 > div > .banner-center
 planet.si##.container > .main > .page > .list:nth-of-type(2) > .grid:nth-of-type(1) > .col:nth-of-type(3)
 planet.si##.container > .main > .page > .main-column > .wrapper > .group:nth-of-type(1)
+podjetnik.si##[id^="reklama"]
 pokukaj.si##.lightface
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
@@ -450,6 +437,7 @@ rtvslo.si##.billboard-advert-item
 rtvslo.si##.dynamic-advert-article-inside
 rtvslo.si##.inArticle
 rtvslo.si##.inverted-colors.teal.emphasis
+rtvslo.si##.iprom-background-placement
 rumenestrani.si###headerLightHolder
 rumenestrani.si###topa
 salomon.si##[id^="firstSiteBanner"]
@@ -606,8 +594,6 @@ www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
 zdravje.si##.td-post-sharing-top
-zenska.hudo.com##.desktopAd
-zenska.hudo.com##.the-post > .socials
-zenska.hudo.com##a[href^="http://hudo.com/si/"]
+zenska.hudo.com##blockquote
 zenskisvet.si##.widget_ads_big.widget
 zurnal24.si##.related_article
