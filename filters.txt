@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 121
+! Version: 122
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -171,7 +171,7 @@ rtvslo.si#@#.iAdserver
 1nadan.si##.background_link
 24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-article-connected
 24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-banner
-24ur.com,cekin.si,mojaleta.si,napovednik.com,njena.svet24.si,studentarija.net,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
+24ur.com,cekin.si,mojaleta.si,napovednik.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
 24ur.com,cekin.si,moskisvet.com,zadovoljna.si##onl-magick-box
 24ur.com,cekin.si##onl-eurojackpot-teaser
 24ur.com##onl-voyo.sidebar__box
@@ -294,7 +294,7 @@ mediaspeed.net##.banner_cont
 med.over.net##blockquote
 med.over.net##.feedo
 med.over.net##.livenetlife_links
-med.over.net,najstnica.svet24.si,njena.svet24.si,novice.svet24.si##.lwdgt
+med.over.net,svet24.si##.lwdgt
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
 mlacom.si##a[target="_blank"][href^="http://www.mlacom.si/iskalnik"]
@@ -326,22 +326,16 @@ moski.hudo.com,zenska.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 motiviran.si##.td-main-sidebar
 najdi.si##.main-first.main > .index_right
-najstnica.svet24.si,njena.svet24.si##.najnakupi-news
 namen.si##.sticky-wrapper
 nepremicnine.net##.ad-container
 nepremicnine.net###ad-detail
 nepremicnine.net###ad-ribbon
 nepremicnine.net###top_wrap
 nepremicnine.si21.com##.re-cta-advertisement
-njena.svet24.si##.najnakupi
 nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
-novice.svet24.si##.bg-najnakupi-blue-light
-novice.svet24.si##.right-sticky
-novice.svet24.si##.shadow-md.w-tk
 odmuh.si##[id^="adwidget_htmlwidget"]
 odmuh.si##[id^="easy_facebook_page_plugin"]
-oglasi.svet24.si##[id^="firstSiteBanner"]
 oglasnik.over.net
 onaplus.si##.g-popup-wrapper
 onaplus.si###exitPopup
@@ -394,7 +388,7 @@ radio1.si###divBannerjiDesnoZunaj > .reklamaDesnoZunaj
 radio1.si###page > center > .telo > .teloCenter > .mainLevo > div:nth-of-type(12)
 radio1.si###page > center > .telo > .teloCenter > .mainLevo > div:nth-of-type(13)
 radio1.si###slideshowEPPGLii
-radiokrka.si,svet24.si##.banner-box
+radiokrka.si##.banner-box
 radiokrka.si##[src^="//tdn.media24.si"]
 revijaavenija.si###rightframe > div
 revijaavenija.si###sharebar
@@ -449,6 +443,11 @@ sta.si###center > .leadlist > .banners
 stop-neplacniki.si###ctl00_bannersCont
 studentarija.net##div.banner_footer
 studentarija.net###banner_side_layer
+svet24.si##.bg-najnakupi-blue-light
+svet24.si##.najnakupi
+svet24.si##.najnakupi-news
+svet24.si##.right-sticky
+svet24.si##.shadow-md.w-tk
 svetkapitala.delo.si##.article__social--top
 svetkapitala.delo.si##.dfp_banner
 svetopismo.si###heateor_ss_browser_popup_bg
