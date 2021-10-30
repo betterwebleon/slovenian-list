@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 122
+! Version: 123
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -15,6 +15,7 @@
 @@||celje.info/wp-content/plugins/simple-share-buttons-adder/buttons/pagepeel/*.png
 @@||fbcdn.net/hads-xpt1/v/$domain=klip.si
 @@||google-analytics.com/ga.js$domain=prehrana.si
+@@||graph.facebook.com/$domain=svet24.si
 @@||images.contentexchange.me/fit$domain=igrice.hudo.com
 @@||mp.piano-media.com/bucket/novosense.swf$domain=dnevnik.si
 @@||mp.piano-media.com/js/bp.html$domain=dnevnik.si
@@ -25,9 +26,15 @@
 ! RTVSLO Joker sign-up element (rtvslo.si/joker):
 rtvslo.si#@#.adloaded
 rtvslo.si#@#.iAdserver
+@@||a.ipromcloud.com/*/cca7a08cba3a447c2e19ebeb8b7c773a_728.gif
 @@||cdn.ipromcloud.com/ipromNS.js$domain=rtvslo.si
+@@||cdn.ipromcloud.com/script/format/Classic.js*$domain=rtvslo.si
 @@||cdn.ipromcloud.com/script/Prebid.js$domain=rtvslo.si
+@@||cdn.ipromcloud.com/script/Utils.js$domain=rtvslo.si
+@@||cdn.ipromcloud.com/site/rtvslo.js*$domain=rtvslo.si
+@@||core.iprom.net/Click?*&redirect=http%3A%2F%2Fwww.sli.do%2Fjoker
 @@||core.iprom.net/impression*$domain=rtvslo.si
+@@||core.iprom.net/Log?$domain=rtvslo.si
 @@||core.iprom.net/site*$domain=rtvslo.si
 !
 ! Network filters
@@ -207,6 +214,7 @@ bodieko.si##.td-is-sticky.tdc-column
 bolha.com##.BannerBillboard
 bolha.com##.bannerblh:has(img[src*="banneri"]):has(a[href^="https://bit.ly"])
 bolha.com##.banner__blh
+bolha.com##.carousel
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.trakica_container
@@ -245,6 +253,8 @@ dobrakarma.si###topBanner
 dolenjskilist.si##.lokalnoBox
 dominvrt.si##.lg\:mb-0
 druzina.si##.module.banner
+ekipa.svet24.si##.main-left > .fpNews-title
+ekipa.svet24.si##.my-4 > .flex-wrap
 enajdi.si###top_banner
 explicit.si##.bs-irp-thumbnail-3-full
 e-mesto.si##.pattern > .span2
@@ -334,11 +344,7 @@ nepremicnine.net###top_wrap
 nepremicnine.si21.com##.re-cta-advertisement
 nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
-odmuh.si##[id^="adwidget_htmlwidget"]
-odmuh.si##[id^="easy_facebook_page_plugin"]
-oglasnik.over.net
-onaplus.si##.g-popup-wrapper
-onaplus.si###exitPopup
+obala.net##.category > .col-md-3
 pctrgovina.com###wnb-bar
 penzionist.info###gkBannerTop
 penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
@@ -405,6 +411,7 @@ rtvslo.si##.dynamic-advert-article-inside
 rtvslo.si##.inArticle
 rtvslo.si##.inverted-colors.teal.emphasis
 rtvslo.si##.iprom-background-placement
+rtvslo.si###newsletter-popup-unsigned
 rumenestrani.si###headerLightHolder
 rumenestrani.si###topa
 salomon.si##[id^="firstSiteBanner"]
@@ -470,9 +477,6 @@ volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
 vreme.zurnal24.si##.ad
-www.obala.net##.community.main > .white.container > .row.category > .col-sm-12.col-md-3
-www.obisk.net###sky > .box
-www.obisk.net###sky:nth-of-type(6)
 www.planet-lepote.com###leftColumn > .banner728box:nth-of-type(4)
 www.planet-lepote.com###leftColumn > .right.banner728box
 www.planet-lepote.com###top-of-page > .inside > .header-top > .banner728box
