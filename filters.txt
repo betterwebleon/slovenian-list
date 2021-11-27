@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 123
+! Version: 124
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -90,9 +90,12 @@ rtvslo.si#@#.iAdserver
 ||novice.si/*/oglasuj.jpg
 ||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
 ||over.net/feedo.min.js
+||partis.si/img/bshad*.png
+||partis.si/tmp/blackFRIDAY.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||podocnjaki.si^$popup,domain=studentarija.net
+||pokukaj.si/data/oglasi/
 ||pomurec.com/data/oglasi/
 ||radio1.si/img/Gallery/BannersEPP/*.jpg
 ||radio1.si/img/Gallery/BannersEPP/*.png
@@ -214,9 +217,9 @@ bodieko.si##.td-is-sticky.tdc-column
 bolha.com##.BannerBillboard
 bolha.com##.bannerblh:has(img[src*="banneri"]):has(a[href^="https://bit.ly"])
 bolha.com##.banner__blh
-bolha.com##.carousel
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
+bolha.com##.HeaderSpotlight:has(a[href^="https://bit.ly"])
 bolha.com##.trakica_container
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
@@ -289,6 +292,7 @@ kosmika.si###fanback
 kozjansko.info##.custom-html-widget
 kozjansko.info##.g-single
 kozjansko.info##.widget-10.widget-last.widget-even
+lepdan.si##.ads
 letakonosa.si##.hidden-sm
 letakonosa.si##.signad
 letakonosa.si##.sticky-position
@@ -307,6 +311,8 @@ med.over.net##.livenetlife_links
 med.over.net,svet24.si##.lwdgt
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
+megasvet.si##.portus-video-slider-min
+megasvet.si###doyoulikeus
 mlacom.si##a[target="_blank"][href^="http://www.mlacom.si/iskalnik"]
 mlacom.si##.banner-scroller
 mlacom.si##.headbanner
@@ -345,14 +351,20 @@ nepremicnine.si21.com##.re-cta-advertisement
 nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
 obala.net##.category > .col-md-3
-pctrgovina.com###wnb-bar
-penzionist.info###gkBannerTop
-penzionist.info###gkBottom5 > .gkCols6 > .clear-horizontal
-penzionist.info###gkTop1 > div > .banner-center
-planet.si##.container > .main > .page > .list:nth-of-type(2) > .grid:nth-of-type(1) > .col:nth-of-type(3)
-planet.si##.container > .main > .page > .main-column > .wrapper > .group:nth-of-type(1)
+partis.si##.bannerbox
+partis.si##.box2
+partis.si##.dadbot
+partis.si##.dadmid
+partis.si##.dadtop
+partis.si##.rightb300600
+partis.si##.top728
+partis.si##[src="https://www.partis.si/img/pixel.gif"]
+podjetnik.si##.reklame-na-sredi
 podjetnik.si##[id^="reklama"]
+pokukaj.si##.image_carousel_post > [href^="/show//"]
 pokukaj.si##.lightface
+pokukaj.si##.widget-shop
+pokukaj.si###izpostavljeni
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
 pomurec.com###nestandard
@@ -372,6 +384,7 @@ pomurje24.si###text-14 > .textwidget > a:nth-of-type(1)
 pomurje24.si###text-17
 pons.com##[id^="pons-ad"]
 poraba.com,slo-tech.com,trgovina.delo.si###banner
+porscheinterauto.net##.no-margin
 portalplus.si###bgl
 pozareport.si##.naslovnicaRightAd:nth-of-type(1)
 pozareport.si##.naslovnicaRightBottom_1
