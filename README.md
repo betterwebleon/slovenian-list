@@ -30,11 +30,13 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
 
 <h3>1. Priporočeni brskalnik za namizni računalnik: Mozilla Firefox</h3>
 
-[Tukaj je povezava za prenos brskalnika Firefox.](https://www.mozilla.org/sl/firefox/new/)<br>
+[Tu je povezava za prenos brskalnika Firefox.](https://www.mozilla.org/sl/firefox/new/)<br>
 ***Zakaj ta brskalnik?*** Ker ga je možno prilagoditi na način, da postane zelo hiter, varen in uporabniku prijazen brskalnik.<br>
 ***Kako si ga čim bolje prilagoditi?*** Beri naprej. :)
 
 <h4>1.a) Optimizacija nastavitev brskalnika</h4>
+
+**I. DEL: NAPREDNE NASTAVITVE**
 
 V brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code>
 
@@ -48,36 +50,49 @@ Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:
 | 2.  | browser.safebrowsing.downloads.enabled                         | false    |
 | 3.  | browser.safebrowsing.malware.enabled                           | false    |
 | 4.  | browser.safebrowsing.phishing.enabled                          | false    |
-| 5.  | extensions.experiments.enabled                                 | false    |
-| 6.  | network.trr.mode                                               | 5        |
-| 7.  | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |
-| 8.  | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |
+| 5.  | browser.urlbar.groupLabels.enabled                             | false    |
+| 6.  | extensions.experiments.enabled                                 | false    |
+| 7.  | extensions.pocket.enabled                                      | false    |
+| 8.  | network.trr.mode                                               | 5        |
+| 9.  | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |
+| 10. | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |
 
 <br>Za **izboljšanje odzivnosti in uporabnosti** brskalnika spremeni spodnje nastavitve:<br>
 
 |     | IME VNOSA                                          | VREDNOST | OPOMBE |
 | --- | :------------------------------------------------- | :------: | :----- |
-| 9.  | browser.compactmode.show                           | true     |        |
-| 10. | browser.download.animateNotifications              | false    |        |
-| 11. | browser.uidensity                                  | 1        |        |
-| 12.\* | dom.ipc.processCount                             | 4        | ***Pogojno:*** glej dodatna pojasnila spodaj. |
-| 13. | extensions.htmlaboutaddons.recommendations.enabled | false    |        |
-| 14.\* | full-screen-api.transition-duration.enter        | 0 0      | Glej dodatna pojasnila spodaj. |
-| 15.\* | full-screen-api.transition-duration.leave        | 0 0      | Glej dodatna pojasnila spodaj. |
-| 16. | full-screen-api.warning.timeout                    | 0        |        |
-| 17. | security.dialog_enable_delay                       | 0        |        |
+| 11. | browser.compactmode.show                           | true     |        |
+| 12. | browser.download.animateNotifications              | false    |        |
+| 13. | browser.uidensity                                  | 1        |        |
+| 14.\* | dom.ipc.processCount                             | 4        | ***Pogojno:*** glej dodatna pojasnila spodaj. |
+| 15. | extensions.htmlaboutaddons.recommendations.enabled | false    |        |
+| 16.\* | full-screen-api.transition-duration.enter        | 0 0      | Glej dodatna pojasnila spodaj. |
+| 17.\* | full-screen-api.transition-duration.leave        | 0 0      | Glej dodatna pojasnila spodaj. |
+| 18. | full-screen-api.warning.timeout                    | 0        |        |
+| 19. | security.dialog_enable_delay                       | 0        |        |
 
 ***\*Dodatna pojasnila:***
-- Nastavitev št. **12** je namenjena intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe privzete vrednosti (iz 8 na 4) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem pri tistih računalnikih, ki uporabljajo manj kot 3 GB RAM-a.
-- Nastavitvi št. **14** in **15**: pri obeh naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
+- Nastavitev št. **14** je namenjena intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe privzete vrednosti (iz 8 na 4) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem pri tistih računalnikih, ki uporabljajo manj kot 3 GB RAM-a.
+- Nastavitvi št. **16** in **17**: pri obeh naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
 
 **Narejene spremembe v brskalniku Firefox je možno kadarkoli ponastaviti** (vrniti v prvotno stanje): v naprednih nastavitvah *about:config* posamezen vnos ponovno poiščemo, nanj kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Vrednost vnosa se bo nato povrnila v prvotno (privzeto) stanje. Kljub temu naj velja opozorilo, da se vse spremembe nastavitev, opisane na tej strani, uveljavljajo na lastno odgovornost.
+
+**II. DEL: ZBIRANJE IN UPORABA PODATKOV FIREFOXA**
+
+Za izklop pošiljanja podatkov o uporabi Firefoxa v URL-vrstico brskalnika vpišemo sledeče in odpremo:<br>
+<code>about:preferences#privacy</code>
+
+Nato se na strani pomaknemo v razdelek "***Zbiranje in uporaba podatkov Firefoxa***". V tem razdelku izklopimo vse možnosti, kot kaže spodnja slika:
+
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-data-collection-slo.png" /></kbd>
 
 <h4>1.b) Izboljšana zaščita pred sledenjem</h4>
 
 V URL vrstico brskalnika Firefox vpišemo sledeči vnos in potrdimo:<br><code>about:preferences#privacy</code>
 
-Izboljšana zaščita pred sledenjem se nato vključi z izborom polja <code>Običajno</code> (kar je priporočeno) ali <code>Strogo</code>.
+V razdelku "***Izboljšana zaščita pred sledenjem***" vključi z izborom polja <code>Običajno</code> (kar je priporočeno) ali <code>Strogo</code>, kot kaže spodnja slika:
+
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-enhanced-tracking-protection-slo.png" /></kbd>
 
 Ko je v Firefoxu vključena "Izboljšana zaščita pred sledenjem", nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali**. Neposredno na samih portalih (npr. facebook.com, twitter.com) bodo sicer delovali, povezave nanje na drugih spletnih straneh pa ne. **Če jih želimo vseeno videti, na izbranih spletnih mestih preprosto izklopimo izboljšano zaščito pred sledenjem.** To naredimo tako, da levo zgoraj v naslovni (URL) vrstici brskalnika kliknemo na ikono ščita takrat, ko bomo na tistem spletnem mestu, na katerem želimo videti blokirane videe / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže pojavni oblaček, v katerem kliknemo na vklopljeno stikalo. Stran se bo samodejno osvežila, ikona ščita pa bo odslej prečrtana. Brskalnik bo za to domensko ime izbiro shranil med izjeme v nastavitvah, da teh omejitev na vseh straneh v okviru izbrane spletne domene v prihodnje ne bo več. Če želimo kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani domeni), samo ponovimo postopek: odpremo spletno stran želene domene, kliknemo na ikono prekrižanega ščita in nato v oblačku kliknemo izklopljeno stikalo.
 
@@ -115,10 +130,10 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 
 |     | IME DODATKA | FUNKCIJA |
 | :-- | :---------: | -------- |
-| 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/839/839767-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/clearurls/)<br><b>[ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/)</b> | Iz URL naslovov odstranjuje parametre (npr. UTM parametre za storitev Google Analytics). Različna analitična orodja uporabljajo URL parametre za namene spletne analitike, s čimer sledijo obiskovalcem spletnih strani (npr. za analize časa zadrževanja na posamezni strani, načine navigiranja po straneh ...). Dodatek hkrati preprečuje spreminjanje povezav z rezultati iskanja na spletnih mestih (npr. Google in Yandex, lahko tudi na straneh za napotitveno trženje). Dodatek spletnemu iskalniku preprečuje, da bi se pri uporabnikovem kliku na rezultat iskanja spremenila originalna povezava na rezultat. Na ta način se lahko povezava brez težav kopira kar na strani spletnega iskalnika. Poleg tega pa spletni iskalnik ne more več učinkovito spremljati (slediti) nadaljnje klike uporabnika. |
-| 2.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/521/521554-64.png" width="50" />](https://addons.mozilla.org/firefox/addon/decentraleyes/)<br><b>[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)</b> | Posnema omrežja za dostavo vsebin (angl. content delivery networks – CDN) z namenom, da prepreči čim več zahtev s strani teh omrežij. Decentraleyes se skuša izogniti sledenju različnih uveljavljenih CDN-jev (npr. Google Hosted Libraries, CDNJS, jQuery CDN, Microsoft Ajax CDN), ki kot nekakšni posredniki ponujajo "brezplačne" storitve za pohitritev nalaganja spletnih strani. Namesto, da bi se datoteke, ki so potrebne za delovanje neke spletne strani, vsakič znova prenesle neposredno iz CDN-jev (s spleta), Decentraleyes enake datoteke nadomesti iz lastnega predpomnilnika (torej iz lokalne zbirke, ki vsebuje številne pogosto zahtevane knjižnice) in jih vrine v okolje. Na ta način se je možno elegantno izogniti številnim zahtevam CDN-jev, kar prinaša različne koristi: pomaga ščititi zasebnost, poveča prihranke pri prenosu podatkov in pripomore k hitrejšem nalaganju spletnih strani. Decentraleyes naj se uporablja hkrati z drugimi dodatki, ki so opisani v nadaljevanju te tabele. V kolikor nek zahtevan vir ni na voljo na lokalni ravni, pa Decentraleyes pomaga odstraniti občutljive podatke iz odhodne spletne zahteve.<br><b>OPOMBA:</b> uporabniki starejših različic Firefoxa (do različice 56) lahko namestijo <b>[starejšo različico dodatka](https://addons.mozilla.org/firefox/addon/decentraleyes/versions/)</b>. |
+| 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/839/839767-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/clearurls/)<br><b>[ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/)</b> | Dodatek ima dve funkciji. 1.) Iz URL naslovov odstranjuje parametre (npr. UTM parametre od Google Analytics). Različna analitična orodja uporabljajo URL parametre za namene spletne analitike, s čimer sledijo obiskovalcem spletnih strani (npr. za analize časa zadrževanja na posamezni strani, načine navigiranja po straneh ...). 2.) Dodatek preprečuje tudi spreminjanje povezav z rezultati iskanja na spletnih mestih (npr. Google in Yandex, lahko tudi na straneh za napotitveno trženje). Spletnemu iskalniku preprečuje, da bi se pri uporabnikovem kliku na rezultat iskanja spremenila originalna povezava na rezultat. Na ta način se lahko povezava brez težav kopira kar na strani spletnega iskalnika. Poleg tega pa spletni iskalnik ne more več učinkovito slediti nadaljnje klike uporabnika. |
+| 2.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/521/521554-64.png" width="50" />](https://addons.mozilla.org/firefox/addon/decentraleyes/)<br><b>[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)</b> | Posnema omrežja za dostavo vsebin (angl. content delivery networks – CDN) z namenom, da prepreči čim več zahtev s strani teh omrežij. Decentraleyes se skuša izogniti sledenju različnih uveljavljenih CDN-jev (npr. Google Hosted Libraries, CDNJS, jQuery CDN, Microsoft Ajax CDN), ki kot nekakšni posredniki ponujajo "brezplačne" storitve za pohitritev nalaganja spletnih strani. Namesto, da bi se datoteke, ki so potrebne za delovanje neke spletne strani, vsakič znova prenesle neposredno iz CDN-jev (s spleta), Decentraleyes enake datoteke nadomesti iz lastnega predpomnilnika (torej iz lokalne zbirke, ki vsebuje številne pogosto zahtevane knjižnice) in jih vrine v okolje. Na ta način se je možno elegantno izogniti številnim zahtevam CDN-jev, kar prinaša različne koristi: pomaga ščititi zasebnost, poveča prihranke pri prenosu podatkov in pripomore k hitrejšem nalaganju spletnih strani. Decentraleyes naj se uporablja hkrati z drugimi dodatki, ki so opisani v nadaljevanju te tabele. V kolikor nek zahtevan vir ni na voljo na lokalni ravni, pa Decentraleyes pomaga odstraniti občutljive podatke iz odhodne spletne zahteve. |
 | 3.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/327/327417-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/smart-referer/)<br><b>[Smart Referer](https://addons.mozilla.org/firefox/addon/smart-referer/)</b> | Vključi t. i. pametne napotitelje. Dodatek samodejno spremeni informacijo o napotitelju (angl. HTTP referer) vsakič, ko uporabnik obišče spletno mesto z drugo domeno. Pri tem je napotitelj spletni naslov, ki ga je uporabnik predhodno obiskal in iz katerega je prišel na trenutno spletno mesto. Smart referer pa informacijo o dejanskem (predhodnem) spletnem naslovu zamenja kar s ciljnim (aktualnim) spletnim naslovom. Na ta način se ustvarja vtis, da je uporabnik na trenutno spletno mesto prišel direktno (recimo z neposrednim vnosom spletnega naslova v brskalnik ali z odprtjem zaznamka) – ne pa iz nekega predhodnega spletnega mesta. S takšnim spreminjanjem informacije o napotitelju uporabnik pridobi malenkost več zasebnosti, saj denimo ni mogoče razpoznati, na podlagi katerega iskalnega niza v spletnem iskalniku (oz. iz katerega predhodnega spletnega naslova) je uporabnik v resnici prišel na trenutno spletno mesto. |
-| 4.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/607/607454-64.png" width="43" />](https://addons.mozilla.org/firefox/addon/ublock-origin/)<br><b>[uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> | **Več o tem dodatku v [3. poglavju](#3-priporočeni-dodatek-za-filtriranje-neželenih-vsebin-na-spletu).** Dodatek blokira poljubne vsebine (npr. oglase in sledilnike) pri spletnem brskanju. Večinoma se uporablja za zavračanje neželenih vsebin, kot so spletni oglasi in sledilci za sledenje uporabnikov. uBlock Origin se zato mnogokrat označuje kot zaviralec oglasov (angl. ad blocker). uBlock Origin je eno najbolj učinkovitih tovrstnih orodij z vidika hitrosti delovanja in porabe sistemskih sredstev. Z uporabo tega dodatka se občutno zviša hitrost nalaganja spletnih strani, poveča se njihova preglednost, hkrati pa se lahko (z nekaj dodatnimi nastavitvami) precej omeji tudi sledenje, ki se ga poslužujejo številna spletna mesta. |
+| 4.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/607/607454-64.png" width="43" />](https://addons.mozilla.org/firefox/addon/ublock-origin/)<br><b>[uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> | **Več o tem dodatku v [3. poglavju](#3-priporočeni-dodatek-za-filtriranje-neželenih-vsebin-na-spletu).** Dodatek blokira poljubne vsebine pri spletnem brskanju. Večinoma se uporablja za zavračanje neželenih vsebin, kot so spletni oglasi, sledilci za sledenje uporabnikov in povezav na (potencialno) nevarna spletna mesta. uBlock Origin se zato mnogokrat označuje kot zaviralec oglasov (angl. ad blocker). uBlock Origin je eno najbolj učinkovitih tovrstnih orodij z vidika hitrosti delovanja in porabe sistemskih sredstev. Z uporabo tega dodatka se občutno zviša hitrost nalaganja spletnih strani, poveča se njihova preglednost in varnost, hkrati pa se lahko (z nekaj dodatnimi nastavitvami) precej omeji tudi sledenje, ki se ga poslužujejo številna spletna mesta. |
 
 <h4>2.b) Uporabnost</h4>
 
@@ -179,7 +194,7 @@ Po nekaj trenutkih se v razdelku *Po meri* pojavi takšen seznam:
 
 Nastavitve dodatka uBlock Origin lahko na tem mestu zapremo.
 
-*Naročnine so seveda brezplačne, kakor tudi vse ostalo na tej strani.* :)
+*Naročnine so seveda brezplačne, kakor tudi ostalo na tej strani.* :)
 
 <h3>4. Datoteka hosts</h3>
 
