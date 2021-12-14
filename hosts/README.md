@@ -6,7 +6,7 @@ Zaradi tovrstnega rigoroznega blokiranja se v datoteko hosts dodajajo le tisti g
 
 <h3>1. Namestitev datoteke</h3>
 
-Številne [variante](https://github.com/StevenBlack/hosts/blob/master/readme.md#list-of-all-hosts-file-variants) datoteke hosts je med drugimi pripravil Steven Black. "Osnovna" varianta z neželenimi gostitelji ("adware + malware") vsebuje več kot 50.000 vnosov. Pred pričetkom uporabe je v sistemih Windows to datoteko treba **najprej stisniti** (kompresirati), da zmanjšamo število vrstic z domenami pod približno 34.000 (ali pa zmanjšamo velikost datoteke pod 1 MB) in se s tem izognemo težavam z omrežjem. **[Kompresirano datoteko je možno prenesti tukaj](https://github.com/betterwebleon/slovenian-list/archive/master.zip)**: v preneseni datoteki "*hosts-master.zip*" se kompresirana datoteka hosts nahaja v istoimenski mapi "*hosts*".
+Številne [variante](https://github.com/StevenBlack/hosts/blob/master/readme.md#list-of-all-hosts-file-variants) datoteke hosts je med drugimi pripravil Steven Black. "Osnovna" varianta z neželenimi gostitelji ("adware + malware") vsebuje več kot 90.000 vnosov. Pred pričetkom uporabe je v sistemih Windows to datoteko priporočljivo **najprej stisniti** (kompresirati), da zmanjšamo število vrstic z domenami. **[Kompresirano datoteko je možno prenesti tukaj](https://github.com/betterwebleon/slovenian-list/archive/master.zip)**: v preneseni datoteki "*hosts-master.zip*" se kompresirana datoteka hosts nahaja v istoimenski mapi "*hosts*".
 
 Kompresirano datoteko hosts odpakiramo. Nato jo lahko kar zamenjamo z obstoječo datoteko v sistemu (v kolikor vanjo nismo že predhodno vnašali svojih pravil). Kompresirano datoteko hosts v upravitelju datotek vstavimo na sledečo lokacijo:
 
