@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 124
+! Version: 125
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -91,6 +91,7 @@ rtvslo.si#@#.iAdserver
 ||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
 ||over.net/feedo.min.js
 ||partis.si/img/bshad*.png
+||partis.si/tmp/AS32.jpg
 ||partis.si/tmp/blackFRIDAY.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
@@ -107,8 +108,6 @@ rtvslo.si#@#.iAdserver
 ||reporter.si/sites/all/themes/custom/bootstrap_barrio/images/ozadjetriglav*.jpg
 ||s-graf.si^$inline-script,domain=~s-graf.si
 ||s-graf.si^$popup,domain=mojblink.si
-||shrani.si/*/oglas*.gif$domain=pomurje24.si
-||shrani.si/*/output*.gif$domain=pomurje24.si
 ||static.dijaski.net/graphics/aff/telemach2.png
 ||static.plista.com^
 ||stop-neplacniki.si/*/Bannerji
@@ -214,9 +213,8 @@ bicikel.com,naprostem.si,tekac.si##.topBannerLanding
 bizi.si##.banner-970
 bizi.si##.td-zsd
 bodieko.si##.td-is-sticky.tdc-column
+bolha.com##.BannerAlignment
 bolha.com##.BannerBillboard
-bolha.com##.bannerblh:has(img[src*="banneri"]):has(a[href^="https://bit.ly"])
-bolha.com##.banner__blh
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.HeaderSpotlight:has(a[href^="https://bit.ly"])
@@ -268,12 +266,11 @@ finance.si###bart_banner
 gohome.si##.verde_wrap
 gohome.si###bannerFooter_wrap
 golfportal.si##.advertisement
-google.com###taw
-google.si###taw
+google.com,google.si###taw
 hribi.net###desnistolpec
 hribi.net###oglas
 hudo.com##aside.ad
-hudo.com##.ad
+hudo.com,mladina.si,vreme.zurnal24.si##.ad
 igrice.hudo.com###contentLeft
 igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
@@ -299,6 +296,7 @@ letakonosa.si##.sticky-position
 lifestyle.enaa.com##.addthis_toolbox
 lifestyle.enaa.com##.widget_subscribe_widget
 lokalno.si##.other
+lupa-portal.si##.ekode-content-dno
 marketingmagazin.si##.banner--wrapper
 marketingmagazin.si##.content--cta
 marketingmagazin.si##.exposed__banner
@@ -308,7 +306,7 @@ mediaspeed.net##.banner_cont
 med.over.net##blockquote
 med.over.net##.feedo
 med.over.net##.livenetlife_links
-med.over.net,svet24.si##.lwdgt
+med.over.net,n1info.si,svet24.si##.lwdgt
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
 megasvet.si##.portus-video-slider-min
@@ -316,7 +314,6 @@ megasvet.si###doyoulikeus
 mlacom.si##a[target="_blank"][href^="http://www.mlacom.si/iskalnik"]
 mlacom.si##.banner-scroller
 mlacom.si##.headbanner
-mladina.si##.ad
 mladina.si##.fancybox-overlay
 mladina.si##.info-box > .social
 mladipodjetnik.si##.style-buttons.before_content
@@ -341,6 +338,10 @@ moskisvet.com##.box-shadow
 moski.hudo.com,zenska.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 motiviran.si##.td-main-sidebar
+n1info.si##.banner-promotion
+n1info.si##.banner-wrapper
+n1info.si##.in-post-related-news
+n1info.si##.third-party-menu-container
 najdi.si##.main-first.main > .index_right
 namen.si##.sticky-wrapper
 nepremicnine.net##.ad-container
@@ -359,6 +360,11 @@ partis.si##.dadtop
 partis.si##.rightb300600
 partis.si##.top728
 partis.si##[src="https://www.partis.si/img/pixel.gif"]
+planet-lepote.com,pravljicna.si,utrinek.si,zdravje.si##.td-post-sharing-top
+planet-lepote.com##.td-header-rec-wrap
+podarimo.si###startPageRightLabel
+podarimo.si###startPageRightResults
+podarimo.si###topBanner
 podjetnik.si##.reklame-na-sredi
 podjetnik.si##[id^="reklama"]
 pokukaj.si##.image_carousel_post > [href^="/show//"]
@@ -367,34 +373,16 @@ pokukaj.si##.widget-shop
 pokukaj.si###izpostavljeni
 pokukaj.si###show > .ban_item
 pokukaj.si###show > div > div > .ban_item
-pomurec.com###nestandard
-pomurec.com##.fotoutr > .fotoutr4
-pomurec.com##.lightface
-pomurje24.si##a:nth-of-type(6) > img
-pomurje24.si##a:nth-of-type(8) > img
-pomurje24.si##img[src="http://shrani.si/f/2c/6s/1bmuACP9/kuponi.gif"]
-pomurje24.si##img[src="http://shrani.si/f/2n/mQ/3HuQoohm/kupon-zgoraj.gif"]
-pomurje24.si##img[src="http://shrani.si/f/2t/2N/1oYNKoNu/yes-pohistvo-kocka.gif"]
-pomurje24.si##img[src="http://shrani.si/f/3L/Oq/MNPq41L/outputyj81mk.gif"]
-pomurje24.si##img[src="http://shrani.si/f/T/ei/31PqjJnD/oglasujte-tukaj-380-x-24.png"]
-pomurje24.si##.blog-lists-blog > a
-pomurje24.si###blocks-left > a
-pomurje24.si###text-6
-pomurje24.si###text-14 > .textwidget > a:nth-of-type(1)
-pomurje24.si###text-17
+pomurec.com##.ban_item
+pomurec.com##.do-space
+pomurec.com##.header-blocks-aspace
+pomurec.com###nestandard-holder
 pons.com##[id^="pons-ad"]
-poraba.com,slo-tech.com,trgovina.delo.si###banner
-porscheinterauto.net##.no-margin
-portalplus.si###bgl
-pozareport.si##.naslovnicaRightAd:nth-of-type(1)
-pozareport.si##.naslovnicaRightBottom_1
-pozareport.si###centralBannerLeft
-pozareport.si###centralBannerRight
-pozitivnenovice.com###facebook-likebox-2
-pravljicna.si##.td-post-sharing-top
-privoscite.si###BannerPositionBackground
-privoscite.si###BannerPositionCenterWithRight
-promplac.si###featuredNagrade
+poraba.com,slo-tech.com###banner
+porscheinterauto.net##.roglas_listaBanner
+porscheinterauto.net##.roglas_lista:nth-of-type(2)
+preberi.si###maincontent > .nospace > tbody > tr > td > .moduletable
+publishwall.si##.external_wall_right_wrapper
 racunovodja.com##.osrednji_del > .poravnajgor:nth-of-type(1)
 racunovodja.com##td > table > tbody > tr > td > .poravnajgor > tbody > tr:nth-of-type(1)
 radio1.si###ctl00_Radio1Vsebina_LabelEPP288x240
@@ -437,6 +425,7 @@ siol.net##.grid-12.grid-md-3
 siol.net##.grid-12.grid-md-8.grid-lg-3
 siol.net##.js_article:if-not(:has(.strong)) > .widgetWrap
 siol.net##.marketing
+siol.net##.neo-image
 siol.net##.spored_widget--special > .no-gutter
 siol.net##.ts_storitve
 siol.net###itisAdPromo
@@ -453,6 +442,7 @@ slo-foto.net##.sf-ads_container
 slo-foto.net##.sf-panel:nth-of-type(2)
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
+sobotainfo.com##.after-nav-ads
 sobotainfo.com###content > .region-highlighted.region
 spored.tv###RightBanner
 stajerskival.si##div > .side-banner
@@ -477,7 +467,6 @@ topjob.finance.si###article_social_top > .social-line
 topjob.finance.si###main-column-inner > .kos_signup
 tvambienti.si##.wallpaper--active
 tv-spored.siol.net##.wrapper > .col-4
-utrinek.si##.td-post-sharing-top
 varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
@@ -489,23 +478,6 @@ volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
-vreme.zurnal24.si##.ad
-www.planet-lepote.com###leftColumn > .banner728box:nth-of-type(4)
-www.planet-lepote.com###leftColumn > .right.banner728box
-www.planet-lepote.com###top-of-page > .inside > .header-top > .banner728box
-www.planet-lepote.com###user-content-8bf3b392a4 > .banner728box
-www.playboy.si###article > .article-content > .article-share
-www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .relative.span10
-www.playboy.si###header > .relative.margin-top.hidden-phone.row-fluid > .span2 > .red.header-button
-www.podarimo.si###startPageRight
-www.podarimo.si###topBanner
-www.portalznanja.com###header > .title_holder > .advertisers_cta
-www.preberi.si###maincontent > .nospace > tbody > tr > td > .moduletable
-www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(10)
-www.prokon-nepremicnine.com##center > table > tbody > tr > .tags > center:nth-of-type(9)
-www.prokuhar.si###bottom-wrap
-www.prokuhar.si###container > .bot-ads-area
-www.publishwall.si###pjax-full > .clearfix.external_wall_wrap > .external_wall_right_wrap > .clearfix.external_wall_right_wrapper
 www.racunalniske-novice.com###content-holder > .holder-with-tower-bann > .file-content-holder > .intextAdIgnore.sq829
 www.racunalniske-novice.com###content-holder > .holder-with-tower-bann > .intextAdIgnore.right-content-holder > .article-view-right-container
 www.racunalniske-novice.com###content-holder > .holder-with-tower-bann > .intextAdIgnore.right-content-holder > .fl:nth-of-type(8) > .mb10.sq408 > .sq408 > .fs14.channelsSubscribe.fl
@@ -564,7 +536,6 @@ www.viva.si###header > .wrap > .banner_container
 www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
-zdravje.si##.td-post-sharing-top
 zenska.hudo.com##blockquote
 zenskisvet.si##.widget_ads_big.widget
 zurnal24.si##.related_article
