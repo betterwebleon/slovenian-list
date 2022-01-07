@@ -14,6 +14,8 @@ The list is **intended for simple users** with a set-and-forget approach. It is 
 V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa morda še ni zadovoljivo "očiščena", to prosim sporoči [na tej strani](https://github.com/betterwebleon/slovenian-list/issues) ali napiši [e-poštno sporočilo](mailto:betterweb.leon@outlook.com). Naj bo brskanje udobno tudi pri pohajkovanju po slovenskih straneh. :)
 ***
 
+<br>
+
 **KAZALO**
 
 * [Priporočeni brskalnik za namizni računalnik: Mozilla Firefox](#1-priporočeni-brskalnik-za-namizni-računalnik-mozilla-firefox)
@@ -32,6 +34,8 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
   * [Za izogib geografskim omejitvam in digitalnim preprekam](#5b-za-izogib-geografskim-omejitvam-in-digitalnim-preprekam)
 * [Licenca](#licenca)
 
+<br>
+
 <h3>1. Priporočeni brskalnik za namizni računalnik: Mozilla Firefox</h3>
 
 [Tu je povezava za prenos brskalnika Firefox.](https://www.mozilla.org/sl/firefox/new/)
@@ -45,7 +49,7 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
 
 V brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code>
 
-Pritisni *enter* in izberi gumb <code>Sprejmem tveganje!</code> Nato poišči spodnje vnose. Vsako posamezno ime vnosa kopiraj in prilepi v iskalno polje znotraj okna z nastavitvami. Vnos se (samodejno) prikaže na seznamu, nato ga z miško dvoklikni. Na ta način lahko spremeniš vrednosti v takšne, kakršne so navedene v naslednjih dveh tabelah:
+Pritisni *enter* in izberi gumb <code>Sprejmem tveganje!</code> Nato poišči spodnje vnose: vsako posamezno ime nastavitve kopiraj in prilepi v iskalno polje znotraj okna z nastavitvami. Nastavitev se samodejno prikaže na seznamu, nato jo z miško dvoklikni. Na ta način lahko spremeniš vrednosti v takšne, kakršne so navedene v naslednjih dveh tabelah:
 
 Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:<br>
 
@@ -82,26 +86,29 @@ Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:<br>
 
 **Narejene spremembe v brskalniku Firefox je možno kadarkoli ponastaviti** (vrniti v prvotno stanje): v naprednih nastavitvah *about:config* posamezen vnos ponovno poiščemo, nanj kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Vrednost vnosa se bo nato povrnila v prvotno (privzeto) stanje. Kljub temu naj velja opozorilo, da se vse spremembe nastavitev, opisane na tej strani, uveljavljajo na lastno odgovornost.
 
+<br>
+
 **II. DEL: Dovoljenja in zbiranje podatkov Firefoxa**
 
-Za izklop pošiljanja podatkov o uporabi Firefoxa v URL-vrstico brskalnika vpišemo sledeče in odpremo:<br>
+Za izklop pošiljanja podatkov o uporabi Firefoxa v URL-vrstico brskalnika vpišemo sledeči vnos in ga odpremo:<br>
 <code>about:preferences#privacy</code>
 
 Premaknemo se v razdelek "***Dovoljenja***". V razdelku vklopimo (obkljukamo) naslednji dve možnosti, kot kaže sledeča slika:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-data-collection-slo.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-permissions-slo.png" /></kbd><br><br>
 
 Nato se na strani pomaknemo še v razdelek "***Zbiranje in uporaba podatkov Firefoxa***". V tem razdelku izklopimo naslednje možnosti, kot kaže ta slika:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-permissions-slo.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-data-collection-slo.png" /></kbd><br><br>
 
 <h4>1.b) IZBOLJŠANA ZAŠČITA PRED SLEDENJEM</h4>
 
-V URL vrstico brskalnika Firefox vpišemo sledeči vnos in potrdimo:<br><code>about:preferences#privacy</code>
+V URL vrstico brskalnika Firefox vpišemo sledeči vnos in ga odpremo:<br>
+<code>about:preferences#privacy</code>
 
 V razdelku "***Izboljšana zaščita pred sledenjem***" izberemo polje <code>Običajno</code> (kar je priporočeno) ali <code>Strogo</code>, kot kaže sledeča slika:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-enhanced-tracking-protection-slo.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-enhanced-tracking-protection-slo.png" /></kbd><br><br>
 
 Ko je v Firefoxu vključena "Izboljšana zaščita pred sledenjem", nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali**. Neposredno na samih portalih (npr. facebook.com, twitter.com) bodo sicer delovali, povezave nanje na drugih spletnih straneh pa ne. **Če jih želimo vseeno videti, na izbranih spletnih mestih preprosto izklopimo izboljšano zaščito pred sledenjem.** To naredimo tako, da levo zgoraj v naslovni (URL) vrstici brskalnika kliknemo na ikono ščita takrat, ko bomo na tistem spletnem mestu, na katerem želimo videti blokirane videe / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže pojavni oblaček, v katerem kliknemo na vklopljeno stikalo. Stran se bo samodejno osvežila, ikona ščita pa bo odslej prečrtana. Brskalnik bo za to domensko ime izbiro shranil med izjeme v nastavitvah, da teh omejitev na vseh straneh v okviru izbrane spletne domene v prihodnje ne bo več. Če želimo kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani domeni), samo ponovimo postopek: odpremo spletno stran želene domene, kliknemo na ikono prekrižanega ščita in nato v oblačku kliknemo izklopljeno stikalo.
 
@@ -137,8 +144,8 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 
 <h4>2.a) DODATKI ZA ZASEBNOST</h4>
 
-|     | NAZIV DODATKA | OPIS |
-| :-- | :-----------: | ---- |
+|     | IME DODATKA | OPIS |
+| :-- | :---------: | ---- |
 | 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/839/839767-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/clearurls/)<br><b>[ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/)</b> | Dodatek ima dve funkciji. 1.) Iz URL naslovov odstranjuje parametre (npr. UTM parametre od Google Analytics). Različna analitična orodja uporabljajo URL parametre za namene spletne analitike, s čimer sledijo obiskovalcem spletnih strani (npr. za analize časa zadrževanja na posamezni strani, načine navigiranja po straneh ...). 2.) Dodatek preprečuje tudi spreminjanje povezav z rezultati iskanja na spletnih mestih (npr. Google in Yandex, lahko tudi na straneh za napotitveno trženje). Spletnemu iskalniku preprečuje, da bi se pri uporabnikovem kliku na rezultat iskanja spremenila originalna povezava na rezultat. Na ta način se lahko povezava brez težav kopira kar na strani spletnega iskalnika. Poleg tega pa spletni iskalnik ne more več učinkovito slediti nadaljnje klike uporabnika. |
 | 2.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/521/521554-64.png" width="50" />](https://addons.mozilla.org/firefox/addon/decentraleyes/)<br><b>[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)</b> | Posnema omrežja za dostavo vsebin (angl. content delivery networks – CDN) z namenom, da prepreči čim več zahtev s strani teh omrežij. Decentraleyes se skuša izogniti sledenju različnih uveljavljenih CDN-jev (npr. Google Hosted Libraries, CDNJS, jQuery CDN, Microsoft Ajax CDN), ki kot nekakšni posredniki ponujajo "brezplačne" storitve za pohitritev nalaganja spletnih strani. Namesto, da bi se datoteke, ki so potrebne za delovanje neke spletne strani, vsakič znova prenesle neposredno iz CDN-jev (s spleta), Decentraleyes enake datoteke nadomesti iz lastnega predpomnilnika (torej iz lokalne zbirke, ki vsebuje številne pogosto zahtevane knjižnice) in jih vrine v okolje. Na ta način se je možno elegantno izogniti številnim zahtevam CDN-jev, kar prinaša različne koristi: pomaga ščititi zasebnost, poveča prihranke pri prenosu podatkov in pripomore k hitrejšem nalaganju spletnih strani. Decentraleyes naj se uporablja hkrati z drugimi dodatki, ki so opisani v nadaljevanju te tabele. V kolikor nek zahtevan vir ni na voljo na lokalni ravni, pa Decentraleyes pomaga odstraniti občutljive podatke iz odhodne spletne zahteve. |
 | 3.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/327/327417-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/smart-referer/)<br><b>[Smart Referer](https://addons.mozilla.org/firefox/addon/smart-referer/)</b> | Vključi t. i. pametne napotitelje. Dodatek samodejno spremeni informacijo o napotitelju (angl. HTTP referer) vsakič, ko uporabnik obišče spletno mesto z drugo domeno. Pri tem je napotitelj spletni naslov, ki ga je uporabnik predhodno obiskal in iz katerega je prišel na trenutno spletno mesto. Smart referer pa informacijo o dejanskem (predhodnem) spletnem naslovu zamenja kar s ciljnim (aktualnim) spletnim naslovom. Na ta način se ustvarja vtis, da je uporabnik na trenutno spletno mesto prišel direktno (recimo z neposrednim vnosom spletnega naslova v brskalnik ali z odprtjem zaznamka) – ne pa iz nekega predhodnega spletnega mesta. S takšnim spreminjanjem informacije o napotitelju uporabnik pridobi malenkost več zasebnosti, saj denimo ni mogoče razpoznati, na podlagi katerega iskalnega niza v spletnem iskalniku (oz. iz katerega predhodnega spletnega naslova) je uporabnik v resnici prišel na trenutno spletno mesto. |
@@ -146,8 +153,8 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 
 <h4>2.b) DODATKI ZA PRODUKTIVNOST</h4>
 
-|     | NAZIV DODATKA | OPIS |
-| :-- | :-----------: | ---- |
+|     | IME DODATKA | OPIS |
+| :-- | :---------: | ---- |
 | 5.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/660/660064-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)<br><b>[Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)</b> | Izklopi funkcijo samodejnega predvajanja (tj. samodejnega skoka na naslednji videoposnetek) na spletnih mestih *[YouTube](https://www.youtube.com/)*, *[Vimeo](https://vimeo.com/)* in *[TED](https://www.ted.com/)*. |
 | 6.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/743/743689-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)<br><b>[Bookmarks Manager and Viewer](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)</b> | Upravitelj in pregledovalnik zaznamkov. Izbor pripadajočega gumba prikaže ploščo, v kateri je možno iskanje med vsemi shranjenimi zaznamki. Dodatek omogoča urejanje in premikanje zaznamkov, ustvarjanje novih zaznamkov in map ipd. |
 | 7.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/807/807213-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)<br><b>[Bookmarks Organizer](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)</b> | Upravitelj zaznamkov, ki omogoča iskanje in urejanje duplikatov med zaznamki, zaznamkov brez imen in takšnih z neveljavnimi ali preusmerjenimi povezavami ipd. |
@@ -163,8 +170,8 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 
 <h4>2.c) SLOVARJI</h4>
 
-|     | NAZIV SLOVARJA | OPIS |
-| :-- | :------------: | ---- |
+|     | IME SLOVARJA | OPIS |
+| :-- | :----------: | ---- |
 | 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/677/677644-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/us-english-dictionary/)<br><b>[English United States Dictionary](https://addons.mozilla.org/firefox/addon/us-english-dictionary/)</b> | Slovar angleškega jezika (ZDA). |
 | 2.  | [<img src="https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png" width ="45" />](https://addons.mozilla.org/firefox/addon/german-dictionary-extended-for/)<br><b>[Deutsches Wörterbuch, erweitert für Österreich](https://addons.mozilla.org/firefox/addon/german-dictionary-extended-for/)</b> | Slovar nemškega jezika (Nemčija in Avstrija). |
 | 3.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/3/3046-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/slovar-za-slovenski-jezik/)<br><b>[Slovar za slovenski jezik](https://addons.mozilla.org/firefox/addon/slovar-za-slovenski-jezik/)</b> | Slovar slovenskega jezika. |
