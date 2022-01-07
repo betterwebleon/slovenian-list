@@ -5,7 +5,7 @@
 
 <h3>English</h3>
 
-[Slovenian List](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) is regional list primarily intended for uBlock Origin. The list consists mostly of static cosmetic filters and a few tracking filters. Among others, there are **[100 most popular Slovenian websites](http://www.moss-soz.si/si/rezultati_moss/obdobje/)** included in this list.
+[Slovenian List](https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt) is regional list primarily intended for uBlock Origin. The list consists mostly of static cosmetic filters and a few tracking filters. Among others, it includes **[the most popular Slovenian websites](https://www.moss-soz.si/rezultati/)**.
 
 The list is **intended for simple users** with a set-and-forget approach. It is a complementary list, so it should be used together with other filter lists. In the case of uBlock Origin, Slovenian list can be found in settings within "*3rd-party filters*" tab (among regional lists), where it is titled "*SVN: Slovenian List*". If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/slovenian-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 ***
@@ -21,14 +21,15 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
   * [Izboljšana zaščita pred sledenjem](#1b-izboljšana-zaščita-pred-sledenjem)
 * [Seznam priporočenih dodatkov](#2-seznam-priporočenih-dodatkov)
   * [Dodatki za zasebnost](#2a-dodatki-za-zasebnost)
-  * [Dodatki za uporabnost](#2b-dodatki-za-uporabnost)
+  * [Dodatki za produktivnost](#2b-dodatki-za-produktivnost)
+  * [Slovarji](#2c-slovarji)
 * [Priporočeni dodatek za filtriranje vsebin: uBlock Origin](#3-priporočeni-dodatek-za-filtriranje-vsebin-ublock-origin)
   * [Priporočeni seznami filtrov](#3a-priporočeni-seznami-filtrov)
   * [Priporočeni dodatni seznami filtrov](#3b-priporočeni-dodatni-seznami-filtrov)
 * [Datoteka hosts](#4-datoteka-hosts)
 * [Ostali zaščitni ukrepi](#5-ostali-zaščitni-ukrepi)
   * [Za čim bolj anonimno spletno iskanje](#5a-za-čim-bolj-anonimno-spletno-iskanje)
-  * [Za izogib digitalnim preprekam in geografskim omejitvam](#5b-za-izogib-digitalnim-preprekam-in-geografskim-omejitvam)
+  * [Za izogib geografskim omejitvam in digitalnim preprekam](#5b-za-izogib-geografskim-omejitvam-in-digitalnim-preprekam)
 * [Licenca](#licenca)
 
 <h3>1. Priporočeni brskalnik za namizni računalnik: Mozilla Firefox</h3>
@@ -38,17 +39,17 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
 ***Zakaj ta brskalnik?*** Ker ga je možno prilagoditi na način, da postane hiter, varen in uporabniku prijazen brskalnik.<br>
 ***Kako si ga čim bolje prilagoditi?*** Beri naprej. :)
 
-<h4>1.a) Optimizacija nastavitev brskalnika</h4>
+<h4>1.a) OPTIMIZACIJA NASTAVITEV BRSKALNIKA</h4>
 
-**I. DEL: NAPREDNE NASTAVITVE**
+**I. DEL: Napredne nastavitve**
 
 V brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code>
 
 Pritisni *enter* in izberi gumb <code>Sprejmem tveganje!</code> Nato poišči spodnje vnose. Vsako posamezno ime vnosa kopiraj in prilepi v iskalno polje znotraj okna z nastavitvami. Vnos se (samodejno) prikaže na seznamu, nato ga z miško dvoklikni. Na ta način lahko spremeniš vrednosti v takšne, kakršne so navedene v naslednjih dveh tabelah:
 
-Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:
+Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:<br>
 
-|     | IME VNOSA                                                      | VREDNOST |
+|     | IME NASTAVITVE                                                 | VREDNOST |
 | --- | :------------------------------------------------------------- | :------: |
 | 1.  | beacon.enabled                                                 | false    |
 | 2.  | browser.safebrowsing.downloads.enabled                         | false    |
@@ -63,7 +64,7 @@ Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:
 
 <br>Za **izboljšanje odzivnosti in uporabnosti** brskalnika spremeni sledeče nastavitve:<br>
 
-|     | IME VNOSA                                          | VREDNOST | OPOMBE |
+|     | IME NASTAVITVE                                     | VREDNOST | OPOMBE |
 | --- | :------------------------------------------------- | :------: | :----- |
 | 11. | browser.compactmode.show                           | true     |        |
 | 12. | browser.download.animateNotifications              | false    |        |
@@ -81,16 +82,20 @@ Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:
 
 **Narejene spremembe v brskalniku Firefox je možno kadarkoli ponastaviti** (vrniti v prvotno stanje): v naprednih nastavitvah *about:config* posamezen vnos ponovno poiščemo, nanj kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Vrednost vnosa se bo nato povrnila v prvotno (privzeto) stanje. Kljub temu naj velja opozorilo, da se vse spremembe nastavitev, opisane na tej strani, uveljavljajo na lastno odgovornost.
 
-**II. DEL: ZBIRANJE IN UPORABA PODATKOV FIREFOXA**
+**II. DEL: Dovoljenja in zbiranje podatkov Firefoxa**
 
 Za izklop pošiljanja podatkov o uporabi Firefoxa v URL-vrstico brskalnika vpišemo sledeče in odpremo:<br>
 <code>about:preferences#privacy</code>
 
-Nato se na strani pomaknemo v razdelek "***Zbiranje in uporaba podatkov Firefoxa***". V tem razdelku izklopimo vse možnosti, kot kaže sledeča slika:
+Premaknemo se v razdelek "***Dovoljenja***". V razdelku vklopimo (obkljukamo) naslednji dve možnosti, kot kaže sledeča slika:
 
 <kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-data-collection-slo.png" /></kbd>
 
-<h4>1.b) Izboljšana zaščita pred sledenjem</h4>
+Nato se na strani pomaknemo še v razdelek "***Zbiranje in uporaba podatkov Firefoxa***". V tem razdelku izklopimo naslednje možnosti, kot kaže ta slika:
+
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-permissions-slo.png" /></kbd>
+
+<h4>1.b) IZBOLJŠANA ZAŠČITA PRED SLEDENJEM</h4>
 
 V URL vrstico brskalnika Firefox vpišemo sledeči vnos in potrdimo:<br><code>about:preferences#privacy</code>
 
@@ -130,19 +135,19 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 - za povečanje zasebnosti brskanja
 - za povečanje uporabnosti brskalnika
 
-<h4>2.a) Dodatki za zasebnost</h4>
+<h4>2.a) DODATKI ZA ZASEBNOST</h4>
 
-|     | IME DODATKA | FUNKCIJA |
-| :-- | :---------: | -------- |
+|     | NAZIV DODATKA | OPIS |
+| :-- | :-----------: | ---- |
 | 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/839/839767-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/clearurls/)<br><b>[ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/)</b> | Dodatek ima dve funkciji. 1.) Iz URL naslovov odstranjuje parametre (npr. UTM parametre od Google Analytics). Različna analitična orodja uporabljajo URL parametre za namene spletne analitike, s čimer sledijo obiskovalcem spletnih strani (npr. za analize časa zadrževanja na posamezni strani, načine navigiranja po straneh ...). 2.) Dodatek preprečuje tudi spreminjanje povezav z rezultati iskanja na spletnih mestih (npr. Google in Yandex, lahko tudi na straneh za napotitveno trženje). Spletnemu iskalniku preprečuje, da bi se pri uporabnikovem kliku na rezultat iskanja spremenila originalna povezava na rezultat. Na ta način se lahko povezava brez težav kopira kar na strani spletnega iskalnika. Poleg tega pa spletni iskalnik ne more več učinkovito slediti nadaljnje klike uporabnika. |
 | 2.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/521/521554-64.png" width="50" />](https://addons.mozilla.org/firefox/addon/decentraleyes/)<br><b>[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)</b> | Posnema omrežja za dostavo vsebin (angl. content delivery networks – CDN) z namenom, da prepreči čim več zahtev s strani teh omrežij. Decentraleyes se skuša izogniti sledenju različnih uveljavljenih CDN-jev (npr. Google Hosted Libraries, CDNJS, jQuery CDN, Microsoft Ajax CDN), ki kot nekakšni posredniki ponujajo "brezplačne" storitve za pohitritev nalaganja spletnih strani. Namesto, da bi se datoteke, ki so potrebne za delovanje neke spletne strani, vsakič znova prenesle neposredno iz CDN-jev (s spleta), Decentraleyes enake datoteke nadomesti iz lastnega predpomnilnika (torej iz lokalne zbirke, ki vsebuje številne pogosto zahtevane knjižnice) in jih vrine v okolje. Na ta način se je možno elegantno izogniti številnim zahtevam CDN-jev, kar prinaša različne koristi: pomaga ščititi zasebnost, poveča prihranke pri prenosu podatkov in pripomore k hitrejšem nalaganju spletnih strani. Decentraleyes naj se uporablja hkrati z drugimi dodatki, ki so opisani v nadaljevanju te tabele. V kolikor nek zahtevan vir ni na voljo na lokalni ravni, pa Decentraleyes pomaga odstraniti občutljive podatke iz odhodne spletne zahteve. |
 | 3.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/327/327417-64.png" width="45" />](https://addons.mozilla.org/firefox/addon/smart-referer/)<br><b>[Smart Referer](https://addons.mozilla.org/firefox/addon/smart-referer/)</b> | Vključi t. i. pametne napotitelje. Dodatek samodejno spremeni informacijo o napotitelju (angl. HTTP referer) vsakič, ko uporabnik obišče spletno mesto z drugo domeno. Pri tem je napotitelj spletni naslov, ki ga je uporabnik predhodno obiskal in iz katerega je prišel na trenutno spletno mesto. Smart referer pa informacijo o dejanskem (predhodnem) spletnem naslovu zamenja kar s ciljnim (aktualnim) spletnim naslovom. Na ta način se ustvarja vtis, da je uporabnik na trenutno spletno mesto prišel direktno (recimo z neposrednim vnosom spletnega naslova v brskalnik ali z odprtjem zaznamka) – ne pa iz nekega predhodnega spletnega mesta. S takšnim spreminjanjem informacije o napotitelju uporabnik pridobi malenkost več zasebnosti, saj denimo ni mogoče razpoznati, na podlagi katerega iskalnega niza v spletnem iskalniku (oz. iz katerega predhodnega spletnega naslova) je uporabnik v resnici prišel na trenutno spletno mesto. |
 | 4.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/607/607454-64.png" width="43" />](https://addons.mozilla.org/firefox/addon/ublock-origin/)<br><b>[uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> | **Več o tem dodatku v [3. poglavju](#3-priporočeni-dodatek-za-filtriranje-neželenih-vsebin-na-spletu).** Dodatek blokira poljubne vsebine pri spletnem brskanju. Večinoma se uporablja za zavračanje neželenih vsebin, kot so spletni oglasi, sledilci za sledenje uporabnikov in povezav na (potencialno) nevarna spletna mesta. uBlock Origin se zato mnogokrat označuje kot zaviralec oglasov (angl. ad blocker). uBlock Origin je eno najbolj učinkovitih tovrstnih orodij z vidika hitrosti delovanja in porabe sistemskih sredstev. Z uporabo tega dodatka se občutno zviša hitrost nalaganja spletnih strani, poveča se njihova preglednost in varnost, hkrati pa se lahko (z nekaj dodatnimi nastavitvami) precej omeji tudi sledenje, ki se ga poslužujejo številna spletna mesta. |
 
-<h4>2.b) Dodatki za uporabnost</h4>
+<h4>2.b) DODATKI ZA PRODUKTIVNOST</h4>
 
-|     | NAZIV DODATKA | FUNKCIJA |
-| :-- | :-----------: | -------- |
+|     | NAZIV DODATKA | OPIS |
+| :-- | :-----------: | ---- |
 | 5.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/660/660064-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)<br><b>[Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)</b> | Izklopi funkcijo samodejnega predvajanja (tj. samodejnega skoka na naslednji videoposnetek) na spletnih mestih *[YouTube](https://www.youtube.com/)*, *[Vimeo](https://vimeo.com/)* in *[TED](https://www.ted.com/)*. |
 | 6.  | [<img src="https://addons.cdn.mozilla.net/user-media/addon_icons/743/743689-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)<br><b>[Bookmarks Manager and Viewer](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)</b> | Upravitelj in pregledovalnik zaznamkov. Izbor pripadajočega gumba prikaže ploščo, v kateri je možno iskanje med vsemi shranjenimi zaznamki. Dodatek omogoča urejanje in premikanje zaznamkov, ustvarjanje novih zaznamkov in map ipd. |
 | 7.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/807/807213-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)<br><b>[Bookmarks Organizer](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)</b> | Upravitelj zaznamkov, ki omogoča iskanje in urejanje duplikatov med zaznamki, zaznamkov brez imen in takšnih z neveljavnimi ali preusmerjenimi povezavami ipd. |
@@ -156,6 +161,16 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 | 15. | [<img src="https://addons.mozilla.org/user-media/addon_icons/1002/1002139-64.png" width ="45" />](https://addons.mozilla.org/sl/firefox/addon/youtube-nonstop/)<br><b>[YouTube NonStop](https://addons.mozilla.org/sl/firefox/addon/youtube-nonstop/)</b> | Samodejno potrdi obvestila, ki se med predvajanjem *[YouTube](https://www.youtube.com/)* videov včasih samodejno pojavijo ("Predvajanje videoposnetka je začasno zaustavljeno"). Z dodatkom se tako izognemo samodejnemu pavziranju videov med njihovim predvajanjem. |
 | 16. | [<img src="https://addons.mozilla.org/user-media/addon_icons/673/673711-64.png" width ="40" />](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)<br><b>[Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)</b> | Izklopi pripise (angl. annotations) na spletnem mestu *[YouTube](https://www.youtube.com/)*. S tem se poveča preglednost pri ogledovanju videoposnetkov.<br><b>OPOMBA:</b> če bi kljub temu želeli v videoposnetkih videti (oz. klikniti na) pripise, je potrebno ta dodatek v seznamu dodatkov in tem (začasno) onemogočiti ali odstraniti. |
 
+<h4>2.c) SLOVARJI</h4>
+
+|     | NAZIV SLOVARJA | OPIS |
+| :-- | :------------: | ---- |
+| 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/677/677644-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/us-english-dictionary/)<br><b>[English United States Dictionary](https://addons.mozilla.org/firefox/addon/us-english-dictionary/)</b> | Slovar angleškega jezika (ZDA). |
+| 2.  | [<img src="https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png" width ="45" />](https://addons.mozilla.org/firefox/addon/german-dictionary-extended-for/)<br><b>[Deutsches Wörterbuch, erweitert für Österreich](https://addons.mozilla.org/firefox/addon/german-dictionary-extended-for/)</b> | Slovar nemškega jezika (Nemčija in Avstrija). |
+| 3.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/3/3046-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/slovar-za-slovenski-jezik/)<br><b>[Slovar za slovenski jezik](https://addons.mozilla.org/firefox/addon/slovar-za-slovenski-jezik/)</b> | Slovar slovenskega jezika. |
+
+Seznam vseh razpoložljvih slovarjev in jezikovnih paketov [se nahaja tukaj](https://addons.mozilla.org/firefox/language-tools/).
+
 <h3>3. Priporočeni dodatek za filtriranje vsebin: uBlock Origin</h3>
 
 ***Zakaj?*** Ker je učinkovit, nezahteven, enostaven in brezplačen dodatek. V različnih pogledih je mnogo boljši od ostalih tovrstnih alternativ, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz [tega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
@@ -165,7 +180,7 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 - <b>[Spletna trgovina Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)</b> za brskalnike Google Chrome, Vivaldi in ostale, ki temeljijo na Chromiumu
 - <b>[Opera add-ons](https://addons.opera.com/extensions/details/ublock/)</b> za brskalnik Opera
 
-<h4>3.a) Priporočeni seznami filtrov</h4>
+<h4>3.a) PRIPOROČENI SEZNAMI FILTROV</h4>
 
 Želene naročnine na filtre vklopimo tako, da se v okviru dodatnih možnosti dodatka uBlock Origin pomaknemo na zavihek <kbd>Filtri tretjih oseb</kbd> in nato na pripadajočem seznamu posamezne naročnine označimo s kljukico. Priporočene naročnine so vklopljene na sledeči sliki:
 
@@ -173,7 +188,7 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 
 Velik del zgornjih naročnin je najverjetneje privzeto že vklopljen. Preostale naročnine s seznama ročno vklopi ali izklopi. Nato v desnem zgornjem kotu okna izberi oranžen gumb <code>Uveljavi spremembe</code>. Nato se pomakni na vrh strani in v levem zgornjem delu okna klikni še na gumb <code>Posodobi zdaj</code>. Po nekaj trenutkih se bo ta gumb obarval sivo.
 
-<h4>3.b) Priporočeni dodatni seznami filtrov</h4>
+<h4>3.b) PRIPOROČENI DODATNI SEZNAMI FILTROV</h4>
 
 Nadalje se lahko v uBlock Origin ročno dodajo številne dodatne naročnine za še učinkovitejše filtriranje raznovrstne spletne nesnage in hitrejše brskanje.
 
@@ -222,16 +237,17 @@ Zapremo okno. V kolikor imamo odprt brskalnik, ga nato zapremo in ponovno zažen
 
 <h3>5. Ostali zaščitni ukrepi</h3>
 
-<h4>5.a) Za čim bolj anonimno spletno iskanje</h4>
+<h4>5.a) ZA ČIM BOLJ ANONIMNO SPLETNO ISKANJE</h4>
 
 Uporabimo lahko spletne iskalnike, ki naše iskanje anonimizirajo. Od takšnih sta najbolj znana:
 
-- [StartPage](https://startpage.com/): bazira na iskalniku Google, pri čemer naj bi iskalne zadetke anonimiziral
+- [Brave Search](https://search.brave.com/): omogočal naj bi anonimno iskanje
 - [DuckDuckGo](https://duckduckgo.com/): omogočal naj bi anonimno iskanje
+- [StartPage](https://startpage.com/): bazira na iskalniku Google, pri čemer naj bi se iskalni zadetki anonimizirali
 
-<h4>5.b) Za izogib digitalnim preprekam in geografskim omejitvam</h4>
+<h4>5.b) ZA IZOGIB GEOGRAFSKIM OMEJITVAM IN DIGITALNIM PREPREKAM</h4>
 
-Za bolj intenzivno prikrivanje svoje lokacije in (pogojno) identitete se lahko precej učinkovito uporabi kakovostno VPN omrežje (v obliki dodatka na ravni brskalnika ali nameščenega programa na ravni celotnega sistema). Eden od seznamov z uveljavljenimi VPN ponudniki je na voljo recimo [na tej strani](https://www.techradar.com/vpn/best-vpn).
+Za bolj intenzivno prikrivanje svoje lokacije in (pogojno) identitete se lahko precej učinkovito uporabi kakovostno VPN omrežje. VPN lahko usposobimo z namestitvijo programa (deluje na ravni celotnega sistema) ali z namestitvijo razširitve v brskalnik (deluje na ravni brskalnika). Eden od seznamov z uveljavljenimi VPN ponudniki se nahaja recimo [na tej strani](https://www.techradar.com/vpn/best-vpn).
 
 **OPOMBA:** kljub uporabi vseh dodatkov, datoteke hosts, anonimnih spletnih iskalnikov, VPN omrežij in ostalih zaščitnih mehanizmov je potrebno poudariti, da **popolne anonimnosti na spletu žal ni**. Še vedno namreč komunikacija poteka preko telekomunikacijskih ponudnikov, različnih posredniških strežnikov in naprav. Poleg tega uporabniki navadno uporabljamo različne spletne storitve: e-pošta (v obliki klienta ali spletne storitve), socialna omrežja, forumi in drugi portali... V primeru uporabe teh storitev nas vsi omenjeni ukrepi ščitijo v zelo omejenem obsegu. Vsekakor nam sicer občutno olajšajo hitrost, preglednost in varnost spletnega brskanja, ne zagotavljajo pa popolne anonimnosti – vsaj ne vedno in v vsakem scenariju.
 
