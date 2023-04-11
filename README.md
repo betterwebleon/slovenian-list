@@ -41,7 +41,7 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
 
 [Tu je povezava za prenos brskalnika Firefox.](https://www.mozilla.org/sl/firefox/new/)
 
-***Zakaj ta brskalnik?*** Ker ga je možno prilagoditi na način, da postane hiter, varen in uporabniku prijazen brskalnik.<br>
+***Zakaj ta brskalnik?*** Ker ga je možno prilagoditi na način, da postane hiter, varen in uporabniku prijazen.<br>
 ***Kako si ga čim bolje prilagoditi?*** Beri naprej. :)
 
 <h4>1.a) OPTIMIZACIJA NASTAVITEV BRSKALNIKA</h4>
@@ -183,7 +183,7 @@ Seznam vseh razpoložljvih slovarjev in jezikovnih paketov [se nahaja tukaj](htt
 
 <h3>3. Priporočeni dodatek za filtriranje vsebin: uBlock Origin</h3>
 
-***Zakaj?*** Ker je učinkovit, nezahteven, enostaven in brezplačen dodatek. V različnih pogledih je mnogo boljši od ostalih tovrstnih alternativ, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz [tega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
+***Zakaj ta dodatek?*** Ker je učinkovit, nezahteven, enostaven in brezplačen. V različnih pogledih je mnogo boljši od ostalih tovrstnih alternativ, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz [tega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
 <br><br>Povezave za namestitev dodatka uBlock Origin:
 
 - <b>[Dodatki za Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> za brskalnik Mozilla Firefox
@@ -192,11 +192,15 @@ Seznam vseh razpoložljvih slovarjev in jezikovnih paketov [se nahaja tukaj](htt
 
 <h4>3.a) PRIPOROČENI SEZNAMI FILTROV</h4>
 
-Želene naročnine na filtre vklopimo tako, da se v okviru dodatnih možnosti dodatka uBlock Origin pomaknemo na zavihek <kbd>Filtri tretjih oseb</kbd> in nato na pripadajočem seznamu posamezne naročnine označimo s kljukico. Priporočene naročnine so vklopljene na sledeči sliki:
+Želene naročnine na filtre vklopimo tako, da se v okviru dodatnih možnosti dodatka uBlock Origin pomaknemo na zavihek <kbd>Filtri tretjih oseb</kbd> in nato na pripadajočem seznamu posamezne naročnine označimo s kljukico. Priporočene naročnine so vklopljene na sledečih slikah:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-1.png" /></kbd>
 
-Velik del zgornjih naročnin je najverjetneje privzeto že vklopljen. Preostale naročnine s seznama ročno vklopi ali izklopi. Nato v desnem zgornjem kotu okna izberi oranžen gumb <code>Uveljavi spremembe</code>. Nato se pomakni na vrh strani in v levem zgornjem delu okna klikni še na gumb <code>Posodobi zdaj</code>. Po nekaj trenutkih se bo ta gumb obarval sivo.
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-2.png" /></kbd>
+
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-3.png" /></kbd>
+
+Velik del zgornjih naročnin je najverjetneje privzeto že vklopljen. Preostale naročnine s seznama ročno vklopi oziroma izklopi. Nato v desnem zgornjem kotu okna izberi oranžen gumb <code>Uveljavi spremembe</code>. Nato se pomakni na vrh strani in v levem zgornjem delu okna klikni še na gumb <code>Posodobi zdaj</code>. Po nekaj trenutkih se bo ta gumb obarval sivo.
 
 <h4>3.b) PRIPOROČENI DODATNI SEZNAMI FILTROV</h4>
 
@@ -205,19 +209,22 @@ Nadalje se lahko v uBlock Origin ročno dodajo številne dodatne naročnine za �
 Spodnje povezave najprej kopiramo. Najbolj preprosto je, če kopiramo vse spodnje povezave *naenkrat*, saj se bodo morale vse dodane povezave nahajati v svoji (posamezni) vrstici. Nato odpremo polje filtrov, ki se nahaja skrajno spodaj v okviru zavihka <kbd>Filtri tretjih oseb</kbd>. Polje filtrov za vnos kopiranih povezav odpremo tako, da v razdelku *Po meri* obkljukamo možnost "*Uvozi ...*". Ko povezave dodamo (prilepimo) v polje filtrov, v zgornjem levem delu okna kliknemo na oranžen gumb <code>Uveljavi spremembe</code>.
 
 <code>https://<i></i>raw.githubusercontent.com/AdguardTeam/AdguardFilters/908c5ee818d05803cff6243d127b5efc89b89c67/AnnoyancesFilter/sections/popups.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt</code><br>
 <code>https://<i></i>filters.adtidy.org/windows/filters/2.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt</code><br>
-<code>https://<i></i>gist.githubusercontent.com/gorhill/ef1b62d606473c68d524/raw/f8181faac18cb5172c7c9bca8e5a3b22f0c925d0/gistfile1.txt</code><br>
+<code>https://<i></i>raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt</code><br>
 <code>https://<i></i>www.fanboy.co.nz/enhancedstats.txt</code><br>
+<code>https://<i></i>fanboy.co.nz/fanboy-problematic-sites.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt</code><br>
-<code>https://<i></i>raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt</code>
+<code>https://<i></i>raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt</code><br>
 
 Po nekaj trenutkih se v razdelku *Po meri* pojavi takšen seznam:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-custom-slo.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-4.png" /></kbd>
 
 Nastavitve dodatka uBlock Origin lahko na tem mestu zapremo.
 
@@ -257,7 +264,7 @@ Uporabimo lahko spletne iskalnike, ki naše iskanje anonimizirajo. Od takšnih s
 
 <h4>5.b) ZA IZOGIB GEOGRAFSKIM OMEJITVAM IN DIGITALNIM PREPREKAM</h4>
 
-Za bolj intenzivno prikrivanje svoje lokacije in (pogojno) identitete se lahko precej učinkovito uporabi kakovostno VPN omrežje. VPN lahko usposobimo z namestitvijo programa (deluje na ravni celotnega sistema) ali z namestitvijo dodatka v brskalnik (deluje samo znotraj brskalnika z vklopljeno VPN razširitvijo). Eden od seznamov z uveljavljenimi VPN ponudniki se nahaja recimo [na tej strani](https://www.techradar.com/vpn/best-vpn).
+Za bolj intenzivno prikrivanje svoje lokacije in (pogojno) identitete se lahko precej učinkovito uporabi kakovostno VPN omrežje. VPN lahko usposobimo z namestitvijo programa (deluje na ravni celotnega sistema) ali z namestitvijo dodatka v brskalnik (deluje samo znotraj brskalnika z vklopljenim VPN dodatkom). Eden od seznamov z uveljavljenimi VPN ponudniki se nahaja recimo [na tej strani](https://www.techradar.com/vpn/best-vpn).
 
 <h4>5.c) ČIŠČENJE ZGODOVINE IN SLEDI BRSKANJA</h4>
 
