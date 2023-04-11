@@ -97,11 +97,11 @@ Za izklop pošiljanja podatkov o uporabi Firefoxa v URL-vrstico brskalnika vpiš
 
 Premaknemo se v razdelek "***Dovoljenja***". V razdelku vklopimo (obkljukamo) naslednji dve možnosti, kot kaže sledeča slika:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-permissions-slo.png" /></kbd><br><br>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-permissions-slo.png" width ="700" /></kbd><br><br>
 
 Nato se na strani pomaknemo še v razdelek "***Zbiranje in uporaba podatkov Firefoxa***". V tem razdelku izklopimo naslednje možnosti, kot kaže ta slika:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-data-collection-slo.png" /></kbd><br><br>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-data-collection-slo.png" width ="700" /></kbd><br><br>
 
 <h4>1.b) IZBOLJŠANA ZAŠČITA PRED SLEDENJEM</h4>
 
@@ -110,7 +110,7 @@ V URL vrstico brskalnika Firefox vpišemo sledeči vnos in ga odpremo:<br>
 
 V razdelku "***Izboljšana zaščita pred sledenjem***" izberemo polje <code>Običajno</code> (kar je priporočeno) ali <code>Strogo</code>, kot kaže sledeča slika:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-enhanced-tracking-protection-slo.png" /></kbd><br><br>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-enhanced-tracking-protection-slo.png" width ="700" /></kbd><br><br>
 
 Ko je v Firefoxu vključena "Izboljšana zaščita pred sledenjem", nekateri videi / slike / gradniki (widgets) / polja s komentarji, ki izvirajo neposredno iz socialnih omrežij (npr. s Facebooka ali Twitterja), **ne bodo delovali**. Neposredno na samih portalih (npr. facebook.com, twitter.com) bodo sicer delovali, povezave nanje na drugih spletnih straneh pa ne. **Če jih želimo vseeno videti, na izbranih spletnih mestih preprosto izklopimo izboljšano zaščito pred sledenjem.** To naredimo tako, da levo zgoraj v naslovni (URL) vrstici brskalnika kliknemo na ikono ščita takrat, ko bomo na tistem spletnem mestu, na katerem želimo videti blokirane videe / slike / komentarje / gradnike. Ob kliku na omenjeno ikono se prikaže pojavni oblaček, v katerem kliknemo na vklopljeno stikalo. Stran se bo samodejno osvežila, ikona ščita pa bo odslej prečrtana. Brskalnik bo za to domensko ime izbiro shranil med izjeme v nastavitvah, da teh omejitev na vseh straneh v okviru izbrane spletne domene v prihodnje ne bo več. Če želimo kljub temu to nastavitev spet ponastaviti (torej ponovno vklopiti zaščito na izbrani domeni), samo ponovimo postopek: odpremo spletno stran želene domene, kliknemo na ikono prekrižanega ščita in nato v oblačku kliknemo izklopljeno stikalo.
 
@@ -194,11 +194,11 @@ Seznam vseh razpoložljvih slovarjev in jezikovnih paketov [se nahaja tukaj](htt
 
 Želene naročnine na filtre vklopimo tako, da se v okviru dodatnih možnosti dodatka uBlock Origin pomaknemo na zavihek <kbd>Filtri tretjih oseb</kbd> in nato na pripadajočem seznamu posamezne naročnine označimo s kljukico. Priporočene naročnine so vklopljene na sledečih slikah:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-1.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-1.png" width ="600" /></kbd>
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-2.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-2.png" width ="600" /></kbd>
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-3.png" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/3rd-party-filters-slo-3.png" width ="600" /></kbd>
 
 Velik del zgornjih naročnin je najverjetneje privzeto že vklopljen. Preostale naročnine s seznama ročno vklopi oziroma izklopi. Nato v desnem zgornjem kotu okna izberi oranžen gumb <code>Uveljavi spremembe</code>. Nato se pomakni na vrh strani in v levem zgornjem delu okna klikni še na gumb <code>Posodobi zdaj</code>. Po nekaj trenutkih se bo ta gumb obarval sivo.
 
@@ -268,7 +268,9 @@ Za bolj intenzivno prikrivanje svoje lokacije in (pogojno) identitete se lahko p
 
 <h4>5.c) ČIŠČENJE ZGODOVINE IN SLEDI BRSKANJA</h4>
 
-Vsaj občasno je priporočljivo odstraniti zgodovino in sledi brskanja iz naprav, na katerih dostopamo do spleta. S tem optimiramo delovanje spletnega brskalnika in mnogokrat izboljšamo odzivnost sistema. Zgodovina brskanja se odstrani neposredno iz brskalnika. Primer: na namizni različici brskalnika Mozille Firefox do te funkcije dostopamo s kombinacijo tipk: <code>Ctrl</code>, <code>Shift</code> in <code>Delete</code>. Nato pri možnosti "*Časovni obseg brisanja*" izberemo "***Vse***". V razdelku "*Zgodovina*" obkljukamo vse opcije in z izborom gumba <code>V redu</code> potrdimo izbris izbranih podatkov iz brskalnika.
+Vsaj občasno je priporočljivo odstraniti zgodovino in sledi brskanja iz naprav, na katerih dostopamo do spleta. S tem optimiramo delovanje spletnega brskalnika in mnogokrat izboljšamo odzivnost sistema. Zgodovina brskanja se odstrani neposredno iz brskalnika. Primer: na namizni različici brskalnika Mozille Firefox do te funkcije dostopamo s kombinacijo tipk: <code>Ctrl</code>, <code>Shift</code> in <code>Delete</code>. Nato pri možnosti "*Časovni obseg brisanja*" izberemo "***Vse***". V razdelku "*Zgodovina*" obkljukamo vse opcije. Na koncu z izborom gumba <code>V redu</code> potrdimo izbris izbranih podatkov iz brskalnika. Pripadajoče okno je razvidno s spodnje slike:
+
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-clean-history-slo.png" width ="500" /></kbd>
 
 Če želimo, da brskalnik sploh shranjuje zgodovine brskanja, prijav in izpolnjenih obrazcev, pa lahko vklopimo anonimni način brskanja. Primer: na namizni različici brskalnika Mozille Firefox do te funkcionalnosti dostopamo s kombinacijo tipk: <code>Ctrl</code>, <code>Shift</code> in <code>P</code>.
 
