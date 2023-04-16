@@ -236,7 +236,7 @@ Pomembna in uporabna stvar za izboljšanje varnosti in osnovno (a učinkovito) b
 
 Kot pojasnjuje [Steven Black](https://github.com/StevenBlack/hosts/blob/master/readme.md), gre pri *hosts* za besedilno datoteko, v katero se izbranim imenom gostiteljev (angl. hostnames) določijo pripadajoči IP naslovi, ki jih želimo prilagajati (v našem primeru blokirati) na sistemski ravni. To pomeni, da vnešena pravila za izbrane IP naslove učinkujejo na ravni celotnega operacijskega sistema, ne le na ravni posameznega brskalnika.
 
-Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko *hosts* dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki – angl. ad servers) ali nevarni (npr. strežniki z zlonamerno programsko opremo – angl. malware servers). Datoteko *hosts* z najbolj neželenimi gostitelji je že pripravil Steven Black. Omenjeno datoteko z več kot 50.000 blokiranimi neželenimi gostitelji je možno **[prenesti tukaj](https://github.com/StevenBlack/hosts/archive/master.zip)** (datoteka *hosts* se nahaja v preneseni mapi "*hosts-master*").
+Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko *hosts* dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki – angl. ad servers) ali nevarni (npr. strežniki z zlonamerno programsko opremo – angl. malware servers). Datoteko *hosts* z najbolj neželenimi gostitelji je že pripravil Steven Black. Omenjeno datoteko s približno 200.000 blokiranimi neželenimi gostitelji je možno **[prenesti tukaj](https://github.com/StevenBlack/hosts/archive/master.zip)** (datoteka *hosts* se nahaja v preneseni mapi "*hosts-master*").
 
 Datoteko *hosts* odpakiramo. Nato jo lahko kar zamenjamo z obstoječo verzijo (v kolikor vanjo nismo predhodno že vnašali svoja pravila). To storimo na posebnem mestu v raziskovalcu datotek:
 
@@ -270,7 +270,7 @@ Za bolj intenzivno prikrivanje svoje lokacije in (pogojno) identitete se lahko p
 
 Vsaj občasno je priporočljivo odstraniti zgodovino in sledi brskanja iz naprav, na katerih dostopamo do spleta. S tem optimiramo delovanje spletnega brskalnika in mnogokrat izboljšamo odzivnost sistema. Zgodovina brskanja se odstrani neposredno iz brskalnika. Primer: na namizni različici brskalnika Mozille Firefox do te funkcije dostopamo s kombinacijo tipk: <code>Ctrl</code>, <code>Shift</code> in <code>Delete</code>. Nato pri možnosti "*Časovni obseg brisanja*" izberemo "***Vse***". V razdelku "*Zgodovina*" obkljukamo vse opcije. Na koncu z izborom gumba <code>V redu</code> potrdimo izbris izbranih podatkov iz brskalnika. Pripadajoče okno je razvidno s spodnje slike:
 
-<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-clean-history-slo.png" width ="500" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/img/firefox-clean-history-slo.png" width ="400" /></kbd>
 
 Če želimo, da brskalnik sploh shranjuje zgodovine brskanja, prijav in izpolnjenih obrazcev, pa lahko vklopimo anonimni način brskanja. Primer: na namizni različici brskalnika Mozille Firefox do te funkcionalnosti dostopamo s kombinacijo tipk: <code>Ctrl</code>, <code>Shift</code> in <code>P</code>.
 
