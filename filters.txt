@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 126
+! Version: 127
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -260,6 +260,7 @@ e-mesto.si##.pattern > .span2
 e-mesto.si##.span2:nth-of-type(3) > div
 finance.si##.adbox
 finance.si##.kos_semitrans
+finance.si##.taxo_block
 finance.si###bart_banner
 gohome.si##.verde_wrap
 gohome.si###bannerFooter_wrap
@@ -274,7 +275,7 @@ igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
 igrice.hudo.com###userGenGames
 informiran.si##.outFrameRight
-instore.si##.oglas2
+instore.rs,instore.si##.oglas2
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
@@ -302,8 +303,8 @@ mediaspeed.net##.banner2
 mediaspeed.net##.banner_cont
 med.over.net##blockquote
 med.over.net##.feedo
-med.over.net##.livenetlife_links
-med.over.net,metropolitan.si,n1info.si,svet24.si##.lwdgt
+med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si##.lwdgt
+med.over.net,tocnoto.si##.livenetlife_links
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
 megasvet.si##.portus-video-slider-min
@@ -416,9 +417,7 @@ rtvslo.si##.inArticle
 rtvslo.si##.inverted-colors.teal.emphasis
 rtvslo.si##.iprom-background-placement
 rtvslo.si###newsletter-popup-unsigned
-scoreboard.com##.box_over_content_9547
 sentjur.net##.bsaProItems
-shop.kapodol.com###fixed > .site-banner
 siol.net##.card--ts_storitva
 siol.net##.fold__homepage_banner
 siol.net##.grid-12.grid-md-3
@@ -431,27 +430,25 @@ siol.net##.ts_storitve
 siol.net##.widgetWrap
 siol.net###itisAdPromo
 siol.net###yodaarticle
-skandal24.si##.advertise
+skandal24.si##.monadplug-native-main-wrapper
 slonep.net##.sponzorirani
 slonep.net##[id^="ad"]
 slovenskenovice.si##.embed_article
 slovenskenovice.si##.group_a_category__box7
 slovenskenovice.si##.group_a__box7
+slovenskenovice.si##.group_a__pos_banner_440
 slovenskenovice.si##.livenetlife_linkswidget_logo
+slovenskenovice.si##.pos-banner__article
+slovenskenovice.si##.store_links
 slovnica.slovenscina.eu###biscuitFormDiv
-slo-android.si###content > .main > .bm_bottom.banner_main > .moduletable_pasica
-slo-android.si###content > .sidebar > .moduletable_pasica
-slo-foto.net##.sf-ads_container
-slo-foto.net##.sf-panel:nth-of-type(2)
+slo-android.si##.moduletable_pasica
 slo-tech.com###panels > aside > div:nth-of-type(3)
 slo-tech.com###panels > aside > div:nth-of-type(4)
 sobotainfo.com##.after-nav-ads
-sobotainfo.com###content > .region-highlighted.region
 spored.tv###RightBanner
 stajerskival.si##div > .side-banner
+stajerskival.si##.central_banner_inner_container
 stajerskival.si##.news-banner
-startaj.finance.si###article_social_top
-startaj.finance.si###main-column-inner > .kos_semitrans
 sta.si###center > .leadlist > .banners
 stop-neplacniki.si###ctl00_bannersCont
 studentarija.net##div.banner_footer
@@ -481,6 +478,10 @@ svetkapitala.delo.si##.dfp_banner
 svetopismo.si###heateor_ss_browser_popup_bg
 t3tech.si##.add-title
 tehnozvezdje.si##.clearfix.ai_widget
+tekaskiforum.net##.mosaicflow__column:nth-of-type(4)
+tocnoto.si##.td-footer-page > .display-posts-listing
+tocnoto.si##.td-footer-page > .display-posts-title
+tocnoto.si##.td-header-rec-wrap
 topjob.finance.si###article_social_top > .social-line
 topjob.finance.si###main-column-inner > .kos_signup
 tvambienti.si##.wallpaper--active
@@ -496,11 +497,6 @@ volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
-www.tekaskiforum.net###sidebar-footer > .mosaicflow__column:nth-of-type(4)
-www.tekaskiforum.net###wppas_custom_widgets-3
-www.tocnoto.si###banner01r
-www.tocnoto.si###footboxes
-www.tocnoto.si###topbanner
 www.vandraj.si##[id^="pukka-ad-widget-"]
 www.viva.si###content > .wrap > .sec_1 > .post_container > .content > .news_post > div:nth-of-type(7)
 www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(1)
