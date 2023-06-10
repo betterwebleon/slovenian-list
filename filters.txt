@@ -93,6 +93,7 @@ rtvslo.si#@#.iAdserver
 ||partis.si/tmp/AS32.jpg
 ||partis.si/tmp/blackFRIDAY.jpg
 ||partis.si/tmp/loyalbg*.jpg
+||partis.si/tmp/herbalab.jpg$image
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||podocnjaki.si^$popup,domain=studentarija.net
