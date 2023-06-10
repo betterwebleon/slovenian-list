@@ -185,7 +185,6 @@ rtvslo.si#@#.iAdserver
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
 24ur.com##.ng-star-inserted.banner--article
 24ur.com##.sidebar__box--banner
-24ur.com##.takeover .takeover-base:style(padding-top: 128px !important;)
 adomnia.net##.banners-box
 aktivni.si##.banner-app-article
 aktivni.si##.livenetlife_linkswidget_logo
