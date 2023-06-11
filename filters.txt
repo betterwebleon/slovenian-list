@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 127
+! Version: 128
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -44,6 +44,8 @@ rtvslo.si#@#.iAdserver
 ||*.disqus.com/count.js
 ||adform.net^
 ||ads.24ur.com^
+||ads-store.24ur.com^
+||ad.partis.si^
 ||ad.zurnal24.si^
 ||amazonaws.com/banners.wave.si$subdocument
 ||avto.net/_banner/Mornar
@@ -90,8 +92,10 @@ rtvslo.si#@#.iAdserver
 ||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
 ||over.net/feedo.min.js
 ||partis.si/img/bshad*.png
+||partis.si/img/contentbg_*.png
 ||partis.si/tmp/AS32.jpg
 ||partis.si/tmp/blackFRIDAY.jpg
+||partis.si/tmp/herbalab*.jpg
 ||partis.si/tmp/loyalbg*.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
@@ -141,6 +145,7 @@ rtvslo.si#@#.iAdserver
 ||ad.propellente.net^$third-party
 ||booster3000.si^$third-party
 ||browser-update.org^$third-party
+||ced.sascdn.com^$third-party
 ||chimpstatic.com^$third-party
 ||contentexchange.me^$third-party
 ||databreakers.com^$third-party
@@ -214,6 +219,8 @@ bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.HeaderSpotlight.Attention
 bolha.com##.HeaderSpotlight:has(a[href^="https://bit.ly"])
+bolha.com##.TitlePage-bannerWrapper
+bolha.com##.TitlePage-block.Headline
 bolha.com##.trakica_container
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
@@ -303,7 +310,7 @@ mediaspeed.net##.banner2
 mediaspeed.net##.banner_cont
 med.over.net##blockquote
 med.over.net##.feedo
-med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si##.lwdgt
+med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si##.lwdgt
 med.over.net,tocnoto.si##.livenetlife_links
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
@@ -449,11 +456,12 @@ spored.tv###RightBanner
 stajerskival.si##div > .side-banner
 stajerskival.si##.central_banner_inner_container
 stajerskival.si##.news-banner
-sta.si###center > .leadlist > .banners
-stop-neplacniki.si###ctl00_bannersCont
-studentarija.net##div.banner_footer
+sta.si##.banner
+stop-neplacniki.si##.side_json_banners_1
+studentarija.net##.banner_footer
 studentarija.net###banner_side_layer
 studentski-servis.com##div.job-item.ad-wrapper
+stud-serv-mb.si##.containerinside
 stud-serv-mb.si##.partner-wrap
 stud-serv-mb.si###banner_landscape
 svet24.si##.bg-najnakupi-blue-light
@@ -473,11 +481,9 @@ svet24.si###odkrito_bottom_kocka
 svet24.si###odkrito_middle_billboard
 svet24.si###odkrito_top_billboard
 svet24.si###odkrito_top_kocka
-svetkapitala.delo.si##.article__social--top
-svetkapitala.delo.si##.dfp_banner
-svetopismo.si###heateor_ss_browser_popup_bg
-t3tech.si##.add-title
-tehnozvezdje.si##.clearfix.ai_widget
+tehnozvezdje.si##.ai_widget
+tehnozvezdje.si##.widget_mt_latestposts_widget
+tehnozvezdje.si###mc4wp-form-1
 tekaskiforum.net##.mosaicflow__column:nth-of-type(4)
 tocnoto.si##.td-footer-page > .display-posts-listing
 tocnoto.si##.td-footer-page > .display-posts-title
@@ -486,6 +492,8 @@ topjob.finance.si###article_social_top > .social-line
 topjob.finance.si###main-column-inner > .kos_signup
 tvambienti.si##.wallpaper--active
 tv-spored.siol.net##.wrapper > .col-4
+vandraj.si##.ai-viewport-1
+vandraj.si##[id^="pukka-ad-widget-"]
 varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
 vecer.com##.iAdserver
@@ -497,13 +505,8 @@ volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
-www.vandraj.si##[id^="pukka-ad-widget-"]
-www.viva.si###content > .wrap > .sec_1 > .post_container > .content > .news_post > div:nth-of-type(7)
-www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(1)
-www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(2)
-www.viva.si###content > .wrap > .sec_2 > .sidebar_container:nth-of-type(7)
-www.viva.si###header > .wrap > .banner_container
-www.vsikuponi.si###exposed > .container > .padder > .fixator > .c3 > .size2.box
+vsikuponi.si##.ads
+vsikuponi.si###bgbanner
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
 zenska.hudo.com##blockquote
