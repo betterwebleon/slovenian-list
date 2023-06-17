@@ -9,43 +9,47 @@ V spodnji tabeli so podane ključne besede (angl. keywords) za iskalnike, ki so 
 
 |     | ISKALNIK                                     | KLJUČNA BESEDA | URL           |
 | :-: | :------------------------------------------- | :------------- | :------------ |
-| 1.  | AliExpress                                   | al             | `https://www.aliexpress.com/wholesale?SearchText=%s` |
-| 2.  | Amazon.com                                   | am             | `https://www.amazon.com/s?k=%s` |
-| 3.  | Amazon.de                                    | a              | `https://www.amazon.de/s?k=%s` |
-| 4.  | bolha.com                                    | b              | `https://www.bolha.com/iskanje?q=%s` |
-| 5.  | Ceneje.si                                    | c              | `https://www.ceneje.si/Iskanje/Izdelki?q=%s` |
-| 6.  | dict.cc                                      | d              | `https://www.dict.cc/?s=%s` |
-| 7.  | DuckDuckGo                                   | duck           | `https://duckduckgo.com/?q=%s&ia=web` |
-| 8.  | eBay                                         | e              | `https://www.ebay.com/sch/i.html?_nkw=%s` |
-| 9.  | EnaA                                         | enaa           | `https://www.enaa.com/search.asp?q=%s` |
-| 10. | Fran slovarji                                | f              | `https://fran.si/iskanje?View=1&Query=%s` |
-| 11. | Google Prevajalnik                           | p              | `https://translate.google.si/#view=home&op=translate&sl=auto&tl=auto&text=%s` |
-| 12. | Google Slike                                 | s              | `https://www.google.si/search?q=%s&tbm=isch` |
-| 13. | Google Zemljevidi                            | z              | `https://www.google.si/maps?q=%s` |
-| 14. | GSMArena                                     | gsm            | `https://www.gsmarena.com/res.php3?sSearch=%s` |
-| 15. | Hribi.net                                    | h              | `https://www.hribi.net/iskalnik.asp?q=%s` |
-| 16. | Instagram                                    | ins            | `https://www.instagram.com/explore/tags/%s/` |
-| 17. | Linguee ANG <–> SLO                          | ang            | `https://sl.linguee.com/sloven%C5%A1%C4%8Dina-angle%C5%A1%C4%8Dina/search?query=%s` |
-| 18. | Linguee NEM <–> SLO                          | nem            | `https://sl.linguee.com/sloven%C5%A1%C4%8Dina-nem%C5%A1%C4%8Dina/search?query=%s` |
-| 19. | mimovrste=)                                  | m              | `https://www.mimovrste.com/iskanje?s=%s` |
-| 20. | nakupovanje.net                              | n              | `https://www.nakupovanje.net/search?q=%s` |
-| 21. | NEM – sklanjatve (samostalniki, pridevniki)  | sklanjaj       | `https://www.verbformen.de/deklination/?w=%s` |
-| 22. | NEM – spregatve (glagoli)                    | spregaj        | `https://www.verbformen.de/konjugation/?w=%s` |
-| 23. | Odpiralni Časi                               | č              | `https://odpiralnicasi.com/spots?q=%s` |
-| 24. | PONS ANG <–> SLO                             | po             | `https://sl.pons.com/prevod?q=%s&l=ensl` |
-| 25. | PONS NEM <–> SLO                             | pons           | `https://sl.pons.com/prevod?q=%s&l=desl` |
-| 26. | Računovodja.com                              | ra             | `https://racunovodja.com/iskanje.asp?vpis=%s` |
-| 27. | reddit                                       | re             | `https://www.reddit.com/search?q=%s` |
-| 28. | reddit old                                   | r              | `https://old.reddit.com/search?q=%s` |
-| 29. | Startpage.com                                | st             | `https://www.startpage.com/do/search?query=%s` |
-| 30. | The Pirate Bay                               | pb             | `https://thepiratebay.org/search/%s/0/99/0` |
-| 31. | The Pirate Bay Proxy                         | pbp            | `https://thepiratebay10.org/search/%s/0/99/0` |
-| 32. | Torrentz2                                    | t              | `https://torrentz2.eu/search?f=%s` |
-| 33. | Twitter                                      | tw             | `https://twitter.com/search?q=%s` |
-| 34. | Wikipedia ANG                                | w              | `https://en.wikipedia.org/wiki/%s` |
-| 35. | Wikipedia NEM                                | wi             | `https://de.wikipedia.org/wiki/%s` |
-| 36. | Wikipedia SLO                                | wiki           | `https://sl.wikipedia.org/wiki/%s` |
-| 37. | YouTube                                      | y              | `https://www.youtube.com/results?search_query=%s` |
+| 1.  | Abkürzung - Kurzform                         | kr             | `https://xn--abkrzung-85a.info/q_liste.html?lfsuch=%s` |
+| 2.  | Abkürzung - Langform                         | kra            | `https://xn--abkrzung-85a.info/q_liste.html?kfsuch=%s` |
+| 3.  | AliExpress                                   | al             | `https://www.aliexpress.com/w/wholesale-%s.html` |
+| 4.  | amazon.com                                   | am             | `https://www.amazon.com/s?k=%s` |
+| 5.  | amazon.de                                    | a              | `https://www.amazon.de/s?k=%s` |
+| 6.  | bolha.com                                    | b              | `https://www.bolha.com/?ctl=search_ads&keywords=%s` |
+| 7.  | ceneje.si                                    | c              | `https://www.ceneje.si/Iskanje/Izdelki?q=%s` |
+| 8.  | dict.cc                                      | d              | `https://www.dict.cc/?s=%s` |
+| 9.  | DuckDuckGo                                   | duck           | `https://duckduckgo.com/?q=%s&ia=web` |
+| 10. | eBay                                         | e              | `https://www.ebay.com/sch/i.html?_nkw=%s` |
+| 11. | EnaA                                         | enaa           | `https://www.enaa.com/search?q=%s` |
+| 12. | Facebook                                     | fa             | `https://www.facebook.com/search/top?q=%s` |
+| 13. | Fran etimološki                              | et             | `https://www.fran.si/iskanje?FilteredDictionaryIds=193&View=1&Query=%s` |
+| 14. | Fran slovarji                                | f              | `https://www.fran.si/iskanje?View=1&Query=%s` |
+| 15. | Google Prevajalnik                           | p              | `https://translate.google.si/?sl=auto&tl=auto&op=translate&text=%s` |
+| 16. | Google Slike                                 | s              | `https://www.google.si/search?q=%s&tbm=isch` |
+| 17. | Google Zemljevidi                            | z              | `https://www.google.si/maps?q=%s` |
+| 18. | GSMArena                                     | gsm            | `https://www.gsmarena.com/res.php3?sSearch=%s` |
+| 19. | Hribi                                        | h              | `https://www.hribi.net/iskalnik.asp?q=%s` |
+| 20. | Instagram                                    | ins            | `https://www.instagram.com/explore/tags/%s/` |
+| 21. | Linguee SLO <–> ANG                          | ang            | `https://sl.linguee.com/sloven%C5%A1%C4%8Dina-angle%C5%A1%C4%8Dina/search?query=%s` |
+| 22. | Linguee SLO <–> NEM                          | nem            | `https://sl.linguee.com/sloven%C5%A1%C4%8Dina-nem%C5%A1%C4%8Dina/search?query=%s` |
+| 23. | mimovrste.com                                | m              | `https://www.mimovrste.com/iskanje?s=%s` |
+| 24. | nakupovanje.net                              | n              | `https://www.nakupovanje.net/search?q=%s` |
+| 25. | NEM – sklanjatve (samostalniki, pridevniki)  | sklanjaj       | `https://www.verbformen.de/deklination/?w=%s` |
+| 26. | NEM – spregatve (glagoli)                    | spregaj        | `https://www.verbformen.de/konjugation/?w=%s` |
+| 27. | Odpiralni časi                               | č              | `https://odpiralnicasi.com/spots?q=%s` |
+| 28. | PONS ANG <–> SLO                             | po             | `https://sl.pons.com/prevod/angle%C5%A1%C4%8Dina-sloven%C5%A1%C4%8Dina/%s?bidir=1` |
+| 29. | PONS NEM <–> SLO                             | pons           | `https://sl.pons.com/prevod/nem%C5%A1%C4%8Dina-sloven%C5%A1%C4%8Dina/%s?bidir=1` |
+| 30. | Računovodja                                  | ra             | `https://www.racunovodja.com/iskanje.asp?iskanje=najdi&vpis=%s` |
+| 31. | reddit                                       | re             | `https://www.reddit.com/search/?q=%s` |
+| 32. | reddit old                                   | r              | `https://old.reddit.com/search?q=%s` |
+| 33. | Startpage                                    | st             | `https://www.startpage.com/sp/search?query=%s` |
+| 34. | The Pirate Bay                               | pb             | `https://thepiratebay.org/search.php?q=%s` |
+| 35. | The Pirate Bay Proxy                         | pbp            | `https://thepiratebay10.org/search/%s/0/99/0` |
+| 36. | Torrentz2                                    | t              | `https://torrentz2.nz/search?q=%s` |
+| 37. | Twitter                                      | tw             | `https://twitter.com/search?q=%s` |
+| 38. | Wikipedia ANG                                | w              | `https://en.wikipedia.org/wiki/%s` |
+| 39. | Wikipedia NEM                                | wi             | `https://de.wikipedia.org/wiki/%s` |
+| 40. | Wikipedia SLO                                | wiki           | `https://sl.wikipedia.org/wiki/%s` |
+| 41. | YouTube                                      | y              | `https://www.youtube.com/results?search_query=%s` |
 
 <h3> 1. Navodila za brskalnik Mozilla Firefox</h3>
 
