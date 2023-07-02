@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 128
+! Version: 129
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -182,7 +182,9 @@ rtvslo.si#@#.iAdserver
 24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-banner
 24ur.com,cekin.si,mojaleta.si,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
 24ur.com,cekin.si,moskisvet.com,zadovoljna.si##onl-magick-box
+24ur.com,cekin.si,moskisvet.com##.outbrain
 24ur.com,cekin.si##onl-eurojackpot-teaser
+24ur.com##onl-pr-articles
 24ur.com##onl-voyo.sidebar__box
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
@@ -215,6 +217,7 @@ bizi.si##.td-zsd
 bodieko.si##.td-is-sticky.tdc-column
 bolha.com##.BannerAlignment
 bolha.com##.BannerBillboard
+bolha.com##.Banner--adsenseForSearch
 bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.HeaderSpotlight.Attention
@@ -231,7 +234,6 @@ bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
 cekin.si##onl-microsite
-cekin.si,moskisvet.com##.outbrain
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
 ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
@@ -268,7 +270,10 @@ e-mesto.si##.span2:nth-of-type(3) > div
 finance.si##.adbox
 finance.si##.kos_semitrans
 finance.si##.taxo_block
+finance.si###article_bottom_author_butterfly
 finance.si###bart_banner
+finance.si###hbr
+finance.si###siteHeaderPanorama
 gohome.si##.verde_wrap
 gohome.si###bannerFooter_wrap
 golfportal.si,regionalobala.si##.advertisement
@@ -309,6 +314,7 @@ marketingmagazin.si##.region--cta
 mediaspeed.net##.banner2
 mediaspeed.net##.banner_cont
 med.over.net##blockquote
+med.over.net##.category-banner-desktop
 med.over.net##.feedo
 med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si##.lwdgt
 med.over.net,tocnoto.si##.livenetlife_links
@@ -485,13 +491,14 @@ tehnozvezdje.si##.ai_widget
 tehnozvezdje.si##.widget_mt_latestposts_widget
 tehnozvezdje.si###mc4wp-form-1
 tekaskiforum.net##.mosaicflow__column:nth-of-type(4)
-tocnoto.si##.td-footer-page > .display-posts-listing
-tocnoto.si##.td-footer-page > .display-posts-title
+tocnoto.si##.display-posts-listing
+tocnoto.si##.display-posts-title
 tocnoto.si##.td-header-rec-wrap
-topjob.finance.si###article_social_top > .social-line
-topjob.finance.si###main-column-inner > .kos_signup
+tocnoto.si###exitpopup-modal
+tvambienti.si##.td-header-rec-wrap
+tvambienti.si##.td-post-sharing-classic
 tvambienti.si##.wallpaper--active
-tv-spored.siol.net##.wrapper > .col-4
+tv-spored.siol.net##.widget-footer
 vandraj.si##.ai-viewport-1
 vandraj.si##[id^="pukka-ad-widget-"]
 varcevanje-energije.si##.baner
