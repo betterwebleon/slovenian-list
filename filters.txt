@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 129
+! Version: 130
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -180,16 +180,17 @@ rtvslo.si#@#.iAdserver
 1nadan.si##.background_link
 24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-article-connected
 24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-banner
+24ur.com,caszazemljo.si##.ng-star-inserted.banner
 24ur.com,cekin.si,mojaleta.si,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
 24ur.com,cekin.si,moskisvet.com,zadovoljna.si##onl-magick-box
 24ur.com,cekin.si,moskisvet.com##.outbrain
 24ur.com,cekin.si##onl-eurojackpot-teaser
+24ur.com##onl-last-article
 24ur.com##onl-pr-articles
 24ur.com##onl-voyo.sidebar__box
 24ur.com##.grid--ads
 24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
 24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
-24ur.com##.ng-star-inserted.banner--article
 24ur.com##.sidebar__box--banner
 adomnia.net##.banners-box
 aktivni.si##.banner-app-article
@@ -233,6 +234,7 @@ bringler.com##.front_topgames_footer
 bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
+caszazemljo.si##.thumb-list--article
 cekin.si##onl-microsite
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
@@ -277,7 +279,6 @@ finance.si###siteHeaderPanorama
 gohome.si##.verde_wrap
 gohome.si###bannerFooter_wrap
 golfportal.si,regionalobala.si##.advertisement
-google.com,google.si###taw
 hribi.net###desnistolpec
 hribi.net###oglas
 hudo.com##aside.ad
@@ -287,6 +288,7 @@ igrice.hudo.com###contentRight > .leaderboard
 igrice.hudo.com###playzone > .leaderboard
 igrice.hudo.com###userGenGames
 informiran.si##.outFrameRight
+instore.rs,instore.si##.img-responsive
 instore.rs,instore.si##.oglas2
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
