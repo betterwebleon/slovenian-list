@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 130
+! Version: 131
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -45,7 +45,6 @@ rtvslo.si#@#.iAdserver
 ||adform.net^
 ||ads.24ur.com^
 ||ads-store.24ur.com^
-||ad.partis.si^
 ||ad.zurnal24.si^
 ||amazonaws.com/banners.wave.si$subdocument
 ||avto.net/_banner/Mornar
@@ -55,10 +54,6 @@ rtvslo.si#@#.iAdserver
 ||celje.info/wp-content/uploads/*avtohisa_drev.jpg
 ||celje.info/wp-content/uploads/*/krajnc*.jpg
 ||celje.info/wp-content/uploads/*/Polovicka*.jpg
-||ceneje.si/*/GetProductAds
-||ceneje.si/*/LogTopProductImpressions
-||ceneje.si/*?idpartner=
-||ceneje.si/*?token=
 ||ceneje.si/*?track=
 ||code.jquery.com/jquery-1*.js$script,domain=reporter.si
 ||engine2.livenetlife.com/Ping.aspx
@@ -91,12 +86,6 @@ rtvslo.si#@#.iAdserver
 ||novice.si/*/oglasuj.jpg
 ||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
 ||over.net/feedo.min.js
-||partis.si/img/bshad*.png
-||partis.si/img/contentbg_*.png
-||partis.si/tmp/AS32.jpg
-||partis.si/tmp/blackFRIDAY.jpg
-||partis.si/tmp/herbalab*.jpg
-||partis.si/tmp/loyalbg*.jpg
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||podocnjaki.si^$popup,domain=studentarija.net
@@ -223,6 +212,8 @@ bolha.com##.EntityList--ListItemFeaturedStore
 bolha.com##.EntityList--ListItemVauVauAd
 bolha.com##.HeaderSpotlight.Attention
 bolha.com##.HeaderSpotlight:has(a[href^="https://bit.ly"])
+bolha.com##.mj-pf-widget-iframe
+bolha.com##.Offerista
 bolha.com##.TitlePage-bannerWrapper
 bolha.com##.TitlePage-block.Headline
 bolha.com##.trakica_container
@@ -238,9 +229,10 @@ caszazemljo.si##.thumb-list--article
 cekin.si##onl-microsite
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
-ceneje.si##a[href^="https://www.ceneje.si/Redirect/Deeplink"] > .productBoxGrid
-ceneje.si##.floatingProductContainer
 ceneje.si##.hero-main
+ceneje.si##.l0BoxBanner
+ceneje.si##.leaderBoardAd
+ceneje.si##.product-com-wrap
 ceneje.si##.top-brands
 ciklon.si##.sfsi_outr_div
 citymagazine.si##div[class^="banner-square-"]
@@ -372,14 +364,6 @@ nepremicnine.si21.com##.re-cta-advertisement
 nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
 obala.net##.category > .col-md-3
-partis.si##.bannerbox
-partis.si##.box2
-partis.si##.dadbot
-partis.si##.dadmid
-partis.si##.dadtop
-partis.si##.rightb300600
-partis.si##.top728
-partis.si##[src="https://www.partis.si/img/pixel.gif"]
 planet-lepote.com,pravljicna.si,utrinek.si,zdravje.si##.td-post-sharing-top
 planet-lepote.com##.td-header-rec-wrap
 podarimo.si###startPageRightLabel
