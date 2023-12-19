@@ -153,6 +153,7 @@ rtvslo.si#@#.iAdserver
 ||onthe.io^$third-party
 ||pristopmedia.network^$third-party
 ||p.typekit.net^$third-party
+||quizoom.com^$third-party,domain=24ur.com
 ||shield.sitelock.com^$third-party
 ||smind.si^$third-party
 ||upscore.com^$third-party
