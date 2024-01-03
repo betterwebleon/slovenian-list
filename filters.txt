@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 131
+! Version: 132
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -167,20 +167,11 @@ rtvslo.si#@#.iAdserver
 !
 ! Specific element hiding filters
 1nadan.si##.background_link
-24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-article-connected
-24ur.com,bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-banner
-24ur.com,caszazemljo.si##.ng-star-inserted.banner
 24ur.com,cekin.si,mojaleta.si,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
-24ur.com,cekin.si,moskisvet.com,zadovoljna.si##onl-magick-box
-24ur.com,cekin.si,moskisvet.com##.outbrain
-24ur.com,cekin.si##onl-eurojackpot-teaser
-24ur.com##onl-last-article
-24ur.com##onl-pr-articles
-24ur.com##onl-voyo.sidebar__box
-24ur.com##.grid--ads
-24ur.com##.ng-star-inserted > .ng-star-inserted > .sidebar__box
-24ur.com##.ng-star-inserted.background > .ng-star-inserted > .adplayer
-24ur.com##.sidebar__box--banner
+24ur.com##.article__body > div > a
+24ur.com##.justify-center.sidebar__box
+24ur.com##.proad
+24ur.com##.sidebar__box:has(.bg-brand-caszazemljo,.eurojackpot,.voyobox)
 adomnia.net##.banners-box
 aktivni.si##.banner-app-article
 aktivni.si##.livenetlife_linkswidget_logo
@@ -196,6 +187,8 @@ avto.net##.Oblika3Container
 avto-fokus.si##.uvodna_bottomBaners
 avto-fokus.si###baner
 avto-fokus.si###banners
+bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-article-connected
+bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##onl-banner
 bibaleze.si,cekin.si,dominvrt.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##.microsite-article
 bibaleze.si,dominvrt.si##.xl\:h-250.h-470
 bibaleze.si,moskisvet.com,okusno.je,vizita.si,zadovoljna.si##.microsite-section
@@ -225,7 +218,11 @@ bringler.com##.front_topgames_footer
 bringler.com###block-block-35
 bringler.com###left_click_div
 bringler.com###right_click_div
+caszazemljo.si##.ng-star-inserted.banner
 caszazemljo.si##.thumb-list--article
+cekin.si,moskisvet.com,zadovoljna.si##onl-magick-box
+cekin.si,moskisvet.com##.outbrain
+cekin.si##onl-eurojackpot-teaser
 cekin.si##onl-microsite
 celje.info###header-right-section
 celje.info###heateor_ss_browser_popup_bg
@@ -254,6 +251,7 @@ dobrakarma.si##.opened
 dobrakarma.si###topBanner
 dolenjskilist.si##.lokalnoBox
 dominvrt.si##.lg\:mb-0
+drazbe123.com##.single_add
 druzina.si##.module.banner
 ekipa.svet24.si##.main-left > .fpNews-title
 ekipa.svet24.si##.my-4 > .flex-wrap
@@ -282,6 +280,7 @@ igrice.hudo.com###userGenGames
 informiran.si##.outFrameRight
 instore.rs,instore.si##.img-responsive
 instore.rs,instore.si##.oglas2
+instore.rs,instore.si##.oglasi
 izvozniki.finance.si###adtopart
 izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
@@ -314,6 +313,7 @@ med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si##.lwdg
 med.over.net,tocnoto.si##.livenetlife_links
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
+megasvet.si##.hidden-xs
 megasvet.si##.portus-video-slider-min
 megasvet.si###doyoulikeus
 metropolitan.si##.adsbygoogle
