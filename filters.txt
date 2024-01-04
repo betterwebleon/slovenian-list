@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 132
+! Version: 133
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -169,9 +169,14 @@ rtvslo.si#@#.iAdserver
 1nadan.si##.background_link
 24ur.com,cekin.si,mojaleta.si,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
 24ur.com##.article__body > div > a
+24ur.com##.banner__below
+24ur.com##.banner__billboard
+24ur.com##.border-black\/08.border-b.lg\:p-16
+24ur.com##.border-black\/08.border-l
 24ur.com##.justify-center.sidebar__box
 24ur.com##.proad
-24ur.com##.sidebar__box:has(.bg-brand-caszazemljo,.eurojackpot,.voyobox)
+24ur.com##.sidebar__banner:has(.ads-player)
+24ur.com##.sidebar__box:has(.bg-brand-caszazemljo,.eurojackpot,.pr,.voyobox)
 adomnia.net##.banners-box
 aktivni.si##.banner-app-article
 aktivni.si##.livenetlife_linkswidget_logo
