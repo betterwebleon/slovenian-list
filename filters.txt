@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 133
+! Version: 134
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -86,6 +86,7 @@ rtvslo.si#@#.iAdserver
 ||novice.si/*/oglasuj.jpg
 ||oglasi.slo-tech.com^$domain=~oglasi.slo-tech.com
 ||over.net/feedo.min.js
+||partis.si/ads
 ||pcplus.si/media/wysiwyg/infortis/fortis/_backgrounds/default/*.jpg
 ||phobs.net/check.php
 ||podocnjaki.si^$popup,domain=studentarija.net
@@ -106,6 +107,7 @@ rtvslo.si#@#.iAdserver
 ||studentarija.net/wp-content/uploads/*/*.jpg
 ||triglav.si^$popup
 ||triglavtek.si^$popup
+||tvambienti.si/wp-admin/admin-ajax.php
 ||varna-voznja.si/upload/banners/
 ||vaven.co/loader.js$script,domain=bolha.com
 ||vecer.com/*/oglasi/
@@ -297,7 +299,7 @@ kosmika.si###fanback
 kozjansko.info##.custom-html-widget
 kozjansko.info##.g-single
 kozjansko.info##.widget-10.widget-last.widget-even
-lepdan.si##.ads
+lepdan.si,tv-spored.siol.net,vsikuponi.si##.ads
 letakonosa.si##.hidden-sm
 letakonosa.si##.signad
 letakonosa.si##.sticky-position
@@ -369,6 +371,8 @@ nepremicnine.si21.com##.re-cta-advertisement
 nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
 obala.net##.category > .col-md-3
+partis.si##a.card[target="_blank"]
+partis.si##a:has(> div[id^="ad-popular"])
 planet-lepote.com,pravljicna.si,utrinek.si,zdravje.si##.td-post-sharing-top
 planet-lepote.com##.td-header-rec-wrap
 podarimo.si###startPageRightLabel
@@ -484,11 +488,18 @@ tehnozvezdje.si###mc4wp-form-1
 tekaskiforum.net##.mosaicflow__column:nth-of-type(4)
 tocnoto.si##.display-posts-listing
 tocnoto.si##.display-posts-title
+tocnoto.si##.tdi_102
 tocnoto.si##.td-header-rec-wrap
+tocnoto.si##.uw-showfootpanel
 tocnoto.si###exitpopup-modal
-tvambienti.si##.td-header-rec-wrap
-tvambienti.si##.td-post-sharing-classic
-tvambienti.si##.wallpaper--active
+tvambienti.si##.ai-track
+tvambienti.si##.front-featured-oglas-wrap
+tvambienti.si###above-related-oglasi
+tvambienti.si###front-under-design-oglasi
+tvambienti.si###front-under-featured-oglas
+tvambienti.si###front-under-gardens-oglasi
+tvambienti.si###front-under-trends-oglas
+tvambienti.si###under-related-oglasi
 tv-spored.siol.net##.widget-footer
 vandraj.si##.ai-viewport-1
 vandraj.si##[id^="pukka-ad-widget-"]
@@ -503,7 +514,6 @@ volan.si###facebook
 volan.si###facebook-like
 volan.si###header-banner
 volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
-vsikuponi.si##.ads
 vsikuponi.si###bgbanner
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
