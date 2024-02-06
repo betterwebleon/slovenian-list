@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 134
+! Version: 135
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -169,7 +169,7 @@ rtvslo.si#@#.iAdserver
 !
 ! Specific element hiding filters
 1nadan.si##.background_link
-24ur.com,cekin.si,mojaleta.si,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
+24ur.com,cekin.si,mojaleta.si,moskisvet.com,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
 24ur.com##.article__body > div > a
 24ur.com##.banner__below
 24ur.com##.banner__billboard
@@ -352,8 +352,10 @@ mojprihranek.si##.obcni-contentexchange
 mojprihranek.si##.obcni-widget
 mojprihranek.si##.td-a-rec
 monitor.si##li.article:has-text(Oglasno sporočilo)
-moskisvet.com##.banner-wr
-moskisvet.com##.box-shadow
+moskisvet.com##.mx-8.flex-wrap
+moskisvet.com##.relatove
+moskisvet.com##.sidebar__box > [target="_blank"]
+moskisvet.com###proad
 moski.hudo.com,zenska.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 motiviran.si##.td-main-sidebar
@@ -372,7 +374,6 @@ nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
 obala.net##.category > .col-md-3
 partis.si##a.card[target="_blank"]
-partis.si##a:has(> div[id^="ad-popular"])
 planet-lepote.com,pravljicna.si,utrinek.si,zdravje.si##.td-post-sharing-top
 planet-lepote.com##.td-header-rec-wrap
 podarimo.si###startPageRightLabel
@@ -505,15 +506,25 @@ vandraj.si##.ai-viewport-1
 vandraj.si##[id^="pukka-ad-widget-"]
 varcevanje-energije.si##.baner
 varcevanje-energije.si###banner_container
-vecer.com##.iAdserver
+vecer.com##.billboard-wrapper
+vecer.com##.glide__slide
+vecer.com##.infeed-wrapper
+vecer.com##.mb-7.pb-7
+vecer.com##.mt-5.space-x-8
+vecer.com##.mx-auto.px-4
+vecer.com###billboard1
+vecer.com###gBig
+vecer.com###gSmall
+vecer.com###sidebar1
+vecer.com###sidebar2
+vecer.com###sidebar3
+vecer.com###sidebar4
 vemkajjem.si##[id^="oglasi"]
-vizita.si##.border-grey-light.sidebar > .border-grey-light
-volan.si##a[href^="https://www.volan.si/admin/upload/ads/generator.php"]
-volan.si###banner45
-volan.si###facebook
-volan.si###facebook-like
-volan.si###header-banner
-volan.si###wrapper > a[href^="http://www.volan.si/admin/upload/ads"]
+vizita.si##.border-grey-light > .border-grey-light
+vizita.si##.tvshow
+volan.si##.oglstih
+volan.si###oglassi2a
+volan.si###vpopupwindow
 vsikuponi.si###bgbanner
 zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
 zdravi-recepti.si##.hupso-share-buttons
