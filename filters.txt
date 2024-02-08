@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 135
+! Version: 136
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -44,6 +44,7 @@ rtvslo.si#@#.iAdserver
 ||*.disqus.com/count.js
 ||adform.net^
 ||ads.24ur.com^
+||ads-oglasi.api.24ur.si^
 ||ads-store.24ur.com^
 ||ad.zurnal24.si^
 ||amazonaws.com/banners.wave.si$subdocument
@@ -316,7 +317,7 @@ mediaspeed.net##.banner_cont
 med.over.net##blockquote
 med.over.net##.category-banner-desktop
 med.over.net##.feedo
-med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si##.lwdgt
+med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si,zurnal24.si##.lwdgt
 med.over.net,tocnoto.si##.livenetlife_links
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
@@ -352,6 +353,9 @@ mojprihranek.si##.obcni-contentexchange
 mojprihranek.si##.obcni-widget
 mojprihranek.si##.td-a-rec
 monitor.si##li.article:has-text(Oglasno sporočilo)
+moskisvet.com##.card-overlay[target="_blank"]
+moskisvet.com##.dark\:bg-white\/5
+moskisvet.com##.embed_mailing
 moskisvet.com##.mx-8.flex-wrap
 moskisvet.com##.relatove
 moskisvet.com##.sidebar__box > [target="_blank"]
@@ -490,6 +494,7 @@ tekaskiforum.net##.mosaicflow__column:nth-of-type(4)
 tocnoto.si##.display-posts-listing
 tocnoto.si##.display-posts-title
 tocnoto.si##.tdi_102
+tocnoto.si##.tdi_97
 tocnoto.si##.td-header-rec-wrap
 tocnoto.si##.uw-showfootpanel
 tocnoto.si###exitpopup-modal
@@ -526,9 +531,7 @@ volan.si##.oglstih
 volan.si###oglassi2a
 volan.si###vpopupwindow
 vsikuponi.si###bgbanner
-zastarse.si##[id^="post"] > .article-content > .mashsb-main.mashsb-container
-zdravi-recepti.si##.hupso-share-buttons
-zenska.hudo.com##blockquote
-zenskisvet.si##.widget_ads_big.widget
+zastarse.si##[id^="post"] > .article-content > .mashsb-main
 zurnal24.si##.article__aditionl_content
 zurnal24.si##.related_article
+zurnal24.si##.social__wrap
