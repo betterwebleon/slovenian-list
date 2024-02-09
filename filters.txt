@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 136
+! Version: 137
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -432,17 +432,12 @@ rtvslo.si##.iprom-background-placement
 rtvslo.si###newsletter-popup-unsigned
 sentjur.net##.bsaProItems
 siol.net##.card--ts_storitva
-siol.net##.fold__homepage_banner
-siol.net##.grid-12.grid-md-3
-siol.net##.grid-12.grid-md-8.grid-lg-3
-siol.net##.js_article:if-not(:has(.strong)) > .widgetWrap
-siol.net##.marketing
-siol.net##.neo-image
-siol.net##.spored_widget--special > .no-gutter
-siol.net##.ts_storitve
+siol.net##.fold_pr
+siol.net##.fold_telekom_footer
+siol.net##.storitve_widget
+siol.net##.telekom_menu_desktop__card_wrap
 siol.net##.widgetWrap
 siol.net###itisAdPromo
-siol.net###yodaarticle
 skandal24.si##.monadplug-native-main-wrapper
 slonep.net##.sponzorirani
 slonep.net##[id^="ad"]
