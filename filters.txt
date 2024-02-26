@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 137
+! Version: 138
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -171,6 +171,7 @@ rtvslo.si#@#.iAdserver
 ! Specific element hiding filters
 1nadan.si##.background_link
 24ur.com,cekin.si,mojaleta.si,moskisvet.com,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
+24ur.com,moskisvet.com###proad
 24ur.com##.article__body > div > a
 24ur.com##.banner__below
 24ur.com##.banner__billboard
@@ -215,6 +216,7 @@ bolha.com##.HeaderSpotlight.Attention
 bolha.com##.HeaderSpotlight:has(a[href^="https://bit.ly"])
 bolha.com##.mj-pf-widget-iframe
 bolha.com##.Offerista
+bolha.com##.sectionBlock.Headline
 bolha.com##.TitlePage-bannerWrapper
 bolha.com##.TitlePage-block.Headline
 bolha.com##.trakica_container
@@ -257,7 +259,7 @@ dnevnik.si###app-messages
 dne.enaa.com###html_javascript_adder-2
 dobrakarma.si##.opened
 dobrakarma.si###topBanner
-dolenjskilist.si##.lokalnoBox
+dolenjskilist.svet24.si##.lokalnoBox
 dominvrt.si##.lg\:mb-0
 drazbe123.com##.single_add
 druzina.si##.module.banner
@@ -359,7 +361,6 @@ moskisvet.com##.embed_mailing
 moskisvet.com##.mx-8.flex-wrap
 moskisvet.com##.relatove
 moskisvet.com##.sidebar__box > [target="_blank"]
-moskisvet.com###proad
 moski.hudo.com,zenska.hudo.com##.desktopAd
 moski.hudo.com##.grid1.rectangle
 motiviran.si##.td-main-sidebar
@@ -441,11 +442,10 @@ siol.net###itisAdPromo
 skandal24.si##.monadplug-native-main-wrapper
 slonep.net##.sponzorirani
 slonep.net##[id^="ad"]
-slovenskenovice.si##.embed_article
 slovenskenovice.si##.group_a_category__box7
 slovenskenovice.si##.group_a__box7
 slovenskenovice.si##.group_a__pos_banner_440
-slovenskenovice.si##.livenetlife_linkswidget_logo
+slovenskenovice.si##.iprom_ad
 slovenskenovice.si##.pos-banner__article
 slovenskenovice.si##.store_links
 slovnica.slovenscina.eu###biscuitFormDiv
@@ -525,6 +525,7 @@ vizita.si##.tvshow
 volan.si##.oglstih
 volan.si###oglassi2a
 volan.si###vpopupwindow
+vreme.siol.net##.widget-footer
 vsikuponi.si###bgbanner
 zastarse.si##[id^="post"] > .article-content > .mashsb-main
 zurnal24.si##.article__aditionl_content
