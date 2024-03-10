@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 138
+! Version: 139
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -296,12 +296,15 @@ izvozniki.finance.si###article_social_top
 izvozniki.finance.si###top > .nbs-flexisel-container
 kajkupiti.si##.banner1
 kajkupiti.si##.banner-top-wrap
+kmetija.svet24.si###kmetija_top_billboard
 kolosej.si###promo
 kosmika.si###fan-exit
 kosmika.si###fanback
 kozjansko.info##.custom-html-widget
 kozjansko.info##.g-single
 kozjansko.info##.widget-10.widget-last.widget-even
+kum.svet24.si###kum_bottom_billboard
+kum.svet24.si###kum_top_billboard
 lepdan.si,tv-spored.siol.net,vsikuponi.si##.ads
 letakonosa.si##.hidden-sm
 letakonosa.si##.signad
@@ -378,7 +381,7 @@ nepremicnine.si21.com##.re-cta-advertisement
 nogomania.com##.sideBoxBanner
 novice.si##.widget_custom_html
 obala.net##.category > .col-md-3
-partis.si##a.card[target="_blank"]
+partis.si##a.card:contains(Oglas)
 planet-lepote.com,pravljicna.si,utrinek.si,zdravje.si##.td-post-sharing-top
 planet-lepote.com##.td-header-rec-wrap
 podarimo.si###startPageRightLabel
