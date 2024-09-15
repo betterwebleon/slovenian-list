@@ -60,31 +60,32 @@ Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:<br>
 | 2.  | browser.safebrowsing.downloads.enabled                         | false    |
 | 3.  | browser.safebrowsing.malware.enabled                           | false    |
 | 4.  | browser.safebrowsing.phishing.enabled                          | false    |
-| 5.  | browser.urlbar.groupLabels.enabled                             | false    |
-| 6.  | extensions.experiments.enabled                                 | false    |
-| 7.  | extensions.pocket.enabled                                      | false    |
-| 8.  | network.trr.mode                                               | 5        |
-| 9.  | privacy.resistFingerprinting                                   | true     |
-| 10. | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |
-| 11. | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |
+| 5.  | browser.search.serpEventTelemetryCategorization.enabled        | false    |
+| 6.  | browser.urlbar.groupLabels.enabled                             | false    |
+| 7.  | extensions.experiments.enabled                                 | false    |
+| 8.  | extensions.pocket.enabled                                      | false    |
+| 9.  | network.trr.mode                                               | 5        |
+| 10. | privacy.resistFingerprinting                                   | true     |
+| 11. | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |
+| 12. | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |
 
 <br>Za **izboljšanje odzivnosti in uporabnosti** brskalnika spremeni sledeče nastavitve:<br>
 
 |     | IME NASTAVITVE                                     | VREDNOST | OPOMBE |
 | --- | :------------------------------------------------- | :------: | :----- |
-| 12. | browser.compactmode.show                           | true     |        |
-| 13. | browser.download.animateNotifications              | false    |        |
-| 14. | browser.uidensity                                  | 1        |        |
-| 15.\* | dom.ipc.processCount                             | 4        | **Pogojno:** glej dodatna pojasnila spodaj. |
-| 16. | extensions.htmlaboutaddons.recommendations.enabled | false    |        |
-| 17.\* | full-screen-api.transition-duration.enter        | 0 0      | Glej dodatna pojasnila spodaj. |
-| 18.\* | full-screen-api.transition-duration.leave        | 0 0      | Glej dodatna pojasnila spodaj. |
-| 19. | full-screen-api.warning.timeout                    | 0        |        |
-| 20. | security.dialog_enable_delay                       | 0        |        |
+| 13. | browser.compactmode.show                           | true     |        |
+| 14. | browser.download.animateNotifications              | false    |        |
+| 15. | browser.uidensity                                  | 1        |        |
+| 16.\* | dom.ipc.processCount                             | 4        | **Pogojno:** glej dodatna pojasnila spodaj. |
+| 17. | extensions.htmlaboutaddons.recommendations.enabled | false    |        |
+| 18.\* | full-screen-api.transition-duration.enter        | 0 0      | Glej dodatna pojasnila spodaj. |
+| 19.\* | full-screen-api.transition-duration.leave        | 0 0      | Glej dodatna pojasnila spodaj. |
+| 20. | full-screen-api.warning.timeout                    | 0        |        |
+| 21. | security.dialog_enable_delay                       | 0        |        |
 
 ***\* Dodatna pojasnila:***
-- Nastavitev št. **15** je namenjena intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe privzete vrednosti (iz 8 na 4) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem pri tistih računalnikih, ki uporabljajo manj kot 3 GB RAM-a.
-- Nastavitvi št. **17** in **18**: pri obeh naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
+- Nastavitev št. **16** je namenjena intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe privzete vrednosti (iz 8 na 4) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem pri tistih računalnikih, ki uporabljajo manj kot 3 GB RAM-a.
+- Nastavitvi št. **18** in **19**: pri obeh naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
 
 **Narejene spremembe v brskalniku Firefox je možno kadarkoli ponastaviti** (vrniti v prvotno stanje): v naprednih nastavitvah *about:config* posamezen vnos ponovno poiščemo, nanj kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Vrednost vnosa se bo nato povrnila v prvotno (privzeto) stanje. Kljub temu naj velja opozorilo, da se vse spremembe nastavitev, opisane na tej strani, uveljavljajo na lastno odgovornost.
 
