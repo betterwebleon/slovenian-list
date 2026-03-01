@@ -33,13 +33,14 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
   * [Za čim bolj anonimno spletno iskanje](#5a-za-čim-bolj-anonimno-spletno-iskanje)
   * [Za izogib geografskim omejitvam in digitalnim preprekam](#5b-za-izogib-geografskim-omejitvam-in-digitalnim-preprekam)
   * [Čiščenje zgodovine in sledi brskanja](#5c-čiščenje-zgodovine-in-sledi-brskanja)
+* [Uporaba ključnih besed pri spletnem iskanju](#6-uporaba-ključnih-besed-pri-spletnem-iskanju)
 * [Licenca](#licenca)
 
 <br>
 
 <h3>1. Priporočeni brskalnik za namizni računalnik: Mozilla Firefox</h3>
 
-[Tu je povezava za prenos brskalnika Firefox.](https://www.mozilla.org/sl/firefox/new/)
+[Tu je povezava za prenos.](https://www.firefox.com/sl/)
 
 ***Zakaj ta brskalnik?*** Ker ga je možno prilagoditi na način, da postane hiter, varen in uporabniku prijazen.<br>
 ***Kako si ga čim bolje prilagoditi?*** Beri naprej. :)
@@ -50,42 +51,48 @@ V kolikor katera izmed slovenskih spletnih strani ne deluje pravilno ali pa mord
 
 V brskalniku odpri nov zavihek in v naslovno (URL) vrstico vpiši:<br><code>about:config</code>
 
-Pritisni *enter* in izberi gumb <code>Sprejmem tveganje!</code> Nato poišči spodnje vnose: vsako posamezno ime nastavitve kopiraj in prilepi v iskalno polje znotraj okna z nastavitvami. Nastavitev se samodejno prikaže na seznamu, nato jo z miško dvoklikni. Na ta način lahko spremeniš vrednosti v takšne, kakršne so navedene v naslednjih dveh tabelah:
+Pritisni *enter* in izberi gumb <code>Sprejmi tveganje in nadaljuj</code> Nato poišči spodnje vnose: vsako posamezno ime nastavitve kopiraj in prilepi v iskalno polje znotraj okna z nastavitvami. Nastavitev se samodejno prikaže na seznamu, nato jo z miško dvoklikni. Na ta način lahko spremeniš vrednosti v takšne, kakršne so navedene v naslednjih dveh tabelah:
 
 Za **povečanje zasebnosti** brskalnika spremeni sledeče nastavitve:<br>
 
 |     | IME NASTAVITVE                                                 | VREDNOST |
 | --- | :------------------------------------------------------------- | :------: |
 | 1.  | beacon.enabled                                                 | false    |
-| 2.  | browser.safebrowsing.downloads.enabled                         | false    |
-| 3.  | browser.safebrowsing.malware.enabled                           | false    |
-| 4.  | browser.safebrowsing.phishing.enabled                          | false    |
-| 5.  | browser.search.serpEventTelemetryCategorization.enabled        | false    |
-| 6.  | browser.urlbar.groupLabels.enabled                             | false    |
-| 7.  | extensions.experiments.enabled                                 | false    |
-| 8.  | extensions.pocket.enabled                                      | false    |
-| 9.  | network.trr.mode                                               | 5        |
-| 10. | privacy.resistFingerprinting                                   | true     |
-| 11. | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |
-| 12. | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |
+| 2.  | browser.newtabpage.activity-stream.feeds.telemetry             | false    |
+| 3.  | browser.newtabpage.activity-stream.showSponsored               | false    |
+| 4.  | browser.safebrowsing.downloads.enabled                         | false    |
+| 5.  | browser.safebrowsing.malware.enabled                           | false    |
+| 6.  | browser.safebrowsing.phishing.enabled                          | false    |
+| 7.  | browser.search.serpEventTelemetryCategorization.enabled        | false    |
+| 8.  | browser.urlbar.groupLabels.enabled                             | false    |
+| 9.  | extensions.experiments.enabled                                 | false    |
+| 10. | network.trr.mode                                               | 5        |
+| 11. | privacy.firstparty.isolate                                     | true     |
+| 12. | privacy.resistFingerprinting                                   | true     |
+| 13. | services.sync.prefs.sync.browser.safebrowsing.malware.enabled  | false    |
+| 14. | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled | false    |
 
 <br>Za **izboljšanje odzivnosti in uporabnosti** brskalnika spremeni sledeče nastavitve:<br>
 
 |     | IME NASTAVITVE                                     | VREDNOST | OPOMBE |
 | --- | :------------------------------------------------- | :------: | :----- |
-| 13. | browser.compactmode.show                           | true     |        |
-| 14. | browser.download.animateNotifications              | false    |        |
-| 15. | browser.uidensity                                  | 1        |        |
-| 16.\* | dom.ipc.processCount                             | 4        | **Pogojno:** glej dodatna pojasnila spodaj. |
-| 17. | extensions.htmlaboutaddons.recommendations.enabled | false    |        |
-| 18.\* | full-screen-api.transition-duration.enter        | 0 0      | Glej dodatna pojasnila spodaj. |
-| 19.\* | full-screen-api.transition-duration.leave        | 0 0      | Glej dodatna pojasnila spodaj. |
-| 20. | full-screen-api.warning.timeout                    | 0        |        |
-| 21. | security.dialog_enable_delay                       | 0        |        |
+| 15. | browser.compactmode.show                           | true     |        |
+| 16. | browser.download.animateNotifications              | false    |        |
+| 17. | browser.uidensity                                  | 1        |        |
+| 18.\* | dom.ipc.processCount                             | 4        | **Pogojno:** glej dodatna pojasnila spodaj. |
+| 19. | extensions.htmlaboutaddons.recommendations.enabled | false    |        |
+| 20.\* | full-screen-api.transition-duration.enter        | 0 0      | Glej dodatna pojasnila spodaj. |
+| 21.\* | full-screen-api.transition-duration.leave        | 0 0      | Glej dodatna pojasnila spodaj. |
+| 22. | full-screen-api.warning.timeout                    | 0        |        |
+| 23. | layers.acceleration.force-enabled                  | true     |        |
+| 24. | mousewheel.default.delta_multiplier_y              | 200      |        |
+| 25. | network.http.max-connections                       | 1800     |        |
+| 26. | network.http.pacing.requests.enabled               | false    |        |
+| 27. | security.dialog_enable_delay                       | 0        |        |
 
 ***\* Dodatna pojasnila:***
-- Nastavitev št. **16** je namenjena intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe privzete vrednosti (iz 8 na 4) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem pri tistih računalnikih, ki uporabljajo manj kot 3 GB RAM-a.
-- Nastavitvi št. **18** in **19**: pri obeh naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
+- Nastavitev št. **18** je namenjena intenzivnejšemu varčevanju brskalnika z delovnim pomnilnikom (RAM). Vendar pa bo brskalnik v primeru spremembe privzete vrednosti (iz 8 na 4) morda postal nekoliko manj odziven v scenariju z večjim številom odprtih zavihkov. Spreminjanje te vrednosti je zato koristno predvsem pri tistih računalnikih, ki uporabljajo manj kot 3 GB RAM-a.
+- Nastavitvi št. **20** in **21**: pri obeh naj ima pripadajoča vrednost dve številki (dve ničli, ločeni s presledkom).
 
 **Narejene spremembe v brskalniku Firefox je možno kadarkoli ponastaviti** (vrniti v prvotno stanje): v naprednih nastavitvah *about:config* posamezen vnos ponovno poiščemo, nanj kliknemo z desnim miškinim gumbom in v priročnem meniju izberemo "*Ponastavi*". Vrednost vnosa se bo nato povrnila v prvotno (privzeto) stanje. Kljub temu naj velja opozorilo, da se vse spremembe nastavitev, opisane na tej strani, uveljavljajo na lastno odgovornost.
 
@@ -159,25 +166,22 @@ V nadaljevanju so našteti in opisani priporočeni dodatki, ki jih namestimo po 
 
 |     | IME DODATKA | OPIS |
 | :-- | :---------: | ---- |
-| 6.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/660/660064-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)<br><b>[Autoplay No More](https://addons.mozilla.org/firefox/addon/autoplay-no-more/)</b> | Izklopi funkcijo samodejnega predvajanja (tj. samodejnega skoka na naslednji videoposnetek) na spletnih mestih *[YouTube](https://www.youtube.com/)*, *[Vimeo](https://vimeo.com/)* in *[TED](https://www.ted.com/)*. |
-| 7.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/743/743689-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)<br><b>[Bookmarks Manager and Viewer](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)</b> | Upravitelj in pregledovalnik zaznamkov. Izbor pripadajočega gumba prikaže ploščo, v kateri je možno iskanje med vsemi shranjenimi zaznamki. Dodatek omogoča urejanje in premikanje zaznamkov, ustvarjanje novih zaznamkov in map ipd. |
-| 8.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/807/807213-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)<br><b>[Bookmarks Organizer](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)</b> | Upravitelj zaznamkov, ki omogoča iskanje in urejanje duplikatov med zaznamki, zaznamkov brez imen in takšnih z neveljavnimi ali preusmerjenimi povezavami ipd. |
-| 9. | [<img src="https://addons.mozilla.org/user-media/addon_icons/2766/2766861-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)<br><b>[I still don't care about cookies](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)</b> | Samodejno odpravi obvestila o piškotkih na način, da jih potrdi (tj. se strinja z uporabo piškotkov) na posamezni strani. S tem se poveča preglednost in nekoliko skrajša čas nalaganja strani. Zakonodaja EU za spletna mesta, ki so v lasti družb s sedežem v EU, med drugim zahteva, da obiskovalcem ponudijo možnost sprejetja ali zavrnitve oz. preklica soglasja za uporabo piškotkov v obliki vidnega obvestila. Samodejno strinjanje z uporabo piškotkov (ki je sicer včasih pogoj za popolno delovanje pripadajočega spletnega mesta) krni zasebnost, vendar pa se to lahko vseeno kompenzira s hkratno uporabo drugih dodatkov (npr. uBlock Origin) in zaščitnih mehanizmov (npr. Izboljšana zaščita pred sledenjem v brskalniku Firefox). |
-| 10. | [<img src="https://addons.mozilla.org/user-media/addon_icons/739/739386-64.png" width ="42" />](https://addons.mozilla.org/firefox/addon/in-my-pocket/)<br><b>[In My Pocket](https://addons.mozilla.org/firefox/addon/in-my-pocket/)</b> | In My Pocket je odličen za uporabnike storitve *[Pocket](https://getpocket.com/)*. Dodatek v naslovno (URL) vrstico brskalnika doda ikono, ki omogoča shranjevanje ali odstranjevanje spletnih mest s storitve *Pocket*. Poleg tega dodatek omogoča uporabo priročnega seznama z vsemi shranjenimi povezavami do spletnih mest v okviru storitve Pocket. Povezave s seznama je možno odpreti ali odstraniti (sinhronizirano s storitvijo Pocket). Omenjen seznam prikličemo z izborom pripadajočega gumba. Dodatek torej deluje po vzoru prvotnega uradnega (a ukinjenega) dodatka Pocket, na podlagi katerega za uporabo storitve Pocket ni potrebe po neposrednem obiskovanju spletnega mesta getpocket.com. |
-| 11. | [<img src="https://addons.mozilla.org/user-media/addon_icons/718/718289-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/mouse-gestures/)<br><b>[Mouse Gesture Events](https://addons.mozilla.org/firefox/addon/mouse-gestures/)</b> | Omogoča brskanje z uporabo priročnih miškinih potez. V nastavitvah dodatka se lahko prilagodijo različne možnosti za navigiranje po spletu z uporabo desnega miškinega gumba v povezavi z gibanjem miške in/ali z uporabo desnega miškinega gumba v povezavi z vrtenjem miškinega koleščka. |
-| 12. | [<img src="https://addons.mozilla.org/user-media/addon_icons/937/937151-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/view-image/)<br><b>[Ogled slike](https://addons.mozilla.org/firefox/addon/view-image/)</b> | Ponovno prikaže gumba <code>Ogled slike</code> in <code>Iskanje s sliko</code> v spletnem iskalniku slik *[Google Slike](https://www.google.si/imghp?hl=sl)*. Google je namreč leta 2018 ta dva gumba umaknil s svoje storitve zaradi obtožb, da z "bližnjičnimi" gumbi ponuja neposreden dostop do vsebin, ki so avtorsko zaščitene, s tem pa olajšuje tudi možnost njihove kraje. |
-| 13. | [<img src="https://addons.mozilla.org/user-media/addon_icons/2729/2729178-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/)<br><b>[Return Youtube Dislike](https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/)</b> | Ponovno prikaže število nevšečkov ("Ni mi všeč") pri videih na spletnem mestu *[YouTube](https://www.youtube.com/)*. Ta platforma je namreč leta 2021 ukinila javno prikazovanje števila neveščkov z izgovorom, da naj bi prikazovanje nevščkov škodovalo nekaterim ustvarjalcem vsebin. |
-| 14. | [<img src="https://addons.mozilla.org/user-media/addon_icons/724/724283-64.png" width ="40" />](https://addons.mozilla.org/firefox/addon/save-page-we/)<br><b>[Save Page WE](https://addons.mozilla.org/firefox/addon/save-page-we/)</b> | Omogoča (lokalno) shranjevanje spletnih strani v eni sami datoteki HTML. Shraniti (arhivirati) je možno celotno spletno stran ali pa samo njene izbrane elemente. Shranjevanje strani s pomočjo Save Page WE je precej bolj praktično od "običajnega" shranjevanja, saj Save page WE celotno razpoložljivo vsebino spletne strani združi v le eno datoteko HTML. Nadalje je uporaba Save Page WE primernejša od shranjevanja spletnih strani v drugih oblikah (npr. v obliki MHT). Shranjevanje spletnih strani v obliki HTML je primernejše od MHT, ker podporo za datoteke HTML brez težav nudijo vsi brskalniki (v nasprotju z datotekami MHT, za katere v splošnem obstaja precej slabša podpora). |
-| 15. | [<img src="https://addons.mozilla.org/user-media/addon_icons/2590/2590937-64.png" width ="40" />](https://addons.mozilla.org/firefox/addon/sponsorblock/)<br><b>[SponsorBlock for YouTube - Skip Sponsorships](https://addons.mozilla.org/firefox/addon/sponsorblock/)</b> | Samodejno preskoči izseke v *[YouTube](https://www.youtube.com/)* videih, ki so bili zaznani kot (irelevantna) sponzorirana vsebina. Dodatek omogoča tudi, da sami označimo in sporočimo zaznane odseke s sponzorirano vsebino, ki še v nekem YouTube videu niso bili preskočeni. Na ta način se hkrati dopolnjuje spletna baza podatkov, na osnovi katere lahko vsi uporabniki dodatka SponsorBlock spremljajo videe s čim manj sponzoriranimi/oglasnimi izseki. |
-| 16. | [<img src="https://addons.mozilla.org/user-media/addon_icons/1002/1002139-64.png" width ="45" />](https://addons.mozilla.org/sl/firefox/addon/youtube-nonstop/)<br><b>[YouTube NonStop](https://addons.mozilla.org/sl/firefox/addon/youtube-nonstop/)</b> | Samodejno potrdi obvestila, ki se med predvajanjem *[YouTube](https://www.youtube.com/)* videov včasih samodejno pojavijo ("Predvajanje videoposnetka je začasno zaustavljeno"). Z dodatkom se tako izognemo samodejnemu pavziranju videov med njihovim predvajanjem. |
-| 17. | [<img src="https://addons.mozilla.org/user-media/addon_icons/673/673711-64.png" width ="40" />](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)<br><b>[Youtube's Annotations No More](https://addons.mozilla.org/firefox/addon/youtubes-annotations-no-more/)</b> | Izklopi pripise (angl. annotations) na spletnem mestu *[YouTube](https://www.youtube.com/)*. S tem se poveča preglednost pri ogledovanju videoposnetkov.<br><b>OPOMBA:</b> če bi kljub temu želeli v videoposnetkih videti (oz. klikniti na) pripise, je potrebno ta dodatek v seznamu dodatkov in tem (začasno) onemogočiti ali odstraniti. |
+| 6.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/743/743689-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)<br><b>[Bookmarks Manager and Viewer](https://addons.mozilla.org/firefox/addon/bookmarks-manager-and-viewer/)</b> | Upravitelj in pregledovalnik zaznamkov. Izbor pripadajočega gumba prikaže ploščo, v kateri je možno iskanje med vsemi shranjenimi zaznamki. Dodatek omogoča urejanje in premikanje zaznamkov, ustvarjanje novih zaznamkov in map ipd. |
+| 7.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/807/807213-64.png" width ="43" />](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)<br><b>[Bookmarks Organizer](https://addons.mozilla.org/firefox/addon/bookmarks-organizer/)</b> | Upravitelj zaznamkov, ki omogoča iskanje in urejanje duplikatov med zaznamki, zaznamkov brez imen in takšnih z neveljavnimi ali preusmerjenimi povezavami ipd. |
+| 8. | [<img src="https://addons.mozilla.org/user-media/addon_icons/2766/2766861-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)<br><b>[I still don't care about cookies](https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/)</b> | Samodejno odpravi obvestila o piškotkih na način, da jih potrdi (tj. se strinja z uporabo piškotkov) na posamezni strani. S tem se poveča preglednost in nekoliko skrajša čas nalaganja strani. Zakonodaja EU za spletna mesta, ki so v lasti družb s sedežem v EU, med drugim zahteva, da obiskovalcem ponudijo možnost sprejetja ali zavrnitve oz. preklica soglasja za uporabo piškotkov v obliki vidnega obvestila. Samodejno strinjanje z uporabo piškotkov (ki je sicer včasih pogoj za popolno delovanje pripadajočega spletnega mesta) krni zasebnost, vendar pa se to lahko vseeno kompenzira s hkratno uporabo drugih dodatkov (npr. uBlock Origin) in zaščitnih mehanizmov (npr. Izboljšana zaščita pred sledenjem v brskalniku Firefox). |
+| 9. | [<img src="https://addons.mozilla.org/user-media/addon_icons/718/718289-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/mouse-gestures/)<br><b>[Mouse Gesture Events](https://addons.mozilla.org/firefox/addon/mouse-gestures/)</b> | Omogoča brskanje z uporabo priročnih miškinih potez. V nastavitvah dodatka se lahko prilagodijo različne možnosti za navigiranje po spletu z uporabo desnega miškinega gumba v povezavi z gibanjem miške in/ali z uporabo desnega miškinega gumba v povezavi z vrtenjem miškinega koleščka. |
+| 10. | [<img src="https://addons.mozilla.org/user-media/addon_icons/937/937151-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/view-image/)<br><b>[Ogled slike](https://addons.mozilla.org/firefox/addon/view-image/)</b> | Ponovno prikaže gumba <code>Ogled slike</code> in <code>Iskanje s sliko</code> v spletnem iskalniku slik *[Google Slike](https://www.google.si/imghp?hl=sl)*. Google je namreč leta 2018 ta dva gumba umaknil s svoje storitve zaradi obtožb, da z "bližnjičnimi" gumbi ponuja neposreden dostop do vsebin, ki so avtorsko zaščitene, s tem pa olajšuje tudi možnost njihove kraje. |
+| 11. | [<img src="https://addons.mozilla.org/user-media/addon_icons/2729/2729178-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/)<br><b>[Return Youtube Dislike](https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/)</b> | Ponovno prikaže število nevšečkov ("Ni mi všeč") pri videih na spletnem mestu *[YouTube](https://www.youtube.com/)*. Ta platforma je namreč leta 2021 ukinila javno prikazovanje števila neveščkov z izgovorom, da naj bi prikazovanje nevščkov škodovalo nekaterim ustvarjalcem vsebin. |
+| 12. | [<img src="https://addons.mozilla.org/user-media/addon_icons/724/724283-64.png" width ="40" />](https://addons.mozilla.org/firefox/addon/save-page-we/)<br><b>[Save Page WE](https://addons.mozilla.org/firefox/addon/save-page-we/)</b> | Omogoča (lokalno) shranjevanje spletnih strani v eni sami datoteki HTML. Shraniti (arhivirati) je možno celotno spletno stran ali pa samo njene izbrane elemente. Shranjevanje strani s pomočjo Save Page WE je precej bolj praktično od "običajnega" shranjevanja, saj Save page WE celotno razpoložljivo vsebino spletne strani združi v le eno datoteko HTML. Nadalje je uporaba Save Page WE primernejša od shranjevanja spletnih strani v drugih oblikah (npr. v obliki MHT). Shranjevanje spletnih strani v obliki HTML je primernejše od MHT, ker podporo za datoteke HTML brez težav nudijo vsi brskalniki (v nasprotju z datotekami MHT, za katere v splošnem obstaja precej slabša podpora). |
+| 13. | [<img src="https://addons.mozilla.org/user-media/addon_icons/2590/2590937-64.png" width ="40" />](https://addons.mozilla.org/firefox/addon/sponsorblock/)<br><b>[SponsorBlock for YouTube - Skip Sponsorships](https://addons.mozilla.org/firefox/addon/sponsorblock/)</b> | Samodejno preskoči izseke v *[YouTube](https://www.youtube.com/)* videih, ki so bili zaznani kot (irelevantna) sponzorirana vsebina. Dodatek omogoča tudi, da sami označimo in sporočimo zaznane odseke s sponzorirano vsebino, ki še v nekem YouTube videu niso bili preskočeni. Na ta način se hkrati dopolnjuje spletna baza podatkov, na osnovi katere lahko vsi uporabniki dodatka SponsorBlock spremljajo videe s čim manj sponzoriranimi/oglasnimi izseki. |
+| 14. | [<img src="https://addons.mozilla.org/user-media/addon_icons/1002/1002139-64.png" width ="45" />](https://addons.mozilla.org/sl/firefox/addon/youtube-nonstop/)<br><b>[YouTube NonStop](https://addons.mozilla.org/sl/firefox/addon/youtube-nonstop/)</b> | Samodejno potrdi obvestila, ki se med predvajanjem *[YouTube](https://www.youtube.com/)* videov včasih samodejno pojavijo ("Predvajanje videoposnetka je začasno zaustavljeno"). Z dodatkom se tako izognemo samodejnemu pavziranju videov med njihovim predvajanjem. |
 
 <h4>2.c) SLOVARJI</h4>
 
 |     | IME SLOVARJA | OPIS |
 | :-- | :----------: | ---- |
 | 1.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/677/677644-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/us-english-dictionary/)<br><b>[English United States Dictionary](https://addons.mozilla.org/firefox/addon/us-english-dictionary/)</b> | Slovar angleškega jezika (ZDA). |
-| 2.  | [<img src="https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png" width ="45" />](https://addons.mozilla.org/firefox/addon/dictionary-german/)<br><b>[German Dictionary](https://addons.mozilla.org/firefox/addon/dictionary-german/)</b> | Slovar nemškega jezika. |
+| 2.  | [<img src="https://addons.mozilla.org/static-server/img/addon-icons/default-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/dictionary-german-austria)<br><b>[German Dictionary, extended for Austria](https://addons.mozilla.org/firefox/addon/dictionary-german-austria/)</b> | Slovar nemškega jezika. |
 | 3.  | [<img src="https://addons.mozilla.org/user-media/addon_icons/3/3046-64.png" width ="45" />](https://addons.mozilla.org/firefox/addon/slovar-za-slovenski-jezik/)<br><b>[Slovar za slovenski jezik](https://addons.mozilla.org/firefox/addon/slovar-za-slovenski-jezik/)</b> | Slovar slovenskega jezika. |
 
 Seznam vseh razpoložljvih slovarjev in jezikovnih paketov [se nahaja tukaj](https://addons.mozilla.org/firefox/language-tools/).
@@ -185,11 +189,7 @@ Seznam vseh razpoložljvih slovarjev in jezikovnih paketov [se nahaja tukaj](htt
 <h3>3. Priporočeni dodatek za filtriranje vsebin: uBlock Origin</h3>
 
 ***Zakaj ta dodatek?*** Ker je učinkovit, nezahteven, enostaven in brezplačen. V različnih pogledih je mnogo boljši od ostalih tovrstnih alternativ, med drugim tudi od znanega in požrešnega *AdBlock Plus*, kar je razvidno npr. iz [te primerjave](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) in iz [tega testa](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
-<br><br>Povezave za namestitev dodatka uBlock Origin:
-
-- <b>[Dodatki za Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)</b> za brskalnik Mozilla Firefox
-- <b>[Spletna trgovina Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)</b> za brskalnike Google Chrome, Vivaldi in ostale, ki temeljijo na Chromiumu
-- <b>[Opera add-ons](https://addons.opera.com/extensions/details/ublock/)</b> za brskalnik Opera
+<br><br>Namestitev dodatka uBlock Origin v brskalnik Mozilla Firefox: [povezava](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 
 <h4>3.a) PRIPOROČENI SEZNAMI FILTROV</h4>
 
@@ -276,6 +276,10 @@ Vsaj občasno je priporočljivo odstraniti zgodovino in sledi brskanja iz naprav
 Če želimo, da brskalnik sploh shranjuje zgodovine brskanja, prijav in izpolnjenih obrazcev, pa lahko vklopimo anonimni način brskanja. Primer: na namizni različici brskalnika Mozille Firefox do te funkcionalnosti dostopamo s kombinacijo tipk: <code>Ctrl</code>, <code>Shift</code> in <code>P</code>.
 
 **OPOMBA:** kljub uporabi vseh dodatkov, datoteke hosts, anonimnih spletnih iskalnikov, VPN omrežij in ostalih zaščitnih mehanizmov je potrebno poudariti, da **popolne anonimnosti na spletu žal ni**. Še vedno namreč komunikacija neizogibno poteka preko telekomunikacijskih ponudnikov, različnih posredniških strežnikov in naprav. Poleg tega uporabniki navadno uporabljamo različne spletne storitve: e-pošta (v obliki klienta ali spletne storitve), socialna omrežja, forumi in drugi portali... V primeru uporabe teh storitev nas vsi omenjeni ukrepi ščitijo v zelo omejenem obsegu. Vsekakor nam sicer občutno olajšajo hitrost, preglednost in varnost spletnega brskanja, ne zagotavljajo pa popolne anonimnosti – vsaj ne vedno in v vsakem scenariju.
+
+<h3>6. Uporaba ključnih besed pri spletnem iskanju</h3>
+
+[Na tej povezavi](https://github.com/betterwebleon/slovenian-list/tree/master/keywords) so podane ključne besede, ki jih lahko namestimo v različne spletne brskalnike. Ključna beseda je bližnjica za aktivacijo iskalnika, s čimer občutno pohitrimo iskanje po različnih spletnih mestih. Posamezen iskalnik aktiviramo z določeno bližnjico (ključno besedo) - npr. s prednastavljeno črko ali besedo, ki ji sledi preslednica.
 
 Prijetno in varno brskanje!
 ***
