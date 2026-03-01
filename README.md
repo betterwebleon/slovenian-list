@@ -212,7 +212,7 @@ Spodnje povezave najprej kopiramo. Najbolj preprosto je, če kopiramo vse spodnj
 <code>https://<i></i>filters.adtidy.org/windows/filters/3.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt</code><br>
-<code>https://<i></i>https://www.i-dont-care-about-cookies.eu/abp/</code><br>
+<code>https://<i></i>www.i-dont-care-about-cookies.eu/abp/</code><br>
 <code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code><br>
@@ -230,7 +230,7 @@ Kot pojasnjuje [Steven Black](https://github.com/StevenBlack/hosts/blob/master/r
 
 Zaradi tovrstnega rigoroznega blokiranja se torej v datoteko *hosts* dodajo le povezave na tiste gostitelje, za katere je potrjeno, da so neželeni (npr. oglasni strežniki – angl. ad servers) ali nevarni (npr. strežniki z zlonamerno programsko opremo – angl. malware servers). Datoteko *hosts* z najbolj neželenimi gostitelji je pripravil Steven Black. Omenjena datoteka ima v osnovi približno 80.000 blokiranih neželenih gostiteljev.
 
-Kompresirana datoteka hosts, ki pa je že optimirana za prenos in uporabo, **[je na voljo tukaj](https://github.com/betterwebleon/slovenian-list/archive/refs/heads/master.zip)** (datoteka *hosts* se nahaja v preneseni mapi "*slovenian-list-master*" > "*hosts*"). Datoteko *hosts* odpakiramo. Nato jo lahko kar zamenjamo z obstoječo verzijo (v kolikor vanjo nismo predhodno že vnašali svojih vnosov). To storimo na posebnem mestu v raziskovalcu datotek:
+**Kompresirana** datoteka hosts, ki je že optimirana za prenos in uporabo, **[pa je na voljo tukaj](https://github.com/betterwebleon/slovenian-list/archive/refs/heads/master.zip)** (datoteka *hosts* se nahaja v preneseni mapi "*slovenian-list-master*" > "*hosts*"). Datoteko *hosts* odpakiramo. Nato jo zamenjamo z obstoječo verzijo (v kolikor vanjo nismo predhodno že vnašali svojih vnosov). To storimo na posebnem mestu v raziskovalcu datotek:
 
 - v sistemih **Windows** jo kopiramo v:<br><code>C:\Windows\System32\Drivers\etc</code>
 - v sistemih **Mac OS X**, **iOS**, **Linux** ali **Android** jo kopiramo v:<br><code>/etc/hosts</code>
@@ -239,7 +239,7 @@ Za tem lahko ponovno zaženemo računalnik in datoteka *hosts* bo samodejno osve
 - v sistemih **Windows** odpri Ukazni poziv (cmd.exe) kot administrator. Nato zaženi sledeči ukaz:<br><code>ipconfig /flushdns</code>
 - v sistemih **Mac OS X** odpri Terminal in zaženi:<br><code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
 - v sistemih **Linux Debian / Ubuntu** odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo /etc/rc.d/init.d/nscd restart</code>
-- v sistemih **Linux with systemd** odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart network.service</code>
+- v sistemih **Linux s systemd** odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart network.service</code>
 - v sistemih **Fedora Linux** ali **Arch Linux / Manjaro** odpri Terminal in z administratorskimi pravicami zaženi:<br><code>sudo systemctl restart NetworkManager.service</code>
 
 Zapremo okno. V kolikor imamo odprt brskalnik, ga nato zapremo in ponovno zaženemo.
@@ -272,7 +272,7 @@ Vsaj občasno je priporočljivo odstraniti zgodovino in sledi brskanja iz naprav
 
 [Na tej povezavi](https://github.com/betterwebleon/slovenian-list/tree/master/keywords) so podane ključne besede, ki jih lahko namestimo v različne spletne brskalnike. Ključna beseda je bližnjica za aktivacijo iskalnika, s čimer občutno pohitrimo iskanje po različnih spletnih mestih. Posamezen iskalnik aktiviramo z določeno bližnjico (ključno besedo) - npr. s prednastavljeno črko ali besedo, ki ji sledi preslednica.
 
-Prijetno in varno brskanje!
+Prijetno in varno brskanje.
 ***
 <h3>Licenca</h3>
 
