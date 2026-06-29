@@ -266,6 +266,7 @@ finance.si###article_bottom_author_butterfly
 finance.si###bart_banner
 finance.si###hbr
 finance.si###siteHeaderPanorama
+forbes.si##^meta[name^="smartbanner"]
 gohome.si##.verde_wrap
 gohome.si###bannerFooter_wrap
 golfportal.si,regionalobala.si##.advertisement
